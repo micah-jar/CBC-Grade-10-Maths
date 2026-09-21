@@ -1,0 +1,1033 @@
+<subsection xml:id="subsec-tangents-of-acute-angles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Tangents of Acute Angles</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_yfw95806">
+            <dl>
+                <li xml:id="auto_qtht2b8i">
+                    <title>Strand</title>
+                    <p xml:id="auto_g8g4tspx">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_dofh5x7k">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_l6l6hyla">
+                        2.4 Trigonometry 1
+                    </p>
+                </li>
+                <li xml:id="auto_ehh9fss2">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_ihpioygr">
+                        Relate the sine, cosine and tangent of acute angles
+                    </p>
+                </li>
+                <li xml:id="auto_ebm3m45u" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_xjsni75g">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_3wzb0z2s" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_azi03m4h">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+        <introduction xml:id="auto_vmoxbd3q" component="lesson-plan">
+            <p xml:id="auto_dp09g876"> Upon completion of this lesson, learners will be able to:
+            <ol>
+                <li xml:id="auto_226g3rm3">
+                    <p xml:id="auto_qcutni3f">
+                        <alert>Know (Conceptual Understanding):</alert> Define the tangent of an angle as the ratio of the opposite side to the adjacent side in a right-angled triangle. State that the tangent depends only on the size of the angle, not on the size of the triangle. Identify the opposite and adjacent sides relative to a given angle.
+                    </p>
+                </li>
+                <li xml:id="auto_wvu6d3e5">
+                    <p xml:id="auto_5tfi10yz">
+                        <alert>Do (Procedural Skill):</alert> Calculate the tangent ratio from given side measurements. Apply Pythagoras' theorem to find missing sides before computing tangent. Read and use tables of tangents.
+                    </p>
+                </li>
+                <li xml:id="auto_j4sfgt33">
+                    <p xml:id="auto_j3pky9pc">
+                        <alert>Apply (Application/Problem-Solving):</alert> Use the tangent ratio to solve real-life problems involving right-angled triangles, such as finding heights of objects from shadow lengths and angles of elevation. Interpret and verify results in context.
+                    </p>
+                </li>
+            </ol>
+            </p>
+        </introduction>
+    </objectives>
+        <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_ndcizxjz">
+                    <dataurl source="lesson_plans/measurements-and-geometry/trigonometry-1/tangents-of-acute-angles.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_0ulunyav">
+                    <dataurl source="lesson_plans/measurements-and-geometry/trigonometry-1/step-by-step-guide_tangents-of-acute-angles.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery / Engage</title>
+        <p xml:id="auto_2z01xlwb">
+            <alert>Suggested Time:</alert> 15 minutes
+        </p>
+        <p xml:id="auto_zneosds6">
+            <term>Teacher's Role During Discovery:</term>
+        </p>
+        <p xml:id="auto_2gxgpim0">
+            <ol marker="(a)">
+                <li xml:id="auto_ng688act">
+                    <p xml:id="auto_oo6dp04o">
+                        Circulate among pairs, ensuring students draw the diagram accurately with parallel lines.
+                    </p>
+                </li>
+                <li xml:id="auto_5oztvo7w">
+                    <p xml:id="auto_ymdim7jk">
+                        <alert>Ask probing questions:</alert> <q>Are the three triangles similar?</q> <q>What do you notice about the ratios?</q> <q>What does this tell you about the relationship between the angle and the ratio?</q>
+                    </p>
+                </li>
+                <li xml:id="auto_kl692in9">
+                    <p xml:id="auto_xlulh6hm">
+                        <alert>For struggling pairs:</alert> <q>Let us focus on triangle OPA first. Measure PA (vertical) and OA (horizontal). Now calculate PA divided by OA. Do the same for triangle OQB.</q>
+                    </p>
+                </li>
+                <li xml:id="auto_ydwg9psn">
+                    <p xml:id="auto_hjz8eark">
+                        <alert>For early finishers:</alert> <q>What if you measured a different angle? Would the ratio change? Try drawing another set of parallel lines at a different angle.</q>
+                    </p>
+                </li>
+                <li xml:id="auto_4p9syrq7">
+                    <p xml:id="auto_nx1betha">
+                        Guide students to articulate: <q>The ratio of vertical to horizontal distance is the same for all similar triangles with the same angle. This ratio is called the tangent of the angle.</q>
+                    </p>
+                </li>
+                <li xml:id="auto_qgkhp6ji">
+                    <p xml:id="auto_q0q9cdwc">
+                        Identify 2<ndash/>3 pairs with clear results to share with the class.
+                    </p>
+                </li>
+                <li xml:id="auto_vemjv3tc">
+                    <p xml:id="auto_n0e0h70s">
+                        If you have an Internet connection, utilise the interactive exploration.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_nbqv4vzn">
+            <alert>Discovery Table: Linking Observations to Mathematical Significance</alert>
+        </p>
+        <tabular halign="left" bottom="minor" top="minor" left="minor" right="minor">
+            <row header="yes" bottom="minor">
+                <cell>Student Observation</cell>
+                <cell>Mathematical Significance</cell>
+            </row>
+            <row>
+                <cell>The three triangles are similar</cell>
+                <cell>Similar triangles have equal ratios of corresponding sides</cell>
+            </row>
+            <row>
+                <cell>The ratios PA/OA, QB/OB, RC/OC are all equal</cell>
+                <cell>The ratio is constant for a given angle, regardless of triangle size</cell>
+            </row>
+            <row>
+                <cell>The ratio of vertical to horizontal distance is constant</cell>
+                <cell>This constant ratio defines the tangent of the angle</cell>
+            </row>
+            <row>
+                <cell>The angle is the same in all three triangles</cell>
+                <cell>The tangent depends only on the angle, not the triangle size</cell>
+            </row>
+        </tabular>
+    </axiom>
+
+
+    
+    <activity xml:id="auto_9auczop4">
+        
+        <p xml:id="auto_nl3462za">
+            <alert>Work in pairs or small groups</alert>
+        </p>
+        <paragraphs xml:id="auto_xgh9g077">
+            <title>What you require</title> 
+            <p xml:id="auto_vgt8cvot">
+                <ul xml:id="auto_pnhqqujq">
+                    <li xml:id="auto_x47cm432">
+                        <p xml:id="auto_xrek8879">
+                            A ruler
+                        </p>
+                    </li>
+                    <li xml:id="auto_z5m413ak">
+                        <p xml:id="auto_u6l1kw0s">
+                            A piece of paper
+                        </p>
+                    </li>
+                    <li xml:id="auto_kcuz154k">
+                        <p xml:id="auto_2xvagly7">
+                            A pencil
+                        </p>
+                    </li>
+                    <li xml:id="auto_f3ydl36d">
+                        <p xml:id="auto_qz14pie9">
+                            Sun: The first part of this activity is only possible during sunshine and <alert>not</alert> too close to noon. If objects don't have a clear shadow, skip to the second half of this activity.
+                        </p>
+                    </li>                
+                </ul>
+            </p>
+        </paragraphs>
+        <paragraphs>
+            <title>Part 1</title> 
+            <p xml:id="auto_7bzbf0cr">
+            <ol xml:id="auto_2vl3ubpw">
+                <li xml:id="auto_kt24efqd">
+                    <p xml:id="auto_0rs406uu">
+                        In your group, find at least three different vertical objects that you can easily measure with a ruler or meter stick (e.g., a student's height, a fence post, or a stick held perfectly upright).
+                    </p>
+                </li>
+                <li xml:id="auto_08ujtp4u">
+                    <p xml:id="auto_arpz9xqa">For each object, measure two things as precisely as possible:
+                        <ul>
+                            <li xml:id="auto_rebp3aio">
+                                <p xml:id="auto_j991j3jb">
+                                    Height (<m>H</m>): The actual height of the object from the ground up.
+                                </p>
+                            </li>
+                            <li xml:id="auto_6al24asm">
+                                <p xml:id="auto_ivlk0se7">
+                                    Shadow (<m>S</m>): The length of the shadow cast on the flat ground.
+                                </p>
+                            </li>
+                        </ul>
+                    Make a table to record your findings: For each object, write down in a row what the object is, its height <m>H</m>, and the shadow length <m>S</m>.
+                    </p>
+
+                    <table xml:id="auto_vaf05m47">
+                    <tabular>
+                        <row header="yes">
+                            <cell>Object</cell>
+                            <cell>Height <m>H</m></cell>
+                            <cell>Shadow <m>S</m></cell>
+                            <cell>Ratio <m>\frac{H}{S}</m></cell>
+                        </row>
+                        <row>
+                            <cell>Fence post</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>...</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                    </table>
+                </li>
+                <li xml:id="auto_ljhzjrcz">
+                    <p xml:id="auto_1bh2td13">
+                        Add another column to your table where you compute the ratio <m>\frac{H}{S}</m> for each object.
+                    </p>
+                </li>
+                <li xml:id="auto_9zw6254a">
+                    <p xml:id="auto_7wud3t0l">
+                        Observe the ratios from the previous step.
+                    </p>
+                    <p xml:id="auto_x1v7r3h1">
+                        What do you notice about the relationship between them?
+                    </p>
+                </li>
+                <li xml:id="auto_8gm423cx">
+                    <p xml:id="auto_zb923t4d">
+                        Can you find a vertical object in your surroundings that's too tall for you to measure its height? Can you measure the length of its shadow and estimate its height using the ratio you computed earlier?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        </paragraphs>
+        <paragraphs>
+            <title>Part 2</title> 
+            <p xml:id="auto_u01rt8nn">
+            <ol>
+                <li xml:id="auto_3re8ptdn">
+                    <p xml:id="auto_rn4fh3um">
+                        Draw the situation on a piece of paper. For each object, sketch the vertical object and its shadow on the ground. Connect the top of the object to the tip of its shadow with a straight line (this represents the sun ray), so each object with its shadow forms a triangle. Make sure the sun rays are parallel. What do you notice about the angles formed between the sun rays and the ground for each object?
+                    </p>
+                    <figure xml:id="fig-sun-rays">
+                        <caption>Parallel sun rays hitting the ground, with objects and their shadows.</caption>
+                        <image width="100%">
+                        <latex-image label="Triangletwo">
+                            \begin{tikzpicture}
+                            % --- The Ground ---
+                            \draw[thick] (-1,0) -- (10,0);
+                            \node at (9.5,-0.3) {Ground};
+
+                            % --- Parallel Sun Rays (Yellow/Orange dashed lines) ---
+                            \foreach \x in {0, 2, 4, 6} {
+                                \draw[yellow!80!orange, dashed, thick, -&gt;] (\x+3, 3.75) -- (\x, 0);
+                            }
+                            \node[orange] at (4, 3.8) {Parallel Sun Rays};
+
+                            % --- Triangle 1: Small Object ---
+                            \coordinate (A) at (1,0);      % Base of shadow
+                            \coordinate (B) at (3,0);      % Base of object
+                            \coordinate (C) at (3,2.5);    % Top of object
+                            
+                            \draw[ultra thick, blue] (B) -- (C) node[midway, right] {Height $H_1$};
+                            \draw[thick, gray] (A) -- (B) node[midway, below] {Shadow $S_1$};
+                            \draw[dashed] (A) -- (C); % The hypotenuse (the ray)
+
+                            % Angle Label for Triangle 1
+                            \pic [draw, "$\theta$", angle eccentricity=1.5] {angle = B--A--C};
+
+                            % --- Triangle 2: Large Object (The "Giant") ---
+                            \coordinate (D) at (5,0);      % Base of shadow
+                            \coordinate (E) at (8.2,0);    % Base of object
+                            \coordinate (F) at (8.2,4);    % Top of object
+                            
+                            \draw[ultra thick, red] (E) -- (F) node[midway, right] {Height $H_2$};
+                            \draw[thick, gray] (D) -- (E) node[midway, below] {Shadow $S_2$};
+                            \draw[dashed] (D) -- (F); % The hypotenuse (the ray)
+
+                            % Angle Label for Triangle 2
+                            \pic [draw, "$\theta$", angle eccentricity=1.5] {angle = E--D--F};
+
+                            % --- Right Angle Markers ---
+                            \draw (2.8,0) -- (2.8,0.2) -- (3,0.2);
+                            \draw (8,0) -- (8,0.2) -- (8.2,0.2);
+
+                            <!-- % - Equation Note -
+                            \node[draw, fill=white, align=left] at (4, 4.5) {
+                                $\tan(\theta) = \frac{H_1}{S_1} = \frac{H_2}{S_2}$
+                            }; -->
+                            \end{tikzpicture}
+                        </latex-image>
+                        </image>
+                    </figure>
+                </li>
+                <li xml:id="auto_fzp9nseo">
+                    <p xml:id="auto_pdmb4a6h">
+                        Using a ruler, measure the height of each object that you drew and the length of its shadow. Make a table as before, and calculate the ratio of height to shadow length for each object. What do you notice about these ratios?
+                    </p>
+                </li>
+                <li xml:id="auto_eqrr6rb5">
+                    <p xml:id="auto_pr9m52yt">
+                        Identify whether triangles formed by the objects and their shadows are similar. 
+                    </p>
+                </li>
+            </ol>
+        </p>
+        </paragraphs>
+    </activity>
+
+    <exploration xml:id="auto_ev2fvmyz">
+        <title>Exploring the tangent of an angle</title>
+        <p xml:id="auto_f7hx4mcm">
+            
+        </p>
+        <figure xml:id="fig-tangent-ratio-interactive">
+            <caption>Interactive Activity: Discovering the Tangent Ratio</caption>
+            <interactive xml:id="interactive-tangents" platform="jsxgraph" width="90%" aspect="4:3" source="jsxgraph/tangents-of-acute-angles.js">
+                <slate xml:id="jsxgraph-tangents" surface="jsxboard" aspect="4:3"/>
+                <instructions xml:id="inst-tangents">
+                    <p xml:id="auto_h3aqxnen">
+                        Use this interactive board to explore the relationship between the sides of similar right-angled triangles:
+                    </p>
+                    <p xml:id="auto_um8h3s1f">
+                        <ul>
+                            <li xml:id="auto_jq1dcfpb">
+                                <alert>Adjust the Angle:</alert> Slide the <m>\theta</m> slider at the top left. Notice how all the vertical lines (the Opposite sides) grow or shrink together.
+                            </li>
+                            <li xml:id="auto_66adt1bp">
+                                <alert>Change the Size:</alert> Drag points <m>A</m>, <m>B</m>, and <m>C</m> horizontally along the bottom line (the Adjacent side) to create right-angled triangles of any size.
+                            </li>
+                            <li xml:id="auto_65k3dpp2">
+                                <alert>Observe the Ratios:</alert> Look at the calculations at the bottom of the graph. Even as you change the size of the triangles by dragging the points, what happens to the ratio of the Opposite side divided by the Adjacent side? 
+                            </li>
+                        </ul>
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
+    </exploration>
+
+        <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction / Explain</title>
+        <p xml:id="auto_3tqwfced">
+            <alert>Suggested Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_7l873s04">
+            <alert>Scaffolding Strategies to Address Misconceptions:</alert>
+        </p>
+        <p xml:id="auto_8405u040">
+            <ul>
+                <li xml:id="auto_z5jro193">
+                    <p xml:id="auto_oraq4g3b">
+                        <alert>Misconception:</alert> <q>Tangent is just any ratio in a triangle.</q> <alert>Clarification:</alert> <q>Tangent is specifically the ratio of the opposite side to the adjacent side in a right-angled triangle.</q>
+                    </p>
+                </li>
+                <li xml:id="auto_7xi2p6wa">
+                    <p xml:id="auto_abxlgl9m">
+                        <alert>Misconception:</alert> <q>The tangent changes if I make the triangle bigger.</q> <alert>Clarification:</alert> <q>No, the tangent depends only on the angle. Similar triangles have the same tangent value.</q>
+                    </p>
+                </li>
+                <li xml:id="auto_vc042so9">
+                    <p xml:id="auto_o5xn8mtz">
+                        <alert>Misconception:</alert> <q>I can use any two sides.</q> <alert>Clarification:</alert> <q>You must identify which side is opposite the angle and which is adjacent. The hypotenuse is never used in the tangent ratio.</q>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </axiom>
+
+    <insight xml:id="auto_doa669wr">
+    <p xml:id="auto_po1zq9ib">
+        When given the triangles in the sketch below, you will notice the following:
+    </p>
+    <figure xml:id="fig-sun-rays-2">
+        <caption></caption>
+        <image width="100%">
+        <latex-image label="Trianglethree">
+            \begin{tikzpicture}
+                % --- The Ground ---
+                \draw[thick] (-1,0) -- (10,0);
+                \node at (9.5,-0.3) {Ground};
+
+                % --- Parallel Sun Rays (Yellow/Orange dashed lines) ---
+                \foreach \x in {0, 2, 4, 6} {
+                    \draw[yellow!80!orange, dashed, thick, -&gt;] (\x+3, 3.75) -- (\x, 0);
+                }
+                \node[orange] at (4, 3.8) {Parallel Sun Rays};
+
+                % --- Triangle 1: Small Object ---
+                \coordinate (A) at (1,0);      % Base of shadow
+                \coordinate (B) at (3,0);      % Base of object
+                \coordinate (C) at (3,2.5);    % Top of object
+                
+                \draw[ultra thick, blue] (B) -- (C) node[midway, right] {Height $H_1$};
+                \draw[thick, gray] (A) -- (B) node[midway, below] {Shadow $S_1$};
+                \draw[dashed] (A) -- (C); % The hypotenuse (the ray)
+
+                % Angle Label for Triangle 1
+                \pic [draw, "$\theta$", angle eccentricity=1.5] {angle = B--A--C};
+
+                % --- Triangle 2: Large Object (The "Giant") ---
+                \coordinate (D) at (5,0);      % Base of shadow
+                \coordinate (E) at (8.2,0);    % Base of object
+                \coordinate (F) at (8.2,4);    % Top of object
+                
+                \draw[ultra thick, red] (E) -- (F) node[midway, right] {Height $H_2$};
+                \draw[thick, gray] (D) -- (E) node[midway, below] {Shadow $S_2$};
+                \draw[dashed] (D) -- (F); % The hypotenuse (the ray)
+
+                % Angle Label for Triangle 2
+                \pic [draw, "$\theta$", angle eccentricity=1.5] {angle = E--D--F};
+
+                % --- Right Angle Markers ---
+                \draw (2.8,0) -- (2.8,0.2) -- (3,0.2);
+                \draw (8,0) -- (8,0.2) -- (8.2,0.2);
+
+                % - Equation Note -
+                \node[draw, fill=white, align=left] at (4, 4.5) {
+                    $\tan(\theta) = \frac{H_1}{S_1} = \frac{H_2}{S_2}$
+                };
+                \end{tikzpicture}
+        </latex-image>
+        </image>
+    </figure>
+        <p xml:id="auto_71rzk17k">
+            <ol xml:id="auto_ea85ji50" marker="(a)">
+                <li xml:id="auto_ku4z8ldp">
+                    <p xml:id="auto_nnkg7mx6">
+                        The triangles in the drawing above are similar.
+                    </p>
+                    <p xml:id="auto_ooga46wk">
+                        This means that the ratios of their corresponding sides are equal: <me>\frac{H_1}{S_1} = \frac{H_2}{S_2}</me>, in this case equalling <m>1.25</m>
+                    </p>
+                </li>
+                <li xml:id="auto_67i4sjz5">
+                    <p xml:id="auto_15oueuua">
+                        For any such right-angled triangle where the angle is <m>\theta</m>, the ratio of vertical distance (side opposite to the angle) to horizontal distance (side adjacent to the angle) remains the same, in this case <m>1.25</m>.
+                    </p>
+                    <p xml:id="auto_pq4zr21b">
+                        This constant ratio, <m>\frac{\text{Vertical distance}}{\text{Horizontal distance}}</m> is called the <term>tangent</term> of angle <m>\theta</m>, written as <m>\tan(\theta) = \frac{\text{Vertical distance}}{\text{Horizontal distance}}</m>. In this example, <m>\tan(\theta) = 1.25</m>.
+                    </p>
+                    <p xml:id="auto_j982gdml">
+                        The tangent of an angle depends only on the size of the angle, not on the triangle's size.
+                    </p>
+                </li>
+                
+            </ol>
+        </p>
+    </insight>
+
+    <assemblage>
+        <title>Further activity</title>
+            <p xml:id="auto_0tewbz6y">
+                The inclination of the observer's line of sight to the top of a <m>10\,m</m> high flag pole, positioned <m>15\,m</m> away,
+                can be determined using a scale drawing, as illustrated in 
+                the diagram below.
+            </p>
+            <figure xml:id="fig-tangent-triangle">
+                <image width="60%">
+                <latex-image label="latex-tangent-triangle">
+                    \begin{tikzpicture}[scale=0.5]
+                        % Draw the triangle
+                        \draw [very thick](0,0) coordinate (O) -- (10,0) coordinate (B) -- (10,9) coordinate (Q) -- cycle;
+                        \draw [very thick] (-2,0)--(0,0);
+
+                        % Mark the right angle at B
+                        \draw (9,0) -- (9,1) -- (10,1);
+
+                        % Add labels
+                        \node[below left] at (O) {O};
+                        \node[below right] at (B) {B};
+                        \node[above] at (Q) {Q};
+                        \node[below] at (5,0) {15 m};
+                        \node[right] at (10,4.5) {10 m};
+
+                        % Mark the angle x at O
+                        \draw [very thick] (0.8,0) arc (0:42:0.8); % Adjust the angle and radius as needed
+                        \node [right]at (0.9,0.4) {$x$};
+
+                        % Draw the line segments with a thicker line for the vertical
+                        \draw[very thick,line width= 4pt] (B) -- (Q);
+                        \node [blue,right] at   (10.3,8) {Flag pole};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </figure>
+             <p xml:id="auto_cwmc98au">
+                Look at the triangle shown in <xref ref="fig-tangent-triangle"/>
+            </p>
+            <p xml:id="auto_x12qyu7h">
+                In right-angled triangle: <me>\tan\, \alpha=\frac{\text{opposite side​}}{\text{adjacent side}}</me>
+            </p>
+            <p xml:id="auto_oud64wgw">
+                Express <m>\tan\,\alpha</m> in terms 
+                of the lengths of the sides of the triangle.
+            </p>
+    </assemblage>
+    <insight xml:id="auto_0eoqswve">
+        <p xml:id="auto_eczpy95y">
+        The diagram below shows a right-angled triangle <m>ABC</m>, where: <me>\angle ABC = \theta</me>. 
+        </p>
+        <figure xml:id="figure3">
+            <caption></caption>
+            <image width="50%">
+            <latex-image label="Triangle4">
+                \begin{tikzpicture}
+                    % Points
+                    \coordinate (A) at (5,0);
+                    \coordinate (B) at (0,0);
+                    \coordinate (C) at (5,3);
+
+                    % Triangle
+                    \draw[thick] (B) -- node[below]{Adjacent} (A) -- node[right]{Opposite} (C) -- node[sloped,above]{Hypotenuse} (B);
+
+                    % Right angle box at A
+                    \draw (A) -- ++(-0.3,0) -- ++(0,0.3) -- ++(0.3,0);
+
+                    % Angle theta at B
+                    \draw [blue,very thick](1,0) arc[start angle=0,end angle=30,radius=1cm];
+                    \node [right]at (0.9,0.3) {\(\theta\)};
+
+                    % Labels
+                    \node[ left] at (B) {B};
+                    \node[right] at (A) {A};
+                    \node[ right] at (C) {C};
+                \end{tikzpicture}
+            </latex-image>
+            </image>
+        </figure>
+        <p xml:id="auto_4lnkdjb7">
+            <ul xml:id="auto_siq2lumx">
+                <li xml:id="auto_s781bx5n">
+                    <p xml:id="auto_u78sn6ib">
+                        The side <m>AC</m> is the vertical side, 
+                        which is <m>\textbf{opposite}</m> to angle <m>\theta</m>. 
+                    </p>
+                </li>
+                <li xml:id="auto_shkkmbqb">
+                    <p xml:id="auto_bdlxb20m">
+                        The side <m>AB</m> is the horizontal side, 
+                        which is <m>\textbf{adjacent}</m> to angle <m>\theta</m>
+                    </p>
+                </li>
+                <li xml:id="auto_b2q8ckm6">
+                    <p xml:id="auto_bhjr6umf">
+                        The side <m>BC</m> is the <m>\textbf{hypotenuse}</m>, which is the longest side 
+                        of the right-angled triangle.
+                    </p>
+                </li>
+            </ul>
+
+        </p>
+        <p xml:id="auto_edjikyai">
+            In this case, the tangent of angle <m>\theta</m> is defined as the ratio 
+            of the opposite side to the adjacent side: 
+            <me>\tan\,\theta = \frac{\textbf{Opposite side}}{\textbf{Adjacent side}}= \frac{AC}{AB}</me>.
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application / Elaborate</title>
+        <p xml:id="auto_m2krsxpc">
+            <alert>Suggested Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_j68mhoxz">
+            Learners work through the worked examples. Ensure they correctly identify opposite and adjacent sides before computing the tangent ratio. Remind learners to use Pythagoras' theorem when a missing side must be found first.
+        </p>
+    </axiom>
+    
+    
+    
+    <example xml:id="auto_oxd8pyen">
+        <statement>
+            <p xml:id="auto_s66qybqj">
+                Find the tangent of the indicated
+                angles using the given
+                measurements below.
+            </p>
+            <image width="50%">
+            <latex-image label="Triangle7">
+                \begin{tikzpicture}[scale=1]
+                    % Draw the triangle
+                    \draw[very thick,fill=white] (0,0) -- (4.1,0) -- (0,3.1) -- cycle;
+
+                    % Labels for points
+                    \node[above] at (0,3) {\textbf{P}};
+                    \node[left] at (0,0) {\textbf{Q}};
+                    \node[right] at (4,0) {\textbf{R}};
+
+                    % Side labels
+                    \node[left] at (0,1.5) {3 cm};
+                    \node[below] at (2,0) {4 cm};
+
+                    % Right angle marker
+                    \draw (0,0) -- (0.3,0) -- (0.3,0.3) -- (0,0.3) -- cycle;
+
+                    % Angle theta arc
+                    \draw[thick] (4,0) arc[start angle=10, end angle=180, radius=0.2cm]; 
+                    \node[right] at (3.,0.2) {\(\theta\)};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p xml:id="auto_l7n55vsu">
+                The above diagram the sides given are,
+            </p>
+            <p xml:id="auto_v5qb99ov">
+                Opposite side <m>=3\,cm</m>
+            </p>
+            <p xml:id="auto_ukgmns8x">
+                Adjacent side <m>= 4\,cm</m>
+            </p>
+            <p xml:id="auto_3z8ul5jk">
+                Therefore,
+            </p>
+            <p xml:id="auto_3simjk7i">
+                <md>
+                    <mrow> \tan \, \theta = \amp  \frac{\text{Opposite }}{\text{Adjacent }} </mrow>
+                    <mrow> =\amp \frac{3\,cm}{4\,cm} </mrow>
+                    <mrow>= \amp \frac{3}{4}</mrow>
+                    <mrow> =\amp  0.75 </mrow>
+                    
+                </md>
+            </p>
+            <p xml:id="auto_lubvyi2j">
+                Therefore, <m>\tan \,\theta=0.75</m>
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_c1rqdgxl">
+        <statement>
+            <p xml:id="auto_vb3o4dug">
+                Find the tangent of the angle <m>\theta</m> in the diagram below:
+            </p>
+            <image width="50%">
+            <latex-image label="Triangle8">
+                \begin{tikzpicture}[scale=2,black]
+                        % Define points
+                    \coordinate (A) at (0,0);
+                    \coordinate (B) at (6,0);
+                    \coordinate (C) at (3,5);
+                    \coordinate (D) at (3,0); % Foot of the perpendicular
+
+                    % Draw triangle
+                    \draw [very thick,fill=white] (A) -- (B) -- (C) -- cycle;
+                    
+                    % Draw height
+                    \draw [very thick,dashed] (C) -- (D);
+                    
+                    % Right angle symbol at D
+                    \draw [very thick](D) ++(-0.3,0) -- ++(0,0.3) -- ++(0.3,0);
+
+                    % Draw angle arcs
+                    \draw [very thick,blue](A) ++(0.8,0) arc (0:60:0.8); % Alpha (angle CAD)
+                    \draw [very thick,blue](C) ++(-0.3,-0.5) arc (200:300:0.2); % Theta (angle ACD)
+
+                    % Labels
+                    \node[left] at (A) {\huge{$A$}};
+                    \node[above] at (C) {\huge{$C$}};
+                    \node[below] at (B) {\huge{$B$}};
+                    \node[below] at (D) {\huge{$D$}};
+                    
+                    % Side lengths
+                    \node[above left] at (1.5,2.5) {\huge{$10$ cm}};
+                    \node[above right] at (4.5,2.5) {\huge{$10$ cm}};
+                    \node[below] at (1.5,0) {\huge{$6$ cm}};
+                    \node[below] at (4.5,0) {\huge{$6$ cm}};
+                    
+                    % Angle labels
+                    \node [right]at (2.5,4) {\huge{$\theta$}}; % Theta near C
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p xml:id="auto_91wfy76p">
+                Remember that <md>\tan \, \theta =  \frac{\text{Opposite }}{\text{Adjacent }}</md> In this case, the opposite side to <m>\theta</m> is <m>AD</m>, which has length 6 cm.
+            </p>
+            <p xml:id="auto_hoitx34n">
+                The adjacent side is <m>CD</m>, whose side length we can find via Pythagoras' theorem:
+            </p>
+            <p xml:id="auto_dcwph91i">
+                <md>
+                    <mrow> AD^2 + CD^2 \amp= AC^2 </mrow>
+                    <mrow>CD^2 \amp = AC^2 - AD^2 </mrow>
+                    <mrow> \amp = 10^2 - 6^2</mrow>
+                    <mrow> \amp = 100 - 36 </mrow>
+                    <mrow> \amp = 64 </mrow>
+                    <mrow>CD \amp = \sqrt{64} </mrow>
+                    <mrow>\amp = 8\,cm </mrow>
+                </md>
+            </p>
+            
+            <p xml:id="auto_0b0rrrhp">
+                Thus, we have:
+            </p>
+            <p xml:id="auto_4u7e5lyk">
+                <m>\tan \theta =  \frac{\text{Opposite }}{\text{Adjacent }} = \frac{6}{8} = \frac{3}{4}</m>
+            </p>
+                
+            
+        </solution>
+        
+    </example>
+
+    <!-- STACK Questions -->
+
+    <!-- <exercise xml:id="ex-exact-values-of-sine-cosine-and-tangent-without-a-calculator">
+        <title></title>
+        <stack label="stk-exact-values-of-sine-cosine-and-tangent-without-a-calculator" source="stack/top/2-0-Measurement-Geometry/2-4-Trigonometry-1/2-4-1-Trigonometric-Ratios-of-Acute-Angles/2-4-1-1-Tangent-of-an-Acute-Angle/Exact-Values-of-Sine,-Cosine,-and-Tangent-Without-a-Calculator.xml"/>
+    </exercise> -->
+
+    <exercise xml:id="auto_ut6hqshc">
+        <stack label="tangent-right-triangle" source="stack/top/2-0-Measurement-Geometry/2-4-Trigonometry-1/2-4-1-Trigonometric-Ratios-of-Acute-Angles/2-4-1-1-Tangent-of-an-Acute-Angle/Finding-the-tangent-of-the-the-right-angle-triangle-.xml"/>
+    </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment / Evaluate (Exit Ticket)</title>
+        <p xml:id="auto_0nteeoxk">
+            <alert>Suggested Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_q0uebbr4">
+            <alert>Objective:</alert> To formatively assess individual learner understanding of the tangent ratio.
+        </p>
+        <p xml:id="auto_1gmgb2fo">
+            <alert>Learning Experience:</alert> Learners independently complete the exercises below.
+        </p>
+    </axiom>
+
+
+    <xi:include href="../../resources-checkpoint.ptx" />
+
+    <exercises xml:id="exercises-tan-basic">
+
+        <exercise xml:id="ex-tan-basic-1">
+            <statement>
+                <p xml:id="ex-tan-basic-1-statement">
+                    In a right-angled triangle, the side opposite angle <m>\theta</m> is <m>6\,\text{cm}</m> and the side adjacent to <m>\theta</m> is <m>7\,\text{cm}</m>.
+                    Find <m>\tan\theta</m>.
+                </p>
+                <image width="45%">
+                    <latex-image label="Triangle-tan-basic-1">
+                        \begin{tikzpicture}[scale=0.9]
+                            % Points
+                            \coordinate (A) at (0,0);
+                            \coordinate (B) at (4,0);
+                            \coordinate (C) at (4,3);
+
+                            % Triangle
+                            \draw[very thick] (A) -- (B) -- (C) -- cycle;
+
+                            % Right angle at C
+                            \draw (B) ++(-0.3,0) -- ++(0,0.3) -- ++(0.3,0);
+
+                            % Labels for vertices
+                            \node[below left] at (A) {A};
+                            \node[below right] at (B) {B};
+                            \node[above right] at (C) {C};
+
+                            % Side lengths
+                            \node[below] at (3,0) {7 cm};
+                            \node[right] at (4,1.5) {6 cm};
+
+                            % Angle theta at A
+                            \draw[blue,thick] (0.6,0) arc[start angle=0,end angle=37,radius=0.6cm];
+                            \node[right] at (0.6,0.2) {$\theta$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="ex-tan-basic-1-answer">
+                    <m>\tan\theta = \dfrac{\text{Opposite}}{\text{Adjacent}} = \dfrac{6}{7} \approx 0.857</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-tan-basic-2">
+            <statement>
+                <p xml:id="ex-tan-basic-2-statement">
+                    In the right-angled triangle <m>PQR</m> below, find <m>\tan\alpha</m>.
+                </p>
+                <image width="45%">
+                    <latex-image label="Triangle-tan-basic-2">
+                        \begin{tikzpicture}[scale=0.9]
+                            % Points
+                            \coordinate (P) at (4,0);
+                            \coordinate (Q) at (0,0);
+                            \coordinate (R) at (0,3);
+
+                            % Triangle
+                            \draw[very thick] (P) -- (Q) -- (R) -- cycle;
+
+                            % Right angle at Q
+                            \draw (Q) ++(0.3,0) -- ++(0,0.3) -- ++(-0.3,0);
+
+                            % Labels for vertices
+                            \node[below right] at (P) {P};
+                            \node[below left] at (Q) {Q};
+                            \node[above left] at (R) {R};
+
+                            % Side lengths
+                            \node[below] at (2,0) {4 cm};
+                            \node[left] at (0,1.5) {3 cm};
+
+                            % Angle alpha at P
+                            \draw[blue,thick] (3.4,0) arc[start angle=180,end angle=143,radius=0.6cm];
+                            \node[left] at (3.4,0.2) {$\alpha$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="ex-tan-basic-2-answer">
+                    <m>\tan\alpha = \dfrac{3}{4} = 0.75</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-tan-basic-3">
+            <statement>
+                <p xml:id="ex-tan-basic-3-statement">
+                    A right-angled triangle has an angle <m>\beta</m> and the side opposite <m>\beta</m> is <m>6\,\text{cm}</m> while the side adjacent to <m>\beta</m> is <m>8\,\text{cm}</m>.
+                    Find <m>\tan\beta</m>.
+                </p>
+                <image width="45%">
+                    <latex-image label="Triangle-tan-basic-3">
+                        \begin{tikzpicture}[scale=0.9]
+                            % Points
+                            \coordinate (X) at (0,0);
+                            \coordinate (Y) at (8,0);
+                            \coordinate (Z) at (8,6);
+
+                            % Triangle
+                            \draw[very thick] (X) -- (Y) -- (Z) -- cycle;
+
+                            % Right angle at Y
+                            \draw (7.8,0) -- ++(0,0.4) -- ++(0.4,0);
+
+                            % Labels for vertices
+                            \node[below left] at (X) {X};
+                            \node[below right] at (Y) {Y};
+                            \node[above right] at (Z) {Z};
+
+                            % Side lengths
+                            \node[below] at (4,0) {8 cm};
+                            \node[right] at (8,3) {6 cm};
+
+                            % Angle beta at X
+                            \draw[blue,thick] (0.8,0) arc[start angle=0,end angle=37,radius=0.8cm];
+                            \node[right] at (0.8,0.2) {$\beta$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="ex-tan-basic-3-answer">
+                    <m>\tan\beta = \dfrac{6}{8} = \dfrac{3}{4} = 0.75</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-tan-identity-complementary">
+            <statement>
+                <p xml:id="ex-tan-identity-statement-1">
+                    Consider the right-angled triangle <m>ABC</m> below.
+                </p>
+                <image width="45%">
+                    <latex-image label="Triangle-tan-identity">
+                        \begin{tikzpicture}[scale=0.9]
+                            % Points
+                            \coordinate (A) at (0,0);
+                            \coordinate (B) at (4,0);
+                            \coordinate (C) at (4,3);
+
+                            % Triangle
+                            \draw[very thick] (A) -- (B) -- (C) -- cycle;
+
+                            % Right angle at B
+                            \draw (3.7,0) -- ++(0,0.3) -- ++(0.3,0);
+
+                            % Labels for vertices
+                            \node[below left] at (A) {A};
+                            \node[below right] at (B) {B};
+                            \node[above right] at (C) {C};
+
+                            % Side lengths
+                            \node[below] at (2,0) {5 cm};
+                            \node[right] at (4,1.5) {4 cm};
+
+                            % Angle theta at A
+                            \draw[blue,thick] (0.6,0) arc[start angle=0,end angle=37,radius=0.6cm];
+                            \node[right] at (0.6,0.2) {$\theta$};
+
+                            % Angle alpha at C
+                            \draw[blue,thick] (4,2.4) arc[start angle=270,end angle=217,radius=0.6cm];
+                            \node at (3.6,2.3) {$\alpha$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p xml:id="auto_zoagkt5z">
+                    <ol markers="(a)">
+                        <li xml:id="auto_afrtnai8">
+                            <p xml:id="auto_rol4igit">
+                                Use the side lengths to find <m>\tan \theta</m> and <m>\tan \alpha</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_fczz904y">
+                            <p xml:id="auto_7jd3z8ry">
+                                What do you notice about the relationship between <m>\tan \theta</m> and <m>\tan \alpha</m>? What is the value of <m>\tan \theta \times \tan \alpha</m>?
+                            </p>
+                        </li>
+                        <li xml:id="auto_z82eywpy">
+                            <p xml:id="auto_2a0ezfqy">
+                                Explain why <m>\theta + \alpha = 90^\circ</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_gxa55k92">
+                            <p xml:id="auto_0duoext7">
+                                Hence explain why <m>\tan \theta = \dfrac{1}{\tan(90^\circ - \theta)}</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <ol marker="(a)">
+                    <li xml:id="auto_uqgf1o38">
+                        <p xml:id="ex-tan-identity-answer-1">
+                            For angle <m>\theta</m>, the opposite side is <m>4\,\text{cm}</m> and the adjacent side is <m>5\,\text{cm}</m>, so
+                            <md>
+                                <mrow>\tan \theta \amp= \dfrac{4}{5}</mrow>
+                            </md>
+                        </p>
+                        <p xml:id="ex-tan-identity-answer-2">
+                            For angle <m>\alpha</m>, the opposite side is <m>5\,\text{cm}</m> and the adjacent side is <m>4\,\text{cm}</m>, so
+                            <md>
+                                <mrow>\tan \alpha \amp= \dfrac{5}{4}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_wd68ajpn">
+                        <p xml:id="ex-tan-identity-answer-3">
+                            Then
+                            <md>
+                                <mrow>\tan \theta \times \tan \alpha \amp= \dfrac{4}{5} \times \dfrac{5}{4}</mrow>
+                                <mrow>\amp= 1</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_o4t0pi02">
+                        <p xml:id="ex-tan-identity-answer-4">
+                            Since angles <m>\theta</m> and <m>\alpha</m> are the two acute angles in a right-angled triangle, they add up to <m>90^\circ</m>.
+                            So <m>\alpha = 90^\circ - \theta</m>.
+                        </p>
+                    </li>
+                    <li xml:id="auto_w70ginhx">
+                        <p xml:id="ex-tan-identity-answer-5">
+                            Since <m>\tan \theta \times \tan \alpha = 1</m>, we have <m>\tan \alpha = \dfrac{1}{\tan \theta}</m>. Thus,
+                            <me>\tan \theta = \dfrac{1}{\tan(90^\circ - \theta)}</me>.
+                        </p>
+                    </li>
+                </ol>
+            </answer>
+        </exercise>
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+        <table xml:id="auto_n76ct5wb">
+            <title>Differentiation Strategies</title>
+            <tabular halign="left" bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners</cell>
+                    <cell>
+                        <line>Provide pre-drawn diagrams with labelled sides to reduce cognitive load.</line>
+                        <line>Use colour-coding: opposite side in red, adjacent side in blue.</line>
+                        <line>Start with simple whole-number ratios (e.g., <m>3:4</m>, <m>5:12</m>) before moving to decimals.</line>
+                        <line>Provide a tangent ratio reference card with the formula and a labelled diagram.</line>
+                    </cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners</cell>
+                    <cell>
+                        <line>Encourage students to explain their reasoning when calculating tangent ratios.</line>
+                        <line>Provide mixed practice with different triangle orientations.</line>
+                        <line>Ask students to verify their answers using a calculator.</line>
+                    </cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners</cell>
+                    <cell>
+                        <line>Challenge students to find the angle when given the tangent value (inverse tangent).</line>
+                        <line>Investigate what happens to the tangent as the angle approaches <m>90^\circ</m>.</line>
+                        <line>Apply tangent to real-world problems involving angles of elevation and depression.</line>
+                    </cell>
+                </row>
+            </tabular>
+        </table>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+
+</subsection>

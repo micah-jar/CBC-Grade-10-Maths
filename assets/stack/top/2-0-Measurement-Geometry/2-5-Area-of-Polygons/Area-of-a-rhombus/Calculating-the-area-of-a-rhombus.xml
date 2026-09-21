@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Calculating the area of a rhombus</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>The perimeter of a rhombus is \({@Perimeter@}\,\text{m}\). One of its diagonals is \({@One_diagonal@}\,\text{m}\). </p>
+<p>
+<ol type="a">
+  <li>
+    <p>Find the length of the other diagonal.</p>
+    <p>\(\text{Length} = \) [[input:ans1]] \(\text{m}\) [[validation:ans1]] [[feedback:prt1]]</p>
+  </li>
+  <li>
+    <p>Find the area of the rhombus.</p>
+    <p>\(\text{Area} = \) [[input:ans2]] \(\text{m}^2\) [[validation:ans2]] [[feedback:prt2]]</p>
+  </li>
+</ol>
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<p>To answer the above question follow the following steps</p>
+<p><b>Step 1: Find the length of one side</b></p>
+<p>A rhombus has 4 equal sides. Therefore, <br>
+\(\begin{align}
+\text{Perimeter} &=4 \times \text{side} \\
+{@Perimeter@} &=4 \times \text{side} \\
+\text{side}=\frac{{@Perimeter@}}{4} \\
+&={@c@}\, \text{m}
+\end{align}\)
+</p>
+<p><b>Step 2: Use the diagonal property</b></p>
+<p>The diagonals of a rhombus cut each other into two equal parts and form right angles.<br>
+\(\bullet\) One diagonal \(={@One_diagonal@}\, \text{m}\), so half of it \(=\frac{{@One_diagonal@}}{2}={@a@}\).<br>
+\(\bullet\) Let the other diagonal \(=d_2\). Then half of it \(= \frac{d_2}{2}\).
+
+</p>
+<p>Using Pythagoras’ Theorem:<br>
+\( \begin{align}
+{@c@}^2&= \left (  \frac{{@One_diagonal@}}{2}\right )^2+\left (  \frac{d_2}{2}\right )^2\\
+\left (  \frac{d_2}{2}\right )^2&={@c@}^2- \left ({@a@}  \right )^2\\
+d_2&=2 \times \sqrt{  {@c@}^2-  \left ({@a@}  \right )^2    } \\
+\text{So, the other diagonal is:} \\
+d_2&={@other_diagonal@}\,\text{m}
+\end{align}\)
+</p>
+<p><b>Step 3: Find the area of the rhombus</b></p>
+<p>The formula for the area is: \(\text{Area}=\frac{d_1 \times d_2}{2}\) <br> Therefore;</p>
+<p>\(\begin{align} 
+\text{Area}&=\frac{{@One_diagonal@} \times {@other_diagonal@}}{2}\\
+&={@Area_of_Rhombus@}\, \text{m}^2
+\end{align}\)</p>
+
+<p>Therefore: <br>
+The length of the other diagonal is: \({@other_diagonal@}\,\text{m} \)<br>
+The area of the rhombus is: \( {@Area_of_Rhombus@}\, \text{m}^2\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text>/*The values generating the values.*/
+m : 2 + rand(30);
+n : 1 + rand(m-1);
+/*The  dimension of the Rhombus*/
+a : m^2 - n^2; /* The base*/
+b : 2*m*n ; /* The height*/ 
+c : m^2 + n^2; /* The hypotenuse*/ 
+
+Perimeter:c*4;  /* The  perimeter of the Rhombus*/ 
+One_diagonal:a*2; /* The  diagonal of one diagonal*/ 
+other_diagonal:b*2;
+Area_of_Rhombus:(One_diagonal*(b*2))/2;
+/*Mistakes */
+/*Wrong area of the rhombus*/
+area_1:One_diagonal*other_diagonal;
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p> {@other_diagonal@}</p>
+<p>{@Area_of_Rhombus@}</p>
+<p>{@Perimeter@}</p>
+<p>{@One_diagonal@}</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>other_diagonal</tans>
+      <boxsize>8</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <input>
+      <name>ans2</name>
+      <type>algebraic</type>
+      <tans>Area_of_Rhombus</tans>
+      <boxsize>7</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>Checks the correct length of the diagonal.</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>other_diagonal</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <prt>
+      <name>prt2</name>
+      <value>2.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>Checks for the correct area of the rhombus.</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans2</sans>
+        <tans>Area_of_Rhombus</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt2-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt2-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description>Checks for the incorrect area of rhombus.</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans2</sans>
+        <tans>area_1</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0.5</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt2-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>Good effort! You correctly used both diagonals in your formula, but remember to divide their product by \(2\) the area of a rhombus is given by \(\frac{1}{2} \times d_1 \times d_2\).</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt2-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>504282784</deployedseed>
+    <deployedseed>662271724</deployedseed>
+    <deployedseed>511420538</deployedseed>
+    <deployedseed>1118013500</deployedseed>
+    <deployedseed>346543267</deployedseed>
+    <deployedseed>455916230</deployedseed>
+    <deployedseed>619796325</deployedseed>
+    <deployedseed>457105334</deployedseed>
+    <deployedseed>2073549941</deployedseed>
+    <deployedseed>2020903866</deployedseed>
+    <deployedseed>1462591304</deployedseed>
+    <deployedseed>2124242910</deployedseed>
+    <deployedseed>1388250699</deployedseed>
+    <deployedseed>636715523</deployedseed>
+    <deployedseed>1550228636</deployedseed>
+    <deployedseed>1737526285</deployedseed>
+    <deployedseed>449348448</deployedseed>
+    <deployedseed>73249569</deployedseed>
+    <deployedseed>1473659127</deployedseed>
+    <deployedseed>1146240992</deployedseed>
+    <deployedseed>229021460</deployedseed>
+    <deployedseed>592567970</deployedseed>
+    <deployedseed>1466706415</deployedseed>
+    <deployedseed>1955945794</deployedseed>
+    <deployedseed>2118313394</deployedseed>
+    <deployedseed>1890456582</deployedseed>
+    <deployedseed>1338014009</deployedseed>
+    <deployedseed>1660828713</deployedseed>
+    <deployedseed>817068216</deployedseed>
+    <deployedseed>1887193957</deployedseed>
+    <deployedseed>1554312753</deployedseed>
+    <deployedseed>29303641</deployedseed>
+    <deployedseed>55977278</deployedseed>
+    <deployedseed>1138352041</deployedseed>
+    <deployedseed>1950795757</deployedseed>
+    <deployedseed>236920417</deployedseed>
+    <deployedseed>1819561050</deployedseed>
+    <deployedseed>887374548</deployedseed>
+    <deployedseed>517512165</deployedseed>
+    <deployedseed>243400378</deployedseed>
+    <deployedseed>2095312673</deployedseed>
+    <deployedseed>685743451</deployedseed>
+    <deployedseed>520895689</deployedseed>
+    <deployedseed>1228440821</deployedseed>
+    <deployedseed>633304945</deployedseed>
+    <deployedseed>619825091</deployedseed>
+    <deployedseed>1855498391</deployedseed>
+    <deployedseed>83053719</deployedseed>
+    <deployedseed>1389959677</deployedseed>
+    <deployedseed>1559005670</deployedseed>
+    <deployedseed>607823355</deployedseed>
+    <deployedseed>94842505</deployedseed>
+    <deployedseed>1849239063</deployedseed>
+    <deployedseed>1146901148</deployedseed>
+    <deployedseed>1474115676</deployedseed>
+    <deployedseed>1769213797</deployedseed>
+    <deployedseed>1545398026</deployedseed>
+    <deployedseed>753312089</deployedseed>
+    <deployedseed>841507978</deployedseed>
+    <deployedseed>489587381</deployedseed>
+    <deployedseed>225249649</deployedseed>
+    <deployedseed>1285351049</deployedseed>
+    <deployedseed>66741124</deployedseed>
+    <deployedseed>1997463197</deployedseed>
+    <deployedseed>947296085</deployedseed>
+    <deployedseed>556874205</deployedseed>
+    <deployedseed>1327984785</deployedseed>
+    <deployedseed>1746287862</deployedseed>
+    <deployedseed>1357589161</deployedseed>
+    <deployedseed>1455822325</deployedseed>
+    <deployedseed>2119013584</deployedseed>
+    <deployedseed>1714102880</deployedseed>
+    <deployedseed>1356220089</deployedseed>
+    <deployedseed>786062050</deployedseed>
+    <deployedseed>2002423484</deployedseed>
+    <deployedseed>303757800</deployedseed>
+    <deployedseed>1709280258</deployedseed>
+    <deployedseed>319922187</deployedseed>
+    <deployedseed>1621503497</deployedseed>
+    <deployedseed>590839957</deployedseed>
+    <deployedseed>1469119065</deployedseed>
+    <deployedseed>1515224626</deployedseed>
+    <deployedseed>705845735</deployedseed>
+    <deployedseed>540219701</deployedseed>
+    <deployedseed>1638293976</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>other_diagonal</value>
+      </testinput>
+      <testinput>
+        <name>ans2</name>
+        <value>Area_of_Rhombus</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+      <expected>
+        <name>prt2</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt2-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

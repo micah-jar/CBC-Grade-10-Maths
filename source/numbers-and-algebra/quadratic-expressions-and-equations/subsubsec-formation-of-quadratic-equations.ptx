@@ -1,0 +1,701 @@
+<subsubsection xml:id="subsubsec-formation-of-quadratic-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Formation of Quadratic Equations</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_0bb1lx08">
+            <p xml:id="auto_s1afvspi">
+            <dl>
+                <li xml:id="auto_gh3zlstr">
+                    <title>Strand</title>
+                    <p xml:id="auto_tfvohx0k">
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li xml:id="auto_x1xlgnen">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_2mh93up7">
+                        1.3 Quadratic Expressions and Equations
+                    </p>
+                </li>
+                <li xml:id="auto_lpih6uvz">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_4gw6gs7e">
+                        Form quadratic equations in different situations
+                    </p>
+                </li>
+                <li xml:id="auto_uwsu226r" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_lo7mq1eh">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_yt98ekf5" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_fo1k63ws">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            </p>
+            <p xml:id="auto_5zhb5agz" component="lesson-plan">
+                <p xml:id="auto_0gffk89m"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_glvbgetl">
+                        <p xml:id="auto_69rge68p">
+                            <alert>Know (Conceptual Understanding):</alert> Understand that quadratic equations can be formed from given roots using the zero product property, and recognize the relationship between factors and roots.
+                        </p>
+                    </li>
+                    <li xml:id="auto_xoinz5op">
+                        <p xml:id="auto_6tp2q7yr">
+                            <alert>Do (Procedural Skill):</alert> Form quadratic equations from given roots or expressions using factorisation methods, including common factor extraction and grouping.
+                        </p>
+                    </li>
+                    <li xml:id="auto_ixh6w8bj">
+                        <p xml:id="auto_72cdiu2o">
+                            <alert>Apply (Application/Problem-Solving):</alert> Apply the formation of quadratic equations to model real-world situations and verify solutions by expansion.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_u22r4emk">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/formation-of-quadratic-equations.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_e9gp4azr">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_formation-of-quadratic-equations.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_qpgimzqd">
+                <title>Suggested Time</title>
+                <p xml:id="auto_k7yhl46f">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_8p8r82xv">
+                <title>Objective</title>
+                <p xml:id="auto_nletjfi2">
+                    Root to Equation Challenge: To explore how quadratic equations can be formed from given roots.
+                </p>
+            </li>
+            <li xml:id="auto_tgcv850p">
+                <title>Learning Experience</title>
+                <p xml:id="auto_ul47s6zv">
+                    Groups work through three steps:
+                    <ol>
+                        <li xml:id="auto_rphp052u">Form a quadratic equation from given roots.</li>
+                        <li xml:id="auto_drpz626w">Write the equation in factorised form.</li>
+                        <li xml:id="auto_y81oumxe">Swap with another group, solve the equation and find the roots.</li>
+                    </ol>
+                </p>
+                <p xml:id="auto_5p2dhjw5">
+                    Sample roots for groups:
+                    <ul>
+                        <li xml:id="auto_0cds89f0">Group 1: <m>x = 2</m> and <m>x = 3</m></li>
+                        <li xml:id="auto_qnzon2lk">Group 2: <m>x = -1</m> and <m>x = 4</m></li>
+                        <li xml:id="auto_03eyypxs">Group 3: <m>x = 0</m> and <m>x = 5</m></li>
+                        <li xml:id="auto_8whe4ytf">Group 4: <m>x = -2</m> and <m>x = -3</m></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_i28ufiqd">
+                    Discussion prompts:
+                    <ul>
+                        <li xml:id="auto_dqebdfc4">How did you find the quadratic equation from the roots?</li>
+                        <li xml:id="auto_c1w6fpuh">What did you learn about factorisation from this exercise?</li>
+                        <li xml:id="auto_loo4cgmf">Did you notice any patterns when forming quadratic equations?</li>
+                    </ul>
+                </p>
+            </li>
+            <li xml:id="auto_aig6nx6m">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_55e4rnas">
+                    Groups share their methods with the class. The teacher guides learners toward the key idea: if <m>x = p</m> and <m>x = q</m> are roots, then <m>(x - p)(x - q) = 0</m>.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <activity xml:id="auto_a9gzgulh">
+        <p xml:id="auto_j7ejpyzu">
+            <em><term>Work in Groups.</term></em>
+        </p>
+        <p xml:id="auto_hngn0oxq">
+            <ol xml:id="auto_4x2a3sz3">
+                <li xml:id="auto_668bwrmd">
+                    <p xml:id="auto_b2o3nefj">Start by forming a quadratic equation using given roots.</p>
+                </li>
+                <li xml:id="auto_qrcovqfr">
+                    <p xml:id="auto_ldun0q39">Write your equation in factorized form.</p>
+                </li>
+                <li xml:id="auto_0tmnjek7">
+                    <p xml:id="auto_e2ivlgzy">Swap your equation with another group, solve it and find the roots.</p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_ii6ebr6j">
+            After completing the task, discuss these questions with the class:
+            <ul xml:id="auto_xrun45m0">
+                <li xml:id="auto_kdtezp5b">
+                    <p xml:id="auto_s2klhwqz">How did you find the quadratic equation from the roots?</p>
+                </li>
+                <li xml:id="auto_phmnsv37">
+                    <p xml:id="auto_vadi0z3n">What did you learn about factorization from this exercise?</p>
+                </li>
+                <li xml:id="auto_51f0r78c">
+                    <p xml:id="auto_wehl8xhn">Did you notice any patterns when forming quadratic equations?</p>
+                </li>
+            </ul>
+        </p>
+        <p xml:id="auto_37l8juyn">
+            Finally, each group will share their quadratic equation and the method used with the class.
+        </p>
+    </activity>
+
+    <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <dl>
+            <li xml:id="auto_kcu4anhy">
+                <title>Suggested Time</title>
+                <p xml:id="auto_wnxfdwap">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_qk2afwc5">
+                <title>Key Concepts</title>
+                <p xml:id="auto_g6w7xytz">
+                    <alert>Quadratic Equation:</alert> Any equation of the form <m>ax^2 + bx + c = 0</m> where <m>a, b, c</m> are constants and <m>a \neq 0</m>.
+                </p>
+                <p xml:id="auto_tih2eyb2">
+                    <alert>Factorised Form:</alert> <m>(x + p)(x + q) = 0</m> where <m>p \times q = c</m> and <m>p + q = b</m>.
+                </p>
+                <p xml:id="auto_4x3gls3n">
+                    <alert>Zero Product Property:</alert> If <m>(x + p)(x + q) = 0</m>, then <m>x = -p</m> or <m>x = -q</m>.
+                </p>
+                <p xml:id="auto_fbx8x7fi">
+                    <alert>Forming Equations from Roots:</alert> If the roots are <m>x = r</m> and <m>x = s</m>, then the factors are <m>(x - r)</m> and <m>(x - s)</m>, giving the equation <m>(x - r)(x - s) = 0</m>, which expands to <m>x^2 - (r + s)x + rs = 0</m>.
+                </p>
+                <p xml:id="auto_cz63acpd">
+                    <alert>Factoring Methods:</alert>
+                    <ul>
+                        <li xml:id="auto_0n2pu8xp">If <m>a = 1</m>: find two numbers that multiply to <m>c</m> and add to <m>b</m>.</li>
+                        <li xml:id="auto_w9k7umr3">If <m>a \neq 1</m>: use the ac-method (find two numbers that multiply to <m>a \times c</m> and add to <m>b</m>).</li>
+                        <li xml:id="auto_8fxhsfmp">Always check for common factors first (e.g., <m>6x^2 + 12x = 6x(x + 2)</m>).</li>
+                    </ul>
+                </p>
+                <p xml:id="auto_3qj2ihme">
+                    <alert>Common Misconception:</alert> <q>The equation must equal zero! Always rearrange to <m>ax^2 + bx + c = 0</m> before factorising.</q>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <p xml:id="auto_6imf64pr">
+        Any equation of the form <m>ax^2 + bx + c = 0</m> where <m>a, b \, \text{and} \, c</m> are constants and <m>a \neq 0</m> is known as a quadratic equation. 
+        In this section, solutions of quadratic equations using the factor method is discussed.
+    </p>
+
+    <p xml:id="auto_vfxbtcgk">
+        To solve a quadratic equation by factorisation, we aim to rewrite the quadratic equation in the form of:
+        <md>
+            <mrow>(x+p)(x+q) \amp = 0 </mrow>
+        </md>
+        where <m>p</m> and <m>q</m> are numbers that, when multiplied, give the product <m>c</m> (the constant term), 
+        and when added, give the sum <m>b</m> (the coefficient of the middle term).
+    </p>
+    <p xml:id="auto_7zkyi955">
+        To solve a quadratic eaquation, first ensure the equations is in the form;
+        <me>
+            ax^2 + bx + c = 0.
+        </me>
+        if not in the form rearrange, so that all terms are on one side of the equation and the equation equals zero.
+    </p>
+    <p xml:id="auto_5487gymw">
+        Factor the quadratic expression:
+        <ul xml:id="auto_ecnmjfre">
+            <li xml:id="auto_7cqo1odg">
+                <p xml:id="auto_timwzqvu">
+                    Look for two numbers that when multiplied give <m>a \times c</m> (the coefficient of <m>x^2</m>)
+                </p>
+            </li>
+            <li xml:id="auto_l0vhy3wq">
+                <p xml:id="auto_e24zrfqs">
+                    And, when added give <m>b</m> (the coefficient of the middle term).
+                    <ul xml:id="auto_rjd7483v">
+                        <li xml:id="auto_rwmc3atg">
+                            <p xml:id="auto_skqwu6qm">
+                                If the quadratic has a leading coefficient <m>a = 1</m>, 
+                                you only need to find two numbers that multiply to <m>c</m> and add to <m>b</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_so6kljkq">
+                            <p xml:id="auto_4c7gctf6">
+                                If <m>a \neq 1</m>, find two numbers that multiply to <m>a \times c</m> and add to <m>b</m>.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p xml:id="auto_9bunswjl">
+        Rewrite the middle term using these two numbers and factor by grouping, which you will have a quadratic of the form:
+        <me>
+            (x+p)(x+q) = 0
+        </me>
+    </p>
+
+    <insight xml:id="auto_5qy96168">
+        <p xml:id="auto_8qm7a5o9">
+           <alert>What is a Quadratic Equation? </alert>
+        </p>
+        <p xml:id="auto_njfaywuc">
+            Any equation of the form <m>ax^2 + bx + c = 0</m> where a, b, and c are constants and <m>a \neq 0</m> is known as a
+            quadratic equation.
+        </p>
+        <p xml:id="auto_ivmm4o1k">
+            <alert>The Factorised Form:</alert>
+        </p>
+        <p xml:id="auto_vsho78e0">
+            To solve or form a quadratic equation by factorisation, we aim to write it in the form:
+        </p>
+        <p xml:id="auto_kplj9dk6">
+            <md>
+                <mrow>(x+p)(x+q) \amp = 0 </mrow>
+            </md>
+        </p>
+        <p xml:id="auto_iquosjgr">
+            Where p and q are numbers that:
+            <ul>
+                <li xml:id="auto_5bt58m1c">When multiplied, give the product <m>ac</m> (the constant term)</li>
+                <li xml:id="auto_6zev15tf">When added, give the sum <m>b</m> (the coefficient of the middle term)</li>
+            </ul>
+        </p>
+        <p xml:id="auto_ukunzcrs">
+            <alert>The Zero Product Property:</alert>
+        </p>
+        <p xml:id="auto_l0b71ef0">
+            If <m>(x + p)(x + q) = 0</m>, then either:
+            <ul>
+                <li xml:id="auto_l2sy1a1r"><m>x + p = 0 \rightarrow  x =- p</m></li>
+                OR
+                <li xml:id="auto_rmu0d9os"><m>x + q = 0 \rightarrow x = - q</m></li>
+            </ul>
+        </p>
+        <p xml:id="auto_1bkvmuxl">
+           <alert>Forming Equations from Roots:</alert> 
+        </p>
+        <p xml:id="auto_60hc8wy1">
+            If the roots are x = r and x = s, then:
+            <ul>
+                <li xml:id="auto_2aadv393">The factors are <m>(x - r) and (x - s)</m></li>
+                <li xml:id="auto_qfgftxmo">The equation is (x - r)(x - s) = 0</li>
+                <li xml:id="auto_o2jw5b9s">Expanded: <m>x^2 - (r + s)x + rs = 0</m></li>
+            </ul>
+        </p>
+        <p xml:id="auto_dvwu60m6">
+           <alert>Factoring Methods: </alert>
+        </p>
+        <p xml:id="auto_ki96417k">
+            Depending on the coefficients, you may need to:
+            <ul>
+                <li xml:id="auto_3rcyucsd">Find two numbers that multiply to <m>c</m> and add to <m>b</m> (if <m>a = 1</m>)</li>
+                <li xml:id="auto_tdbv8su0">Find two numbers that multiply to <m>a \times c</m> and add to <m>b</m>, then factor by grouping (if <m>a \neq 1</m>)</li>
+                <li xml:id="auto_8vr3mnar">Always check for common factors first (e.g., <m>6x^2 + 12x = 6x(x + 2)</m>)</li>
+            </ul>
+        </p>
+        <p xml:id="auto_sv9ikk4x">
+            <alert>Remember:</alert> The equation must equal zero! Always rearrange to get <m>ax^2 + bx + c = 0</m>before factorising
+        </p>
+        
+    </insight>
+
+
+    <!--Examples-->
+    <example xml:id="auto_sb6n3xk7">
+        <statement>
+            <p xml:id="auto_tpnaqkzu">
+                
+            </p>
+            <p xml:id="auto_wqypz0w5">
+                Solve
+                <me>
+                    x^2 + 6x + 8 = 0
+                </me>                
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_4xn4po6l">
+                Factoring the left hand side (L.H.S) of the equation.
+                <me>
+                    x^2 + 6x + 8 = 0
+                </me>
+                The factors are <m>2 \, \text {and} 4</m>.
+            </p>
+            <p xml:id="auto_kan7fsni">
+                <md>
+                    <mrow> \amp x^2 + 2x + 4x + 8 = 0 </mrow>
+                </md>
+                Now create common factors
+                <md>
+                    <mrow> \amp x(x + 2) + 4(x + 2) = 0 </mrow>
+                </md>
+                Grouping them together we have:
+                <md>
+                    <mrow> \amp (x + 2) + (x + 4) = 0 </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application</title>
+        <dl>
+            <li xml:id="auto_8k8lvq98">
+                <title>Suggested Time</title>
+                <p xml:id="auto_g82zpv2x">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_udxeg2vv">
+                <title>Worked Example</title>
+                <p xml:id="auto_0drypre9">
+                    Form a quadratic equation from <m>6x^2 + 12x</m>:
+                    <ol>
+                        <li xml:id="auto_lct75hx5">Set the expression equal to zero: <m>6x^2 + 12x = 0</m>.</li>
+                        <li xml:id="auto_rixvnl0u">Identify the common factor <m>6x</m>.</li>
+                        <li xml:id="auto_o0cpa4g5">Factor: <m>6x(x + 2) = 0</m>.</li>
+                        <li xml:id="auto_n66f9jlb">Find roots: <m>x = 0</m> or <m>x = -2</m>.</li>
+                        <li xml:id="auto_yd5579jb">Verification: <m>6x(x + 2) = 6x^2 + 12x \checkmark</m>.</li>
+                    </ol>
+                </p>
+            </li>
+            <li xml:id="auto_93cklmp5">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_rjjzo8iw">
+                    Emphasise the importance of setting the expression equal to zero and identifying common factors before attempting other factorisation methods.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+     <example xml:id="auto_pzjprar4">
+        <statement>
+            <p xml:id="auto_g2r79gss">
+                
+            </p>
+            <p xml:id="auto_vgy01h7a">
+                Form a quadratic expression using the factoring method.
+                <me>
+                    6x^2 + 12x
+                </me>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_46cf4vpg">
+                To form a quadratic expression using the factoring method, first set the expression equal to <m>0</m> to form a quadratic equation:
+                <md>
+                    <mrow> 6x^2 + 12x \amp = 0 </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_hlojg6xz">
+                Remove the common factor out and form a bracket:
+                <md>
+                    <mrow>6x(x + 2) \amp = 0</mrow>
+                </md>
+            </p>
+            <p xml:id="auto_rtylv1hr">
+                Thus, the factored form of expression <m>6x^2 + 12x</m> is;
+            </p>
+            <p xml:id="auto_vgkf92ti">
+               <md>
+                <mrow>6x(x + 2) \amp = 0 </mrow>
+               </md>
+            </p>
+        </solution>
+     </example>
+
+    <!-- STACK EXERCISES -->
+
+    <exercise xml:id="ex-forming-a-quadratic-equation-from-the-product-of-two-expressions">
+        <!--<title></title>-->
+        <stack label="stk-forming-a-quadratic-equation-from-the-product-of-two-expressions" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Equations/Formation-of-Quadratic-Equations/Forming-a-quadratic-equation-from-the-product-of-two-expressions.xml"/>
+    </exercise>
+
+    <exercise xml:id="ex-forming-a-quadratic-equation-by-factorisation">
+        <!--<title></title>-->
+        <stack label="stk-forming-a-quadratic-equation-by-factorisation" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Equations/Formation-of-Quadratic-Equations/Forming-a-quadratic-equation-by-factorisation.xml"/>
+    </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Assessment / Exit Ticket</title>
+        <dl>
+            <li xml:id="auto_5b8hevgn">
+                <title>Exit Ticket Problems and Solutions</title>
+                <p xml:id="auto_jfiu8eis">
+                    <ol marker="(a)">
+                        <li xml:id="auto_t160ydf7">
+                            <p xml:id="auto_v1mk6g2j">
+                                <m>(x + 4)(x + 5)</m>: Expand to get <m>x^2 + 9x + 20 = 0</m>. Roots: <m>x = -4</m> and <m>x = -5</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_2yteez4z">
+                            <p xml:id="auto_zx6y6u3v">
+                                <m>(x + 3)^2</m>: Expand to get <m>x^2 + 6x + 9 = 0</m>. Root: <m>x = -3</m> (repeated).
+                            </p>
+                        </li>
+                        <li xml:id="auto_jhsbz2lq">
+                            <p xml:id="auto_dqhveqfu">
+                                <m>4x^2 + 8x</m>: Set equal to zero, factor as <m>4x(x + 2) = 0</m>. Roots: <m>x = 0</m> or <m>x = -2</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_266q13pv">
+                            <p xml:id="auto_ybquckjn">
+                                <m>3x^2 + 6x</m>: Set equal to zero, factor as <m>3x(x + 2) = 0</m>. Roots: <m>x = 0</m> or <m>x = -2</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_9lo5o62i">
+                            <p xml:id="auto_73c899gx">
+                                <m>(p - q)(p - q)</m>: Expand to get <m>p^2 - 2pq + q^2 = 0</m>. Root: <m>p = q</m> (repeated).
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+     <exercises xml:id="exercises-formations-of-quadratic-equatiors-by-factors">
+        <!--Exercises-->
+        <exercise xml:id="auto_xz69nsjj">
+            <statement>
+                <p xml:id="auto_p7jv5aud">
+                    Form quadratic expression using the following expressions.
+                    <ol xml:id="auto_98tpp6a8" marker="(a).">
+                              <li xml:id="auto_1wu5hggt">
+                                       <p xml:id="auto_2g1iq3iw">                                    
+                                         <m>(x + 4)(x + 5)</m>
+                                      </p>
+                                </li>
+                                <li xml:id="auto_cg5mwzht">
+                                      <p xml:id="auto_skluz2rr">
+                                         <m>(x + 3)^2</m>  
+                                      </p>
+                                </li>
+                                <li xml:id="auto_z1pi6k35">
+                                    <p xml:id="auto_wpxmd106">
+                                        <m>4x^2 + 8x</m>
+                                    </p>
+                                </li>
+                                <li xml:id="auto_wlf2r6my">
+                                    <p xml:id="auto_g4sw8kl5">
+                                        <m>3x^2 + 6x</m>
+                                    </p>
+                                </li>
+                                <li xml:id="auto_424ic9l7">
+                                    <p xml:id="auto_zknudzfl">
+                                        <m>(p - q)(p - q)</m>                                    
+                                    </p>
+                                </li>
+                                <li xml:id="auto_ig9285m0">
+                                    <p xml:id="auto_yq4s2ed5">
+                                        <m>(ax + b)(2ax - 3b)</m>                                    
+                                    </p>
+                                </li>
+                                    <li xml:id="auto_0ldv8zp7">
+                                        <p xml:id="auto_7fc9d2wg">
+                                            <m>(x - 8)(x + 8)</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_wdebhyew">
+                                        <p xml:id="auto_fkj5mdhw">
+                                            <m>(4 - 2x)(\frac{1}{2}x + 3)</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_0grhi3bi">
+                                        <p xml:id="auto_y082ed4k">
+                                            <m>(5dx + 3d)(2dx - 4d)</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_ey4guvrh">
+                                        <p xml:id="auto_uvy50u3w">
+                                            <m>(\frac{1}{2} + x)^2</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_faah5qai">
+                                        <p xml:id="auto_c07po388">
+                                            <m>(\frac{1}{8} + \frac{1}{x})^2</m>
+                                        </p>
+                                    </li>
+                    </ol>
+                </p>
+            </statement>
+                <solution>
+                <p xml:id="auto_pk83tplt">
+                <ol  marker="(a)">
+                    <li xml:id="auto_79zz8y5f">
+                                <p xml:id="auto_agt2dwb2">
+                                    To form a quadratic expression from the given expression, expand by multiplying terms in the first bracket with those in the second. Arrange as:
+                                    <md>
+                                        <mrow> (x+4)(x+5) \amp = x(x+5) +4(x+5)</mrow>
+                                        <mrow> \amp = x^2 + 5x + 4x + 20</mrow>
+                                        <mrow> \amp = x^2 + 9x + 20</mrow>
+                                    </md>
+                                </p>
+                    </li>
+                    <li xml:id="auto_vmsrfx8g">
+                        <p xml:id="auto_1gg6mzhp">
+                            To form a quadratic expression from the given expression,first consider that this expression is a perfect square and for this reason the bracket is multiplied by twice itself. Arrange as:
+                            <md>
+                                <mrow> (x+3)^2 \amp = x(x+3) +3(x+3)</mrow>
+                                <mrow> \amp = x^2 + 3x + 3x + 9</mrow>
+                                <mrow> \amp = x^2 + 6x + 9</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_pn1kcl54">
+                        <p xml:id="auto_1pkj1xlk">
+                            To form a quadratic expression from the given expression,First make the equation to be equal to <m>0</m> then write it as:
+                            <md>
+                                <mrow> 4x^2 + 8x \amp = 0</mrow>
+                                <mrow> 4x(x + 2x) \amp = 0</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_f4fscty6">
+                        <p xml:id="auto_esdmptug">
+                            To form a quadratic expression from the given expression,First make the equation to be equal to <m>0</m> then write it as:
+                            <md>
+                                <mrow> 3x^2 + 6x \amp = 0</mrow>
+                                <mrow> 3x(x + 2) \amp = 0</mrow>
+                            </md>  
+                        </p>
+                    </li>
+                    <li xml:id="auto_8nxmwnry">
+                        <p xml:id="auto_jsctuund">
+                        To form aquadratic expression, multiply the terms in the first bracket with those in the second bracket. 
+                        <md>
+                            <mrow> (p-q)(p-q) \amp = p(p-q) - q(p-q)</mrow>
+                            <mrow> \amp = p^2 - pq - pq + q^2 </mrow>
+                            <mrow> \amp = p^2 - 2pq + q^2 </mrow>
+                        </md> 
+                        </p>
+                    </li>
+                    <li xml:id="auto_tfhl5rah">
+                        <p xml:id="auto_78352q2p">
+                        To form aquadratic expression, multiply the terms in the first bracket with those in the second bracket. 
+                        <md>
+                            <mrow> (ax + b)(2ax - 3b) \amp = ax(2ax - 3b) + b(2ax - 3b)</mrow>
+                            <mrow> \amp = 2a^2x^2 - 3abx + 2abx - 3b^2 </mrow>
+                            <mrow> \amp = 2a^2x^2 - abx - 3b^2 </mrow>
+                        </md> 
+                        </p>
+                    </li>
+                    <li xml:id="auto_4vr7ubns">
+                        <p xml:id="auto_ixd85nt9">
+                        To form aquadratic expression, multiply the terms in the first bracket with those in the second bracket. 
+                        <md>
+                            <mrow> (x - 8) (x + 8) \amp = x(x + 8) - 8(x + 8)</mrow>
+                            <mrow> \amp = x^2 + 8x - 8x - 64 </mrow>
+                            <mrow> \amp = x^2 - 64 </mrow>
+                        </md> 
+                        </p>
+                    </li>
+                    <li xml:id="auto_5owd0tdd">
+                        <p xml:id="auto_zuinuizb">
+                        To form aquadratic expression, multiply the terms in the first bracket with those in the second bracket. 
+                        <md>
+                            <mrow> (4 - 2x) (\frac{1}{2}x + 3) \amp = 4(\frac{1}{2}x + 3) - 2x(\frac{1}{2}x + 3)</mrow>
+                            <mrow> \amp = 2x + 12 - x^2 - 6x </mrow>
+                            <mrow> \amp =  - x^2 - 4x + 12 </mrow>
+                        </md> 
+                        </p>
+                    </li>
+                        <li xml:id="auto_6ey7jybo">
+                            <p xml:id="auto_720w0neu">
+                            To form aquadratic expression, multiply the terms in the first bracket with those in the second bracket. 
+                            <md>
+                                <mrow> (5dx + 3d)(2dx - 4d) \amp = 5dx(2dx - 4d) + 3d(2dx - 4d)</mrow>
+                                <mrow> \amp = 10d^2x^2 - 20d^2x + 6d^2x - 12d^2 </mrow>
+                                <mrow> \amp = 10d^2x^2 - 14d^2x - 12d^2 </mrow>
+                            </md> 
+                            </p>
+                        </li>
+                        <li xml:id="auto_lp9stvnd">
+                            <p xml:id="auto_rkfaeb3t">
+                                To form aquadratic expression, multiply the bracket by twice itself because it is a perfect square. 
+                                <md>
+                                    <mrow> (\frac{1}{2} + x)^2 \amp = (\frac{1}{2} + x)(\frac{1}{2} + x) </mrow> 
+                                    <mrow> \amp = \frac{1}{2}(\frac{1}{2} + x) + x(\frac{1}{2} + x)</mrow> 
+                                    <mrow> \amp = \frac{1}{4} + \frac{1}{2}x + \frac{1}{2}x + x^2 </mrow>
+                                    <mrow> \amp = x^2 + x + \frac{1}{4} </mrow>
+                                </md> 
+                            </p>
+                        </li>
+                                <li xml:id="auto_v7wddgd1">
+                                <p xml:id="auto_5v2cr14x">
+                                        To form aquadratic expression, multiply the bracket by twice itself because it is a perfect square. 
+                                        <md>
+                                            <mrow> (\frac{1}{8} + \frac{1}{x})^2 \amp = (\frac{1}{8} + \frac{1}{x})(\frac{1}{8} + \frac{1}{x}) </mrow> 
+                                            <mrow> \amp = \frac{1}{8}(\frac{1}{8} + \frac{1}{x}) + \frac{1}{x}(\frac{1}{8} + \frac{1}{x})</mrow> 
+                                            <mrow> \amp = \frac{1}{64} + \frac{1}{8x} + \frac{1}{8x} + \frac{1}{x^2} </mrow>
+                                            <mrow> \amp = \frac{1}{x^2} + \frac{1}{4x} + \frac{1}{64} </mrow>
+                                        </md> 
+                                    </p>
+                            </li>
+                    </ol>  
+                </p>
+            </solution>
+        </exercise>
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+        <table xml:id="auto_flqe2oiw">
+            <title>Differentiation strategies</title>
+            <tabular halign="left">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide a step-by-step template for forming equations. Start with simple roots such as <m>x = 1</m> and <m>x = 2</m>. Use visual diagrams to show the link between roots and factors. Encourage verification by substituting roots back into the equation.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>The core lesson activities as described above.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> Form quadratic equations from the following: (a) Roots <m>x = \frac{1}{2}</m> and <m>x = -3</m>, (b) Roots <m>x = 2 + \sqrt{3}</m> and <m>x = 2 - \sqrt{3}</m>, (c) A rectangle has length <m>(x + 5)</m> and width <m>(x + 2)</m> with area 40, (d) Sum of roots is 7 and product is 12.</line>
+                        <line><alert>Solutions:</alert> (a) <m>(x - \frac{1}{2})(x + 3) = 0</m>, multiply by 2: <m>(2x - 1)(x + 3) = 0 \rightarrow 2x^2 + 5x - 3 = 0</m>. (b) Sum <m>= 4</m>, product <m>= (2 + \sqrt{3})(2 - \sqrt{3}) = 1</m>, so <m>x^2 - 4x + 1 = 0</m>. (c) <m>(x + 5)(x + 2) = 40 \rightarrow x^2 + 7x + 10 = 40 \rightarrow x^2 + 7x - 30 = 0 \rightarrow (x + 10)(x - 3) = 0 \rightarrow x = 3</m>. (d) <m>x^2 - 7x + 12 = 0 \rightarrow (x - 3)(x - 4) = 0 \rightarrow x = 3, 4</m>.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </axiom>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+</subsubsection>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Finding the reciprocal of decimal numbers using a table of reciprocals</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>Use a <strong>table of reciprocals</strong> to find the reciprocal of <strong>{@a@}</strong>.</p>
+<p>Give your answer to 4 decimal places.</p>
+<p>Reciprocal of \({@a@} =\) [[input:ans1]] [[validation:ans1]] [[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<h3>Worked Solution</h3>
+<p>
+To find the reciprocal of \({@a@}\) (which is \(\frac{1}{@a@}\)) using a mathematical table, follow the steps below.
+</p>
+
+<p>
+1. In the table of reciprocals, move down the column labelled \(x\) until you locate the row <strong>{@float(part_a)@}</strong>.
+</p>
+
+<p>
+2. From this row, move across to the main column headed <strong>{@part_b@}</strong>.
+</p>
+
+<p>
+3. Read the number at the intersection of this row and column.<br>
+This value is <strong>{@a_1_answer@}</strong>.
+</p>
+
+<p>
+4. Next, move further along the same row to the <strong>"SUBTRACT"</strong> column (Mean Difference) headed <strong>{@part_c@}</strong>.<br>
+The number you find here is the mean difference, which is <strong>{@sub_num@}</strong> (in the last decimal places).
+</p>
+
+<p>
+5. <strong>Subtract</strong> this mean difference from your first value.<br>
+(Note: We subtract because the reciprocal function \(\frac{1}{x}\) decreases as \(x\) increases).
+</p>
+
+<p>
+\[ {@a_1_answer@} - 0.000{@sub_num@} = {@ta@} \]
+</p>
+
+<p>
+Therefore, using the table of reciprocals, the reciprocal of \({@a@}\) is <strong>{@ta@}</strong>.
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text><![CDATA[/* 1. Generate the decimal number components (1.000 to 9.999) */
+/* We generate digits separately to ensure clean table lookups */
+d1 : rand(9) + 1;       /* Integer part: 1-9 */
+d2 : rand(10);          /* 1st decimal: 0-9 */
+d3 : rand(10);          /* 2nd decimal: 0-9 */
+d4 : rand(9) + 1;       /* 3rd decimal (mean difference): 1-9 */
+
+/* Construct the full number 'a' */
+a : d1 + d2/10 + d3/100 + d4/1000;
+a : float(a);
+
+/* 2. Simulate the Table Lookup Values */
+/* 'part_a' is the Row (e.g., 2.3) */
+part_a : d1 + d2/10;
+
+/* 'part_b' is the Main Column (e.g., 4) */
+part_b : d3;
+
+/* 'part_c' is the Difference Column (e.g., 7) */
+part_c : d4;
+
+/* Calculate the Main Table Value (First 3 digits) */
+/* In a table of reciprocals, we look up 1 / (d1.d2d3) */
+val_lookup : d1 + d2/10 + d3/100;
+a_1_answer : decimalplaces(1/val_lookup, 4);
+
+/* 3. Calculate Final Answer and Difference */
+/* 'ta' is the true reciprocal rounded to 4 decimal places */
+ta : decimalplaces(1/a, 4);
+
+/* Calculate the 'Subtract' value (Mean Difference) */
+/* Since 1/x is a DECREASING function, the table subtracts the difference. */
+/* We find the integer difference between the main value and the final answer */
+/* Multiply by 10000 to get the integer represented in the 'Subtract' column */
+sub_num : round((a_1_answer - ta) * 10000);
+
+/* Safety check: ensure sub_num is positive (it should be, as 1/x decreases) */
+sub_num : abs(sub_num);
+
+/* Format variables for display */
+part_a_disp : ssubst("", "0.", string(part_a)); /* Helps formatting if needed */]]></text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>\({@a@}\)</p>
+<p>\({@ta@}\)</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text><![CDATA[<p id="author">Sheila Cherotich</p>
+ <p id="concept"></p> 
+<p id="reviewer"></p> 
+<p id="description">This question requires the learner to find the reciprocal of a given decimal number using a table.</p>]]></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>ta</tans>
+      <boxsize>7</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description/>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>ta</tans>
+        <testoptions>0.001</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>136927472</deployedseed>
+    <deployedseed>203003632</deployedseed>
+    <deployedseed>868113520</deployedseed>
+    <deployedseed>906730097</deployedseed>
+    <deployedseed>1981961123</deployedseed>
+    <deployedseed>387327103</deployedseed>
+    <deployedseed>1791496861</deployedseed>
+    <deployedseed>1456835448</deployedseed>
+    <deployedseed>249283211</deployedseed>
+    <deployedseed>2006519148</deployedseed>
+    <deployedseed>743704675</deployedseed>
+    <deployedseed>138021465</deployedseed>
+    <deployedseed>754496001</deployedseed>
+    <deployedseed>266764728</deployedseed>
+    <deployedseed>777483926</deployedseed>
+    <deployedseed>1881197715</deployedseed>
+    <deployedseed>1729993311</deployedseed>
+    <deployedseed>1713629537</deployedseed>
+    <deployedseed>1639884605</deployedseed>
+    <deployedseed>645029021</deployedseed>
+    <deployedseed>1489521526</deployedseed>
+    <deployedseed>1216368654</deployedseed>
+    <deployedseed>776487654</deployedseed>
+    <deployedseed>1266557227</deployedseed>
+    <deployedseed>1704617469</deployedseed>
+    <deployedseed>551853516</deployedseed>
+    <deployedseed>1124430043</deployedseed>
+    <deployedseed>2020450579</deployedseed>
+    <deployedseed>1700001954</deployedseed>
+    <deployedseed>2120786812</deployedseed>
+    <deployedseed>1900990465</deployedseed>
+    <deployedseed>1657961455</deployedseed>
+    <deployedseed>1650553901</deployedseed>
+    <deployedseed>407894445</deployedseed>
+    <deployedseed>986185448</deployedseed>
+    <deployedseed>1388348805</deployedseed>
+    <deployedseed>1060459483</deployedseed>
+    <deployedseed>2075043159</deployedseed>
+    <deployedseed>998074776</deployedseed>
+    <deployedseed>2131109784</deployedseed>
+    <deployedseed>376891772</deployedseed>
+    <deployedseed>56620896</deployedseed>
+    <deployedseed>452619177</deployedseed>
+    <deployedseed>1645851846</deployedseed>
+    <deployedseed>956574117</deployedseed>
+    <deployedseed>1677846695</deployedseed>
+    <deployedseed>1986422029</deployedseed>
+    <deployedseed>1834052045</deployedseed>
+    <deployedseed>1607878599</deployedseed>
+    <deployedseed>1684954159</deployedseed>
+    <deployedseed>1618188439</deployedseed>
+    <deployedseed>97935484</deployedseed>
+    <deployedseed>517402630</deployedseed>
+    <deployedseed>416742752</deployedseed>
+    <deployedseed>1635711609</deployedseed>
+    <deployedseed>1319977298</deployedseed>
+    <deployedseed>1148285228</deployedseed>
+    <deployedseed>226410818</deployedseed>
+    <deployedseed>724177810</deployedseed>
+    <deployedseed>928369354</deployedseed>
+    <deployedseed>945144990</deployedseed>
+    <deployedseed>1889746800</deployedseed>
+    <deployedseed>1913919447</deployedseed>
+    <deployedseed>1580885604</deployedseed>
+    <deployedseed>1699924897</deployedseed>
+    <deployedseed>1802117448</deployedseed>
+    <deployedseed>1389488096</deployedseed>
+    <deployedseed>2056045531</deployedseed>
+    <deployedseed>519744420</deployedseed>
+    <deployedseed>179770201</deployedseed>
+    <deployedseed>619825066</deployedseed>
+    <deployedseed>1357746976</deployedseed>
+    <deployedseed>1116486021</deployedseed>
+    <deployedseed>816920205</deployedseed>
+    <deployedseed>750268652</deployedseed>
+    <deployedseed>830037460</deployedseed>
+    <deployedseed>1138581593</deployedseed>
+    <deployedseed>2141761552</deployedseed>
+    <deployedseed>1793506354</deployedseed>
+    <deployedseed>2069092348</deployedseed>
+    <deployedseed>1569195202</deployedseed>
+    <deployedseed>488837978</deployedseed>
+    <deployedseed>1234115301</deployedseed>
+    <deployedseed>103654649</deployedseed>
+    <deployedseed>561139585</deployedseed>
+    <deployedseed>559616578</deployedseed>
+    <deployedseed>1220504700</deployedseed>
+    <deployedseed>1481088860</deployedseed>
+    <deployedseed>1003328542</deployedseed>
+    <deployedseed>1665171939</deployedseed>
+    <deployedseed>811575513</deployedseed>
+    <deployedseed>329278887</deployedseed>
+    <deployedseed>1749019197</deployedseed>
+    <deployedseed>737753331</deployedseed>
+    <deployedseed>2089693435</deployedseed>
+    <deployedseed>1979308987</deployedseed>
+    <deployedseed>1313336665</deployedseed>
+    <deployedseed>634206318</deployedseed>
+    <deployedseed>667121569</deployedseed>
+    <deployedseed>1383535687</deployedseed>
+    <deployedseed>1761529701</deployedseed>
+    <deployedseed>304196447</deployedseed>
+    <deployedseed>725075998</deployedseed>
+    <deployedseed>395307934</deployedseed>
+    <deployedseed>986940431</deployedseed>
+    <deployedseed>93755550</deployedseed>
+    <deployedseed>1412011824</deployedseed>
+    <deployedseed>331646725</deployedseed>
+    <deployedseed>545986719</deployedseed>
+    <deployedseed>221033449</deployedseed>
+    <deployedseed>38867892</deployedseed>
+    <deployedseed>277863615</deployedseed>
+    <deployedseed>1169417290</deployedseed>
+    <deployedseed>627980297</deployedseed>
+    <deployedseed>1896489182</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description/>
+      <testinput>
+        <name>ans1</name>
+        <value>ta</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

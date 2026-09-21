@@ -1,0 +1,16 @@
+<subsection xml:id="subsec-factorising-quadratics" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Factorising Quadratics</title>
+    <introduction xml:id="auto_ddi2v6h1">
+        <p xml:id="auto_1rlgbiml">
+            Factorisation is the process of breaking down a quadratic expression into a product of simpler binomials.
+        </p>
+    </introduction>
+
+    <xi:include href="subsubsec-factorising-monic-quadratics.ptx" />
+
+    <!--Include Subsubsection-->
+    <xi:include href="subsubsec-factorising-non-monic-quadratics.ptx" />
+
+</subsection>
+
+

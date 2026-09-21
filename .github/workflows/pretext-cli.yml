@@ -1,0 +1,152 @@
+# If you modify this file, PreTeXt will no longer automatically update it.
+#
+name: PreTeXt-CLI Actions
+on:
+    # Runs on pull requests
+    pull_request:
+        branches: ["*"]
+    # Runs on pushes to main
+    push:
+        branches: ["main"]
+    # Runs on demand
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        container: pretextbook/pretext-full
+
+        steps:
+            - name: Checkout source
+              uses: actions/checkout@v4
+
+            - name: install deps
+              run: pip install -r requirements.txt
+
+            # This section is for installing TeX dependencies. We use tlmgr to install the necessary packages, and we include retry logic to handle transient network issues that can occur when accessing CTAN mirrors.
+            - name: install tex dependencies
+              run: |
+                # Try primary mirror first, with fallback
+                tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet || \
+                tlmgr option repository http://mirrors.ctan.org/systems/texlive/tlnet
+                
+                # Retry logic for tlmgr update
+                for i in {1..3}; do
+                  tlmgr update --self && break || sleep 10
+                done
+                
+                # Install packages with retry
+                for i in {1..3}; do
+                  tlmgr install tkz-euclide tikz-3dplot longdivision && break || sleep 10
+                done
+            # 
+            - name: install local ptx files
+              run: pretext --version
+
+            - name: build deploy targets
+              run: |
+                version="$(pretext --version)"
+                major="$(echo $version | cut -d '.' -f 1)"
+                minor="$(echo $version | cut -d '.' -f 2)"
+                if [ "$major" -ge 2 -a "$minor" -ge 5 ]; then
+                    echo "PreTeXt version is 2.5 or greater; using new build command"
+                    pretext build --deploys
+                else
+                    echo "PreTeXt version is less than 2.5, using old build command"
+                    pretext build
+                fi
+
+            - name: Copy custom stackapicalls.js
+              run: |
+                cp assets/pretext/js/pretext-stack/stackapicalls.js output/web/_static/pretext/js/pretext-stack/stackapicalls.js
+
+            - name: build deploy target student
+              run: pretext build student
+
+            - name: build deploy target plans
+              run: pretext build plans
+
+            - name: Copy custom stackapicalls.js
+              run: |
+                cp assets/pretext/js/pretext-stack/stackapicalls.js output/student/_static/pretext/js/pretext-stack/stackapicalls.js
+
+            - name: Copy version without review links into student subfolder
+              run: |
+                cp -r output/student/ output/web/
+
+            - name: Copy plans version into plans subfolder
+              run: |
+                cp -r output/plans/ output/web/plans/
+
+            - name: build deploy target print
+              run: pretext build print
+
+            - name: Copy built PDF into assets folder
+              run: |
+                cp output/print/main.pdf assets/CBC-Grade-10-Maths.pdf
+
+            - name: stage deployment
+              run: pretext deploy --stage-only
+
+            - name: Bundle output/stage as artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: deploy
+                  path: output/stage
+
+    deploy-cloudflare:
+        runs-on: ubuntu-latest
+        needs: build
+        if: vars.CLOUDFLARE_PROJECT_NAME != ''
+        permissions:
+          contents: read
+          deployments: write
+
+        steps:
+            - name: Download artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: deploy
+                  path: deploy
+            - name: Create 404.html
+              run: echo "404 page not found" >> deploy/404.html
+            - name: Publish to Cloudflare
+              uses: cloudflare/pages-action@v1
+              with:
+                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  projectName: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
+                  gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+                  branch:  ${{ github.head_ref || github.ref_name }}
+                  directory: deploy
+
+    deploy-ghpages:
+        runs-on: ubuntu-latest
+        needs: build
+        if: vars.PTX_ENABLE_DEPLOY_GHPAGES == 'yes' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        permissions:
+            contents: read
+            pages: write
+            id-token: write
+        concurrency:
+            group: "page"
+            cancel-in-progress: false
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - name: Download website artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: deploy
+                  path: deploy
+            - name: Setup GitHub Pages
+              id: check
+              uses: actions/configure-pages@v4
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: deploy
+            - name: Deploy to Github Pages
+              id: deployment
+              uses: actions/deploy-pages@v4

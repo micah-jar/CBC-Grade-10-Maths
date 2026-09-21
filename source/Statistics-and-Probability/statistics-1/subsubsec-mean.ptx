@@ -1,0 +1,853 @@
+    <subsubsection xml:id="subsubsec-mean" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Mean</title>
+        <objectives component="outcomes">
+            <introduction xml:id="auto_oq8ur1lz">
+                <dl>
+                    <li xml:id="auto_7kie4gyj">
+                        <title>Strand</title>
+                        <p xml:id="auto_5crr0wld">
+                            3.0 Statistics and Probability
+                        </p>
+                    </li>
+                    <li xml:id="auto_8hdt3v8l">
+                        <title>Sub-Strand</title>
+                        <p xml:id="auto_phnr55n7">
+                            3.1 Statistics 1
+                        </p>
+                    </li>
+                <li xml:id="auto_il2u4f2s">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_wb4192dm">
+                        Determine mean, mode and median of grouped and ungrouped data
+                    </p>
+                </li>
+                <li xml:id="auto_wkue53zd" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_q53d793f">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_mam9pvw6" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_vkoxvb5a">
+                        40 minutes
+                    </p>
+                </li>
+                </dl>
+            <p xml:id="auto_372vzmqi" component="lesson-plan">
+                <p xml:id="auto_npz2lufd"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_ijylkv1j">
+                        <p xml:id="auto_ukupxjfm">
+                            <alert>Know (Conceptual Understanding):</alert> Understand that the mean is the sum of all values divided by the total number of values.
+                        </p>
+                    </li>
+                    <li xml:id="auto_v1y095s4">
+                        <p xml:id="auto_houm6izk">
+                            <alert>Do (Procedural Skill):</alert> Calculate the mean of ungrouped data using both the simple formula and the frequency table method.
+                        </p>
+                    </li>
+                    <li xml:id="auto_tghfjvsb">
+                        <p xml:id="auto_yvznv1vt">
+                            <alert>Apply (Application/Problem-Solving):</alert> Interpret the mean in context and use it to describe real-world data.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+            </introduction>
+        </objectives>
+        <axiom component="resources">
+            <!-- Link to blurb -->
+            <xi:include href="../../resources-blurb-lesson.ptx" />
+
+            <sbsgroup widths="45% 45%" margins="2% 2%">
+                <sidebyside>
+                    <p xml:id="auto_12rt2s7k">
+                        <dataurl source="lesson_plans/statistics-and-probability/statistics-1/mean.pdf"> Lesson Plan </dataurl>
+                    </p>
+                    <p xml:id="auto_rwvwexht">
+                        <dataurl source="lesson_plans/statistics-and-probability/statistics-1/step-by-step-guide_mean.pdf"> Step-by-Step Guide </dataurl>
+                    </p>
+                </sidebyside>
+            </sbsgroup>
+        </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+
+        <introduction xml:id="auto_sfqtys9x">
+            <p xml:id="auto_6cpm34j8">
+                
+            </p>
+        </introduction>
+        <!-- <p xml:id="auto_44vyf9u2">
+            Ungrouped data is the raw form of data, where individual observations are listed as they are collected, without being organized into groups or classes
+        </p>
+        <p xml:id="auto_eky9p8rf">
+            It is simply a list of numbers, facts, or values recorded in the order they are obtained
+        </p> -->
+    <axiom component="lesson-plan">
+        <title>Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_9oqdjjop">
+                <title>Suggested Time</title>
+                <p xml:id="auto_5rk1fy2r">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_38ot6yb5">
+                <title>Objective</title>
+                <p xml:id="auto_oqqybxm9">
+                    Students work in groups to collect real data, construct a frequency distribution table, calculate the mean, and discuss the steps and meaning of the mean.
+                </p>
+            </li>
+        </dl>
+        <paragraphs>
+            <title>Discussion Prompts</title>
+            <ul>
+                <li xml:id="auto_ns4cj4ps"><p xml:id="auto_d2j3l3rc">What shoe sizes did you find? What is the range?</p></li>
+                <li xml:id="auto_v64sf9sj"><p xml:id="auto_j1616ma6">How did you calculate the mean? What steps did you follow?</p></li>
+                <li xml:id="auto_dps9edau"><p xml:id="auto_2tpd56vu">Did you add all the values and divide? Or did you use the frequency table?</p></li>
+                <li xml:id="auto_7ttwwduu"><p xml:id="auto_q8fvjm9l">What does the mean shoe size tell us about your class?</p></li>
+                <li xml:id="auto_2jr72gqu"><p xml:id="auto_e6fp5wfn">Is the mean a whole number or decimal? What does that mean in real life?</p></li>
+                <li xml:id="auto_s4u744fy"><p xml:id="auto_sj9xms5b">How is the mean different from just looking at all the individual values?</p></li>
+            </ul>
+        </paragraphs>
+    </axiom>
+
+        <activity xml:id="auto_813yvxxl">
+        <p xml:id="auto_zdvol55z">
+            
+            <term>Work in groups</term>
+        </p>
+        <p xml:id="auto_his02kry">
+            <ol xml:id="auto_wz5hazux">
+                <li xml:id="auto_zc67qq38">
+                    <p xml:id="auto_nwt9dgs3">
+                        Measure the shoe size of students in your class and record the data as shown below:
+                    </p>
+                    <p xml:id="auto_wl41f4ae">
+                        <m> 34,32, 33, 35,36, 38,28,...</m>
+                        
+                    </p>
+                </li>
+                <li xml:id="auto_lyr94e3j">
+                    <p xml:id="auto_kg7m4746">
+                        Construct a frequency distribution table for the data. 
+                    </p>
+                </li>
+                <li xml:id="auto_z18y4z2m">
+                    <p xml:id="auto_1y7ho6zf">
+                        Find the Mean of the data.
+                    </p>
+                </li>
+                <li xml:id="auto_i3axfu59">
+                    <p xml:id="auto_ikf52yo6">
+                        How did you calculate the mean? Discuss the steps you took to find the mean and how it helps to understand the data.
+                    </p>
+                </li>
+                <li xml:id="auto_5ni6fgnl">
+                    <p xml:id="auto_86eb7i97">
+                        Share your findings with other groups
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <p xml:id="auto_o6e98gm4">
+            <dl>
+            <li xml:id="auto_x6bo9syl">
+                <title>Suggested Time</title>
+                <p xml:id="auto_kjpmp87t">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_jjte4fib">
+                <title>Objective</title>
+                <p xml:id="auto_94qqcnvj">
+                    To formalize the definition and formulas for calculating the mean, including the simple data formula and the frequency table method.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <insight xml:id="auto_edtyjptc">
+        <!-- <p xml:id="auto_fj3eie29">
+            There are  three main measures of central tendency:
+        </p> -->
+        <p xml:id="auto_99vi1aw1">
+        <ol xml:id="auto_ovwg6hzu">
+            <li xml:id="auto_qztsiej2">
+                <p xml:id="auto_nfy2c26i">
+                    
+                    <term>Mean</term>
+                </p>
+                <p xml:id="auto_ffwnp9wq">
+                    Mean is the sum of all values divided by the total number of values. It is also known as Arithmetic Average.
+                </p>
+                <p xml:id="auto_r0f52nks">
+                    The mean is calculated as follows:
+                </p>
+                <p xml:id="auto_p9yrdywg">
+
+                    <md>
+                        <mrow>\textbf{Mean}  = \amp \frac{ \textbf{∑X}}{ \textbf{N}} </mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_ci9i3cwt">
+                    Where <alert>X</alert> represents the values in the dataset and <alert>N</alert> is the total number of values.
+                </p>
+                <p xml:id="auto_s84ni35d">
+                    Frequency distribution table can be used to find the mean for the ungrouped data. Using the formula below:
+                </p>
+                <p xml:id="auto_395adaz2">
+                    <md>
+                        <mrow>\overline{\textbf{x}}  = \amp \frac{ \textbf{∑fx}}{ \textbf{∑f}} </mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_9qp76b15">
+                    Where;
+                </p>
+                <p xml:id="auto_w8l4dfsj">
+                    <ul xml:id="auto_ovr6qj76">
+                        <li xml:id="auto_beg5p0bp">
+                            <p xml:id="auto_mmos4g0u">
+                               <alert>x</alert>  represents the values in the dataset
+                            </p>
+                        </li>
+                        <li xml:id="auto_r7gs24re">
+                            <p xml:id="auto_chbcxg8y">
+                                <m>\overline{\textbf{x}}</m> is the mean
+                            </p>
+                        </li>
+                        <li xml:id="auto_2s5vqumd">
+                            <p xml:id="auto_vlrjkw6j">
+                                <alert>∑fx</alert> is the sum of products of <alert>x</alert> and <alert>f</alert> 
+                            </p>
+                        </li>
+                        <li xml:id="auto_mvg1bz96">
+                            <p xml:id="auto_i3jeyvu4">
+                                <alert>∑f</alert> is the Sum of frequencies
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <!-- <li xml:id="auto_cwqgqrj5">
+                <p xml:id="auto_6f1bcda9">
+                    <m>\textbf{Median}</m>
+                </p>
+                <p xml:id="auto_1se7hgra">
+                    Median is the middle value when the data is arranged in ascending or descending order. If the dataset has an even number of values, the median is the average of the two middle values.
+                </p>
+                <p xml:id="auto_9tly43d0">
+                    To find the median for even numbers, the formula is; 
+                </p>
+                <p xml:id="auto_akqeqlr4">
+                    <m>\textbf{Median} </m> = <m>\frac{\left(\frac{n}{2}\right)^{\text{th}} + \left(\frac{n}{2} + 1\right)^{\text{th}}}{2}</m>
+                </p>
+            </li>
+            <li xml:id="auto_v5awek0p">
+                <p xml:id="auto_1s4molgo">
+                    <m>\textbf{Mode}</m>
+                </p>
+                <p xml:id="auto_nwo1xkl2">
+                    Mode is the most frequently occurring value in the dataset. A dataset can have:
+                </p>
+                <p xml:id="auto_zp5t9xto">
+                    <ul xml:id="auto_s3yw0pr4">
+                        <li xml:id="auto_ydlsmyz5">No mode: if no value repeats.</li>
+                        <li xml:id="auto_kc7vq0ql">One mode (Unimodal): if one value appears most frequently.</li>
+                        <li xml:id="auto_niodpo44">Two modes (Bimodal): if two values appear equally most frequently.</li>
+                        <li xml:id="auto_qw1fvnhk">Multimodal: if more than two values appear frequently.</li>
+                    </ul>
+                </p>
+            </li> -->
+        </ol>
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application</title>
+        <p xml:id="auto_xq2fx1wk">
+            <dl>
+            <li xml:id="auto_240lghbd">
+                <title>Suggested Time</title>
+                <p xml:id="auto_rnqvvmgp">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_ekanj7jn">
+                <title>Objective</title>
+                <p xml:id="auto_1gt4w3hh">
+                    To apply the mean formulas to calculate the mean from both simple data and frequency distribution tables.
+                </p>
+            </li>
+            <li xml:id="auto_szx07pz7">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_ml2o4glf">
+                    Work through examples with learners step by step. Circulate during independent practice and provide assistance where needed.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+    
+    
+    <example xml:id="auto_ydca4mzs">
+        <statement>
+            <p xml:id="auto_gzhtg1ib">
+                In a class of <m>30</m> students, the test scores of students are:
+            </p>
+            <p xml:id="auto_sb1264ih">
+                45, 67, 89, 56, 45, 78, 90, 67, 81, 73, 55, 62, 77, 84, 91,
+                69, 58, 72, 88, 95, 60, 75, 45, 67, 80, 92, 87, 79, 68, 55
+            </p>
+            <p xml:id="auto_hkfzh2yp">
+                Find the mean
+            </p>
+            <!-- <p xml:id="auto_du9ol51j">
+                <ol xml:id="auto_g2qcscku" marker="(a)">
+                    <li xml:id="auto_bivbvs2z">
+                        <p xml:id="auto_loxs6itz">
+                           Mean
+                        </p>
+                    </li>
+                    <li xml:id="auto_pbi8144s">
+                        <p xml:id="auto_fajg0x0r">
+                            Median
+                        </p>
+                    </li>
+                    <li xml:id="auto_84mjyjqp">
+                        <p xml:id="auto_eemzy0dv">
+                            Mode
+                        </p>
+                    </li>
+                </ol>
+            </p> -->
+        </statement>
+        <solution>
+           <p xml:id="auto_4mw6i8ih">
+                            <md>
+                                <mrow>\textbf{Mean}  = \amp \frac{ \textbf{∑X}}{ \textbf{N}} </mrow>
+                            </md> 
+                        </p>
+                        <p xml:id="auto_i82gbt9v">
+                            Where;
+                        </p>
+                        <p xml:id="auto_ifm9992q">
+                            <ul xml:id="auto_254fhgkb">
+                                <li xml:id="auto_d5fvcodf">
+                                    <p xml:id="auto_mk6iad8l">
+                                        <m>∑X</m> is the sum of all values
+                                    </p>
+                                </li>
+                                <li xml:id="auto_9rmlhrhg">
+                                    <p xml:id="auto_ajo3r4sb">
+                                        <m>N</m> is the total number of values
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                        <p xml:id="auto_imqwtk63">
+                            <m>∑X</m> = <m>45+67+89+56+45+78+90+67+81+73+55+62</m>
+                        </p>
+                        <p xml:id="auto_p6l9icd7">
+                            <m>+77+84+91+69+58+72+88+95+60+75+45+67</m>
+                        </p>
+                        <p xml:id="auto_4uupaq7b">
+                            <m>+80+92+87+79+68+55  = 2096</m>
+                        </p>
+                        <p xml:id="auto_v4v711iw">
+                            <md>
+                                <mrow> =  \amp \frac{2096}{30}</mrow>
+                                <mrow> =  \amp 69.87</mrow>
+                            </md>
+                        </p>
+                        <p xml:id="auto_7gwj4iak">
+                            Therefore, the mean is <m>69.87</m>
+                        </p>
+        </solution>
+    </example>
+    <example xml:id="auto_ih45c5td">
+        <statement>
+            <p xml:id="auto_p7xhvml0">
+                The frequency distribution table below shows marks of <m>20</m> students in a Grade 10 class.
+            </p>
+            <table xml:id="auto_grhub0zy">
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Marks (x)</cell>
+                        <cell>Frequency (f)</cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>6</m></cell>
+                        <cell><m>4</m></cell>
+                       
+                    </row>
+                    <row>
+                        <cell><m>7</m></cell>
+                        <cell><m>3</m></cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>9</m></cell>
+                        <cell><m>5</m></cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>11</m></cell>
+                        <cell><m>2</m></cell>
+                        
+                    </row>
+                    <row>
+                        <cell><m>12</m></cell>
+                        <cell><m>1</m></cell>
+                        
+                    </row>
+                    
+                </tabular>
+            </table>
+            <p xml:id="auto_9smh1a6g">
+                Find the mean of the marks.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_qcnfzw71">
+                Mean is given by:
+            </p>
+            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Marks (x)</cell>
+                        <cell>Frequency (f)</cell>
+                        <cell>fx</cell>
+                    </row>
+                    <row>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>8</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>6</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>24</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>7</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>21</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>9</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>45</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>11</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>22</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>12</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>12</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>Σx = 51</m></cell>
+                        <cell><m>Σf = 20</m></cell>
+                        <cell><m>Σfx = 138</m></cell>
+                    </row>
+                </tabular>
+                <p xml:id="auto_y7hm42v4">
+                    <md>
+                                <mrow>\overline{\textbf{x}}  = \amp \frac{ \textbf{∑fx}}{ \textbf{∑f}} </mrow>
+                                <mrow>=  \amp \frac{138}{20}</mrow>
+                                <mrow>=  \amp 6.9</mrow>
+                    </md>
+                </p>
+                   </solution>
+    </example>
+
+    <xi:include href="../../resources-checkpoint.ptx" />
+
+    <exercise xml:id="ex-mean-of-a-dataset">
+        <stack label="stk-mean-of-a-dataset" source="stack/top/3-0-Statistics-Probability/Statistics-1/3-1-3-Measures-of-Central-Tendency/3-1-3-1-Ungrouped-Data-for-Measures-of-Central-Tendency/Mean-of-a-dataset.xml"/>
+    </exercise>
+
+    <!-- TODO: Mean by balancing-->
+
+    <axiom component="lesson-plan">
+        <title>Assessment</title>
+        <p xml:id="auto_ot3o6fqg">
+            <dl>
+            <li xml:id="auto_iznmughb">
+                <title>Objective</title>
+                <p xml:id="auto_diym443b">
+                    To formatively assess individual learner understanding.
+                </p>
+            </li>
+            <li xml:id="auto_qwam6o8e">
+                <title>Learning Experience</title>
+                <p xml:id="auto_e1vy8ss9">
+                    Learners independently complete a short assessment task (select from the exercises above).
+                </p>
+            </li>
+            <li xml:id="auto_fu80sx2n">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_cc87vk4a">
+                    Collect and review the exit tickets to gauge learner understanding and identify any common misconceptions that need to be addressed in the next lesson.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <exercises xml:id="exercises-ungrouped-data-for-measures-of-central-tendency">
+        
+        <exercise xml:id="auto_5uat9ljf">
+            <statement>
+                <p xml:id="auto_wiqxhndk">
+                    The number of books borrowed by students from a school library in a week is as follows:
+                </p>
+                <p xml:id="auto_gooxkzde">
+                    <m>3, 5, 2, 4, 6, 3, 5, 7, 4, 3, 6, 2, 4, 5, 3, 6</m>
+                </p>
+                <p xml:id="auto_nblrbo8n">
+                    
+                    Find the Mean (Average) number of books borrowed.
+                </p>
+            </statement>
+            <answer>
+                
+                            <p xml:id="auto_76byrwel">
+                                Mean (Average): 4 books.
+                            </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_wtzfq1g5">
+            <statement>
+                <p xml:id="auto_hly1o3cx">
+                    The following frequency distribution table represents  volume of water (in liters) contained in different bottles:
+                </p>
+                <table xml:id="auto_hyil2w74">
+                    <title></title>
+                    <tabular left="medium" right="medium" top="medium" bottom="minor">
+                        <row halign="left" header="yes">
+                            <cell>Volume of water (liters)</cell>
+                            <cell>Number of bottles</cell>
+                        </row>
+                        <row>
+                            <cell><m>34.5</m></cell>
+                            <cell><m>3</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>35.8</m></cell>
+                            <cell><m>4</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>37.2</m></cell>
+                            <cell><m>2</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>39.0</m></cell>
+                            <cell><m>3</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>40.4</m></cell>
+                            <cell><m>3</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p xml:id="auto_so3qpxz9">
+                     Find the mean volume of water in the bottles.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_ng2kjlzd">
+                    Mean Volume: <m>37.3</m> liters.
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_su3ymafo">
+            <statement>
+                <p xml:id="auto_3hv07ii5">
+                    A company records the monthly salaries (in KES) of its employees.
+                </p>
+                <table xml:id="auto_cgjfsc0u">
+                    <title></title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="left" header="yes">
+                            <cell>Salary (KES)</cell>
+                            <cell>Frequency</cell>
+                        </row>
+                        <row>
+                            <cell><m>25,000</m></cell>
+                            <cell><m>8</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>30,000</m></cell>
+                            <cell><m>15</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>35,000</m></cell>
+                            <cell><m>12</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>40,000</m></cell>
+                            <cell><m>10</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>50,000</m></cell>
+                            <cell><m>5</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p xml:id="auto_7fs9d0mk">
+                    Calculate the mean.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_eq3tmb1h">
+                    Mean: KES <m>34,800</m>.
+                </p>
+                
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_5w12kmny">
+            <statement>
+                <p xml:id="auto_ufp1gfeu">
+                    A factory records the number of products manufactured in a week:
+                </p>
+                <p xml:id="auto_q4dp2ee8">
+                    150, 130, 220, 135, 180, 140, 125, 250, 145, 230, 200, 205, 145, 190, 155, 210, 225, 240, 135, 165, 245, 170, 175, 185, 130, 190, 195, 160,170, 150, 160, 120, 200, 210, 220, 235, 180, 230, 240, 215
+                </p>    <p xml:id="auto_5ek3gyw0">
+                    <ol xml:id="auto_5mx9npaf" marker="(a)">
+                        <li xml:id="auto_t59yiba5">
+                            <p xml:id="auto_yya9ddpl">
+                                Make a frequency distribution table for the set of data.
+                            </p>
+                        </li>
+                        <li xml:id="auto_w8spq4wq">
+                            <p xml:id="auto_i5vgbrpg">
+                                Calculate the mean.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                                
+                                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                                    <row halign="left" header="yes">
+                                        <cell>Number of Products (x)</cell>
+                                        <cell>Frequency (f)</cell>
+                                        <cell>fx</cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>120</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>120</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>125</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>125</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>130</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>260</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>135</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>270</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>140</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>140</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>145</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>290</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>150</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>300</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>155</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>155</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>160</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>320</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>165</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>165</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>170</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>340</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>175</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>175</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>180</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>360</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>185</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>185</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>190</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>380</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>195</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>195</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>200</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>400</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>205</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>205</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>210</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>420</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>215</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>215</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>220</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>440</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>225</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>225</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>230</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>460</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>235</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>235</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>240</m></cell>
+                                        <cell><m>2</m></cell>
+                                        <cell><m>480</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>245</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>245</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>250</m></cell>
+                                        <cell><m>1</m></cell>
+                                        <cell><m>250</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>Σx = 4995</m></cell>
+                                        <cell><m>Σf = 40</m></cell>
+                                        <cell><m>Σfx = 7355</m></cell>
+                                    </row>
+                                </tabular>    
+                        
+                <p xml:id="auto_ctfozef1">
+                    Mean: <m>183.88</m> products.
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+
+        <table xml:id="auto_650v7vgq">
+            <title>Differentiation</title>
+            <tabular halign="left">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide calculators for all calculations. Use smaller datasets (5–10 values) to start. Provide step-by-step calculation templates. Use visual aids showing the formula with labelled parts. Work with whole numbers before introducing decimals. Allow students to work in pairs for calculations. Provide worked examples as reference during practice.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>The core lesson activities as described above.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> Calculate mean for larger datasets (30–40 values). Compare means of different datasets and interpret differences. Explore how outliers affect the mean. Calculate mean using both methods and verify they give the same answer. Investigate when the mean is useful vs when it might be misleading.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </axiom>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+   
+</subsubsection>

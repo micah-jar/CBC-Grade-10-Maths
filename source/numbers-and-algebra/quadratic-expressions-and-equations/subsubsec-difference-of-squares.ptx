@@ -1,0 +1,488 @@
+<subsubsection xml:id="subsubsec-difference-of-squares" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Difference of Squares</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_nl0yf6pp">
+            <dl>
+                <li xml:id="auto_58irtpgc">
+                    <title>Strand</title>
+                    <p xml:id="auto_psz24kqk">
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li xml:id="auto_ol2da19z">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_x0klt66p">
+                        1.3 Quadratic Expressions and Equations
+                    </p>
+                </li>
+                <li>
+                    <title>Specific Learning Outcomes</title> 
+                    <p>
+                        Derive the quadratic identities from the concept of area
+                    </p>
+                </li>
+                <li>
+                    <title>Grade Level</title>
+                    <p>
+                        10
+                    </p>
+                </li>
+                <li>
+                    <title>Estimated Duration</title>
+                    <p>
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+    
+    </objectives>
+
+    <xi:include href="../../resources-materials.ptx" />
+
+    <!-- <activity xml:id="auto_5vdy1rrm">
+        <p xml:id="auto_kebikz01">
+            <em><term>Work in Groups.</term></em>
+        </p>
+        <p xml:id="auto_1mrno69e"> 
+            Define, discuss, and work on the following:
+            <ol xml:id="auto_i379lbk0">
+                <li xml:id="auto_lqve6ykm">
+                    <p xml:id="auto_llg5ih49">Difference of squares.</p>
+                </li>
+                <li xml:id="auto_czemvt39">
+                    <p xml:id="auto_lujm8txv">Identifying difference of squares in algebraic expressions.</p>
+                </li>
+                <li xml:id="auto_uk32351i">
+                    <p xml:id="auto_h3bfiafz">Factoring using the difference of squares formula.</p>
+                </li>
+                <li xml:id="auto_nuhp8p38">
+                    <p xml:id="auto_pjoniwco">Recognizing patterns when applying the difference of squares.</p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_4e0lyyn2">
+            Copy the following expressions and identities, observe and discuss:
+            <ol xml:id="auto_88v1oqz5" marker="(i).">
+                <li xml:id="auto_kbd0mldo">
+                    <p xml:id="auto_uk8y0qot"><m>a^2 - b^2 = (a + b)(a - b)</m> (Difference of squares)</p>
+                </li>
+            </ol>
+            Recognize how the difference of squares applies to algebraic expressions.
+        </p>
+        <p xml:id="auto_zgaissvf">
+            <ul xml:id="auto_m17qd3wf">
+                <li xml:id="auto_m1fl46ex">
+                    <p xml:id="auto_rni9c2jn">Compare the different approaches groups used to solve similar problems.</p>
+                </li>
+                <li xml:id="auto_3tthjgxw">
+                    <p xml:id="auto_ivgjdyg8">Discuss how the difference of squares formula makes factoring easier.</p>
+                </li>
+                <li xml:id="auto_4sy3smni">
+                    <p xml:id="auto_ajq59jry">Explore how this identity is useful in different contexts (e.g., simplifying expressions, solving equations).</p>
+                </li>
+                <li xml:id="auto_mcj9d9xa">
+                    <p xml:id="auto_t9oof3oj">How does recognizing the difference of squares help in solving quadratic equations?</p>
+                </li>
+                <li xml:id="auto_nx2pl1z1">
+                    <p xml:id="auto_zrezfkos">What happens if we don't recognize the difference of squares—how might that affect solving the problem?</p>
+                </li>
+                <li xml:id="auto_ueblvvmz">
+                    <p xml:id="auto_q55lyids">Can you think of any real-world applications where the difference of squares might be used?</p>
+                </li>
+            </ul>
+        </p>
+    </activity> -->
+    <activity xml:id="auto_h7u5egtj">
+        <introduction xml:id="auto_0wbp03ak">
+            <p xml:id="auto_5g1xs8bu">
+                <alert>Work in pairs or groups</alert>
+            </p>
+            <p xml:id="auto_jthxhpvn">
+                <alert>What you require:</alert> Graph paper, a pair of scissors, a ruler, and a pencil.
+            </p>
+        </introduction>
+        <task xml:id="auto_0ch0myzq">
+            <statement>
+                <p xml:id="auto_8mn7t60n">
+                    On your graph paper, draw a large square with side length <m>a</m> (for example, let <m>a = 10</m> units). Calculate its area (<m>A = a^2</m>).
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_610h7luv">
+            <statement>
+                <p xml:id="auto_sd1pv2gt">
+                        In the top-left corner of your large square, draw a smaller square with side length <m>b</m> (for example, let <m>b = 4</m> units).
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_j5vqej5n">
+            <statement>
+                <p xml:id="auto_i1gtyv3v">
+                    Shade this small square. Its area is <m>b^2</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_y51so3wp">
+            <statement>
+                <p xml:id="auto_l9v36f1p">
+                    The unshaded region represents the area of the large square minus the small square. Write down the expression for this area (<m>a^2 - b^2</m>).
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_mrwmy7le">
+            <statement>
+                <p xml:id="auto_iafmvi7d">
+                    Draw a horizontal line extending from the bottom of the small square to the right edge of the large square. This divides the unshaded region into two rectangles.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_gcqzgrnn">
+            <statement>
+                <p xml:id="auto_u4ikz4kc">
+                    Cut out the L-shaped unshaded region from your paper. Then, cut along the horizontal line you drew to separate it into two rectangles.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_baetcc30">
+            <statement>
+                <p xml:id="auto_vqvxy8ws">
+                    Rearrange the pieces: Take the smaller rectangle and place it next to the larger rectangle to form one long, single rectangle.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_t40afu92">
+            <statement>
+                <p xml:id="auto_omp0tkgb">
+                    Measure the length and width of this new large rectangle in terms of <m>a</m> and <m>b</m>:
+                </p>
+                <p xml:id="auto_t3z8x6ob">
+                    <ul>
+                        <li xml:id="auto_tu7pglqx">
+                            <p xml:id="auto_ek5f7h52">
+                                Length <m>= a + b</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_st1bd0sx">
+                            <p xml:id="auto_sxk8vf8w">
+                                Width <m>= a - b</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_91fr7zjx">
+            <statement>
+                <p xml:id="auto_6npa615r">
+                    Calculate the area of this new rectangle using the formula <m>\text{Length} \times \text{Width}</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_2nnrkk0q">
+            <statement>
+                <p xml:id="auto_i39ggg2s">
+                    Compare the area from step <alert>(d)</alert> with the area from step <alert>(i)</alert>. Since the amount of paper has not changed, conclude the relationship between the two expressions.
+                </p>
+                    <figure xml:id="difference-of-squares">
+                <caption></caption>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[scale=0.8]
+                            % Define dimensions
+                            \def\a{6} % Size of large square
+                            \def\b{2.5} % Size of small square
+
+                            % --- PART 1: The L-Shape (Difference of Squares) ---
+                            
+                            % Draw the main L-shape outline
+                            \draw[thick] (0,0) -- (\a,0) -- (\a,\a-\b) -- (\b,\a-\b) -- (\b,\a) -- (0,\a) -- cycle;
+                            
+                            % Fill the missing small square (ghosted)
+                            \draw[dashed, fill=gray!20] (0,\a-\b) rectangle (\b,\a);
+                            \node at (\b/2, \a-\b/2) {$b^2$};
+                            
+                            % Pattern for the unshaded area (The L-Shape)
+                            \fill[pattern=north west lines, pattern color=blue!50] (0,0) rectangle (\a,\a-\b);
+                            \fill[pattern=north west lines, pattern color=blue!50] (\b,\a-\b) rectangle (\a,\a);
+                            
+                            % Draw the cut line
+                            \draw[dashed, very thick, red] (\b,\a-\b) -- (\a,\a-\b);
+                            \node[text=red, above] at (\a/2 + \b/2, \a-\b) {Cut Line};
+
+                            % Labels for dimensions
+                            \node[left] at (0, \a/2) {$a$};
+                            \node[below] at (\a/2, 0) {$a$};
+                            \node[above] at (\b/2, \a) {$b$};
+                            \node[left] at (0, \a-\b/2) {$b$};
+                            
+                            % Label the Area
+                            \node[fill=white, inner sep=2pt] at (\a/2 + \b/2, \a/2 - \b/2) {Area $= a^2 - b^2$};
+
+                            % Arrow to the next phase
+                            \draw[-&gt;, very thick] (\a+1, \a/2) -- (\a+3, \a/2) node[midway, above] {Rearrange};
+
+                            % --- PART 2: The Rectangle (Product of Sum and Difference) ---
+                            
+                            \begin{scope}[shift={(\a+4, 0)}]
+                                % The large bottom rectangle
+                                \draw[thick, fill=white, pattern=north west lines, pattern color=blue!50] (0,0) rectangle (\a, \a-\b);
+                                
+                                % The small side rectangle moved to the side
+                                \draw[thick, fill=white, pattern=north west lines, pattern color=blue!50] (\a,0) rectangle (\a+\b, \a-\b);
+                                
+                                % Labels for new dimensions
+                                \draw[&lt;-&gt;] (0,-0.5) -- (\a+\b,-0.5) node[midway, below] {Length $= a + b$};
+                                \draw[&lt;-&gt;] (\a+\b+0.5, 0) -- (\a+\b+0.5, \a-\b) node[midway, right] {Width $= a - b$};
+                                
+                                % Label the Area
+                                \node[fill=white, inner sep=2pt] at (\a/2 + \b/2, \a/2 - \b/2) {Area $= (a+b)(a-b)$};
+                            \end{scope}
+
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            </statement>
+            
+        </task>
+
+    </activity>
+    <insight xml:id="auto_y2jl42s7">
+        <p xml:id="auto_lsk39yvz">
+            The <em><term>Difference of Squares</term></em> is a quadratic identity used when two perfect squares are subtracted.
+            It states that:
+        </p>
+        <p xml:id="auto_58h1b65r">
+            <md>
+                <mrow>a^2 - b^2 \amp = (a - b)(a + b)</mrow>
+            </md>
+        </p>
+        <p xml:id="auto_1khz6epf">
+            This means that the difference of two perfect squares can be factorised into two binomials:
+            one with subtraction and one with addition.
+        </p>
+        <p xml:id="auto_03gi4syq">
+            In the expression <m>a^2 - b^2</m>, the terms <m>a</m> and <m>b</m> are the square roots of the two perfect squares.
+            Therefore, whenever you see two perfect squares being subtracted, you can factorise them as
+            <m>(a - b)(a + b)</m>.
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application / Elaborate</title>
+        <p>
+            <dl>
+            <li>
+                <title>Suggested Time</title>
+                <p>
+                    12 minutes
+                </p>
+            </li>
+            <li>
+                <title>Objective</title>
+                <p>
+                    To apply the learned concepts and procedures to solve varied problems.
+                </p>
+            </li>
+            <li>
+                <title>Learning Experience</title>
+                <p>
+                    Learners work on a set of problems individually or in pairs. The problems are designed to move from simple classification to application and reasoning.
+                </p>
+            </li>
+            <li>
+                <title>Teacher's Role</title>
+                <p>
+                    The teacher monitors Learners as they work, providing support where needed and encouraging Learners to explain their reasoning using the formal properties discussed in the key takeaways.                
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <example xml:id="example-difference-of-two-squares">
+        <statement>
+            <p xml:id="auto_nvlsa9re">
+                Factorise each of the following expressions completely:
+            </p>
+            <p xml:id="auto_w8b7o6xx">
+                <ol marker="(a)">
+                    <li xml:id="auto_z8j1hewl"><m>x^2 - 49</m></li>
+                    <li xml:id="auto_0c64y5h2"><m>16y^2 - 25</m></li>
+                    <li xml:id="auto_szcybrty"><m>9a^2 - 4b^2</m></li>
+                </ol>
+            </p>
+        </statement>
+        <hint>
+            <p xml:id="auto_og3btnwk">
+                Recall the <term>Difference of Two Squares</term> identity:
+                <me>a^2 - b^2 = (a - b)(a + b)</me>
+            </p>
+        </hint>
+
+        <solution>
+            <p xml:id="auto_uw9qse63">
+                To use this identity, we must first express both terms as <m>(\text{something})^2</m>.
+            </p>
+            <p xml:id="auto_dh1005uv">
+                <ol marker="(a)">
+                    <li xml:id="auto_nn2dj30y">
+                        <p xml:id="auto_0zbn3yot">
+                            <alert>Factorising <m>x^2 - 49</m>:</alert>
+                        </p>
+                        <p xml:id="auto_86tbolt6">
+                            <ul>
+                                <li xml:id="auto_en9psa1x">
+                                    <p xml:id="auto_jh6t0l7n"><em>Rewrite as squares:</em> <m>x^2 - 7^2</m></p>
+                                </li>
+                                <li xml:id="auto_krenqw5n">
+                                    <p xml:id="auto_7nj7mqs3"><em>Identify <m>a</m> and <m>b</m>:</em> Here, <m>a = x</m> and <m>b = 7</m>.</p>
+                                </li>
+                                <li xml:id="auto_h8i37jn5">
+                                    <p xml:id="auto_6xbr7qvs"><em>Apply Identity:</em> <m>(x - 7)(x + 7)</m></p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li xml:id="auto_hinzxk56">
+                        <p xml:id="auto_g9rh8bk4">
+                            <alert>Factorising <m>16y^2 - 25</m>:</alert>
+                        </p>
+                        <p xml:id="auto_hjqiix0o">
+                            <ul>
+                                <li xml:id="auto_zpd9xm2n">
+                                    <p xml:id="auto_i820yo2r"><em>Rewrite as squares:</em> <m>(4y)^2 - 5^2</m></p>
+                                </li>
+                                <li xml:id="auto_1p7ng6yz">
+                                    <p xml:id="auto_oc73zceg"><em>Identify <m>a</m> and <m>b</m>:</em> Here, <m>a = 4y</m> and <m>b = 5</m>.</p>
+                                </li>
+                                <li xml:id="auto_hd1kf9j0">
+                                    <p xml:id="auto_trpsya1q"><em>Apply Identity:</em> <m>(4y - 5)(4y + 5)</m></p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li xml:id="auto_49jnplqj">
+                        <p xml:id="auto_n9ahuaot">
+                            <alert>Factorising <m>9a^2 - 4b^2</m>:</alert>
+                        </p>
+                        <p xml:id="auto_i5ruj60c">
+                            <ul>
+                                <li xml:id="auto_ciiwm7w3">
+                                    <p xml:id="auto_8bwrsp9n"><em>Rewrite as squares:</em> <m>(3a)^2 - (2b)^2</m></p>
+                                </li>
+                                <li xml:id="auto_si6cxizi">
+                                    <p xml:id="auto_m8jslvx7"><em>Identify <m>a</m> and <m>b</m>:</em> Here, <m>a = 3a</m> and <m>b = 2b</m>.</p>
+                                </li>
+                                <li xml:id="auto_bw1bt9rm">
+                                    <p xml:id="auto_fh17bz8a"><em>Apply Identity:</em> <m>(3a - 2b)(3a + 2b)</m></p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+    <!-- STACK EXERCISES -->
+
+     <exercise xml:id="ex-factorising-a-difference-of-two-squares">
+        <!--<title></title>-->
+        <stack label="stk-factorising-a-difference-of-two-squares" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Identities/Difference-of-Squares/Factorising-a-difference-of-Two-Squares.xml"/>
+    </exercise>
+
+    <exercise xml:id="ex-factorising-a-quadratic-expression-using-the-difference-of-squar">
+        <!--<title></title>-->
+        <stack label="stk-factorising-a-quadratic-expression-using-the-difference-of-squar" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Identities/Difference-of-Squares/Factorising-a-quadratic-expression-using-the-difference-of-squar.xml"/>
+    </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Assessment / Evaluate </title>
+        <p>
+            <dl>
+            <li>
+                <title>Suggested Time</title>
+                <p>
+                    8 minutes
+                </p>
+            </li>
+            <li>
+                <title>Objective</title>
+                <p>
+                    To formatively assess individual Learner understanding of the lesson objectives.
+                </p>
+            </li>
+            <li>
+                <title>Learning Experience</title>
+                <p>
+                    Learners independently complete a short assessment task (select from the exercises below).
+                </p>
+            </li>
+            <li>
+                <title>Teacher's Role</title>
+                <p>
+                    Collect and review the exit tickets to gauge Learner understanding and identify any common misconceptions that need to be addressed in the next lesson.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <exercises xml:id="exercises-difference-of-squares">
+
+        <exercise xml:id="auto_k4ip5ewa">
+            <statement>
+                <p xml:id="auto_dofxmryp">
+                    Factorise completely the following expressions:
+                </p>
+                <ol cols="2">
+                    <li xml:id="auto_3zttn1k0"><m>25x^2 - 81</m></li>
+                    <li xml:id="auto_7zkxit2n"><m>49a^2b^2 - 16</m></li>
+                    <li xml:id="auto_sul7w5z0"><m>8x^2 - 18</m></li>
+                    <li xml:id="auto_8nzi43hx"><m>m^4 - 81</m></li>
+                    <li xml:id="auto_74wdc5eh"><m>36x^2y^2 - 121z^2</m></li>
+                </ol>
+            </statement>
+            <answer>
+                <p xml:id="auto_jbfenqln">
+                    <ol cols="2">
+                        <li xml:id="auto_o6bc20i6"><m>(5x - 9)(5x + 9)</m></li>
+
+                        <li xml:id="auto_m8gryccm"><m>(7ab - 4)(7ab + 4)</m></li>
+
+                        <li xml:id="auto_l25znxh5">
+                            <m>
+                            8x^2 - 18 = 2(4x^2 - 9) = 2(2x - 3)(2x + 3)
+                            </m>
+                        </li>
+
+                        <li xml:id="auto_4z4celrw">
+                            <m>
+                            m^4 - 81 = (m^2 - 9)(m^2 + 9)
+                            = (m - 3)(m + 3)(m^2 + 9)
+                            </m>
+                        </li>
+
+                        <li xml:id="auto_bau8kpby">
+                            <m>
+                            (6xy - 11z)(6xy + 11z)
+                            </m>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+
+        </exercise>
+
+    </exercises>
+
+ <xi:include href="../../resources-assessment.ptx" />
+   
+ <xi:include href="../../resources-reflection.ptx"/>
+
+</subsubsection>

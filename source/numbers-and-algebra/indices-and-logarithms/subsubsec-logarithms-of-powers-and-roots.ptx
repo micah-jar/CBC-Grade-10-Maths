@@ -1,0 +1,659 @@
+    <subsubsection xml:id="subsubsec-logarithms-of-powers-and-roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Logarithms of Powers and Roots</title>
+        <objectives component="outcomes">
+            <introduction xml:id="auto_fddh85jb">
+                <p xml:id="auto_lpiky2dw">
+                <dl>
+                    <li xml:id="auto_dp8gg114">
+                        <title>Strand</title>
+                        <p xml:id="auto_u0yr9ixj">
+                            1.0 Numbers and Algebra
+                        </p>
+                    </li>
+                    <li xml:id="auto_61r41qsi">
+                        <title>Sub-Strand</title>
+                        <p xml:id="auto_geqevcdv">
+                            1.2 Indices and Logarithms
+                        </p>
+                    </li>
+                    <li xml:id="auto_bxjnei04">
+                        <title>Specific Learning Outcomes</title>
+                        <p xml:id="auto_qlxkoqd5">
+                            Apply common logarithms in multiplication, division, powers and roots of numbers
+                        </p>
+                    </li>
+                    <li xml:id="auto_9l8r1j5n" component="lesson-plan">
+                        <title>Grade Level</title>
+                        <p xml:id="auto_3pvx2h44">
+                            10
+                        </p>
+                    </li>
+                    <li xml:id="auto_linznqiq" component="lesson-plan">
+                        <title>Estimated Duration</title>
+                        <p xml:id="auto_rn3degux">
+                            40 minutes
+                        </p>
+                    </li>
+                </dl>
+                </p>
+                <p xml:id="auto_hjkvxyf9" component="lesson-plan">
+                    <p xml:id="auto_8ey8rwwm"> Upon completion of this lesson, learners will be able to:
+                    <ol>
+                        <li xml:id="auto_hy98vocd">
+                            <p xml:id="auto_wu1p2c7p">
+                                <alert>Know (Conceptual Understanding):</alert> Understand that logarithms convert powers into multiplication and roots into division, and recognize the power law <m>\log(a^b) = b \times \log(a)</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_jdxqs7v3">
+                            <p xml:id="auto_tjj0sklr">
+                                <alert>Do (Procedural Skill):</alert> Use logarithm tables and the power law to evaluate expressions involving powers and roots.
+                            </p>
+                        </li>
+                        <li xml:id="auto_wwokg68u">
+                            <p xml:id="auto_37pic83x">
+                                <alert>Apply (Application/Problem-Solving):</alert> Apply logarithms of powers and roots to solve real-world problems such as finding side lengths and volumes.
+                            </p>
+                        </li>
+                    </ol>
+                    </p>
+                </p>
+            </introduction>
+        </objectives>
+        <axiom component="resources">
+            <!-- Link to blurb -->
+            <xi:include href="../../resources-blurb-lesson.ptx" />
+
+            <sbsgroup widths="45% 45%" margins="2% 2%">
+                <sidebyside>
+                    <p xml:id="auto_30j8m0mu">
+                        <dataurl source="lesson_plans/numbers-and-algebra/indices-and-logarithms/logarithms-of-powers-and-roots.pdf"> Lesson Plan </dataurl>
+                    </p>
+                    <p xml:id="auto_y1ug6ii0">
+                        <dataurl source="lesson_plans/numbers-and-algebra/indices-and-logarithms/step-by-step-guide_logarithms-of-powers-and-roots.pdf"> Step-by-Step Guide </dataurl>
+                    </p>
+                </sidebyside>
+            </sbsgroup>
+        </axiom>
+        <xi:include href="../../resources-materials.ptx" />
+
+        <axiom component="lesson-plan">
+            <title>Phase 1: Problem-Solving and Discovery / Engage &amp; Explore</title>
+            <p xml:id="auto_kld2ty1o">
+                <alert>Suggested Time:</alert> 15 minutes
+            </p>
+            <p xml:id="auto_bg5iqhza">
+                <alert>Objective:</alert> To explore logarithm tables and discover patterns in finding logarithms of powers and roots.
+            </p>
+            <p xml:id="auto_88d9wont">
+                <alert>Anchor Learning Experience: Exploring Logarithms of Powers and Roots</alert>
+            </p>
+            <p xml:id="auto_aml5qct3">
+                Students use calculators and math reasoning to explore expressions involving logarithms of powers and roots. They calculate <m>\log(10000)</m>, rewrite it as <m>\log(10^4)</m>, and apply the logarithmic law <m>\log(a^b) = b \times \log(a)</m>. They then try <m>\log(100)</m>, <m>\log(1000000)</m>, <m>\log(\sqrt{100})</m>, and <m>\log(\sqrt[3]{1000})</m>.
+            </p>
+            <p xml:id="auto_6lll95gc">
+                <alert>Discussion Questions:</alert>
+                <ul>
+                    <li xml:id="auto_2b5v58k7"><p xml:id="auto_r0n3t0jo">What do you observe when applying logarithms to square and cube roots?</p></li>
+                    <li xml:id="auto_0qfzinsk"><p xml:id="auto_39yg676e">Why does <m>\log(\sqrt{100})</m> give half of <m>\log(100)</m>?</p></li>
+                    <li xml:id="auto_67exoyja"><p xml:id="auto_o2g21rsn">What general rule can you form for logarithms and powers?</p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_u8462ovi">
+                <alert>Teacher's Role:</alert> Allow students to use calculators freely. Encourage students to express numbers as powers of 10. Ask probing questions: <q>What pattern do you notice?</q>, <q>How does the exponent relate to the logarithm?</q>. Guide students to see that <m>\log(a^b) = b \times \log(a)</m>. Help students recognize that roots are fractional powers (<m>\sqrt{a} = a^{1/2}</m>). Use student discoveries as a bridge to formal logarithm laws.
+            </p>
+        </axiom>
+
+
+        <p xml:id="auto_gr7hxng2">
+            Logarithms can be used to simplify calculations involving powers and roots by converting exponentiation into multiplication and roots into division.
+        </p>
+
+        <activity xml:id="auto_f95cjpci">
+            <statement>
+                <p xml:id="auto_sfuvcp1l">
+                    <term>Material needed:</term> 
+                </p>
+                <p xml:id="auto_6f1ykk8i">
+                    <ul xml:id="auto_gu7mxok1">
+                        <li xml:id="auto_mgyuond6"><p xml:id="auto_rdtyuyv9">Pen and paper</p></li>
+                        <li xml:id="auto_mwyq9f8p"><p xml:id="auto_jyvgtzqc">A scientific calculator</p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_2r85axn0">
+                    <term>Instructions:</term>
+                </p>
+                <p xml:id="auto_khojwmep">
+                    Use your calculator and math reasoning to solve the following expressions involving logarithms:
+                </p>
+                <p xml:id="auto_xl49cwfp">
+                    <me>\log(10000)</me>
+                </p>
+                <p xml:id="auto_yfe1pkui">
+                    Now rewrite <m>10000</m> as a power of <m>10</m>:
+                </p>
+                <p xml:id="auto_ytqslwnl">
+                    <me>\log(10000) = \log(10^4)</me>
+                </p>
+                <p xml:id="auto_nqu0yszc">
+                    Apply the logarithmic law: <me>\log(a^b) = b \times \log(a)</me>
+                </p>
+                <p xml:id="auto_9schvrwe">
+                    <me>\log(10^4) = 4 \times \log(10)</me>
+                </p>
+                <p xml:id="auto_dvfnv63u">
+                    <me>= 4 \times 1 = 4</me>
+                </p>
+                <p xml:id="auto_qh75lgun">
+                    Try the following:
+                </p>
+                <p xml:id="auto_9dbakcu7">
+                    <ul xml:id="auto_vg3917w5">
+                        <li xml:id="auto_ll7c99hz"><p xml:id="auto_r539nqp4"><me>\log(100)</me></p></li>
+                        <li xml:id="auto_jwidddq9"><p xml:id="auto_j4efvdfk"><me>\log(1000000)</me></p></li>
+                        <li xml:id="auto_c701vptc"><p xml:id="auto_axkfrk8v"><me>\log(\sqrt{100})</me></p></li>
+                        <li xml:id="auto_y6p2i5zs"><p xml:id="auto_9sjb0beg"><me>\log(\sqrt[3]{1000})</me></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_2yfog3um">
+                    <ul xml:id="auto_1eqruzh3">
+                        <li xml:id="auto_4db73tu7"><p xml:id="auto_vtk7gmh7">What do you observe when applying logarithms to square and cube roots?</p></li>
+                        <li xml:id="auto_cfsczc3l"><p xml:id="auto_s5au6bpe">Why does <me>\log(\sqrt{100})</me> give half of <me>\log(100)</me>?</p></li>
+                        <li xml:id="auto_1toxkbc5"><p xml:id="auto_a373u2gd">What general rule can you form for logarithms and powers?</p></li>
+                    </ul>
+                </p>
+            </statement>
+        </activity>
+        <insight xml:id="auto_225lo0b4">
+            <p xml:id="auto_7u15ha6g">
+                Logarithms help simplify calculations involving powers and roots.
+            </p>
+            <p xml:id="auto_iglvb2ri">
+                For example: <m>\log(a^b) = b \times \log(a)</m>, and <m>\log(\sqrt{a}) = \frac{1}{2} \times \log(a)</m>.
+            </p>
+        </insight>
+
+        <axiom component="lesson-plan">
+            <title>Phase 2: Structured Instruction / Explain</title>
+            <p xml:id="auto_nbu33u71">
+                <alert>Suggested Time:</alert> 10 minutes
+            </p>
+            <p xml:id="auto_ioy1fi2r">
+                <alert>Objective:</alert> To formalize the rules for logarithms of powers and roots.
+            </p>
+            <p xml:id="auto_tgi86jty">
+                <alert>Key Takeaways:</alert>
+            </p>
+            <p xml:id="auto_ly3md5h4">
+                <alert>1. Logarithms Simplify Powers and Roots:</alert> Logarithms help simplify calculations involving powers and roots by converting multiplication and division into addition and subtraction, and powers and roots into multiplication and division.
+            </p>
+            <p xml:id="auto_a07g2s3w">
+                <alert>2. Logarithm of a Power:</alert> When you take the logarithm of a number raised to a power, you can bring the exponent down as a multiplier:
+            </p>
+            <p xml:id="auto_dmto3p8m">
+                <m>\log(a^b) = b \times \log(a)</m>
+            </p>
+            <p xml:id="auto_fm3d4w42">
+                Examples:
+                <ul>
+                    <li xml:id="auto_hbr41vs2"><p xml:id="auto_zj25k6nq"><m>\log(10^4) = 4 \times \log(10) = 4 \times 1 = 4</m></p></li>
+                    <li xml:id="auto_3f8d8pbr"><p xml:id="auto_5b95c5mc"><m>\log(2^3) = 3 \times \log(2) = 3 \times 0.3010 = 0.9030</m></p></li>
+                    <li xml:id="auto_93i2xgsp"><p xml:id="auto_k5iaorks"><m>\log(5^6) = 6 \times \log(5) = 6 \times 0.6990 = 4.194</m></p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_mzqp2esi">
+                <alert>3. Logarithm of a Root:</alert> Roots can be expressed as fractional powers. For example, <m>\sqrt{a} = a^{1/2}</m> and <m>\sqrt[3]{a} = a^{1/3}</m>. Therefore:
+            </p>
+            <p xml:id="auto_kp9wpxxw">
+                <m>\log(\sqrt{a}) = \log(a^{1/2}) = \frac{1}{2} \times \log(a)</m>
+            </p>
+            <p xml:id="auto_pwjn5zs9">
+                <m>\log(\sqrt[3]{a}) = \log(a^{1/3}) = \frac{1}{3} \times \log(a)</m>
+            </p>
+            <p xml:id="auto_bnqunhnm">
+                
+                Examples:
+                <ul>
+                    <li xml:id="auto_xd1mndhy"><p xml:id="auto_3iwuqrum"><m>\log(\sqrt{100}) = \frac{1}{2} \times \log(100) = \frac{1}{2} \times 2 = 1</m></p></li>
+                    <li xml:id="auto_ljsj1qsw"><p xml:id="auto_j5x4w1yc"><m>\log(\sqrt[3]{1000}) = \frac{1}{3} \times \log(1000) = \frac{1}{3} \times 3 = 1</m></p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_w5ewdyll">
+                <alert>4. Why This Works:</alert> The power law works because logarithms are exponents. When we raise a number to a power and then take the logarithm, we are essentially counting how many times we multiply the base.
+            </p>
+            <p xml:id="auto_ct7gqng4">
+                <alert>5. Practical Applications:</alert> These laws allow us to calculate large powers without direct multiplication, find roots of numbers using logarithm tables, solve exponential equations, and simplify complex calculations in science and engineering.
+            </p>
+            <p xml:id="auto_103pk1h7">
+                <alert>Scaffolding:</alert> Clarify that the exponent <q>comes down</q> as a multiplier. Emphasize that roots are fractional powers. Show the connection: <m>\sqrt{a} = a^{1/2}</m>, <m>\sqrt[3]{a} = a^{1/3}</m>.
+            </p>
+        </axiom>
+<axiom component="lesson-plan">
+        <title>Practice and Application / Elaborate</title>
+        <p xml:id="auto_q32eejzw">
+            <dl>
+            <li xml:id="auto_ytjamme3">
+                <title>Suggested Time</title>
+                <p xml:id="auto_vb97yo5d">
+                    12 minutes
+                </p>
+            </li>
+            <li xml:id="auto_2utcscrp">
+                <title>Objective</title>
+                <p xml:id="auto_wxloh00a">
+                    To apply the learned concepts and procedures to solve varied problems.
+                </p>
+            </li>
+            <li xml:id="auto_jhmxxqhb">
+                <title>Leaning Experience</title>
+                <p xml:id="auto_sr5tg2dh">
+                    Learners work on a set of problems individually or in pairs. The problems are designed to move from simple classification to application and reasoning.
+                </p>
+            </li>
+            <li xml:id="auto_c1vbyoh9">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_xu8yk1kh">
+                    The teacher monitors Learners as they work, providing support where needed and encouraging Learners to explain their reasoning using the formal properties discussed in the key takeaways. 
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+        <example xml:id="auto_gmc53c24">
+            <statement>
+                <p xml:id="auto_y6z77koa">
+                    We can also use logarithms to simplify calculations that don't directly involve logarithms.
+                    For example, computing <m>2^{20}</m> by multiplying would be lot of work.
+                    Approximate <m>2^{20}</m> using logarithms.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_42lxekew">
+                    Note that <m>\text{Antilog}(\log 2^{20}) = 2^{20}</m>.
+                </p>
+                <p xml:id="auto_lqkoba51">
+                    Then <m>\log 2^{20} = 20 \times \log 2 \approx 20 \times 0.3010 = 6.020 \approx 6</m> using logarithm tables.
+                </p>
+                <p xml:id="auto_vg3lik3u">
+                    Then <m>2^{20} = \text{Antilog}(\log 2^{20}) \approx \text{Antilog}(6) = 10^6 = 1000000</m>.
+                </p>
+                <p xml:id="auto_hatpqqxs">
+                    (Remark: The exact value is 1048576.)
+                </p>
+            </solution>
+        </example>
+
+        <axiom component="lesson-plan">
+            <title>Phase 3: Practice and Application / Elaborate</title>
+            <p xml:id="auto_fshbv8sn">
+                <alert>Suggested Time:</alert> 15 minutes
+            </p>
+            <p xml:id="auto_nqlle6y7">
+                <alert>Objective:</alert> To apply the power and root laws of logarithms to evaluate expressions.
+            </p>
+            <p xml:id="auto_2dbgowx7">
+                <alert>Learning Experience:</alert> Students work through worked examples: evaluating <m>(23.5)^4</m>, <m>\sqrt[3]{524.8}</m>, and <m>(78.5)^3</m> using logarithm tables and the power law. They follow a systematic step-by-step process: take the logarithm, apply the power law, look up values in tables, and find the antilogarithm.
+            </p>
+            <p xml:id="auto_6o46s5x2">
+                <alert>Teacher's Role:</alert> The teacher monitors students, guiding them through the step-by-step process and checking their table readings for accuracy.
+            </p>
+        </axiom>
+
+        <example xml:id="auto_3pooh8v2">
+            <statement>
+                <p xml:id="auto_2waisw5k">
+                    Evaluate <m>(23.5)^4</m> using logarithm tables.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_nfyeqhs7">
+                    Find the logarithm of <m>23.5</m> from the logarithm table:
+                </p>
+                <p xml:id="auto_ihmbg8vw">
+                    <me>
+                        \log 23.5 = 1.3711
+                    </me>
+                </p>
+                <p xml:id="auto_bd7v0m53">
+                    Multiply by the exponent <m>4</m>:
+                </p>
+                <p xml:id="auto_oj4ej7vc">
+                    <me>
+                        1.3711 \times 4 = 5.4844
+                    </me>
+                </p>
+                <p xml:id="auto_uumgarzn">
+                    Find the antilogarithm of <m>5.4844</m>:
+                </p>
+                <p xml:id="auto_uvt42atb">
+                    <me>
+                        \text{Antilog} (5.4844) \approx 304000
+                    </me>
+                </p>
+                <p xml:id="auto_0307v0j7">
+                    Thus, <m>(23.5)^4 \approx 304000</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="auto_ufbipct1">
+            <statement>
+                <p xml:id="auto_4c2a5mne">
+                    Evaluate <m>\sqrt[3]{524.8}</m> using logarithm tables.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_06e9pxda">
+                    Find the logarithm of <m>524.8</m> from the logarithm table:
+                </p>
+                <p xml:id="auto_w5tbvxp6">
+                    <me>
+                        \log 524.8 = 2.7200
+                    </me>
+                </p>
+                <p xml:id="auto_p4hyoez7">
+                    Divide the logarithm by <m>3</m> (since it is a cube root):
+                </p>
+                <p xml:id="auto_0y23nw7m">
+                    <me>
+                        \frac{2.7200}{3} = 0.9067
+                    </me>
+                </p>
+                <p xml:id="auto_hvc4gkvw">
+                    Find the antilogarithm of <m>0.9067</m>:
+                </p>
+                <p xml:id="auto_qcvkh7qy">
+                    <me>
+                        \text{Antilog} (0.9067) \approx 8.1
+                    </me>
+                </p>
+                <p xml:id="auto_eoeue1jx">
+                    Thus, <m>\sqrt[3]{524.8} \approx 8.1</m>.
+                </p>
+            </solution>
+        </example>
+
+        <axiom component="lesson-plan">
+            <title>Phase 4: Assessment / Evaluate (Exit Ticket)</title>
+            <p xml:id="auto_vndngs7q">
+                <alert>Suggested Time:</alert> 5 minutes
+            </p>
+            <p xml:id="auto_uh65lbrt">
+                <alert>Objective:</alert> To formatively assess individual student understanding.
+            </p>
+            <p xml:id="auto_xnjjt8sp">
+                <alert>Learning Experience:</alert> Students complete exit ticket questions individually:
+                <ol>
+                    <li xml:id="auto_ugofv209"><p xml:id="auto_84b9jx5a">The volume of a cube is 79,507 cubic centimetres. Use logarithms to find the length of one side. (Hint: Volume <m>= \text{side}^3</m>, so side <m>= \sqrt[3]{\text{Volume}}</m>)</p></li>
+                    <li xml:id="auto_fsswyjek"><p xml:id="auto_iklqv13d">Compute <m>(78.5)^3</m> using logarithms.</p></li>
+                    <li xml:id="auto_mfu8sw73"><p xml:id="auto_awvg3it7">Compute <m>(254.6)^4</m> using logarithms.</p></li>
+                </ol>
+            </p>
+            <p xml:id="auto_y3z4fnjx">
+                <alert>Teacher's Role:</alert> Collect and review exit tickets to gauge student understanding and identify misconceptions for the next lesson.
+            </p>
+        </axiom>
+        <axiom component="lesson-plan">
+            <title>Exit Ticket Answer Key</title>
+            <p xml:id="auto_2zmayrfw">
+                <alert>Question 1:</alert>
+            </p>
+            <p xml:id="auto_lrgqkvic">
+                Let side <m>= s</m>, then <m>s^3 = 79{,}507</m>
+            </p>
+            <p xml:id="auto_eplc7byl">
+                <m>s = \sqrt[3]{79{,}507}</m>
+            </p>
+            <p xml:id="auto_lcwzx7w3">
+                <m>\log(s) = \frac{1}{3} \times \log(79{,}507)</m>
+            </p>
+            <p xml:id="auto_70yi0xsu">
+                <m>\log(79{,}507) = 4.9004</m>
+            </p>
+            <p xml:id="auto_w3gfakgq">
+                <m>\log(s) = 4.9004 \div 3 = 1.6335</m>
+            </p>
+            <p xml:id="auto_vxi9huka">
+                <m>s = \text{antilog}(1.6335) = 43.0</m> cm
+            </p>
+            <p xml:id="auto_464il50t">
+                <alert>Question 2:</alert>
+            </p>
+            <p xml:id="auto_6i0f0lig">
+                <m>\log\!\left((78.5)^3\right) = 3 \times \log(78.5) = 3 \times 1.8949 = 5.6847</m>
+            </p>
+            <p xml:id="auto_wf6pwwg4">
+                <m>(78.5)^3 = \text{antilog}(5.6847) \approx 484{,}000</m>
+            </p>
+            <p xml:id="auto_bfy0cs3v">
+                <alert>Question 3:</alert>
+            </p>
+            <p xml:id="auto_7i8vsgim">
+                <m>\log\!\left((254.6)^4\right) = 4 \times \log(254.6) = 4 \times 2.4059 = 9.6236</m>
+            </p>
+            <p xml:id="auto_k16ltqza">
+                <m>(254.6)^4 = \text{antilog}(9.6236) \approx 4{,}200{,}000{,}000</m>
+            </p>
+        </axiom>
+        <xi:include href="../../resources-checkpoint.ptx" />
+
+        <exercise xml:id="ex-adding-logarithms-for-mixed-power-and-root">
+            <title>Adding Logarithms for Mixed Power and Root</title>
+            <stack label="stk-adding-logarithms-for-mixed-power-and-root" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Applying-Logarithms-to-Powers-and-Roots/Adding-logarithms-for-mixed-power-and-root.xml"/>
+        </exercise>
+
+        <exercise xml:id="ex-applying-logarithms-to-a-power">
+            <title>Applying Logarithms to a Power</title>
+            <stack label="stk-applying-logarithms-to-a-power" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Applying-Logarithms-to-Powers-and-Roots/Applying-logarithms-to-a-power.xml"/>
+        </exercise>
+
+        <exercise xml:id="ex-applying-logarithms-to-roots">
+            <title>Applying Logarithms to Roots</title>
+            <stack label="stk-applying-logarithms-to-roots" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Applying-Logarithms-to-Powers-and-Roots/Applying-logarithms-to-roots.xml"/>
+        </exercise>
+
+        <exercises xml:id="exercises-applying-logarithms-to-powers-and-roots">
+            <exercise xml:id="auto_sn95t4rz">
+                <statement>
+                    <p xml:id="auto_c1vvazib">
+                        Compute the following using logarithms:
+                    </p>
+                    <p xml:id="auto_lvefifw6">
+                        <ol xml:id="auto_h1w1vv88" marker="(a)">
+                            <li xml:id="auto_e1iyufpk">
+                                <p xml:id="auto_k6971n8o">
+                                    <m>(78.5)^3</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_qq4jxjnq">
+                                <p xml:id="auto_wyu19tbl">
+                                    <m>(254.6)^4</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_2nku2g6d">
+                                <p xml:id="auto_tugoqrff">
+                                    <m>(12.75)^{2.5}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            <answer>
+                <p xml:id="auto_om9ellgk">
+                    <ol xml:id="auto_lxdxbarj" marker="(a)">
+                        <li xml:id="auto_ss8kk7m3"><m> \approx 483\,736.6</m></li>
+                        <li xml:id="auto_f1b1efxu"><m> \approx 4.2018 \times 10^{9}</m></li>
+                        <li xml:id="auto_p1heo7js"><m> \approx 580.4642</m></li>
+                    </ol>
+                </p>
+            </answer>
+            </exercise>
+            <exercise xml:id="auto_hz0z8ie5">
+                <statement>
+                    <p xml:id="auto_xbzcqrqs">
+                        Compute the following roots using logarithms:
+                    </p>
+                    <p xml:id="auto_av1fr3h3">
+                        <ol xml:id="auto_0b6c1n75" marker="(a)">
+                            <li xml:id="auto_dt2d9or6">
+                                <p xml:id="auto_umt0rq0o">
+                                    <m>\sqrt[3]{658.4}</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_kthytji4">
+                                <p xml:id="auto_pe7xhymk">
+                                    <m>\sqrt{82.6}</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_qc4fryv8">
+                                <p xml:id="auto_iek7dua1">
+                                    <m>\sqrt[4]{3126}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            <answer>
+                <p xml:id="auto_w9f1qhk5">
+                    <ol xml:id="auto_g2eoiikw" marker="(a)">
+                        <li xml:id="auto_ubqpsxvj"><m> \approx 8.6995</m></li>
+                        <li xml:id="auto_hcps5mor"><m> \approx 9.0885</m></li>
+                        <li xml:id="auto_eonht7d9"><m> \approx 7.4773</m></li>
+                    </ol>
+                </p>
+            </answer>
+            </exercise>
+            <exercise xml:id="auto_cprcqd6f">
+                <statement>
+                    <p xml:id="auto_yzy7fhzr">
+                        A square field has an area of <m>18432</m> square metres. Use logarithms to determine the length of one side.
+                    </p>
+                </statement>
+            <answer>
+                <p xml:id="auto_nm7mci9o">
+                    <m>\text{Side length} = \sqrt{18432} \approx 135.7645\ \text{m}</m>
+                </p>
+            </answer>
+            </exercise>
+            <exercise xml:id="auto_413n15dy">
+                <statement>
+                    <p xml:id="auto_1esiu7ak">
+                        Use logarithm tables to evaluate:
+                    </p>
+                    <p xml:id="auto_oilfqvus">
+                        <ol xml:id="auto_zv5i4o9t" marker="(a)">
+                            <li xml:id="auto_4rkptkgx">
+                                <p xml:id="auto_7hl15djx">
+                                    <m>\sqrt{ \frac{(4.56 \times 12.3)}{24.7} }</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_93xctv2r">
+                                <p xml:id="auto_wjmmc741">
+                                    <m>\sqrt{ \frac{(2.718 \times 9.81)}{5.432 \times 3.14} }</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_8apuqd8m">
+                                <p xml:id="auto_e1wu01c4">
+                                    <m>\frac{\sqrt{52.8 \times 24.6}}{\sqrt{31.5}}</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_rxalsepa">
+                                <p xml:id="auto_b4l1uh29">
+                                    <m>\sqrt[3]{\frac{(6.75 \times 432)}{0.89}}</m>
+                                </p>
+                            </li>
+                            <li xml:id="auto_13flx8tj">
+                                <p xml:id="auto_6a9uobki">
+                                    <m>\sqrt[4]{\frac{(8462 \times 23.7)}{673}}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            <answer>
+                <p xml:id="auto_yv71raay">
+                    <ol xml:id="auto_ce40wl6g" marker="(a)">
+                        <li xml:id="auto_a42ilufe"><m> \approx 1.5069</m></li>
+                        <li xml:id="auto_fqtf5k17"><m> \approx 1.2503</m></li>
+                        <li xml:id="auto_0mjo6ent"><m> \approx 6.4214</m></li>
+                        <li xml:id="auto_6kdl7tdc"><m> \approx 14.8525</m></li>
+                        <li xml:id="auto_rr9lpzxr"><m> \approx 4.1548</m></li>
+                    </ol>
+                </p>
+            </answer>
+            </exercise>
+            <exercise xml:id="auto_7l3ixouf">
+                <statement>
+                    <p xml:id="auto_qn4e2iw8">
+                        The volume of a cube is <m>79507</m> cubic centimetres. Use logarithms to find the length of one side.
+                    </p>
+                </statement>
+            <answer>
+                <p xml:id="auto_pjjvizgg">
+                    <m>43\ \text{cm}</m>
+                </p>
+            </answer>
+            </exercise>
+        </exercises>
+
+        <axiom component="lesson-plan">
+            <title>Differentiation</title>
+            <tabular bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Student Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>Provide step-by-step formula cards. Start with simple powers of 10. Use visual aids showing the power law. Allow extra time with calculators. Practice converting roots to fractional powers. Provide worked examples as reference.</cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>The core lesson activities as described above.</cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>Introduce higher order roots (4th, 5th roots). Combine power law with product and quotient laws. Solve exponential equations using logarithms. Explore applications in compound interest. Investigate logarithmic scales (Richter, pH, decibels).</cell>
+                </row>
+            </tabular>
+        </axiom>
+        <axiom component="lesson-plan">
+            <title>Extension Activity</title>
+            <paragraphs>
+                <title>Real-World Applications Investigation</title>
+                <p xml:id="auto_30bb08cy">
+                    <alert>Objective:</alert> Apply logarithms of powers and roots to real-world scenarios.
+                </p>
+                <p xml:id="auto_nvlhhdyf">
+                    <alert>Activity Description:</alert>
+                </p>
+                <ol>
+                    <li xml:id="auto_kkcbju23"><p xml:id="auto_7amtqjcp">Research one real-world application (choose one):
+                        <ul>
+                            <li xml:id="auto_ld8ldn27"><p xml:id="auto_a6ypctln">Compound interest calculations (money growing exponentially)</p></li>
+                            <li xml:id="auto_yvrbic2n"><p xml:id="auto_1j9aynx2">Population growth models</p></li>
+                            <li xml:id="auto_6f4tjtzq"><p xml:id="auto_vokutuf1">Radioactive decay in nuclear physics</p></li>
+                            <li xml:id="auto_j5riv78h"><p xml:id="auto_qj5pm7cj">Sound intensity (decibel scale)</p></li>
+                            <li xml:id="auto_msd0svee"><p xml:id="auto_8g9yx8tb">Earthquake magnitude (Richter scale)</p></li>
+                        </ul>
+                    </p></li>
+                    <li xml:id="auto_ree8nqlp"><p xml:id="auto_7pbjcd53">Identify how powers and roots are involved.</p></li>
+                    <li xml:id="auto_niq1cgbk"><p xml:id="auto_zbp3omzu">Use logarithms to solve a related problem.</p></li>
+                    <li xml:id="auto_3cy5ozqa"><p xml:id="auto_skz7wijk">Present findings with calculations to the class.</p></li>
+                </ol>
+            </paragraphs>
+            <paragraphs>
+                <title>Calculator vs. Tables Challenge</title>
+                <p xml:id="auto_b22eeywd">Students compare results:</p>
+                <ul>
+                    <li xml:id="auto_3su75ow1"><p xml:id="auto_is115089">Solve the same power/root problem using both calculator and logarithm tables</p></li>
+                    <li xml:id="auto_bu902j5x"><p xml:id="auto_wm9bg9sn">Compare accuracy and efficiency</p></li>
+                    <li xml:id="auto_labbapx1"><p xml:id="auto_4co81xk3">Discuss when each method is more appropriate</p></li>
+                    <li xml:id="auto_0xx99b8a"><p xml:id="auto_mpvs6uhr">Reflect on the historical importance of logarithm tables</p></li>
+                </ul>
+            </paragraphs>
+        </axiom>
+        <xi:include href="../../resources-assessment.ptx" />
+        <xi:include href="../../resources-reflection.ptx"/>
+
+    </subsubsection>

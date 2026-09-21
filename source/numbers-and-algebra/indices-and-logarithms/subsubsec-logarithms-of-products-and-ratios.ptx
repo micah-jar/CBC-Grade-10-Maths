@@ -1,0 +1,603 @@
+<subsubsection xml:id="subsubsec-logarithms-of-products-and-ratios" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Logarithms of Products and Ratios</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_9d8x2840">
+            <dl>
+                <li xml:id="auto_oazgfz1j">
+                    <title>Strand</title>
+                    <p xml:id="auto_m407vz1n">
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li xml:id="auto_qlhhusgb">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_kxuei5yj">
+                        1.2 Indices and Logarithms
+                    </p>
+                 </li>
+                  <li xml:id="auto_ij2re4i1">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_p40wf0zv">
+                        1.1 Real Numbers
+                    </p>
+                </li>
+                <li xml:id="auto_42x8xke2">
+                    <title>Specific Learning Outcomes</title> 
+                    <p xml:id="auto_gnldlo6p">
+                        Apply common logarithms in multiplication, division, powers and roots of numbers
+                    </p>
+                </li>
+                <li xml:id="auto_bgx06oq2" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_nscdkgig">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_8vb4kkkk" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_zqs78u0a">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+       
+    </objectives>
+
+    <!-- <p xml:id="auto_1jds6diu">
+        Since logarithms are exponents, the laws that guide indices also apply to logarithms. In this section, we explore how to simplify the logarithms of products and ratios.
+    </p>
+
+    <paragraphs>
+        <title>Multiplication and division using logarithms</title>
+            
+        <p xml:id="auto_08rh4k8z">
+            Logarithms simplify multiplication and division by converting them into addition and subtraction, respectively. This is particularly useful when dealing with large numbers.
+        </p>
+
+        <example xml:id="auto_c2we0tmk">
+            <statement>
+                <p xml:id="auto_w4nnylu8">
+                    Find <m>236.5 \times 42.8</m> using logarithm table.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_wlpapwzd">
+                    Find the logarithm of each number from the logarithm table:
+                </p>
+                <p xml:id="auto_mzmokdh4">
+                    <me>
+                        \log 236.5 = 2.3741, \quad \log 42.8 = 1.6318
+                    </me>
+                </p>
+                <p xml:id="auto_m0naf8xu">
+                    Add the logarithms:
+                </p>
+                <p xml:id="auto_d0x91q8l">
+                    <me>
+                        2.3741 + 1.6318 = 4.0059
+                    </me>
+                </p>
+                <p xml:id="auto_5d20m6yo">
+                    Find the antilogarithm of <m>4.0059</m>:
+                </p>
+                <p xml:id="auto_ve412q0v">
+                    <me>
+                        \text{Antilog} (4.0059) \approx 10160
+                    </me>
+                </p>
+                <p xml:id="auto_glxjj6j0">
+                    Thus, <m>236.5 \times 42.8 \approx 10160</m>.
+                </p>
+            </solution>
+        </example>
+
+        <example xml:id="auto_6vubc9x6">
+            <statement>
+                <p xml:id="auto_qu13c392">
+                    Find <m>\frac{528.6}{24.7}</m> using logarithm tables.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_3ng4fcyd">
+                    Find the logarithm of each number from the logarithm table:
+                </p>
+                <p xml:id="auto_1wtm9h5a">
+                    <me>
+                        \log 528.6 = 2.7233, \quad \log 24.7 = 1.3927
+                    </me>
+                </p>
+                <p xml:id="auto_nnfehooo">
+                    Subtract the logarithms:
+                </p>
+                <p xml:id="auto_jb5hkc01">
+                    <me>
+                        2.7233 - 1.3927 = 1.3306
+                    </me>
+                </p>
+                <p xml:id="auto_9nv4vktz">
+                    Find the antilogarithm of <m>1.3306</m>:
+                </p>
+                <p xml:id="auto_bx63b3uo">
+                    <me>
+                        \text{Antilog} (1.3306) \approx 21.4
+                    </me>
+                </p>
+                <p xml:id="auto_nfckc3qu">
+                    Thus, <m>\frac{528.6}{24.7} \approx 21.4</m>.
+                </p>
+            </solution>
+        </example>
+
+        <exercise xml:id="ex-multiplication-using-logarithm-tables">
+            <title>Multiplication using logarithm tables</title>
+            <stack label="stk-multiplication-using-logarithm-tables" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Multiplying-and-Dividing-Logarithms/Multiplication-using-logarithm-tables.xml"/>
+        </exercise>
+
+    </paragraphs>
+
+    <activity xml:id="auto_ayhwdwhb">
+        <statement>
+            <p xml:id="auto_kd2gqbac">
+                <term>Work in groups:</term> Form groups of <m>2</m> or <m>3</m> students.
+            </p>
+            <p xml:id="auto_yavb90ot">
+                <term>Materials:</term> Paper and pen
+            </p>
+            <p xml:id="auto_klrpltt7">
+                <term>Instructions:</term>
+            </p>
+            <ol marker="(a)">
+                <li xml:id="auto_uwrseg9k">Write <m>3^2 \times 3^4</m> in index form.</li>
+                <li xml:id="auto_su1ukh03">Express the result as a single power of <m>3</m>.</li>
+                <li xml:id="auto_8atpywe3">
+                    Convert your result into logarithmic form.
+                </li>
+                <li xml:id="auto_h9qf7hx1">
+                    Now separately write:
+                    <m>\log_3 3^2 + \log_3 3^4</m>
+                </li>
+                <li xml:id="auto_3pmmrfq8">Compare the two results.</li>
+            </ol>
+            <p xml:id="auto_sl8k3pd2">
+                What relationship do you observe?
+            </p>
+        </statement>
+    </activity>
+
+    <insight xml:id="auto_5iod4xc1">
+        <p xml:id="auto_1j8i6nl6">
+            The logarithm of a product is equal to the sum of the logarithms of the individual factors
+        </p>
+        <p xml:id="auto_dwvzljvg">
+            Logarithms change multiplication into addition.
+        </p>
+        <p xml:id="auto_85e1bj9r">
+        Since:
+        <me>
+            3^2 \times 3^4 = 3^{2+4} = 3^6
+        </me>
+        </p>
+        <p xml:id="auto_rmf0j6po">
+            Converting to logarithmic form:
+        <me>
+            \log_3 3^6 = 6
+        </me>
+        </p>
+        <p xml:id="auto_wh5jvz2q">
+            But:
+        <me>
+            \log_3 3^2 + \log_3 3^4 = 2 + 4 = 6
+        </me>
+        </p>
+        <p xml:id="auto_ihnksfqb">
+            Therefore,
+        <me>
+            \log_a (MN) = \log_a M + \log_a N
+        </me>
+        </p>
+        <p xml:id="auto_vbdppdde">
+            This is called the <term>Product Law of Logarithms</term>.
+        </p>
+    </insight>
+
+    <activity xml:id="auto_qiryf1dh">
+        <statement>
+            <p xml:id="auto_t23271y9">
+                <term>Work in groups:</term> Form groups of <m>2</m> or <m>3</m> students.
+            </p>
+            <p xml:id="auto_brzq9kh3">
+                <term>Instruction:</term>
+            </p>
+            <p xml:id="auto_v1a7emma">
+                Repeat the process for division:
+            </p>
+            <ol marker="(a)">
+                <li xml:id="auto_z0ga3gym">Write <m>5^6 \div 5^2</m> in index form.</li>
+                <li xml:id="auto_y6iaakw9">Express as a single power of <m>5</m>.</li>
+                <li xml:id="auto_lgxv78h4">Convert into logarithmic form.</li>
+                <li xml:id="auto_5pqinubm">
+                    Compare with:
+                    <m>\log_5 5^6 - \log_5 5^2</m>
+                </li>
+            </ol>
+        </statement>
+    </activity>
+    <insight xml:id="auto_dz5v46qx">
+        <p xml:id="auto_2po2ef5u">
+            The logarithm of a quotient (ratio) is equal to the difference between the logarithm of the numerator and the logarithm of the denominator
+        </p>
+        <p xml:id="auto_kz6w3g6j">
+            Logarithms change division into subtraction.
+        </p>
+        <p xml:id="auto_slfh949v">
+            Since:
+        <me>
+            5^6 \div 5^2 = 5^{6-2} = 5^4
+        </me>
+        </p>
+
+        <p xml:id="auto_iagdkbfn">
+            Therefore,
+        <me>
+            \log_a \left(\frac{M}{N}\right) = \log_a M - \log_a N
+        </me>
+        </p>
+    </insight>
+
+    <example xml:id="auto_ua24bout">
+        <statement>
+            <p xml:id="auto_tzv7bbxs">
+                Express the following as a single logarithm and evaluate:
+            </p>
+            <p xml:id="auto_2gl8077k">
+                <ol marker="(a)">
+                    <li xml:id="auto_ed4y9akb"><m>\log_{10} 25 + \log_{10} 4</m></li>
+                    <li xml:id="auto_zkq9lo7u"><m>\log_{2} 48 - \log_{2} 3</m></li>
+                    <li xml:id="auto_2rw215ke"><m>\log_{10} 20 + \log_{10} 50</m></li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_x75sxrm8">
+                a) Using the product law: <me>\log_{10} (25 \times 4) = \log_{10} 100 = 2</me>
+            </p>
+            <p xml:id="auto_sol_b">
+                b) Using the ratio law: <me>\log_{2} \left(\frac{48}{3}\right) = \log_{2} 16 = 4</me>
+            </p>
+            <p xml:id="auto_sol_c">
+                c) <me>\log_{10} (20 \times 50) = \log_{10} 1000 = 3</me>
+            </p>
+        </solution>
+    </example>
+
+    <exercises xml:id="auto_lf1ku6bz">
+        <exercise xml:id="auto_lckgyfhz">
+            <statement>
+                <p xml:id="auto_ipi5oypn">
+                    Write each of the following as a single logarithm:
+                </p>
+                <p xml:id="auto_xo2i1wwe">
+                    <ol marker="(a)" cols="2">
+                        <li xml:id="auto_q4hvokk1"><m>\log_a 7 + \log_a 3</m></li>
+                        <li xml:id="auto_0dmxzi8v"><m>\log_x 24 - \log_x 4</m></li>
+                        <li xml:id="auto_gpux50e1"><m>\log_{10} 5 + \log_{10} 2</m></li>
+                        <li xml:id="auto_7p0yfti6"><m>\log_b 50 - \log_b 2</m></li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_m2semums">
+                    <ol marker="(a)">
+                        <li xml:id="auto_d4m2wf2o"><m>\log_a 21</m></li>
+                        <li xml:id="auto_886yaow9"><m>\log_x 6</m></li>
+                        <li xml:id="auto_ou7omflr"><m>\log_{10} 10 = 1</m></li>
+                        <li xml:id="auto_j66bmnii"><m>\log_b 25</m></li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_h8c19ix9">
+            <statement>
+                <p xml:id="auto_i5v97lj0">
+                    Simplify the following:
+                </p>
+                <ol marker="(a)" cols="2">
+                    <li xml:id="auto_ulnswh6d"><m>\log_3 27 + \log_3 9</m></li>
+                    <li xml:id="auto_84ksjow9"><m>\log_5 125 - \log_5 5</m></li>
+                    <li xml:id="auto_zaxoital"><m>\log_2 32 - \log_2 4</m></li>
+                    <li xml:id="auto_xkxlf5m3"><m>\log_7 49 + \log_7 7</m></li>
+                </ol>
+            </statement>
+            <answer>
+                <p xml:id="auto_28qv5d73">
+                    <ol marker="(a)">
+                        <li xml:id="auto_q6usja6t"><m>5</m></li>
+                        <li xml:id="auto_bgq37tbv"><m>2</m></li>
+                        <li xml:id="auto_1mcr0vne"><m>3</m></li>
+                        <li xml:id="auto_milg8g3z"><m>3</m></li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+    </exercises> -->
+
+<xi:include href="../../resources-materials.ptx" />
+
+    <activity xml:id="auto_intro_logs_products">
+        <statement>
+            <p xml:id="auto_x8dhwyfd">
+                <term>Work in groups:</term> Form groups of <m>2</m> or <m>3</m> students.
+            </p>
+            <p xml:id="auto_a0szgmvd">
+                <term>Materials:</term> Paper, pen, and calculator.
+            </p>
+            <p xml:id="auto_r4gwf8vn">
+                <term>Instructions:</term>
+            </p>
+            <ol marker="(a)">
+                <li xml:id="auto_eedkn5qy">Evaluate: <m>2^2 \times 2^3</m>.</li>
+                <li xml:id="auto_ft2lvfp5">Rewrite the result as a single power of <m>2</m>.</li>
+                <li xml:id="auto_baw2c677">Find: <m>\log_2 (2^2 \times 2^3)</m>.</li>
+                <li xml:id="auto_qmi501lr">Compare with: <m>\log_2 2^2 + \log_2 2^3</m>.</li>
+            </ol>
+            <p xml:id="auto_qgobb05m">What do you notice?</p>
+        </statement>
+    </activity>
+
+    <insight xml:id="auto_4fsqkrlm">
+        <p xml:id="auto_c7bsiw9y">
+            Since:
+            <me>
+                2^2 \times 2^3 = 2^{2+3} = 2^5
+            </me>
+        </p>
+        <p xml:id="auto_edl1dlqj">
+            Taking logarithm base <m>2</m>:
+            <me>
+                \log_2 (2^2 \times 2^3) = \log_2 2^5 = 5
+            </me>
+        </p>
+        <p xml:id="auto_7awjhwyy">
+            But:
+            <me>
+                \log_2 2^2 + \log_2 2^3 = 2 + 3 = 5
+            </me>
+        </p>
+        <p xml:id="auto_wdbh9bbl">
+            Therefore,
+            <me>
+                \log_a (MN) = \log_a M + \log_a N
+            </me>
+        </p>
+        <p xml:id="auto_zh1wxvzz">
+            This is called the <term>Product Law of Logarithms</term>.
+        </p>
+        <p xml:id="auto_q13nz2w3">
+            Logarithms convert multiplication into addition.
+        </p>
+    </insight>
+
+    <activity xml:id="auto_intro_logs_ratios">
+        <statement>
+            <p xml:id="auto_x4yvk742">
+                Repeat the process for division:
+            </p>
+            <ol marker="(a)">
+                <li xml:id="auto_meicsdiz">Evaluate: <m>5^4 \div 5^2</m>.</li>
+                <li xml:id="auto_f13madfa">Rewrite as a single power of <m>5</m>.</li>
+                <li xml:id="auto_hzxexxu9">Find: <m>\log_5 (5^4 \div 5^2)</m>.</li>
+                <li xml:id="auto_p8zi4kon">Compare with: <m>\log_5 5^4 - \log_5 5^2</m>.</li>
+            </ol>
+        </statement>
+    </activity>
+
+    <insight xml:id="auto_x9229kmv">
+        <p xml:id="auto_0ez7itow">
+            Since:
+            <me>
+                5^4 \div 5^2 = 5^{4-2} = 5^2
+            </me>
+        </p>
+        <p xml:id="auto_2fwwpqhe">
+            Therefore,
+            <me>
+                \log_a \left(\frac{M}{N}\right) = \log_a M - \log_a N
+            </me>
+        </p>
+        <p xml:id="auto_l84iycc9">
+            This is called the <term>Quotient Law of Logarithms</term>.
+        </p>
+        <p xml:id="auto_awrkko0w">
+            Logarithms convert division into subtraction.
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application / Elaborate</title>
+        <p>
+            <dl>
+            <li>
+                <title>Suggested Time</title>
+                <p>
+                    12 minutes
+                </p>
+            </li>
+            <li>
+                <title>Objective</title>
+                <p>
+                    To apply the learned concepts and procedures to solve varied problems.
+                </p>
+            </li>
+            <li>
+                <title>Learning Experience</title>
+                <p>
+                    Learners work on a set of problems individually or in pairs. The problems are designed to move from simple classification to application and reasoning.
+                </p>
+            </li>
+            <li>
+                <title>Teacher's Role</title>
+                <p>
+                    The teacher monitors Learners as they work, providing support where needed and encouraging Learners to explain their reasoning using the formal properties discussed in the key takeaways.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <example xml:id="auto_bsp08p2f">
+        <statement>
+            <p xml:id="auto_bq0ax2zz">
+                Express as a sum or difference of logarithms and evaluate:
+                <ol marker="(a)">
+                    <li xml:id="auto_kpivg9dc"><m>\log_3 (9 \times 27)</m></li>
+                    <li xml:id="auto_c51epjc1"><m>\log_5 \left(\frac{125}{25}\right)</m></li>
+                    <li xml:id="auto_il0zsmsk"><m>\log_2 (16 \times 8)</m></li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_q8hhlb34">
+                a) Using the product law: <me>\log_3 (9 \times 27) = \log_3 9 + \log_3 27 = 2 + 3 = 5</me>
+            </p>
+            <p xml:id="auto_zv5gc1ke">
+                b) Using the quotient law: <me>\log_5 \left(\frac{125}{25}\right) = \log_5 125 - \log_5 25 = 3 - 2 = 1</me>
+            </p>
+            <p xml:id="auto_27eam3qd">
+                c) Using the product law: <me>\log_2 (16 \times 8) = \log_2 16 + \log_2 8 = 4 + 3 = 7</me>
+            </p>
+        </solution>
+    </example>
+
+    <!-- STACK EXERCISES -->
+
+    <exercise xml:id="ex-applying-product-and-quotient-rules-of-logarithms">
+        <!--<title></title>-->
+        <stack label="stk-applying-product-and-quotient-rules-of-logarithms" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Logarithms-of-Products-and-Ratios/Applying-product-and-quotient-rules-of-logarithms.xml"/>
+    </exercise>
+
+    <exercise xml:id="ex-applying-the-product-rule-of-logarithms">
+        <!--<title></title>-->
+        <stack label="stk-applying-the-product-rule-of-logarithms" source="stack/top/1-0-Numbers-Algebra/Indices-and-Logarithms/Logarithms/Logarithms-of-Products-and-Ratios/Applying-the-product-rule-of-logarithms.xml"/>
+    </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Assessment / Evaluate </title>
+        <p>
+            <dl>
+            <li>
+                <title>Suggested Time</title>
+                <p>
+                    8 minutes
+                </p>
+            </li>
+            <li>
+                <title>Objective</title>
+                <p>
+                    To formatively assess individual Learner understanding of the lesson objectives.
+                </p>
+            </li>
+            <li>
+                <title>Learning Experience</title>
+                <p>
+                    Learners independently complete a short assessment task (select from the exercises below).
+                </p>
+            </li>
+            <li>
+                <title>Teacher's Role</title>
+                <p>
+                    Collect and review the exit tickets to gauge Learner understanding and identify any common misconceptions that need to be addressed in the next lesson.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+
+    <exercises xml:id="exercises-applying-logarithms-to-products-and-ratios">
+        <exercise xml:id="auto_1vgvxi5o">
+            <statement>
+                <p xml:id="auto_fzt1z3y8">
+                    Express the following as a sum or difference of logarithms and evaluate:
+                </p>
+                <p xml:id="auto_sh9rwu5y">
+                    <ol marker="(a)" cols="2">
+                        <li xml:id="auto_je5p72f6">
+                                <m>\log_4 (64 \times 16)</m>
+                        </li>
+                        <li xml:id="auto_2b0i7qcl">
+                            <m>\log_4 (64 \times 16)</m>
+                        </li>
+                        <li xml:id="auto_ht4ak88u"><m>\log_6 \left(\frac{216}{36}\right)</m></li>
+                        <li xml:id="auto_jb5e115o"><m>\log_5 (25 \times 125)</m></li>
+                        <li xml:id="auto_gijo2fc9"><m>\log_8 \left(\frac{512}{64}\right)</m></li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_kzyr80p3">
+                    <ol marker="(a)" cols="2">
+                        <li xml:id="auto_691oojmy"><m>6</m></li>
+                        <li xml:id="auto_ux690id0"><m>2</m></li>
+                        <li xml:id="auto_wiq0rc5n"><m>3</m></li>
+                        <li xml:id="auto_5zk3kokb"><m>3</m></li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_olc906mn">
+        <statement>
+            <p xml:id="auto_i76af72m">
+                Given that <m>\log_{10} 2 \approx 0.3010</m> and <m>\log_{10} 3 \approx 0.4771</m>, evaluate:
+            </p>
+            <p xml:id="auto_zmbdityg">
+                <ol marker="(a)" cols="2">
+                    <li xml:id="auto_e513qkrf"><m>\log_{10} 6</m></li>
+                    <li xml:id="auto_rvsdh08a"><m>\log_{10} 1.5</m></li>
+                    <li xml:id="auto_6dy6uaxp"><m>\log_{10} 5</m></li>
+                </ol>
+            </p>
+        </statement>
+        <answer>
+            <p xml:id="auto_p3983pvd">
+                <ol marker="(a)">
+                    <li xml:id="auto_x0db5imj"><m>\log_{10}(2 \times 3) = 0.3010 + 0.4771 = 0.7781</m></li>
+                    <li xml:id="auto_7mutjqxo"><m>\log_{10}(3 \div 2) = 0.4771 - 0.3010 = 0.1761</m></li>
+                    <li xml:id="auto_9xw2mjkd"><m>\log_{10}(10 \div 2) = 1 - 0.3010 = 0.6990</m></li>
+                </ol>
+            </p>
+        </answer>
+    </exercise>
+        <exercise xml:id="auto_bt66b7k9">
+            <statement>
+                <p xml:id="auto_bhk92gpb">
+                    Write each of the following as a single logarithm:
+                </p>
+                <p xml:id="auto_cmlkk85z">
+                    <ol marker="(a)" cols="2">
+                        <li xml:id="auto_bmuodgtf"><m>\log_a 5 + \log_a 4</m></li>
+                        <li xml:id="auto_2vituffj"><m>\log_x 18 - \log_x 3</m></li>
+                        <li xml:id="auto_487o8ata"><m>\log_{10} 8 + \log_{10} 125</m></li>
+                        <li xml:id="auto_i4575bxm"><m>\log_b 81 - \log_b 9</m></li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_to8otcz5">
+                    <ol marker="(a)" cols="2">
+                        <li xml:id="auto_93x85ua2"><m>\log_a 20</m></li>
+                        <li xml:id="auto_qtrj1rd7"><m>\log_x 6</m></li>
+                        <li xml:id="auto_gzowrlfs"><m>\log_{10} 1000 = 3</m></li>
+                        <li xml:id="auto_b535ro86"><m>\log_b 9</m></li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+
+ <xi:include href="../../resources-assessment.ptx" />
+
+<xi:include href="../../resources-reflection.ptx"/>
+
+</subsubsection>

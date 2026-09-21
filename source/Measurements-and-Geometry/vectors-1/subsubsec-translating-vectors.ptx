@@ -1,0 +1,841 @@
+<subsubsection xml:id="subsubsec-translating-vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Translating Vectors</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_v8aujyfh">
+            <dl>
+                <li xml:id="auto_18dcoocz">
+                    <title>Strand</title>
+                    <p xml:id="auto_gw5n74ja">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_z02j073h">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_h1vmqt9c">
+                        2.9 Vectors 1
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+        <p xml:id="auto_j8rh01zy">
+            <dl>
+                <li xml:id="auto_dyxw77ro">
+                    <title>Specific Learning Outcome</title>
+                    <p xml:id="auto_v3a1bedi">Determine translation vector as a transformation</p>
+                </li>
+            </dl>
+        </p>
+        <li xml:id="auto_kfw14m22" component="lesson-plan">Grade Level: 10</li>
+        <li xml:id="auto_pvplqo8l" component="lesson-plan">Estimated Duration: 40 minutes</li>
+        <p xml:id="auto_l6h49x2x" component="lesson-plan">
+            <dl>
+                <li xml:id="auto_pkq09iv9">
+                    <title>Know</title>
+                    <p xml:id="auto_jgd4uswz">The definition of a translation vector and how translation preserves shape, size, and orientation</p>
+                </li>
+                <li xml:id="auto_2y7nxesc">
+                    <title>Do</title>
+                    <p xml:id="auto_tgx9dei3">Calculate translated coordinates by adding the translation vector to each vertex</p>
+                </li>
+                <li xml:id="auto_yi1djujy">
+                    <title>Apply</title>
+                    <p xml:id="auto_bimqbhrg">Use translation vectors to describe movement in real-life contexts such as animation and navigation</p>
+                </li>
+            </dl>
+        </p>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_fd2f0w1t">
+                    <dataurl source="lesson_plans/measurements-and-geometry/vectors-1/translating-vectors.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_z8dxxgj3">
+                    <dataurl source="lesson_plans/measurements-and-geometry/vectors-1/step-by-step-guide_translating-vectors.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+
+    <!-- <p xml:id="auto_0npnn6n4">
+        <alert>Translation</alert> 
+    </p> -->
+    <!-- <p xml:id="auto_e5a1kg2i">
+        A square <m>\mathbf{ABCD}</m> is said to have undergone translation 
+        if point <m>\mathbf{A}</m>,<m>\mathbf{B}</m>,<m>\mathbf{C}</m> and 
+        <m>\mathbf{D}</m> move in the <alert>same direction</alert> also 
+        move the same distance.
+    </p> -->
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery (15 minutes)</title>
+        <p xml:id="auto_b89rlq7k">
+            <alert>Anchor Activity: Discovering Translation</alert>
+        </p>
+        <p xml:id="auto_6qx48v8n">
+            Organise students into groups of 2–3. Distribute graph paper, rulers, and pencils. Guide students through the activity below.
+        </p>
+        <p xml:id="auto_gkme2kq5">
+            <alert>Teacher Role During Discovery:</alert>
+        </p>
+        <p xml:id="auto_rci6f3z0">
+            <ul>
+                <li xml:id="auto_3q5k2ppz"><p xml:id="auto_1emtfbpz">Circulate among students, ensuring they plot points correctly.</p></li>
+                <li xml:id="auto_19nsqa1x"><p xml:id="auto_84ly3zpj">Ask probing questions: <q>Did all points move the same distance? In the same direction?</q></p></li>
+                <li xml:id="auto_pvvqahha"><p xml:id="auto_izc618fa">For struggling students: <q>Let us count together. <m>A</m> moved from <m>(-3,1)</m> to where? Count 2 right and 3 up.</q></p></li>
+                <li xml:id="auto_dfh613no"><p xml:id="auto_7i52jtkx">For early finishers: <q>What if we translate by <m>\binom{5}{-2}</m>? Try it!</q></p></li>
+                <li xml:id="auto_q0xmkplx"><p xml:id="auto_en7rlnke">Guide students to articulate: <em>Translation moves every point the same distance and direction.</em></p></li>
+                <li xml:id="auto_8apl6ikn"><p xml:id="auto_x6zf4rsz">Identify 2–3 students with clear findings to share with the class.</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_6jq0fl0z">
+            <alert>Guiding Questions:</alert>
+        </p>
+        <p xml:id="auto_eqtn4eyg">
+            <ol marker="1.">
+                <li xml:id="auto_ciym01wn"><p xml:id="auto_66mlmdv6">What are the coordinates of <m>A'</m>, <m>B'</m>, and <m>C'</m>?</p></li>
+                <li xml:id="auto_lyf33pd5"><p xml:id="auto_vhorfroq">How far did each point move horizontally? Vertically?</p></li>
+                <li xml:id="auto_qhcrf5lz"><p xml:id="auto_g0vhsle0">Did the shape or size of the triangle change?</p></li>
+                <li xml:id="auto_ibwt8j8b"><p xml:id="auto_na5jbt30">What vector describes this movement?</p></li>
+                <li xml:id="auto_wql6lrll"><p xml:id="auto_djel9z5c">Can you predict where a point <m>D(0,0)</m> would move under the same translation?</p></li>
+                <li xml:id="auto_wzzwz4ux"><p xml:id="auto_nd7dr3y6">What happens if we translate by <m>\binom{-2}{-3}</m>? Would we get back to the original triangle?</p></li>
+            </ol>
+        </p>
+    </axiom>
+    <activity xml:id="auto_3mmqa5rg">
+        <introduction xml:id="auto_yklyk52k">
+            <p xml:id="auto_j20tx70c">
+                <alert>Work in groups</alert>
+            </p>
+            <p xml:id="auto_0zj26bsm">
+                <alert>What you require: </alert> Graph paper
+            </p>
+        </introduction>
+        <task xml:id="auto_3yeg5jaj">
+            <statement>
+                <p xml:id="auto_cke4hfsa">
+                    Draw the <m>x</m> axis and <m>y</m> axis on the graph paper.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_c4tfyp1i">
+            <statement>
+                <p xml:id="auto_x7w69ppi">
+                    Plot the triangle with vertices <m>A(-3,1)</m>, <m>B(-1,1)</m>, and <m>C(-2,3)</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_9d9gp1ks">
+            <statement>
+                <p xml:id="auto_6mk2npb0">
+                    Translate each point by moving <m>2</m> units to the right 
+                    parallel to the <m>x</m> axis and <m>3</m> units up in the <m>y</m> axis. 
+                    Label the new points as <m>A', B',</m> and <m>C'</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_seoj1dsr">
+            <statement>
+                <p xml:id="auto_b43og116">
+                    Draw the new triangle <m>A'B'C'</m> on the graph.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_tia4y16b">
+            <statement>
+                <p xml:id="auto_z8bn86ia">
+                    Use dotted lines to connect each original point 
+                    to its corresponding translated point 
+                    <m>(A \text{ to } A', B \text{ to } B', C \text{ to } C')</m>, add arrows to 
+                    indicate the direction.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_4fuatev9">
+            <statement>
+                <p xml:id="auto_4apegw7z">
+                    Observe and describe any similarities between triangle <m>ABC</m> and triangle <m>A'B'C'.</m>
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_ak6p6v6x">
+            <statement>
+                <p xml:id="auto_y04njmnb">
+                    Analyze the distance each point moved.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_blnqax7i">
+            <statement>
+                <p xml:id="auto_oymo0ojs">
+                    Discuss and share your findings with your classmates in the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <insight xml:id="auto_oeew97bw">
+        <p xml:id="auto_npz48did">
+            A square <m>\mathbf{ABCD}</m> undergoes a translation when each of its 
+            vertices (<m>\mathbf{A}</m>,<m>\mathbf{B}</m>,<m>\mathbf{C}</m> and 
+            <m>\mathbf{D}</m>) is moved the same distance and in the same direction.
+            A translation vector, denoted by <m>\mathbf{T}</m>, 
+            describes this movement.
+        </p>
+        <p xml:id="auto_174k0bz5">
+            Using <m>\mathbf{T}</m> to represent a translation, the notation 
+            <m>\mathbf{T}(\mathbf{P})</m>
+            indicates the application of the translation <m>\mathbf{T}</m> 
+            on <m>\mathbf{P}</m>. In <xref ref="translation-shape-1"/>, shows <m>\mathbf{A'B'C'D'}</m>
+            is the image of <m>\mathbf{ABCD}</m> under a translation.
+        </p>
+        <figure xml:id="translation-shape-1">
+            <caption></caption>
+            <image width="80%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        
+                        % Draw fine grid (10x smaller squares)
+                        \draw[gray!30, very thin, step=0.1] (-6,-6) grid (6,6);
+
+                        % Draw main grid (original)
+                        \draw[gray!70, thin, step=1] (-6,-6) grid (6,6);
+
+                        % Draw axes
+                        \draw[thick, &lt; - &gt;] (-5.5,0) -- (5.5,0) node[below] {$x$};
+                        \draw[thick, &lt; - &gt;] (0,-5.5) -- (0,5.5) node[left] {$y$};
+
+                        % Draw axis labels
+                        \foreach \x in {-5,...,5} {
+                            \draw[thick] (\x,0.2) -- (\x,-0.2) node[below] {\x};
+                        }
+                        \foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5} {
+                            \draw[thick] (0.2,\y) -- (-0.2,\y) node[left] {\y};
+                        }
+
+                        % Define points for square ABCD in 2nd quadrant
+                        \coordinate (A) at (-4,4);
+                        \coordinate (B) at (-5,2);
+                        \coordinate (C) at (-3,1);
+                        \coordinate (D) at (-2,3);
+
+                        \node[above] at (A) {\small $\mathbf{A}$};
+                        \node[below left] at (B) {\small $\mathbf{B}$};
+                        \node[below right] at (C) {\small $\mathbf{C}$};
+                        \node[above] at (D) {\small $\mathbf{D}$};
+
+                        % Draw square ABCD
+                        \draw[very thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                        % Define translated points A'B'C'D' in 1st quadrant
+                        \coordinate (Ap) at (2,4);
+                        \coordinate (Bp) at (1,2);
+                        \coordinate (Cp) at (3,1);
+                        \coordinate (Dp) at (4,3);
+
+                        \node[above] at (Ap) {\small $\mathbf{A'}$};
+                        \node[below left] at (Bp) {\small $\mathbf{B'}$};
+                        \node[below right] at (Cp) {\small $\mathbf{C'}$};
+                        \node[right] at (Dp) {\small $\mathbf{D'}$};
+
+                        % Draw translated square A'B'C'D'
+                        \draw[very thick] (Ap) -- (Bp) -- (Cp) -- (Dp) -- cycle;
+
+                        % Draw dashed lines connecting corresponding points
+                        \draw[dashed] (A) -- (Ap);
+                        \draw[dashed] (B) -- (Bp);
+                        \draw[dashed] (C) -- (Cp);
+                        \draw[dashed] (D) -- (Dp);
+
+                        % Draw arrows to indicate transformation
+                        \draw[dashed, -{Latex[scale=1.5]}] (A) -- (-1,4);
+                        \draw[dashed, -{Latex[scale=1.5]}] (B) -- (-1,2);
+                        \draw[dashed, -{Latex[scale=1.5]}] (C) -- (0,1);
+                        \draw[dashed, -{Latex[scale=1.5]}] (D) -- (1,3);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </figure>
+    </insight>
+    <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction (10 minutes)</title>
+        <p xml:id="auto_k1a3pgci">
+            After students have shared their findings from the anchor activity, formalise the concept of translation vectors using the Key Takeaway above.
+        </p>
+        <p xml:id="auto_wx0mz7jn">
+            <alert>Properties of Translation to Emphasise:</alert>
+        </p>
+        <p xml:id="auto_vk7qtkzr">
+            <ul>
+                <li xml:id="auto_pnuq82lu"><p xml:id="auto_9rr992lc">Shape and size remain unchanged (congruent).</p></li>
+                <li xml:id="auto_vn18tew2"><p xml:id="auto_n80dvps1">All points move the same distance and in the same direction.</p></li>
+                <li xml:id="auto_h2cp0juw"><p xml:id="auto_abx13sin">Orientation remains the same (no rotation or reflection).</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_axh0iuja">
+            <alert>Finding Translated Coordinates:</alert> If point <m>P(x,y)</m> is translated by vector <m>\binom{a}{b}</m>, then <m>P' = (x+a,\; y+b)</m>.
+        </p>
+        <p xml:id="auto_frccnvn0">
+            <alert>Finding Translation Vector:</alert> If <m>P(x_1,y_1)</m> is translated to <m>P'(x_2,y_2)</m>, then translation vector <m>= \binom{x_2 - x_1}{y_2 - y_1}</m>.
+        </p>
+        <p xml:id="auto_qop2jh96">
+            <alert>Scaffolding Strategies to Address Misconceptions:</alert>
+        </p>
+        <p xml:id="auto_rwcjivl8">
+            <tabular halign="left">
+                <row header="yes" bottom="minor">
+                    <cell>Misconception</cell>
+                    <cell>Clarification</cell>
+                </row>
+                <row>
+                    <cell>Translation changes the shape or size</cell>
+                    <cell>No — translation preserves shape and size</cell>
+                </row>
+                <row>
+                    <cell>Points can move different distances</cell>
+                    <cell>No — all points move the same distance and direction</cell>
+                </row>
+                <row>
+                    <cell>Translation rotates or flips the shape</cell>
+                    <cell>No — translation only slides the shape</cell>
+                </row>
+                <row>
+                    <cell>Translation vector is the same as position vector</cell>
+                    <cell>No — translation vector describes movement, not position</cell>
+                </row>
+            </tabular>
+        </p>
+    </axiom>
+    <!-- <p xml:id="auto_qnra9bol">
+        Given <m>\mathbf{T}</m> to be a <m>translation</m> vector,
+        We say, square <m>\mathbf{ABCD}</m> has undergone translation if 
+        every point of the square moves the same distance in the same direction.
+    </p>
+    <p xml:id="auto_h9k20crl">
+        When we use the letter <m>\mathbf{T}</m> to represent a translation. 
+        If we write <m>(\mathbf{TP})</m>, it means we are applying the 
+        translation <m>\mathbf{T}</m> to the point <m>\mathbf{P}</m>.
+    </p>
+    <p xml:id="auto_eti9m11q">
+        For instance, if we have a translation 
+        <m>\mathbf{T} = (5, 2)</m> and a point <m>\mathbf{P}</m> at <m>(3, 1)</m>, 
+        we can find the new location of <m>\mathbf{P}</m> (which we'll call <m>\mathbf{P}'</m>) 
+        after the translation.
+    </p> -->
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application (10 minutes)</title>
+        <p xml:id="auto_tc1evpcb">
+            Walk students through the worked examples below. Emphasise the systematic approach: add the translation vector to each vertex.
+        </p>
+        <p xml:id="auto_r40l9pp6">
+            <alert>Teacher Prompts:</alert>
+        </p>
+        <p xml:id="auto_1nbe2rcs">
+            <ul>
+                <li xml:id="auto_aq6bsu9w"><p xml:id="auto_59peiufw"><q>How do we find the new position of each vertex?</q> (Add the translation vector to each coordinate.)</p></li>
+                <li xml:id="auto_xuk2w1px"><p xml:id="auto_70xb7oko"><q>Does the shape change after translation?</q> (No — same shape and size.)</p></li>
+                <li xml:id="auto_60rhdkqw"><p xml:id="auto_khqtxm06"><q>How can we find the translation vector if we know the original and new positions?</q> (Subtract original from new.)</p></li>
+            </ul>
+        </p>
+    </axiom>
+
+
+
+
+
+
+
+
+    <example xml:id="auto_tsue1j3r">
+        <statement>
+            <p xml:id="auto_rvqt8dkg">
+                The position vector of point <m>P</m> is <m>\vec{OP} = \langle 2, 3 \rangle</m> in the plane. A translation is represented by the vector <m>\vec{v} = \langle 5, -2 \rangle</m>.
+            </p>
+            <p xml:id="auto_gwn4ruj4">
+                Find the position vector of the new point <m>Q</m> after translating <m>P</m> by <m>\vec{v}</m>.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_cyr9ibf0">
+                Translation of a point by a vector is performed by adding the translation vector to the original position vector:
+            </p>
+            <p xml:id="auto_4jevoz9y">
+                <m>\vec{OQ} = \vec{OP} + \vec{v}</m>
+            </p>
+            <p xml:id="auto_0gsahwvq">
+                Substitute the values:
+            </p>
+            <p xml:id="auto_rhwfqg9s">
+                <md>
+                    <mrow> \vec{OQ} = \langle 2, 3 \rangle + \langle 5, -2 \rangle = \langle 2+5, 3+(-2) \rangle \amp </mrow>
+                    <mrow> = \amp \langle 7, 1 \rangle</mrow>
+                </md>
+                
+            </p>
+            <p xml:id="auto_hr79kcr0">
+                Therefore, the new point <m>Q</m> has coordinates <m>(7,1)</m>.
+            </p>
+            <p xml:id="auto_dweu45ra">
+                <term>Geometric interpretation:</term> The point moves <m>5</m> units to the right and <m>2</m> units down along the plane.
+            </p>
+        </solution>
+    </example>
+
+    <example xml:id="auto_moacxypv">
+        <statement>
+            <p xml:id="auto_lzpuc2d8">
+                Triangle <m>\mathbf{ABC}</m> has vertices <m>\mathbf{A}(1,3)</m>, <m>\mathbf{B}(3,0)</m>
+                 and <m>\mathbf{C}(4,4)</m>.The triangle undergoes a translation <m>\mathbf{T}</m> 
+                defined by the vector <m>\begin{pmatrix} 4 \\ 3 \end{pmatrix}</m>.
+            </p>
+            <p xml:id="auto_44o5wn2l">
+                <ol xml:id="auto_biazstn8" marker="(a)">
+                    <li xml:id="auto_27pndhgc">
+                        <p xml:id="auto_jyz18v5q">
+                            Determine the coordinates of the translated
+                            vertices <m>\mathbf{A'}</m>, <m>\mathbf{B'}</m> , and <m>\mathbf{C'}</m> '.
+                        </p>
+                    </li>
+                    <li xml:id="auto_mpdd7hvo">
+                        <p xml:id="auto_es7ycctl">
+                            Draw the triangle <m>\mathbf{ABC}</m> and its image under <m>\mathbf{T}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_2yvu5o2u">
+                To find the coordinates of the translated vertices, we apply the translation <m>\mathbf{T}</m> to each original vertex.
+            </p>
+
+            <p xml:id="auto_netnql5u">
+                <md>
+                    <mrow> \mathbf{OA'} \amp = \mathbf{OA} + \mathbf{T}</mrow>
+                    <mrow> \mathbf{OB'} \amp = \mathbf{OB} + \mathbf{T}</mrow>
+                    <mrow> \mathbf{OC'} \amp = \mathbf{OC} +  \mathbf{T} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_d54mwhxu">
+                <md>
+                    <mrow> \mathbf{OA'} \amp = \binom{1}{3} + \binom{4}{3} = \binom{1+4}{3+3} = \binom{5}{6}  </mrow>
+                    <mrow> \mathbf{OB'} \amp = \binom{3}{0} + \binom{4}{3} = \binom{3+4}{0+3} = \binom{7}{3} </mrow>
+                    <mrow> \mathbf{OC'} \amp = \binom{4}{4} + \binom{4}{3} = \binom{4+4}{4+3} = \binom{8}{7} </mrow>
+                </md>
+            </p>
+            <figure xml:id="translation-vector-1">
+                <caption></caption>
+                <image width="90%">
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            
+                            % Draw fine grid (10x smaller squares)
+                            \draw[gray!30, very thin, step=0.1] (-4,-3) grid (10,9);
+
+                            % Draw main grid (original)
+                            \draw[gray!70, thin, step=1] (-4,-3) grid (10,9);
+                            
+                            \foreach \x in {-3,...,9}{
+                                \draw[thick](\x,0.2) -- (\x,-0.2) node[below] {\x};
+                            }
+                            \draw[thick ,&lt; - &gt;] (-3.5,0) -- (9.5,0) node[below] {$x$};
+                            
+                            \foreach \y in {-3,-2,-1,1,2,3,4,5,6,7,8}{
+                                \draw[thick](0.2,\y) -- (-0.2,\y) node[left] {\y};
+                            }
+                            \draw[thick ,&lt; - &gt;] (0,-3) -- (0,9) node[left] {$y$};
+                            
+                            % Define points
+                            \coordinate (A) at (1,3);
+                            \coordinate (B) at (3,0);
+                            \coordinate (C) at (4,4);
+                            
+                            \node[left,above,rotate=90] at (A) {\small $\mathbf{A}(1,3)$};
+                            \node[above,left] at (B) {\small $\mathbf{B}(3,0)$};
+                            \node[above] at (C) {\small $\mathbf{C}(4,4)$};
+                            
+                            % % Draw vectors
+                            \draw[very thick] (A) -- (B) -- (C) -- cycle;
+                            
+                            % Define points
+                            \coordinate (A1) at (5,6);
+                            \coordinate (B1) at (7,3);
+                            \coordinate (C1) at (8,7);
+                            
+                            \node[left] at (A1) {\small $\mathbf{A}'(5,6)$};
+                            \node[right] at (B1) {\small $\mathbf{B}'(7,3)$};
+                            \node[above] at (C1) {\small $\mathbf{C}'(8,7)$};
+                            
+                            % % Draw vectors
+                            \draw[very thick] (A1) -- (B1) -- (C1) -- cycle;
+                            
+                            \draw[dashed] (A) -- (A1);
+                            \draw[dashed] (B) -- (B1);
+                            \draw[dashed] (C) -- (C1);
+                            
+                            \draw [dashed,-{Latex[scale=2]}] (B) -- (5,1.5) ;
+                            \draw [dashed, -{Latex[scale=2]}] (C) -- (5.5,5.1) ;
+                            \draw [dashed, -{Latex[scale=2]}] (A) -- (3,4.5) ;
+                            
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </solution>
+    </example>
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment (5 minutes)</title>
+        <p xml:id="auto_0zs95f72">
+            <alert>Exit Ticket</alert> — Students complete the following questions individually.
+        </p>
+        <p xml:id="auto_aqcapw3s">
+            <ol marker="1.">
+                <li xml:id="auto_1f6wdzit"><p xml:id="auto_a7xe2riv">Draw triangle <m>XYZ</m> with vertices <m>X(1,4)</m>, <m>Y(6,2)</m>, and <m>Z(5,3)</m>. Plot <m>X'Y'Z'</m>, the image under a translation given by <m>\binom{4}{9}</m>.</p></li>
+                <li xml:id="auto_vh8vcy9k"><p xml:id="auto_ni2z6z3z">The point <m>(0,-3)</m> was translated using the vector <m>\binom{1}{3}</m>. Determine the original position.</p></li>
+                <li xml:id="auto_plbmikcl"><p xml:id="auto_8dbavg8v">A point <m>P(5,-3)</m> is mapped to <m>(9,1)</m>. Determine the translation vector.</p></li>
+                <li xml:id="auto_xum2khlp"><p xml:id="auto_fo30xwop">A point <m>M(1,-4)</m> undergoes a translation by <m>\binom{3}{5}</m>. If <m>M'</m> is then translated by <m>\binom{-4}{2}</m>, find <m>M''</m>. What single vector maps <m>M</m> to <m>M''</m> directly?</p></li>
+            </ol>
+        </p>
+        <p xml:id="auto_h6ss7my7">
+            <alert>Answer Key (Teacher Reference):</alert>
+        </p>
+        <p xml:id="auto_irmdc4wh">
+            <ol marker="1.">
+                <li xml:id="auto_3o40mtou"><p xml:id="auto_q7qwntwf"><m>X'(5,13)</m>, <m>Y'(10,11)</m>, <m>Z'(9,12)</m></p></li>
+                <li xml:id="auto_2v2fh22x"><p xml:id="auto_yn48v864">Original position: <m>(-1,-6)</m></p></li>
+                <li xml:id="auto_1laz3qxm"><p xml:id="auto_q5lub7uh">Translation vector: <m>\binom{4}{4}</m></p></li>
+                <li xml:id="auto_6rlo7r9g"><p xml:id="auto_evgei1c6"><m>M'=(4,1)</m>, <m>M''=(0,3)</m>. Single translation vector: <m>\binom{-1}{7}</m></p></li>
+            </ol>
+        </p>
+    </axiom>
+    <exercises xml:id="exercises-translation-vector">
+        <exercise xml:id="auto_m38sw1p8">
+            <statement>
+                <p xml:id="auto_zdy9cgxa">
+                    Draw triangle <m>\mathbf{XYZ}</m> with vertices <m>\mathbf{X(1, 4)}</m>, <m>\mathbf{Y(6, 2)}</m>, 
+                    and <m>\mathbf{Z(5, 3)}</m>. On the same axes, plot <m>\mathbf{X'Y'Z'}</m>, 
+                    the image of triangle <m>\mathbf{XYZ}</m> under a translation given by <m>\binom{4}{9}.</m>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_e2q590mf">
+                    
+                </p>
+                    <figure xml:id="translation-vector-triangle">
+                    <caption></caption>
+                    <image width="90%">
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                           \begin{tikzpicture}[scale=0.6]
+                                % Draw grid
+                                \draw[gray!30, very thin, step=1] (-1,-1) grid (12,14);
+                                
+                                % Draw Axes
+                                \draw[thick, &lt;-&gt;] (-1,0) -- (12,0) node[below] {$x$};
+                                \draw[thick, &lt;- &gt;] (0,-1) -- (0,14) node[left] {$y$};
+                                
+                                % Axis Labels
+                                \foreach \x in {1,2,3,4,5,6,7,8,9,10,11}
+                                    \draw (\x,0.1) -- (\x,-0.1) node[below] {\small \x};
+                                \foreach \y in {2,4,6,8,10,12}
+                                    \draw (0.1,\y) -- (-0.1,\y) node[left] {\small \y};
+
+                                % Define Original Points (XYZ)
+                                \coordinate (X) at (1,4);
+                                \coordinate (Y) at (6,2);
+                                \coordinate (Z) at (5,3);
+                                
+                                % Draw Original Triangle
+                                \draw[very thick, blue] (X) -- (Y) -- (Z) -- cycle;
+                                \node[above left] at (X) {\small $\mathbf{X}(1,4)$};
+                                \node[below] at (Y) {\small $\mathbf{Y}(6,2)$};
+                                \node[right] at (Z) {\small $\mathbf{Z}(5,3)$};
+                                
+                                % Define Image Points (X'Y'Z') after translation (4, 9)
+                                \coordinate (X1) at (5,13);
+                                \coordinate (Y1) at (10,11);
+                                \coordinate (Z1) at (9,12);
+                                
+                                % Draw Translated Triangle
+                                \draw[very thick, red] (X1) -- (Y1) -- (Z1) -- cycle;
+                                \node[above] at (X1) {\small $\mathbf{X}'(5,13)$};
+                                \node[right] at (Y1) {\small $\mathbf{Y}'(10,11)$};
+                                \node[above right] at (Z1) {\small $\mathbf{Z}'(9,12)$};
+                                
+                                % Draw Translation Path (Dashed lines with Arrows)
+                                \draw[dashed, -&gt;, gray] (X) -- (X1) node[midway, left] {$\binom{4}{9}$};
+                                \draw[dashed, -&gt;, gray] (Y) -- (Y1);
+                                \draw[dashed, -&gt;, gray] (Z) -- (Z1);
+                                
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_vuulexdl">
+            <statement>
+                <p xml:id="auto_xswllire">
+                    The following points have been translated using
+                    the given vectors. Determine their original positions:
+                </p>
+                <p xml:id="auto_zbarerkx">
+                    <ol xml:id="auto_8sfpn6uk" marker="(a)" cols="3">
+                        <li xml:id="auto_ba5ecvku">
+                            <p xml:id="auto_54pvl0b0">
+                                <m>(4,-1); \, \, \binom{2}{3}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_aw4fqr1e">
+                            <p xml:id="auto_jo9pmyh7">
+                                <m>(0,-3); \, \, \binom{1}{3}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_g7nox0il">
+                            <p xml:id="auto_40cfjswk">
+                                <m>(-3,8); \, \, \binom{-2}{7}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_nb6h3ta4">
+                            <p xml:id="auto_1om73qck">
+                                <m>(11,-5); \,\, \binom{5}{-1}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_gndr1z63">
+                            <p xml:id="auto_7yccwpls">
+                                <m>(-12,5); \,\, \binom{3}{-10}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_hl0rxlw6">
+                            <p xml:id="auto_s0nppsnn">
+                                <m>(2,-7); \,\, \binom{-10}{15}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_i2inbdkf">
+                    <ol marker="(a)">
+                        <li xml:id="auto_6hxboin3">
+                            <p xml:id="auto_lslour00">
+                                <m>(2,-4)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_p6c9wtvy">
+                            <p xml:id="auto_3pc259m6">
+                                <m>(-1,-6)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_1sralm3u">
+                            <p xml:id="auto_vz437uky">
+                                <m>(-1,1)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_rxgp297r">
+                            <p xml:id="auto_dbymbtq6">
+                                <m>(6,-4)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_wso7z8dd">
+                            <p xml:id="auto_ezwezr2g">
+                                <m>(-15,15)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_2mof3qsm">
+                            <p xml:id="auto_mwbug8em">
+                                <m>(12,-22)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_el1ic7u9">
+            <statement>
+                <p xml:id="auto_82gl1oty">
+                    A point <m>\mathbf{P(5, -3)}</m> is mapped to a new position after 
+                    a translation. If the new coordinates are <m>\mathbf{(9, 1)}</m>, 
+                    determine the translation vector used.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_plfhkewz">
+                    <m>\binom{4}{4}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_fh3jri5o">
+            <statement>
+                <p xml:id="auto_fkm0kay5">
+                    A point <m>\mathbf{M(1, -4)}</m> undergoes a translation by 
+                    <m>\binom{3}{5}.</m> Determine the coordinates of <m>\mathbf{M'}</m>,
+                    the transformed point.  If <m>\mathbf{M'}</m> is then translated by
+                    <m>\binom{-4}{2},</m> find the final position <m>\mathbf{M''}</m>. 
+                    What is the single translation vector that maps 
+                    <m>\mathbf{M'}</m> to <m>\mathbf{M''}</m> directly?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_86t21uaj">
+                    <m>\binom{-1}{7}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_zbgl4oje">
+            <statement>
+                <p xml:id="auto_76r4kw6l">
+                    Translate each of the following points using the given vector:
+                </p>
+                <p xml:id="auto_t776mo1q">
+                    <ol xml:id="auto_u3tn74rv" marker="(a)" cols="2">
+                        <li xml:id="auto_yqdzy6vg">
+                            <p xml:id="auto_mlguzbci">
+                                <m>(10,1); \, \, \binom{-11}{2}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_cslheq1f">
+                            <p xml:id="auto_3pa84kot">
+                                <m>(-2,-5); \, \, \binom{6}{14}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_babl3zpj">
+                            <p xml:id="auto_q3vozbiw">
+                                <m>(3,-15); \, \, \binom{-16}{11}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_xzczb41o">
+                            <p xml:id="auto_cncc6qu8">
+                                <m>(-11,4); \, \, \binom{-15}{10}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_0xnl1c5a">
+                            <p xml:id="auto_rq81kw3m">
+                                <m>(1,10); \, \, \binom{7}{2}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_3mmrgysp">
+                            <p xml:id="auto_ls58av0q">
+                                <m>(4,-9); \, \, \binom{5}{-8}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_z76h4t25">
+                            <p xml:id="auto_fnuf26so">
+                                <m>(-2,13); \, \, \binom{-3}{1}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_unud1ow5">
+                            <p xml:id="auto_85ldaq1y">
+                                <m>(-6,5); \, \, \binom{-1}{2}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_bq8otpvf">
+                    <ol marker="(a)" cols="3">
+                        <li xml:id="auto_r4bgptn9">
+                            <p xml:id="auto_dhf7kxm4">
+                                <m>(-1, 3)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_h4wn25zc">
+                            <p xml:id="auto_vsyp6isi">
+                                <m>(4, 9)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_a5n7ewkw">
+                            <p xml:id="auto_gft72alw">
+                                <m>(-13, -4)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_bljin9rw">
+                            <p xml:id="auto_eevw2qxz">
+                                <m>(-26, 14)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_zzlgulrc">
+                            <p xml:id="auto_xei0rgfz">
+                                <m>(8, 12)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_ltpwjw61">
+                            <p xml:id="auto_1focazfi">
+                                <m>(9, -17)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_61dmls79">
+                            <p xml:id="auto_7ycbqaqm">
+                                <m>(-5, 14)</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_8y4y3zh5">
+                            <p xml:id="auto_o4h33rvb">
+                                <m>(-7, 7)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+    <axiom component="lesson-plan">
+        <title>Differentiation Strategies</title>
+        <p xml:id="auto_gn8w5fdc">
+            <alert>For Struggling Learners:</alert>
+        </p>
+        <p xml:id="auto_hfg0kgf1">
+            <ul>
+                <li xml:id="auto_e5d1qm3p"><p xml:id="auto_peh0kwzh">Provide pre-drawn shapes with labelled vertices.</p></li>
+                <li xml:id="auto_ms8vmrow"><p xml:id="auto_3r0tm8db">Use colour coding: one colour for original, another for translated shape.</p></li>
+                <li xml:id="auto_5vexmzlt"><p xml:id="auto_mmwepwtf">Provide step-by-step calculation templates.</p></li>
+                <li xml:id="auto_5rz9s1ap"><p xml:id="auto_x0bo7hk1">Start with simple translations (positive integers only).</p></li>
+                <li xml:id="auto_mq4pyuee"><p xml:id="auto_5ls6e229">Use physical manipulatives (cut-out shapes) to show sliding.</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_8czdtzz9">
+            <alert>For On-Level Learners:</alert>
+        </p>
+        <p xml:id="auto_k1b7utx1">
+            <ul>
+                <li xml:id="auto_i8umv8yl"><p xml:id="auto_elmomazw">Encourage students to create their own translation problems.</p></li>
+                <li xml:id="auto_1u3qzrnz"><p xml:id="auto_tclqdjyk">Ask students to explain why translation preserves congruence.</p></li>
+                <li xml:id="auto_830t9upg"><p xml:id="auto_ievmokpr">Provide mixed practice with positive and negative translations.</p></li>
+                <li xml:id="auto_jnyncp9t"><p xml:id="auto_qdcuqjl4">Challenge students to find inverse translations.</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_6e6f0dei">
+            <alert>For Advanced Learners:</alert>
+        </p>
+        <p xml:id="auto_dy43czsp">
+            <ul>
+                <li xml:id="auto_qqg9t1g5"><p xml:id="auto_ikqrrltf">Explore composition of translations (two translations in sequence).</p></li>
+                <li xml:id="auto_ctkx458t"><p xml:id="auto_mwgwofxd">Investigate translations in three dimensions.</p></li>
+                <li xml:id="auto_gm5w6m59"><p xml:id="auto_2og46zf9">Challenge: Prove that translation preserves distance and angle.</p></li>
+                <li xml:id="auto_0lho6m1o"><p xml:id="auto_dvb470mu">Explore applications in computer graphics (sprite movement in games).</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_msk7gqch">
+            <alert>Extension Activity: Animation and Computer Graphics</alert>
+        </p>
+        <p xml:id="auto_k3nihav9">
+            Work in pairs. Design a simple animation where a character moves across the screen using three translation vectors. Calculate the resultant single translation vector that maps the character from its starting position to its final position directly.
+        </p>
+    </axiom>
+    <exercise xml:id="ex-sequential-translations-of-a-point">
+        <!--<title></title>-->
+        <stack label="stk-sequential-translations-of-a-point" source="stack/top/2-0-Measurement-Geometry/2-8-Vectors-I/2-8-10-Translation-Vector/Sequential-Translations-of-a-Point.xml"/>
+    </exercise>
+    <exercise xml:id="ex-translation-vector">
+        <!--<title></title>-->
+        <stack label="stk-translation-vector" source="stack/top/2-0-Measurement-Geometry/2-8-Vectors-I/2-8-10-Translation-Vector/Translation-Vector.xml"/>
+    </exercise>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx" />
+</subsubsection>

@@ -1,0 +1,666 @@
+<subsection xml:id="subsec-acceleration" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Acceleration</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_az555whn">
+            <dl>
+                <li xml:id="auto_8n9oaglz">
+                    <title>Strand</title>
+                    <p xml:id="auto_po3y0vm1">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_6cr47zue">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_7fvyyem2">
+                        2.10 Linear Motion
+                    </p>
+                </li>
+                <li xml:id="auto_505f43kg">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_otuo3qpy">
+                        Explain the terms velocity and acceleration in real-life situations. Determine velocity and acceleration in different situations.
+                    </p>
+                </li>
+                <li xml:id="auto_mi4oe4ft" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_ish48a01">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_2zixrw1q" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_81pf6rpd">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            <p xml:id="auto_wy4y8gr8" component="lesson-plan">
+                <p xml:id="auto_n0hxgvmo"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_1fei79p3">
+                        <p xml:id="auto_4fc5l72s">
+                            <alert>Know (Conceptual Understanding):</alert> Define acceleration as the rate of change of velocity with time. Understand that negative acceleration (deceleration/retardation) means the object is slowing down. Know the three equations of motion for constant acceleration.
+                        </p>
+                    </li>
+                    <li xml:id="auto_lsxb0w7a">
+                        <p xml:id="auto_a57h8d8d">
+                            <alert>Do (Procedural Skill):</alert> Apply the formula <m>a = \frac{\Delta v}{\Delta t}</m> to calculate acceleration. Use the three equations of motion (<m>v = u + at</m>, <m>s = ut + \frac{1}{2}at^2</m>, <m>v^2 = u^2 + 2as</m>) to solve problems.
+                        </p>
+                    </li>
+                    <li xml:id="auto_go9f6v8v">
+                        <p xml:id="auto_bzj16rnf">
+                            <alert>Apply (Application/Problem-Solving):</alert> Solve real-world problems involving acceleration such as vehicles braking, rockets launching, and objects speeding up or slowing down. Interpret the sign of acceleration in context.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_8k7u1p64">
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/acceleration.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_5ajra4ap">
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/step-by-step-guide_acceleration.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Exploring Velocity and Acceleration</title>
+        <dl>
+            <li xml:id="auto_z69ngeh5">
+                <title>Suggested Time</title>
+                <p xml:id="auto_wuprn0ae">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_8px0yyer">
+                <title>Grouping</title>
+                <p xml:id="auto_sy3tf0j8">
+                    Work in small groups (3<ndash/>4 students)
+                </p>
+            </li>
+            <li xml:id="auto_iwhbtzkj">
+                <title>Materials</title>
+                <p xml:id="auto_unmwysd3">
+                    Calculators, stopwatches, measuring tape, toy cars (optional)
+                </p>
+            </li>
+            <li xml:id="auto_32t5u7hp">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_o3hjidhx">
+                    Circulate among groups as they work through the four tasks. For Task 1, encourage students to articulate definitions in their own words before formalising. For Tasks 2<ndash/>4, check that students are showing working and using correct units. Use student responses to bridge into the formal definitions.
+                </p>
+            </li>
+            <li xml:id="auto_znwrnoev">
+                <title>Discussion Questions</title>
+                <p xml:id="auto_5i6zb8ks">
+                    <ol marker="(a)">
+                        <li xml:id="auto_lvysycnu"><p xml:id="auto_ug12kdii"><q>How did you calculate velocity? What formula did you use?</q></p></li>
+                        <li xml:id="auto_pugz6chs"><p xml:id="auto_mwreuymt"><q>What is the difference between speed and velocity?</q></p></li>
+                        <li xml:id="auto_6ndy5k9f"><p xml:id="auto_nb81bnss"><q>When the car is speeding up, what happens to acceleration?</q></p></li>
+                        <li xml:id="auto_02m1mg3r"><p xml:id="auto_6nro4b4z"><q>When the car is slowing down (braking), is acceleration positive or negative?</q></p></li>
+                        <li xml:id="auto_gq65l0cw"><p xml:id="auto_7uelmql7"><q>Can you think of real-life examples of positive and negative acceleration?</q></p></li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+        <p xml:id="auto_c5mp8k6g">
+            Identify 2<ndash/>3 groups with clear findings to share with the class.
+        </p>
+    </axiom>
+
+
+    <activity xml:id="auto_cciu3uff">
+        <p xml:id="auto_xqtjew12">
+            <term>Work in groups</term>
+        </p>
+        <p xml:id="auto_ytpahx0t">
+            <ol xml:id="auto_ltng52um">
+                <li xml:id="auto_9j9xdlt3">
+                    <p xml:id="auto_ovpdpme6">
+                         Define
+                         <ol xml:id="auto_j6j46ohp" marker="a).">
+                            <li xml:id="auto_6ctttrm3">
+                                <p xml:id="auto_cntq7zej">
+                                    Velocity
+                                </p>
+                            </li>
+                            <li xml:id="auto_gvznn3j3">
+                                <p xml:id="auto_ee9bdqh8">
+                                    Velocity
+                                </p>
+                            </li>
+                         </ol>
+                    </p>
+                </li>
+                <li xml:id="auto_r1qz7p96">
+                    <p xml:id="auto_n6qmwdni">
+                        A car travels <m>200</m> meters in <m>10</m> seconds. What is its average velocity?
+                    </p>
+                </li>
+                <li xml:id="auto_g9twb2ma">
+                    <p xml:id="auto_l2gg1c9g">
+                        A car accelerates from <m>75</m> km/h to <m>90</m> km/h in <m>10</m> seconds.
+                    </p>
+                    <p xml:id="auto_hxbg81bj">
+                        Find it's acceleration
+                    </p>
+                </li>
+                <li xml:id="auto_ypfht96n">
+                    <p xml:id="auto_gjzi4q7s">
+                        A vehicle moving at <m>\text{25 m/s}</m> applies brakes and comes to a stop in <m>\text{5 seconds}</m>.
+                        <ol xml:id="auto_zyjhze1h" marker="a).">
+                            <li xml:id="auto_92spdjqn">
+                                <p xml:id="auto_vivjcmt6">
+                                    What is the acceleration of the vehicle?
+                                </p>
+                            </li>
+                            <li xml:id="auto_d9wvdcaa">
+                                <p xml:id="auto_cf7norx2">
+                                    Is the acceleration positive or negative? Why?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </activity>
+
+    <exploration xml:id="exploration-constant-acceleration">
+        <title>Motion with Constant Acceleration</title>
+
+        <introduction xml:id="auto_9x79c815">
+            <p xml:id="auto_res9xh9o">
+                In this activity, you will explore how the motion of an object changes when it moves with 
+                <em>constant acceleration</em>. The simulation shows a car moving along a straight road. 
+                You can adjust the <em>initial velocity</em> (<m>u</m>) and the <em>acceleration</em> (<m>a</m>) 
+                using the sliders. As the car moves, the simulation displays its <em>position</em>, 
+                <em>velocity</em>, and <em>distance traveled</em>.
+            </p>
+
+            <p xml:id="auto_8t1sl5gw">
+                Use the controls to investigate how acceleration changes the motion of the car and how the 
+                equations of motion describe this behaviour.
+            </p>
+        </introduction>
+
+        <figure xml:id="fig-acceleration-motion">
+            <caption>
+                Interactive simulation of motion with constant acceleration. Adjust the initial velocity 
+                and acceleration to observe how the car’s position and velocity change over time.
+            </caption>
+
+            <interactive xml:id="interactive-acceleration-motion"
+                platform="jsxgraph"
+                width="90%"
+                aspect="4:3"
+                source="jsxgraph/acceleration-motion.js">
+
+                <slate xml:id="jsxgraph-acceleration" surface="jsxboard" aspect="4:3"/>
+
+                <instructions xml:id="instructions-acceleration-motion">
+                    <p xml:id="auto_3ii4gb5y">
+                        <ol>
+                            <li xml:id="auto_ff9lbs24">Use the slider labeled <q>Initial velocity</q> to set the starting speed of the car.</li>
+                            <li xml:id="auto_q19w0xvh">Use the slider labeled <q>Acceleration</q> to control how quickly the car’s speed changes.</li>
+                            <li xml:id="auto_uoo4ofm3">Click <c>Start</c> to begin the animation.</li>
+                            <li xml:id="auto_wxye3fyy">Observe the arrow above the car. This arrow represents the <em>velocity</em> of the car and changes length as the speed increases.</li>
+                            <li xml:id="auto_8i5enpq1">Watch the dotted line and the label above the car to see how the <em>distance traveled</em> changes with time.</li>
+                            <li xml:id="auto_jbs6dsb1">Click <c>Pause</c> at any time to examine the car’s position, velocity, and time.</li>
+                            <li xml:id="auto_xkdawlrv">Click <c>Resume</c> to continue the motion.</li>
+                            <li xml:id="auto_r0wto9i4">Click <c>Reset</c> to restart the simulation and try a different combination of initial velocity and acceleration.</li>
+                        </ol>
+                    </p>
+
+                    <p xml:id="auto_8aqnumvs">
+                        Use the simulation to investigate the following questions:
+                        <ol>
+                            <li xml:id="auto_5wj03wa3">
+                                <p xml:id="auto_k7u5j29a">
+                                    Set the acceleration to <m>0</m>. Start the animation. 
+                                    How does the car move when there is no acceleration? 
+                                    What happens to the velocity arrow?
+                                </p>
+                            </li>
+
+                            <li xml:id="auto_72b78ztd">
+                                <p xml:id="auto_mmbxt5cw">
+                                    Keep the initial velocity the same but increase the acceleration. 
+                                    How does the speed of the car change over time?
+                                </p>
+                            </li>
+
+                            <li xml:id="auto_k5hz2nso">
+                                <p xml:id="auto_nm7y11pm">
+                                    Pause the animation after a few seconds. 
+                                    Compare the values of <em>velocity</em>, <em>time</em>, and <em>position</em>. 
+                                    How does acceleration influence how quickly the velocity increases?
+                                </p>
+                            </li>
+
+                            <li xml:id="auto_yay1mzd8">
+                                <p xml:id="auto_ecnhjd7j">
+                                    Try a larger acceleration value. 
+                                    How does this affect how quickly the car moves across the screen?
+                                </p>
+                            </li>
+
+                            <li xml:id="auto_vj9mqh8s">
+                                <p xml:id="auto_gcg2u16l">
+                                    Based on your observations, explain why the distance traveled by the car 
+                                    depends on both the initial velocity and the acceleration.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </instructions>
+
+            </interactive>
+        </figure>
+    </exploration>
+    <insight xml:id="auto_yyhki9i0">
+        
+        <p xml:id="auto_y5pm1rel">
+           <term>Acceleration</term> - The rate of change of velocity with time. SI unit is <m>m/s²</m>
+        </p>
+        <p xml:id="auto_dfrmr3em">
+            Acceleration is given by
+        </p>
+        <p xml:id="auto_1tt260ir">
+            <md>
+                <mrow>\text{Acceleration} \, = \frac{\text{Change in velocity}}{\text{Time Taken}} </mrow>
+            </md>
+        </p>
+        <p xml:id="auto_ouylhuil">
+            <md>
+                <mrow> a = \frac{\Delta v}{\Delta t} </mrow>
+            </md>
+        </p>
+        <p xml:id="auto_x6rw3id1">
+            
+        </p>
+        <p xml:id="auto_b7mw6hk6">
+            Negative acceleration is called <term>deceleration or retardation</term>
+        </p>
+        <p xml:id="auto_5a2ntn7r">
+            For motion with <term>constant acceleration</term>, the three equations of motion are:
+        </p>
+        <p xml:id="auto_3kfvzhfb">
+            <ol xml:id="auto_pmgr2vyf" marker="i).">
+                <li xml:id="auto_eoxk5bo5">
+                    <p xml:id="auto_dkk07fpc">
+                        <m>\text{final velocity}</m> = Initial velocity + (acceleration <m> \times </m> time)
+                    </p>
+                    <p xml:id="auto_d5yhnoma">
+                        <m> v = u + at</m>
+                    </p>
+                    <p xml:id="auto_tt4elbrs"> where;
+                        <ul xml:id="auto_lt53oxrt">
+                            <li xml:id="auto_vhr311lp">
+                                <p xml:id="auto_bo05lifx">
+                                    <m>v</m> is Final velocity
+                                </p>
+                            </li>
+                            <li xml:id="auto_4p3m3djg">
+                                <p xml:id="auto_mhnv9i5q">
+                                    <m>u</m> is initial velocity
+                                </p>
+                            </li>
+                            <li xml:id="auto_klguyusx">
+                                <p xml:id="auto_csk607yp">
+                                    <m>a</m> is acceleration
+                                </p>
+                            </li>
+                            <li xml:id="auto_5psa3cw6">
+                                <p xml:id="auto_3qgr6kv7">
+                                    <m>t</m> is time
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li> 
+                <li xml:id="auto_39aybthh">    
+                    <p xml:id="auto_5fnj9t86">
+                     Displacement = <m>(\text{initial velocity} \times \text{time}) + (\frac{1}{2} \times \text{acceleration} \times \text{time}^2) </m>
+                    </p>
+                    <p xml:id="auto_nqmwkfvi">
+                        <m> s = ut + \frac{1}{2} at^2 </m>
+                    </p>
+                </li>
+                <li xml:id="auto_fc3pvhs1">    
+                    
+                    <p xml:id="auto_9qgfk9fk">
+                        <m>\text{Final velocity}^2 = \text{Initial velocity}^2</m> + (2 <m>\times</m> acceleration <m>\times</m> displacement)
+                    </p>
+                    <p xml:id="auto_ih8iv2l9">
+                        <m>v^2 = u^2 + \, (2 \times \textbf{acceleration}) \times s^2</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </insight>
+    <note xml:id="auto_dheq38vn">
+        <p xml:id="auto_2ptg2aum">
+            Deceleration is donated by a negative sign in the acceleration value. 
+            For example: if the deceleration is <m>5 \, \text{m/s}^2</m>, then it's acceleration is <m>-5 \, \text{m/s}^2</m>.
+        </p>
+    </note>
+
+    <axiom component="lesson-plan">
+        <title>Phase 2: Formalizing Acceleration Concepts</title>
+        <dl>
+            <li xml:id="auto_bobfj7vp">
+                <title>Suggested Time</title>
+                <p xml:id="auto_mmcwmlal">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_82wqyvdz">
+                <title>Grouping</title>
+                <p xml:id="auto_ycot7bwd">
+                    Whole class
+                </p>
+            </li>
+            <li xml:id="auto_xd7ck5se">
+                <title>Scaffolding Strategies to Address Misconceptions</title>
+                <p xml:id="auto_22l81jzh">
+                    <ul>
+                        <li xml:id="auto_2rscgzt7"><p xml:id="auto_cp7wu5uy"><alert>Misconception:</alert> Acceleration means going fast. <alert>Clarification:</alert> Acceleration is the <em>change</em> in velocity, not the velocity itself. An object can have high speed but zero acceleration (constant velocity).</p></li>
+                        <li xml:id="auto_7j9j9ar9"><p xml:id="auto_9n2bbm7o"><alert>Misconception:</alert> Negative acceleration means no movement. <alert>Clarification:</alert> Negative acceleration (deceleration) means the object is slowing down, not that it has stopped.</p></li>
+                        <li xml:id="auto_3bkfujeg"><p xml:id="auto_vg3zme5d"><alert>Misconception:</alert> The three equations of motion work for all motion. <alert>Clarification:</alert> These equations apply only to motion with <em>constant</em> acceleration.</p></li>
+                        <li xml:id="auto_r9rget42"><p xml:id="auto_3kp1qg6o"><alert>Misconception:</alert> Units of acceleration are m/s. <alert>Clarification:</alert> The unit is m/s<m>^2</m> (metres per second squared) because acceleration measures change in velocity per unit time.</p></li>
+                    </ul>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application</title>
+        <dl>
+            <li xml:id="auto_9ijp7h3t">
+                <title>Suggested Time</title>
+                <p xml:id="auto_elj3pdak">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_t0pih0t2">
+                <title>Grouping</title>
+                <p xml:id="auto_djz8k5n4">
+                    Individual, then pairs for checking
+                </p>
+            </li>
+            <li xml:id="auto_n6273xtx">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_f9n7tgb0">
+                    Walk through the first worked example on the board, emphasising the use of <m>v = u + at</m>. Then allow students to attempt the remaining examples independently. Circulate to check working and ensure students correctly identify initial velocity, final velocity, and time before substituting into formulas.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+     <example xml:id="auto_7r51tqq3">
+        <statement>
+            <p xml:id="auto_ihxm0p6i">
+                A car starts from rest and accelerates at 2 m/s² for 5 seconds. Find its final velocity.
+            </p>
+        </statement>    
+        <solution>
+            <p xml:id="auto_prjm3xmz">
+                <m> v = u + at  </m>
+            </p>  
+            <p xml:id="auto_kinl36rk">
+                <m>= 0 + (2 \times 5) = 10 \, \text{ m/s}</m>
+            </p> 
+            <p xml:id="auto_covd04mc">
+                The final velocity is <m>10 \, \text{ m/s}</m>
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_x5b3mdje">
+        <statement>
+            <p xml:id="auto_0smtw0yu">
+                A rocket accelerates from rest to <m>250</m> m/s in <m>10</m> seconds. Calculate the rocket's acceleration.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_qp2a12lj">
+                Initial velocity  <m>u = 0 </m>m/s
+            </p>
+            <p xml:id="auto_jrc0azwj">
+                Final velocity  <m>v = 250 </m>m/s
+            </p>
+            <p xml:id="auto_u0ox1eqy">
+                Time (t) = <m>10 </m>seconds
+            </p>
+            <p xml:id="auto_s1di0myv">
+                Acceleration (a) = (v - u) / t
+                <md>
+                    <mrow> \frac{(v - u)}{t} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_j3edz8e7">
+                <md>
+                    <mrow> a = \frac{(250- 0 )\,\text{m/s}}{10 s} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_cjy15jkb">
+                <md>
+                    <mrow> a = \frac{(250 \, \text{m/s})}{10 \, \text{s}}</mrow>
+                </md>
+            </p>
+            <p xml:id="auto_zi7h8ske">
+                <md>
+                    <mrow> a = 25 \, \text{m/s}^2</mrow>
+                </md>
+            </p>
+            <p xml:id="auto_eif274rx">
+                The rocket's acceleration is <m>25 \, \text{m/s}^2</m>
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_e7k2g744">
+        <statement>
+            <p xml:id="auto_x04wk05q">
+                An object decelerates from 20 m/s to 5 m/s in 3 seconds. What is its acceleration?
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_2d7veccb">
+                Initial velocity  <m>u = 20 </m>m/s
+            </p>
+            <p xml:id="auto_mc9n4lhe">
+                Final velocity  <m>v = 5 </m>m/s
+            </p>
+            <p xml:id="auto_52nyws1i">
+                Time (t) = <m>3 </m>seconds
+            </p>
+            <p xml:id="auto_16rrr350">
+                Acceleration (a) = (v - u) / t
+                <md>
+                    <mrow> \frac{(v - u)}{t} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_mevskiyd">
+                <md>
+                    <mrow> a = \frac{(5  - 20 ) \, \text{m/s}}{3 \, \text{seconds}} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_fh2ww80z">
+                <md>
+                    <mrow> a = \frac{(-15 \, \text{m/s})}{3 \, \text{seconds}}</mrow>
+                </md>
+            </p>
+            <p xml:id="auto_q5hrreyw">
+                <md>
+                    <mrow> a = -5 \, \text{m/s}^2</mrow>
+                </md>
+            </p>
+            <p xml:id="auto_zah2icrd">
+                The object's acceleration is  <m>-5 \, \text{m/s}^2</m>. The negative sign indicates deceleration (slowing down).
+            </p>
+        </solution>
+    </example>
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment <mdash/> Exit Ticket</title>
+        <dl>
+            <li xml:id="auto_o75ghb3b">
+                <title>Suggested Time</title>
+                <p xml:id="auto_oieliqn9">
+                    5 minutes
+                </p>
+            </li>
+            <li xml:id="auto_87euo574">
+                <title>Grouping</title>
+                <p xml:id="auto_9elko0li">
+                    Individual
+                </p>
+            </li>
+            <li xml:id="auto_zdynw79a">
+                <title>Exit Ticket Questions</title>
+                <p xml:id="auto_iw9ziyjo">
+                    <ol marker="1.">
+                        <li xml:id="auto_tta367iq"><p xml:id="auto_ejmcuwhr">A car's velocity changes from <m>10</m> m/s to <m>30</m> m/s in <m>4</m> seconds. Find its acceleration.</p></li>
+                        <li xml:id="auto_93kilduz"><p xml:id="auto_esrartc7">A car moves with <m>8</m> m/s<m>^2</m> acceleration for <m>5</m> seconds, reaching <m>40</m> m/s. Find its initial velocity.</p></li>
+                        <li xml:id="auto_2hz80yi1"><p xml:id="auto_3bjxttjq">A cyclist's speed increases from <m>5</m> m/s to <m>17</m> m/s over <m>6</m> seconds. What is the cyclist's average acceleration?</p></li>
+                    </ol>
+                </p>
+            </li>
+            <li xml:id="auto_bpmhzgiq">
+                <title>Answer Key</title>
+                <p xml:id="auto_zdnhs4yt">
+                    <ol marker="1.">
+                        <li xml:id="auto_vtfavk68"><p xml:id="auto_tk4h7krg"><m>a = \frac{30 - 10}{4} = 5</m> m/s<m>^2</m>.</p></li>
+                        <li xml:id="auto_5vpwx4ze"><p xml:id="auto_rxfu2rch"><m>u = 40 - (8 \times 5) = 0</m> m/s.</p></li>
+                        <li xml:id="auto_993z1xym"><p xml:id="auto_bupywn47"><m>a = \frac{17 - 5}{6} = 2</m> m/s<m>^2</m>.</p></li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <exercises xml:id="exercises-linear-motion-velocity-and-acceleartion">
+        <exercise xml:id="auto_azsvzifp">
+            <statement>
+                <p xml:id="auto_shkv4idk">
+                    A car's velocity changes from <m>10 \, \text{m/s}</m> to <m>30 \, \text{m/s}</m> in <m>4</m> seconds. Find its acceleration.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_r7e82uk7">
+                    <m> a = \frac{(30 \, \text{m/s} - 10 \, \text{m/s})}{4 \, \text{s}} = 5 \, \text{m/s}^2 </m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_yewaxuly">
+            <statement>
+                <p xml:id="auto_ghmbjij3">
+                    A car moves with <m>8 \, \text{m/s}^2</m> acceleration for <m>5</m> seconds, reaching <m>40 \, \text{m/s}</m>. Find its initial velocity.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_1p2iqhux">
+                    <m> u = 40 \, \text{m/s} - (8 \, \text{m/s}^2 \times 5 \, \text{s}) = 0 \, \text{m/s} </m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_lncaaj3c">
+            <statement>
+                <p xml:id="auto_vpomt98c">
+                    A train moving at <m> 40 \, \text{km/h} </m> decelerates at <m>0.5 \, \text{m/s}^2</m>.  Find the time taken to stop
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_4gxqtl38">
+                    <m> t = \frac{(0 \, \text{m/s} - 11.11 \, \text{m/s})}{-0.5 \, \text{m/s}^2} = 22.22 \, s </m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_9be8e60c">
+            <statement>
+                <p xml:id="auto_mnr51uxu">
+                    A cyclist's speed increases from <m> 5</m> m/s to <m>17</m> m/s over a period of <m>6</m> seconds. What is the cyclist's average acceleration?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_7awojser">
+                    <m> a = \frac{(17 \, \text{m/s} - 5 \, \text{m/s})}{6 \, \text{s}} = 2 \, \text{m/s}^2 </m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_n5ef1pgc">
+            <statement>
+                <p xml:id="auto_8ps76esm">
+                    A runner's velocity changes from  <m>3</m> m/s to <m>7</m> m/s. What is the runner's average velocity?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_6hn5lr45">
+                    <m> \text{Average velocity} = \frac{(3 \, \text{m/s} + 7 \, \text{m/s})}{2} = 5 \, \text{m/s} </m>
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+
+     <xi:include href="../../resources-checkpoint.ptx" />
+
+
+            <exercise  label="ex-finding-the-final-velocity-and-distance-travelled-during-the-tim">
+                <stack label="stk-finding-the-final-velocity-and-distance-travelled-during-the-tim" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Velocity-and-Acceleration-in-Different-Situations/Finding-the-final-velocity-and-distance-travelled-during-the-tim.xml" />
+            </exercise>
+                
+
+            <exercise  label="ex-finding-deceleration-and-distance-travelled-given-speed-and-time">
+                <stack label="stk-finding-deceleration-and-distance-travelled-given-speed-and-time" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Velocity-and-Acceleration-in-Different-Situations/Finding-deceleration-and-distance-travelled-given-speed-and-time.xml" />
+            </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation Strategies</title>
+        <p xml:id="auto_izv4y4zf">
+            <alert>For Struggling Learners:</alert>
+            <ul>
+                <li xml:id="auto_h5zveu20"><p xml:id="auto_p0nyzu64">Provide formula sheets with all three equations of motion clearly displayed.</p></li>
+                <li xml:id="auto_2amjlvhu"><p xml:id="auto_b7vhe0bg">Use visual aids showing objects speeding up (positive acceleration) and slowing down (negative acceleration).</p></li>
+                <li xml:id="auto_xw19c4a6"><p xml:id="auto_z17qi76o">Allow use of calculators for all calculations.</p></li>
+                <li xml:id="auto_vqqc143u"><p xml:id="auto_89y21wth">Break down multi-step problems into smaller, manageable steps.</p></li>
+                <li xml:id="auto_9elbi43f"><p xml:id="auto_j2pbnm74">Pair with peer tutors during practice.</p></li>
+                <li xml:id="auto_1flesadl"><p xml:id="auto_eun7b5bl">Create a table comparing velocity vs. acceleration concepts.</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_h1cmu3hy">
+            <alert>For On-Level Learners:</alert>
+            <ul>
+                <li xml:id="auto_3x3gjss5"><p xml:id="auto_rbe0knqq">Encourage students to identify which equation of motion to use before solving.</p></li>
+                <li xml:id="auto_ymhoes20"><p xml:id="auto_3y14dqt9">Provide mixed practice with positive and negative acceleration problems.</p></li>
+                <li xml:id="auto_krt68vbk"><p xml:id="auto_65utci6w">Ask students to explain the meaning of negative acceleration in context.</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_2twxqn29">
+            <alert>For Advanced Learners:</alert>
+            <ul>
+                <li xml:id="auto_a2gsj35d"><p xml:id="auto_c4mpne1x">Solve problems involving all three equations of motion.</p></li>
+                <li xml:id="auto_l7j5hmgr"><p xml:id="auto_fvqxwgfy">Calculate displacement when given acceleration and time.</p></li>
+                <li xml:id="auto_2y5tln0s"><p xml:id="auto_ulb2px1b">Explore real-world applications: rocket launches, car safety (braking distances).</p></li>
+                <li xml:id="auto_9ton6nqf"><p xml:id="auto_thuvl5a9">Create their own acceleration problems for classmates to solve.</p></li>
+                <li xml:id="auto_qy1un1tj"><p xml:id="auto_04pbq6lu">Investigate how acceleration relates to force (preview of Newton's laws).</p></li>
+            </ul>
+        </p>
+        <p xml:id="auto_wflwkyzu">
+            <alert>Extension Activity <mdash/> Rocket Launch Investigation:</alert> A rocket is launched from rest and accelerates uniformly at <m>15</m> m/s<m>^2</m> for <m>8</m> seconds. After <m>8</m> seconds, the engines shut off and the rocket continues upward with its final velocity. Tasks: (1) Calculate the final velocity after 8 seconds. (2) Calculate the displacement (height) after 8 seconds. (3) If the rocket continues at constant velocity after engines shut off, how high will it be after a total of 12 seconds? (4) Explain what would happen if the acceleration were doubled to <m>30</m> m/s<m>^2</m>.
+        </p>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+</subsection>

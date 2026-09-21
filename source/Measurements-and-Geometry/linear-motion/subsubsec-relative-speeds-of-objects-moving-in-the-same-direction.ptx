@@ -1,0 +1,833 @@
+<subsubsection xml:id="subsubsec-relative-speeds-of-objects-moving-in-the-same-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Relative Speeds of Objects Moving in the Same Direction</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_t8q1z86q">
+            <dl>
+                <li xml:id="auto_yfbup52i">
+                    <title>Strand</title>
+                    <p xml:id="auto_egua6eq8">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_4arasotc">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_ove7ab2t">
+                        2.10 Linear Motion
+                    </p>
+                </li>
+                <li xml:id="auto_b15fpofi">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_8hu0guqq">
+                        Determine relative speed of two moving bodies in different situations.
+                    </p>
+                </li>
+                <li xml:id="auto_l1hx4ovh" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_99wl3lvr">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_yvz13nyz" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_m9187iuo">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            <p xml:id="auto_uf1md4wb" component="lesson-plan">
+                <p xml:id="auto_50b92w34"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_8s4xenot">
+                        <p xml:id="auto_jvfwtxcm">
+                            <alert>Know (Conceptual Understanding):</alert> Relative speed is how fast one object is moving compared to another. When two objects move in the same direction, relative speed equals the difference of their individual speeds.
+                        </p>
+                    </li>
+                    <li xml:id="auto_8oiewu1u">
+                        <p xml:id="auto_pbu7g2qe">
+                            <alert>Do (Procedural Skill):</alert> Calculate relative speed for objects moving in the same direction. Convert between km/h and m/s. Determine time to overtake using <m>\text{Time} = \frac{\text{Distance}}{\text{Relative Speed}}</m>.
+                        </p>
+                    </li>
+                    <li xml:id="auto_alkhguox">
+                        <p xml:id="auto_g0jtxmwl">
+                            <alert>Apply (Application/Problem-Solving):</alert> Solve real-world overtaking problems involving cyclists, motorcycles, cars, and trucks on the same road.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_0scasm4t">
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/relative-speeds-of-objects-moving-in-the-same-direction.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_of34zr1w">
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/step-by-step-guide_relative-speeds-of-objects-moving-in-the-same-direction.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery (15 minutes)</title>
+        <dl>
+            <li xml:id="auto_gba66np7">
+                <title>Suggested Time</title>
+                <p xml:id="auto_kwkv0v71">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_xs4u36zy">
+                <title>Grouping</title>
+                <p xml:id="auto_huqhs9oq">
+                    Work in small groups (3<ndash/>4 students)
+                </p>
+            </li>
+            <li xml:id="auto_47suw1bp">
+                <title>Materials</title>
+                <p xml:id="auto_v7183lmm">
+                    Toy car (pulled by string), string, stopwatch, measuring tape (10 metres), pen and paper, calculator
+                </p>
+            </li>
+            <li xml:id="auto_1bxhcfev">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_i5zhou2l">
+                    Circulate among groups, ensuring safe movement and accurate timing. Offer guidance on recording results but let students discover the relative speed concept themselves.
+                </p>
+            </li>
+        </dl>
+        <p xml:id="auto_fhwafgcf">
+            <alert>Facilitation Strategy:</alert>
+        </p>
+        <p xml:id="auto_wjvqboiy">
+            <ul>
+                <li xml:id="auto_h3d3yoy0">Ensure the straight pathway is clear and safe before the activity begins.</li>
+                <li xml:id="auto_1fkhhavc">Remind groups to measure carefully and record times precisely.</li>
+                <li xml:id="auto_90sr4cdq">Prompt: <q>If both objects are going in the same direction, does the faster one get further away or closer?</q></li>
+                <li xml:id="auto_v7h3gv7m">After the race, ask each group to share their calculated speeds and relative speed.</li>
+            </ul>
+        </p>
+        <p xml:id="auto_l48k0spp">
+            <alert>Discussion Prompts (after group work):</alert>
+        </p>
+        <p xml:id="auto_ylilxmyp">
+            <ul>
+                <li xml:id="auto_qlq271lq">Who moved faster? Was the student walking faster or slower than the toy car?</li>
+                <li xml:id="auto_ohsgtrwz">Why might one object have moved faster than the other?</li>
+                <li xml:id="auto_pnkmzssf">What is the relative speed? How does the speed of each participant relate to the other?</li>
+                <li xml:id="auto_5z7jo855">Did they move away from each other, or did they stay the same distance apart?</li>
+            </ul>
+        </p>
+    </axiom>
+
+
+    <activity xml:id="auto_hdn6c1xl">
+        <p xml:id="auto_apra5lcf">
+            <em><term>Work in Groups.</term></em>
+        </p>
+    
+        <p xml:id="auto_k8px5yvo">
+            In this activity you are required to follow each step as listed.
+        </p>
+        <p xml:id="auto_u7kfjdkz">
+            <term>What you need:</term>
+            <ul xml:id="auto_f1eu2m9u" cols="2">
+                <li xml:id="auto_lp3s0r8q">
+                    <p xml:id="auto_k1nrsif0">
+                        Toy car (that can be pulled by a string).
+                    </p>
+                </li>
+                <li xml:id="auto_clnw9mdq">
+                    <p xml:id="auto_b3icc13o">
+                        String (long enough for the car to travel a sufficient distance).
+                    </p>
+                </li>
+                <li xml:id="auto_ovaf6rba">
+                    <p xml:id="auto_475yatb7">
+                        Stopwatch or timer
+                    </p>
+                </li>
+                <li xml:id="auto_qbo4optn">
+                    <p xml:id="auto_jep4yffg">
+                        Measuring tape or marked distance on the ground (e.g., 10 meters)
+                    </p>
+                </li>
+                <li xml:id="auto_hyl0xilq">
+                    <p xml:id="auto_eq02m78h">
+                        Pen and paper (for recording results)
+                    </p>
+                </li>
+                <li xml:id="auto_su9ljd8t">
+                    <p xml:id="auto_2yrycxj3">
+                        Observers (to track the race and help evaluate results)
+                    </p>
+                </li>
+                <li xml:id="auto_0ynwmnrm">
+                    <p xml:id="auto_4ilojhq4">
+                        Calculator (optional, for calculations)
+                    </p>
+                </li>
+            </ul>
+            <term>Steps:</term>
+            <ol xml:id="auto_m92od9th" marker="(i)">
+                <li xml:id="auto_5w492yna">
+                    <p xml:id="auto_cg8znbzz">
+                        Find a straight line or pathway that is clear and suitable for the race (
+                            a hallway, classroom floor, long corridor or outside on a field).
+                    </p>
+                </li>
+                <li xml:id="auto_zpa192ri">
+                    <p xml:id="auto_ol6a2b5e">
+                        Measure out a distance for the race, such as 10 meters. 
+                        You can use a measuring tape or use a marked area to set the starting and 
+                        finishing points.
+                    </p>
+                </li>
+                <li xml:id="auto_mmmxnjt4">
+                    <p xml:id="auto_9n76q3wk">
+                        Mark the starting line and the finish line clearly, 
+                        so both the toy car and the student know where to start and end.
+                    </p>
+                </li>
+                <li xml:id="auto_pgplhyd2">
+                    <p xml:id="auto_dlm3bp7w">
+                        Attach one end of the string securely to the toy car.
+                        The other end of the string should be held by a participant or fixed to 
+                        an anchor (like a pole or sturdy object) so that when the student pulls the string, 
+                        the car moves along the line and test the toy car to ensure that it moves 
+                        easily along the straight path when the string is pulled.
+                    </p>
+                </li>
+                <li xml:id="auto_rom6di8a">
+                    <p xml:id="auto_3fnrpq6h">
+                        You will have two participants: one student (who will walk) and one toy car 
+                        (which will be pulled by the string).
+                    </p>
+                </li>
+                <li xml:id="auto_srv4epdp">
+                    <p xml:id="auto_whhybnqy">
+                        Assign at least one observer to track the race. The observer(s) will help measure 
+                        the time it takes for each participant (the student and the toy car) to reach the 
+                        finish line.
+                    </p>
+                </li>
+                <li xml:id="auto_bwtwm7u2">
+                    <p xml:id="auto_8sh5rojj">
+                        Place the student and the toy at the starting line. The student should be 
+                        ready to walk at a constant speed.
+                    </p>
+                </li>
+                <li xml:id="auto_wbqz4uvm">
+                    <p xml:id="auto_kss2kqoa">
+                        On the count of "Go!", the student starts walking in a straight line towards 
+                        the finish line. 
+                        At the same time, the person holding the string should start pulling the toy 
+                        car in the same direction (straight line) at a constant speed. 
+                        The toy car should be pulled in a way that resembles a consistent movement, 
+                        not too fast or too slow.
+                    </p>
+                </li>
+                <li xml:id="auto_76iq6a1r">
+                    <p xml:id="auto_9udguz01">
+                        The observers should start the stopwatch as soon as both participants begin 
+                        moving and stop it when either the student or the toy car reaches the finish line.
+                    </p>
+                </li>
+                <li xml:id="auto_4z7efpod">
+                    <p xml:id="auto_9zully0i">
+                        Record the time taken by both the student and the toy car to reach the finish line. 
+                        If you have more than one observer, make sure they agree on the recorded times.
+                    </p>
+                </li>
+                <li xml:id="auto_jfxr79cu">
+                    <p xml:id="auto_483kl6x9">
+                        After the race, you need to calculate the relative speed between the student 
+                        and the toy car.
+                        <ul xml:id="auto_ghc0st6h">
+                            <li xml:id="auto_mk6v8zan">
+                                <p xml:id="auto_0vsfnky4">
+                                    Let's say the student took <m>T1</m> seconds to cover the distance 
+                                    (<m>10</m> meters), and the toy took <m>T2</m> seconds to cover same distance
+                                </p>
+                            </li>
+                            <li xml:id="auto_92imqz0w">
+                                <p xml:id="auto_41eqiu90">
+                                    The speed of the student is:
+                                    <md>
+                                        <mrow>\frac{\text{Distance}}{\text{Time}} \amp = \frac{10}{\text{T1} \, \text{seconds}}  </mrow>
+                                    </md>
+                                    The speed of the toy car is:
+                                    <md>
+                                        <mrow>\frac{\text{Distance}}{\text{Time}} \amp = \frac{10}{\text{T2} \, \text{seconds}}</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li xml:id="auto_ohymwkyb">
+                                <p xml:id="auto_5uovhzoo">
+                                    If the student and the toy car are moving in the same direction, 
+                                    the relative speed can be given as:
+                                </p>
+                                <p xml:id="auto_rr9c8xsm">
+                                    Relative  speed  = Speed of Toy Car - Speed of Student 
+                                    
+                                </p>
+                            </li>                               
+                        </ul>
+                    </p>
+                </li>
+                    <li xml:id="auto_jrm4c1b3">
+                    <p xml:id="auto_ymfw9762">
+                        Compare and share your fndings with other groups  of both the student and the toy car.
+                    </p>
+                </li>
+                <li xml:id="auto_7hbh6zfa">
+                    <p xml:id="auto_tqo68cco">
+                        Discuss;
+                        <ol xml:id="auto_5ld8ac8m" marker="(a).">
+                            <li xml:id="auto_j93wr6iv">
+                                <p xml:id="auto_f3m01roo">
+                                    Who moved faster? Was the student walking faster or slower than the toy car?
+                                </p>
+                            </li>
+                            <li xml:id="auto_bct5qos0">
+                                <p xml:id="auto_314xnihx">
+                                    Why one object might have moved faster than the other. 
+                                    Did the toy car move faster because it was pulled, or was the student 
+                                    faster in their walking?
+                                </p>
+                            </li>
+                            <li xml:id="auto_ba6fzinn">
+                                <p xml:id="auto_dfgjwup7">
+                                    The relative speed: 
+                                    How does the speed of each participant relate to the other? 
+                                    Did they move away from each other, or did they move closer together?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li xml:id="auto_vf59ih8f">
+                    <p xml:id="auto_arie94vt">
+                        Now try the activity in different conditions or compare vraious 
+                        speed by repeating the race multiple times.
+                        <ul xml:id="auto_irww2943">
+                            <li xml:id="auto_9tgrzp9q">
+                                <p xml:id="auto_qaehgxnk">
+                                    Have the student walk faster or slower.
+                                </p>
+                            </li>
+                            <li xml:id="auto_nu5g2iul">
+                                <p xml:id="auto_4ivl0jcv">
+                                    Change the length of the race to see how it affects the results.
+                                </p>
+                            </li>
+                            <li xml:id="auto_1vxxl4xf">
+                                <p xml:id="auto_4nvusp4o">
+                                    Adjust how fast the toy car is pulled.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+    </activity>
+    <insight xml:id="auto_z79p4nuh">
+        <p xml:id="auto_q1sn7xzk">
+           <alert>Definition:</alert> 
+           Relative speed is how fast one object is moving compared to another object.
+        </p>
+        <p xml:id="auto_o5cikgnd">
+            <alert>Formula for Same Direction:</alert>When two bodies move in the same direction at different
+            speeds, their relative speed is the difference between the individual speeds. 
+        </p>
+        <p xml:id="auto_749sugfz">
+            Relative Speed <m>=</m> Speed of Faster Object - Speed of Slower Object
+        </p>
+        <p xml:id="auto_18l84z2x">
+            <alert>Converting Units:</alert>
+            To convert <m>km/h</m> to <m>m/s</m>, multiply by <m>\frac{1000}{3600}</m> (or divide by 3.6)
+        </p>
+        <p xml:id="auto_x1foxill">
+            <alert>Time to Overtake:</alert>
+            <m>\text{Time} = \frac{\text{Distance}}{\text{Relative Speed}}</m>
+        </p>
+        <p xml:id="auto_bn8r5dco">
+           <alert>Key Insight:</alert> 
+           The faster object will eventually overtake the slower one when moving in the same direction.
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction (10 minutes)</title>
+        <p xml:id="auto_yukdz6ze">
+            After students have explored through the anchor activity, formalise their discoveries with the key concepts in the textbook.
+        </p>
+        <p xml:id="auto_4mqvlfjr">
+            <alert>Teaching Tips:</alert>
+        </p>
+        <p xml:id="auto_04ckhubh">
+            <ul>
+                <li xml:id="auto_fip4g13g">Connect to the experiment: <q>You found that the relative speed was the difference between the two speeds — this works whenever objects move in the same direction.</q></li>
+                <li xml:id="auto_iru2oy9o">Emphasise the unit conversion step: converting km/h to m/s is essential when distances are in metres.</li>
+                <li xml:id="auto_kcp8fzz0">Use the interactive simulation to reinforce concepts visually before moving to worked examples.</li>
+                <li xml:id="auto_7sfgzmqp">Common misconception: students may try to add speeds for same-direction motion. Stress that subtraction applies because both objects cover ground in the same direction.</li>
+            </ul>
+        </p>
+    </axiom>
+
+    <exploration xml:id="exploration-relative-speed-same-direction">
+        <title>Relative Speeds in the Same Direction</title>
+        <introduction xml:id="auto_gieanfu8">
+            <p xml:id="auto_2o8gg1a8">
+                In this activity, you will investigate how the distance between two moving objects changes over time. 
+                Before you begin, please review the <xref ref="instructions-relative-speed" text="custom">instructions below </xref> for this simulation.
+            </p>
+        </introduction>
+        <figure xml:id="fig-relative-speed-three-panel">
+            <caption>3-Panel Interactive: Relative Speed Simulation</caption>
+            <interactive xml:id="interactive-relative-speed" platform="jsxgraph" width="90%" aspect="1:1" source="jsxgraph/relative-speed-same-direction.js">
+                <sidebyside width="85%" margins="5%">
+                    <stack>
+                        <slate xml:id="box_controls" surface="jsxboard" aspect="6:1" />
+                        <slate xml:id="box_road" surface="jsxboard" aspect="6:3" />
+                        <slate xml:id="box_actions" surface="jsxboard" aspect="6:1"/>
+                    </stack>
+                </sidebyside>
+                <instructions xml:id="instructions-relative-speed">
+                    <p xml:id="auto_cb1mf2oi">
+                        <ol>
+                            <li xml:id="auto_9lit3m0t">Drag the red and blue points on the axis in the middle panel to set their starting positions.</li>
+                            <li xml:id="auto_ju9f99vd">Adjust the sliders in the top panel to set the speeds for Car A (Red) and Car B (Blue).</li>
+                            <li xml:id="auto_k99lgsed">Click <q>Start</q> in the bottom panel to begin the animation.</li>
+                            <li xml:id="auto_ao1ylpon">Observe the <em>Relative Speed</em> and <em>Distance Covered</em> readouts. The simulation will pause automatically if the cars meet.</li>
+                        </ol>
+                    </p>
+
+                    <p xml:id="auto_91jyz0ks">
+                        Use the interactive tool to investigate the following scenarios:
+                        <ol>
+                            <li xml:id="auto_aqfql11l">
+                                <p xml:id="auto_u4sa6jrd">
+                                    Set both Car A and Car B to the exact same speed (e.g., <m>10</m> m/s). Start the animation. What happens to the "Relative Speed" readout? Does the distance gap between them ever change?
+                                </p>
+                            </li>
+                            <li xml:id="auto_q443hwtw">
+                                <p xml:id="auto_03zkdwli">
+                                    Set Car A (the rear car) to a higher speed than Car B. Observe the "Distance Covered" labels. Even though Car A starts behind, why does its "Distance Covered" increase faster than Car B's?
+                                </p>
+                            </li>
+                            <li xml:id="auto_jl9xqy7u">
+                                <p xml:id="auto_ihvp3odu">
+                                    Set Car A to a <em>lower</em> speed than Car B. Predict whether the "Cars Met!" message will ever appear. Why is the relative speed still a positive number even though the cars are getting further apart?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
+    </exploration>
+
+    <!-- <exploration xml:id="exploration-relative-speed-same-direction">
+        <title>Relative Speeds of Objects in the Same Direction</title>
+
+        <introduction xml:id="auto_0bp3h5oj">
+            <p xml:id="auto_s3jxbmib">
+                In this activity, you will investigate two cars moving in the <em>same direction</em> along a straight track. 
+                You will explore how their individual velocities affect the rate at which the gap between them closes or grows. 
+                Before you begin, please review the <xref ref="instructions-relative-speed" text="custom"> for this simulation </xref>.
+            </p>
+        </introduction>
+
+        <figure xml:id="fig-relative-speed-three-panel">
+            <caption>3-Panel Interactive: Relative Speed Simulation</caption>
+            <interactive xml:id="interactive-relative-speed" platform="jsxgraph" width="90%" aspect="1:1" source="jsxgraph/relative-speed-same-direction.js">
+                <sidebyside width="85%" margins="5%">
+                    <stack>
+                        <slate xml:id="box_controls" surface="jsxboard" aspect="6:1" />
+                        <slate xml:id="box_road" surface="jsxboard" aspect="6:3" />
+                        <slate xml:id="box_actions" surface="jsxboard" aspect="6:1"/>
+                    </stack>
+                </sidebyside>
+                <instructions xml:id="instructions-relative-speed">
+                    <p xml:id="auto_hoiqdkgg">
+                        <ul>
+                            <li xml:id="auto_9z6863be"><alert>Setup:</alert> Drag the red and blue points (A and B) to set starting positions. Use the sliders to set their speeds.</li>
+                            <li xml:id="auto_ourrmcrn"><alert>Start:</alert> Click <c>Start</c> to begin the motion.</li>
+                            <li xml:id="auto_wsu2f085"><alert>Pause/Resume:</alert> Use the <c>Pause</c> button to freeze the simulation at any time. If the cars meet, the simulation auto-pauses; click <c>Resume</c> if you wish to see how the journey continues after the overtaking point.</li>
+                            <li xml:id="auto_qxeeeepg"><alert>Reset:</alert> Click the <c>Reset</c> button to return the cars to their starting positions and clear the timer to 0.00s.</li>
+                        </ul>
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
+
+        <task xml:id="task-relative-speed-analysis">
+            <title>Critical Thinking &amp; Observation</title>
+            <p xml:id="auto_c3l5h535">
+                Use the interactive tool to investigate the following scenarios:
+                <ol>
+                    <li xml:id="auto_tnutjxr7">
+                        <p xml:id="auto_1mohghxy">
+                            <b>Equal Speeds:</b> Set both Car A and Car B to the exact same speed (e.g., 10 m/s). Start the animation. What happens to the "Relative Speed" readout? Does the distance gap between them ever change?
+                        </p>
+                    </li>
+                    <li xml:id="auto_08rww5by">
+                        <p xml:id="auto_n5i2v7c8">
+                            <b>The Overtake:</b> Set Car A (the rear car) to a higher speed than Car B. Observe the "Distance Covered" labels. Even though Car A starts behind, why does its "Distance Covered" increase faster than Car B's?
+                        </p>
+                    </li>
+                    <li xml:id="auto_u5ekys8e">
+                        <p xml:id="auto_59wwiefw">
+                            <b>The Impossible Catch:</b> Set Car A to a <em>lower</em> speed than Car B. Predict whether the "Cars Met!" message will ever appear. Why is the relative speed still a positive number even though the cars are getting further apart?
+                        </p>
+                    </li>
+                    <li xml:id="auto_vetm2qft">
+                        <p xml:id="auto_1rmc4qr1">
+                            <b>Mathematical Prediction:</b> Note the initial gap (e.g., 15 meters) and the Relative Speed (e.g., 5 m/s). Can you calculate how many seconds it will take for the cars to meet before clicking start? (Hint: $t = \text{Gap} / \text{Relative Speed}$)
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </task>
+    </exploration> -->
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application (10 minutes)</title>
+        <p xml:id="auto_x18mzwsu">
+            Guide students through the worked examples below.
+        </p>
+        <p xml:id="auto_9sww0xqq">
+            <alert>Teaching Tips:</alert>
+        </p>
+        <p xml:id="auto_2wgf0gfp">
+            <ul>
+                <li xml:id="auto_49pcqyn0">For each example, ask students to identify: Who is faster? What is the gap? Then set up the relative speed calculation.</li>
+                <li xml:id="auto_mj2zlgnm">Emphasise the three-step process: (1) find relative speed, (2) convert units if needed, (3) apply <m>\text{Time} = \frac{\text{Distance}}{\text{Relative Speed}}</m>.</li>
+                <li xml:id="auto_odalj874">Encourage students to estimate answers before calculating, to build number sense.</li>
+            </ul>
+        </p>
+    </axiom>
+
+    <example xml:id="auto_flvc9by1">
+        <statement>
+            <p xml:id="auto_e2lxkh8n">
+                
+            </p>
+            <p xml:id="auto_tqdnji8p">
+                A cyclist is riding at a speed of <m>12</m> <em>km/h</em>, 
+                and a motorcycle is moving at a speed of <m>20</m> <em>km/h</em> 
+                on the same road in the same direction. 
+                If the cyclist starts <m>100</m> meters ahead of the motorcycle, 
+                how long will it take for the motorcycle to overtake the cyclist?
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_dbedfjcr">
+                Since the objects are moving in the same direction, 
+                we calculate the relative speed by subtracting the cyclist's speed from the motorcycle's speed:
+                    <md>
+                    <mrow> Relative  Speed \amp = Speed  of   Motorcycle \, - \, Speed  of  Cyclist  </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_jbp674qu">
+                <md>
+                    <mrow> \amp = 20 \, km/h \, - \, 12 \, km/h </mrow>
+                </md>
+            </p>   
+            <p xml:id="auto_lqivgir9">
+                <md>
+                    <mrow> \amp = 8 \, km/h </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_36884l6h">           
+                
+                Now let's convert relative speed to meters per second, 
+                so that we can work with the distance in meters, 
+                we need to convert the relative speed from <em>km/h</em> to <em>m/s.</em>
+                <md>
+                    <mrow>Relative \, speed \amp = 8 \, km/h \times \frac{1000}{3600} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_c06xd8wg">
+                <md>
+                    <mrow> \amp = 2.22 \, m/s </mrow>
+                </md>
+                The initial distance between the motorcycle and the cyclist is 100 meters. 
+                To calculate the time it will take for the motorcycle to overtake the cyclist,we have:
+                <md>
+                    <mrow>Time \amp = \frac{Distance}{Relative \, Speed} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_jzo8a9xs">
+                <md>
+                    <mrow> \amp = \frac{100 \, m}{2.22 \, m/s} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_brsjd0et">
+                <md>
+                    <mrow> \amp \approx 45 \, seconds </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <example xml:id="auto_x8itvgko">
+        <statement>
+            <p xml:id="auto_53tjvs26">
+                A car travels at <m>60</m> <em>km/h</em>, and a truck travels at 
+                <m>45</m> <em>km/h</em> in the same direction on a straight road. 
+                If the car starts <m>150</m> meters behind the truck, 
+                how long will it take for the car to overtake the truck
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_2opbw6tc">
+                The relative speed between the car and the truck is:
+                <md>
+                    <mrow>\text{Relative Speed} \amp = \text{Speed of Car} - \text{Speed of Truck} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_xzgc4krr">
+                <md>
+                    <mrow> \amp =60 \, km/h - 45 \, km/h </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_qkobv4zg">
+                <md>
+                    <mrow> \amp = 15 \, km/h </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_ehntscxe">
+                Convert Relative Speed to Meters per Second: Convert 15 km/h to m/s:
+                <md>
+                    <mrow> \amp = 15 \, km/h \times \frac{1000}{3600} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_d7d2tvve">
+                <md>
+                    <mrow> \amp = 4.17 \, m/s </mrow>
+                </md>
+                The initial distance between the car and the truck is 150 meters. 
+                Use the formula to calculate the time:
+                <md>
+                    <mrow>\text{Times} \amp = \frac{Distance}{Relative \, Speed} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_o10987hk">
+                <md>
+                    <mrow> \amp = \frac{150 m}{4.17 \, m/s} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_rkatp01o">
+                <md>
+                    <mrow> \amp \approx 36 \, seconds </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+
+     <xi:include href="../../resources-checkpoint.ptx" />
+     
+        <exercise  label="ex-finding-the-meeting-time-of-two-cyclist-after-starting-at-diffe">
+            <stack label="stk-finding-the-meeting-time-of-two-cyclist-after-starting-at-diffe" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Relative-speed-when-objects-move-in-the-same-direction/Finding-the-meeting-time-of-two-cyclist-after-starting-at-diffe.xml" />
+        </exercise>
+            
+
+        <exercise  label="ex-finding-the-time-taken-by-bus-a-to-overtake-bus-b-when-travellin">
+            <stack label="stk-finding-the-time-taken-by-bus-a-to-overtake-bus-b-when-travellin" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Relative-speed-when-objects-move-in-the-same-direction/Finding-the-time-taken-by-Bus-A-to-overtake-Bus-B-when-travellin.xml" />
+        </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment — Exit Ticket (5 minutes)</title>
+        <p xml:id="auto_q0y6xqdd">
+            Students complete individually to demonstrate understanding.
+        </p>
+        <p xml:id="auto_igha4hkj">
+            <alert>Question 1:</alert> A cyclist is riding at <m>18</m> km/h, and a motorcycle is travelling at <m>30</m> km/h on the same road. If the cyclist starts <m>200</m> metres ahead, how long will it take for the motorcycle to overtake the cyclist?
+        </p>
+        <p xml:id="auto_mq7oirsi">
+            <alert>Question 2:</alert> A toy car is pulled at <m>5</m> m/s, while a person walks at <m>2</m> m/s along the same path. If the toy car starts <m>15</m> metres ahead, how much time will it take for the person to catch up?
+        </p>
+        <p xml:id="auto_xvq83gvx">
+            <alert>Question 3:</alert> Two cyclists are riding along the same road. Cyclist A travels at <m>12</m> km/h and Cyclist B travels at <m>15</m> km/h. If Cyclist B starts <m>100</m> metres behind Cyclist A, how long will it take for Cyclist B to overtake Cyclist A?
+        </p>
+        <p xml:id="auto_17ypodgz">
+            <alert>Answer Key (teacher reference):</alert>
+        </p>
+        <p xml:id="auto_k9l41txp">
+            <ol marker="1.">
+                <li xml:id="auto_j7sodu1d">Relative speed = <m>12</m> km/h = <m>\frac{10}{3}</m> m/s. Time = <m>\frac{200}{\frac{10}{3}} = 60</m> seconds.</li>
+                <li xml:id="auto_6omcxidu">Relative speed = <m>3</m> m/s. Time = <m>\frac{15}{3} = 5</m> seconds.</li>
+                <li xml:id="auto_f13x6yi7">Relative speed = <m>3</m> km/h = <m>\frac{5}{6}</m> m/s. Time = <m>\frac{100}{\frac{5}{6}} = 120</m> seconds.</li>
+            </ol>
+        </p>
+    </axiom>
+
+    <exercises xml:id="exercises-moving-same-direction">
+        <exercise xml:id="auto_ctsl9dii">
+            <statement>
+                <p xml:id="auto_vz4e22jm">
+                    A cyclist is riding at a speed of <m>18</m> <em>km/h</em>, 
+                    and a motorcycle is traveling at <m>30</m> <em>km/h</em> on the same road. 
+                    If the cyclist starts <m>200</m> meters ahead of the motorcycle, 
+                    how long will it take for the motorcycle to overtake the cyclist?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_d36s2234">
+                    The relative speed is <m>12</m> <em>km/h</em>. 
+                </p>
+                <p xml:id="auto_lp50zn2v">
+                    Converting to <em>m/s</em>: <m>12 \times \frac{1000}{3600} = \frac{10}{3}</m> <em>m/s</em>. 
+                </p>
+                <p xml:id="auto_6cxq4iuj">
+                    The time taken to overtake is <m>\frac{200}{\frac{10}{3}} = 60</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_fpycvk1z">
+            <statement>
+                <p xml:id="auto_jkhqugmo">
+                    A toy car is being pulled along a straight path at a speed of <m>5</m> <em>m/s</em>, 
+                    while a person walks at <m>2</m> <em>m/s</em> along the same path. 
+                    If the toy car starts <m>15</m> meters ahead of the person, 
+                    how much time will it take for the person to catch up with the toy car?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_bplplmn9">
+                    The relative speed is <m> 3</m> <em>m/s</em>. 
+                </p>
+                <p xml:id="auto_ldnbex2z">
+                    The time taken to catch up is <m>\frac{15}{3} = 5</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_4gje0vaf">
+            <statement>
+                <p xml:id="auto_nl4tu7pl">
+                    Two cyclists are riding along the same road. 
+                    Cyclist <m>A</m> is traveling at <m>12</m> <em>km/h</em> and Cyclist 
+                    <m>B</m> is traveling at <m>15</m> <em>km/h</em>. 
+                    If Cyclist <m>B</m> starts <m>100</m> meters behind Cyclist <m>A</m>, 
+                    how long will it take for Cyclist <m>B</m> to overtake Cyclist <m>A</m>?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_4zlv40bq">
+                    The relative speed is <m>3</m> <em>km/h</em> which is <m>\frac{5}{6}</m> <em>m/s</em>. 
+                </p>
+                <!-- <p xml:id="auto_72kkkf0f">
+                    Speed in <em>m/s</em> is <m> = \frac{5}{6}</m>. 
+                </p> -->
+                <!-- <p xml:id="auto_dw4jm46q">
+                    The time taken to overtake is <m>\frac{100}{\frac{5}{6}} = 120</m> seconds.
+                </p> -->
+                <p xml:id="auto_dw4jm46q">
+                    The time taken to overtake is <m>120</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_6wdof9af">
+            <statement>
+                <p xml:id="auto_povdv6b0">
+                    A person walks at a speed of <m>1.5</m> <em>m/s</em>, 
+                    and a dog runs at a speed of <m>3</m> <em>m/s</em>. 
+                    If the dog starts <m>10</m> meters behind the person, 
+                    how long will it take the dog to catch up with the person?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_q0oq25uh">
+                    The relative speed is <m> 1.5</m> <em>m/s</em>. 
+                </p>
+                <p xml:id="auto_xx915bmp">
+                    The time taken to catch up is <m>6.67</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_yq7b2otk">
+            <statement>
+                <p xml:id="auto_whuihaze">
+                    Two buses are traveling on the same road in the same direction. 
+                    Bus <m>A</m> moves at <m>55</m> <em>km/h</em>, 
+                    and Bus <m>B</m> moves at <m>45</m> <em>km/h</em>. 
+                    If Bus <m>A</m> is <m>500</m> meters behind Bus <m>B</m>, 
+                    how long will it take for Bus <m>A</m> to overtake Bus B?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_60crugad">
+                    The relative speed is <m>10</m> <em>km/h</em> which is <m>\frac{25}{9}</m> <em>m/s</em>.
+                </p>
+                <!-- <p xml:id="auto_g215021e">
+                    Converting to <em>m/s</em>, we get <m>10 \times \frac{1000}{3600} = \frac{25}{9}</m> <em>m/s</em>.
+                </p> -->
+                <!-- <p xml:id="auto_zmyugqiq">
+                    The time taken to overtake is <m>\frac{500}{\frac{25}{9}} = 180</m> seconds.
+                </p> -->
+                <p xml:id="auto_zmyugqiq">
+                    The time taken to overtake is <m>180</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation Strategies</title>
+        <p xml:id="auto_vu2d9lz4">
+            <alert>For Struggling Learners:</alert>
+        </p>
+        <p xml:id="auto_s3j8utc4">
+            <ul>
+                <li xml:id="auto_8sm03cgr">Provide step-by-step calculation sheets with formulas already written.</li>
+                <li xml:id="auto_6v2lph9y">Use visual aids showing objects moving in the same direction.</li>
+                <li xml:id="auto_239fnu50">Allow use of calculators for conversions.</li>
+                <li xml:id="auto_o82f4fh5">Pair with peer tutors during practice.</li>
+            </ul>
+        </p>
+        <p xml:id="auto_ot13b9iw">
+            <alert>For Advanced Students:</alert>
+        </p>
+        <p xml:id="auto_ukvnkbll">
+            <ul>
+                <li xml:id="auto_7tlbey8i">Solve problems involving three objects moving in the same direction.</li>
+                <li xml:id="auto_ya8wjnbq">Calculate relative speeds with changing speeds (acceleration).</li>
+                <li xml:id="auto_avsusl5g">Explore real-world applications: highway traffic, race cars, trains.</li>
+                <li xml:id="auto_fpkjejqj">Create their own relative speed problems for classmates to solve.</li>
+            </ul>
+        </p>
+    </axiom>
+
+    <axiom component="lesson-plan">
+        <title>Extension Activity: Highway Traffic Simulation</title>
+        <p xml:id="auto_ck6k0tlp">
+            Two cars are travelling on a highway. Car A is travelling at <m>80</m> km/h, and Car B is travelling at <m>100</m> km/h. Car B is <m>500</m> metres behind Car A.
+        </p>
+        <p xml:id="auto_pq8mxr63">
+            <ol marker="1.">
+                <li xml:id="auto_u0kke5a0">Calculate the relative speed of Car B with respect to Car A.</li>
+                <li xml:id="auto_vxylrmcq">Determine how long it will take for Car B to overtake Car A.</li>
+                <li xml:id="auto_7q0er6ub">If the highway is <m>10</m> km long, where will Car B overtake Car A?</li>
+                <li xml:id="auto_8k2hbdcy">Create a distance-time graph showing both cars.</li>
+            </ol>
+        </p>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+
+</subsubsection>

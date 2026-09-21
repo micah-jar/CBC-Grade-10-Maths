@@ -1,0 +1,1301 @@
+<subsection xml:id="subsec-congruence-in-triangles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Congruence in Triangles</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_k6ln8hle">
+            <dl>
+                <li xml:id="auto_aw7iethy">
+                    <title>Strand</title>
+                    <p xml:id="auto_myhxsvbw">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_8oxx8xbw">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_x3urb1fy">
+                        2.2 Reflection and Congruence
+                    </p>
+                </li>
+                <li xml:id="auto_undsl2mt">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_e4kqh88a">
+                        Carry out congruence tests for triangles
+                    </p>
+                </li>
+                <li xml:id="auto_9o7u61zm" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_n6sorqh3">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_q24tqd7x" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_av065htm">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            <p xml:id="auto_iihyl9e0" component="lesson-plan">
+                <p xml:id="auto_1dyg68qh"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_0rysnyb3">
+                        <p xml:id="auto_mky3spwy">
+                            <alert>Know (Conceptual Understanding):</alert> Define congruent triangles as triangles with the same shape, size, and all corresponding sides and angles equal. Identify the five congruence tests: SSS, SAS, ASA, RHS, and AAS. State the minimum conditions to prove congruence.
+                        </p>
+                    </li>
+                    <li xml:id="auto_b3pw04km">
+                        <p xml:id="auto_m8y5l4fo">
+                            <alert>Do (Procedural Skill):</alert> Apply congruence tests (SSS, SAS, ASA, RHS, AAS) to determine whether two triangles are congruent. Use ruler and protractor to construct and compare triangles. Write congruence statements with correct vertex correspondence.
+                        </p>
+                    </li>
+                    <li xml:id="auto_oa0s2qr6">
+                        <p xml:id="auto_akxxr4o1">
+                            <alert>Apply (Application/Problem-Solving):</alert> Solve problems involving congruent triangles in real-world contexts. Apply congruence tests to prove geometric properties. Use congruence to verify structural integrity and symmetry.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_ipha0ole">
+                    <dataurl source="lesson_plans/measurements-and-geometry/reflection-and-congruence/congruence-in-triangles.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_v9wnfc4q">
+                    <dataurl source="lesson_plans/measurements-and-geometry/reflection-and-congruence/step-by-step-guide_congruence-in-triangles.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_spaa9xap">
+                <title>Suggested Time</title>
+                <p xml:id="auto_mw80jg7l">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_rckmhltz">
+                <title>Objective</title>
+                <p xml:id="auto_2lgoykjd">
+                    Cut-Out Triangle Matching <mdash/> learners discover what minimum measurements make two triangles congruent.
+                </p>
+            </li>
+            <li xml:id="auto_rwrr2dh0">
+                <title>Grouping</title>
+                <p xml:id="auto_qzzbe4uq">
+                    Groups
+                </p>
+            </li>
+            <li xml:id="auto_u4jg6wsd">
+                <title>Materials</title>
+                <p xml:id="auto_ygxfwcxs">
+                    Rulers, protractors, scissors, card stock
+                </p>
+            </li>
+            <li xml:id="auto_nirl8mx3">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_hmchzeb8">
+                    Ask probing questions: <q>What measurements make triangles identical?</q>, <q>Is knowing all angles enough?</q>, <q>What about three sides?</q>
+                </p>
+            </li>
+            <li xml:id="auto_j8rc4d0b">
+                <title>Expected Discovery</title>
+                <p xml:id="auto_rtnoasup">
+                    Same 3 sides, or 2 sides + included angle, or 2 angles + included side <m>\rightarrow</m> congruent.
+                </p>
+            </li>
+            <li xml:id="auto_xp637icc">
+                <title>Interactive Exploration</title>
+                <p xml:id="auto_xd1xxdbn">
+                    If you have an Internet connection, get Learners to try the interactive exploration.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <activity xml:id="auto_02na0013">
+    <statement>
+      <p xml:id="auto_ej27xeef">
+        <term>Work in groups</term>
+      </p>
+      <p xml:id="auto_va3xowu8">
+        Conditions for Congruence in Triangles 
+      </p>
+      <p xml:id="auto_90w1k0pq">
+        <term>Materials</term>
+      </p>
+      <p xml:id="auto_fx1wbn3k">
+        <ul xml:id="auto_ge9wofyc">
+          <li xml:id="auto_dxks7uoq">
+            <p xml:id="auto_tt7rcfvs">
+              Construction paper
+            </p>
+          </li>
+          <li xml:id="auto_4i4wci16">
+            <p xml:id="auto_7w3w4ua5">
+              Pencil, ruler, protractor
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p xml:id="auto_e492y2cb">
+        <term>Instructions</term>
+      </p>
+      <p xml:id="auto_fv967hta">
+        Trace the following triangles on a construction paper.
+      </p>
+
+      <sidebyside>
+        <image>
+        <latex-image label="SAS1">
+          \begin{tikzpicture}
+            \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+            % Triangle ABC
+            \coordinate (A) at (-6,4);
+            \coordinate (B) at (-8,1);
+            \coordinate (C) at (-2,1);
+
+            \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+
+            \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+             {angle=C--B--A};; 
+
+            \draw[black] (-7,3)--(-6.5,2.6); 
+
+            \draw[black] (-5.4,.7)--(-5.4,1.3); 
+            \draw[black] (-5.2,.7)--(-5.2,1.3); 
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+
+        <image>
+          <latex-image label="AAS1">
+            \begin{tikzpicture}
+              \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+              % Triangle ABC
+              \coordinate (A) at (-4,4);
+              \coordinate (B) at (-1,1);
+              \coordinate (C) at (-8,1);
+
+              \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=C--A--B};; 
+
+              \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=blue, angle eccentricity=1.2, angle radius=1cm]
+              {angle=A--B--C};; 
+
+              \draw[black] (-4.5,.8)--(-4.5,1.2); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <latex-image label="ASA1">
+            \begin{tikzpicture}
+              \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+              % Triangle ABC
+              \coordinate (A) at (-4,4);
+              \coordinate (B) at (-1,1);
+              \coordinate (C) at (-8,1);
+
+              \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=C--A--B};; 
+
+              \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=blue, angle eccentricity=1.2, angle radius=1cm]
+              {angle=A--B--C};;
+
+              \draw[black] (-2.6,2.4)--(-2.4,2.6);  
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+      <sidebyside>
+        <image>
+          <latex-image label="RHS1">
+            \begin{tikzpicture}
+              \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+              % Triangle ABC
+              \coordinate (A) at (-5,5);
+              \coordinate (B) at (-5,0);
+              \coordinate (C) at (-1,0);
+
+              \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=B--A--C};; 
+
+              \draw[draw=blue] (-4.6,0) -- (-4.6,0.4) -- (-5,0.4); 
+
+              \draw[black] (-2.6,-.2)--(-2.6,.2); 
+              \draw[black] (-2.4,-.2)--(-2.4,.2);
+
+              \draw[black] (-3,2.2)--(-2.8,2.4); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <latex-image label="SSS2">
+            \begin{tikzpicture}
+              % Draw the another triangle
+              \draw[thick] (2,3) -- (4,0) -- (1,-2) -- cycle;
+
+              \draw[black] (3.1,1.6)--(2.9,1.4);
+              \draw[black] (2.2,-1.3)--(2.2,-1);
+              \draw[black] (2.5,-.8)--(2.5,-1.2);
+              \draw[black] (1.8,1)--(1.4,1);
+              \draw[black] (1.8,0.8)--(1.4,.8);
+              \draw[black] (1.8,0.6)--(1.4,.6);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <latex-image label="RHS2">
+            \begin{tikzpicture}
+            \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+              % Triangle PQR
+              \coordinate (P) at (4,5);
+              \coordinate (Q) at (4,0);
+              \coordinate (R) at (0,0);
+
+              \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=R--P--Q};; 
+
+              \draw[draw=blue] (3.6,0) -- (3.6,0.4) -- (4,0.4); 
+              \draw[black] (2.6,-.2)--(2.6,.2); 
+              \draw[black] (2.4,-.2)--(2.4,.2);
+
+              \draw[black] (2,2)--(1.6,2.4); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        
+        <image>
+          <latex-image label="SSS1">
+            \begin{tikzpicture}
+              % Draw the original triangle
+              \draw[thick] (-2,3) -- (-4,0) -- (-1,-2) -- cycle;
+
+              \draw[black] (-3.1,1.6)--(-2.9,1.4);
+              \draw[black] (-2.2,-1.3)--(-2.2,-1);
+              \draw[black] (-2.5,-.8)--(-2.5,-1.2);
+              \draw[black] (-1.8,1)--(-1.4,1);
+              \draw[black] (-1.8,0.8)--(-1.4,.8);
+              \draw[black] (-1.8,0.6)--(-1.4,.6);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        
+      </sidebyside>
+
+      <sidebyside>
+        <image>
+          <latex-image label="ASA2">
+            \begin{tikzpicture}
+            \usetikzlibrary{angles,quotes} % Required for angle annotations
+              % Triangle PQR
+              \coordinate (P) at (0,1);
+              \coordinate (Q) at (3,4);
+              \coordinate (R) at (7,1);
+
+              \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=blue, angle eccentricity=1.2, angle radius=1cm]
+              {angle=R--P--Q};; 
+
+              \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=P--Q--R};; 
+              \draw[black] (1.8,2.6)--(1.6,2.8);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        
+        <image>
+          <latex-image label="AAS2">
+            \begin{tikzpicture}
+            \usetikzlibrary{angles,quotes} % Required for angle annotations
+              % Triangle PQR
+              \coordinate (P) at (0,1);
+              \coordinate (Q) at (3,4);
+              \coordinate (R) at (7,1);
+
+              \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+              \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=blue, angle eccentricity=1.2, angle radius=1cm]
+              {angle=R--P--Q};; 
+
+              \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+              {angle=P--Q--R};;
+
+              \draw[black] (3.5,0.8)--(3.5,1.2); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        <image>
+          <latex-image label="SAS2">
+            \begin{tikzpicture}
+            \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+            % Triangle PQR
+            \coordinate (P) at (-2,4);
+            \coordinate (Q) at (4,4);
+            \coordinate (R) at (0,1);
+
+            \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+            \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+            {angle=R--P--Q};; 
+
+            \draw[black] (0.5,3.8)--(0.5,4.2); 
+            \draw[black] (0.6,3.8)--(0.6,4.2); 
+
+            \draw[black] (-1.2,2.4)--(-0.8,2.6); 
+
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+      <p xml:id="auto_2juvdbms">
+        Identify pairs of congruent triangles.
+      </p>
+      <p xml:id="auto_0sfeljuv">
+        From the pairs of congruent triangles you have identified, which pairs fit the following criteria:
+      </p>
+      <p xml:id="auto_cemexqmb">
+        <ol xml:id="auto_8h0esurh">
+          <li xml:id="auto_kevaathg">
+            <p xml:id="auto_pavega3u">
+              The three sides of one triangle is equal to the three sides of the corresponding triangle.
+            </p>
+          </li>
+          <li xml:id="auto_n4z1p667">
+            <p xml:id="auto_sl8dvbhr">
+              Two sides and an included angle of one triangle is equal to the two corresponding sides and the included angle of the other triangle.
+            </p>
+          </li>
+          <li xml:id="auto_zwt6n5d9">
+            <p xml:id="auto_ijy8h25p">
+              One side and two included angles of one triangle is equal to the corresponding side and the two included angles of the other triangle.
+            </p>
+          </li>
+          <li xml:id="auto_g1p4r40z">
+            <p xml:id="auto_03k7qfv2">
+              One side and the hypotenuse of a right-angled triangle are equal to the hypotenuse and the corresponding side of another right-angled triangle.
+            </p>
+          </li>  
+        </ol>
+      </p>    
+    </statement>
+  </activity>
+      <exploration xml:id="auto_cbgjpm1n">
+        <title>Determining Congruence</title>
+        <p xml:id="auto_h47n08zv">
+        Two triangles are congruent if one can be translated, rotated, and/or reflected to obtain the other. The following interactive demonstrates this fact.
+    </p>
+    <figure xml:id="fig-congruence-overlap">
+        <caption>
+            Try to get the blue and red triangles to overlap with the black triangle.
+        </caption>
+
+        <interactive xml:id="interactive-congruence-overlap" platform="jsxgraph" width="90%" aspect="1:1" source="jsxgraph/congruence-overlap.js">
+            <slate xml:id="jsxgraph-congruence-overlap" surface="jsxboard" aspect="1:1"/>
+        </interactive>
+    </figure>
+            
+    </exploration>
+
+      <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <p xml:id="auto_i4on41uf">
+            <dl>
+            <li xml:id="auto_gg7x06t8">
+                <title>Suggested Time</title>
+                <p xml:id="auto_gdkj58gr">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_pkr9rtwq">
+                <title>Objective</title>
+                <p xml:id="auto_2j33gnyu">
+                    To formalise the five congruence tests and address common misconceptions.
+                </p>
+            </li>
+            </dl>
+        </p>
+        <p xml:id="auto_s051errs">
+            <alert>Misconception:</alert> Knowing all three angles does NOT prove congruence <mdash/> triangles can have the same angles but different sizes.
+        </p>
+    </axiom>
+  <insight xml:id="auto_wqb8kzfu">
+    
+      <p xml:id="auto_3sje6in5">
+              Figure with the same size and shape are said to be <term>congruent.</term>   
+       </p>
+       <p xml:id="auto_0vjo2ang">
+        The symbol for congruence is <m>\cong.</m>
+       </p>
+        <p xml:id="auto_htbwi6ax">
+              Figures with the same shape but different size are said to be <term>similar.</term>
+        </p>
+        <p xml:id="auto_q4y2vic1">
+              Congruence can also be applied to line segments and angles. 
+        </p>
+      <p xml:id="auto_ejue80tr">
+            Congruence in triangles depends on the measure of the sides and angles.
+            Two triangles are said to be congruent if a pair of the corresponding sides and corresponding angles are equal.
+      </p>
+      <p xml:id="auto_qaob32ar">
+        Criteria for congruence tests in triangles include:
+      </p>
+      <p xml:id="auto_drc502hj">
+        <ul xml:id="auto_3roei9b5">
+          <li xml:id="auto_5vwflci3">
+            <p xml:id="auto_y0q00aik">
+             <term>Side-side-side (SSS):</term> the three sides of one triangle is equal to the three sides of the corresponding triangle.
+            </p>
+          </li>
+          <li xml:id="auto_sg11mgnl">
+            <p xml:id="auto_hx2g1i7k">
+              <term>Side-angle-side (SAS):</term> two sides and an included angle of one triangle is equal to the two corresponding sides and the included angle of the other triangle.
+            </p>
+          </li>
+          <li xml:id="auto_k63dmm4n">
+            <p xml:id="auto_tx8lyvcr">
+              <term>Angle-side-angle (ASA):</term> one side and two included angles of one triangle is equal to the corresponding side and the two included angles of the other triangle.
+            </p>
+          </li>
+          <li xml:id="auto_1fntr65v">
+            <p xml:id="auto_r42bd7qo">
+              <term>Right angle-hypotenuse-side (RHS):</term> one side and the hypotenuse of a right-angled triangle are equal to the hypotenuse and the corresponding side of another right-angled triangle.
+            </p>
+          </li>
+          <li xml:id="auto_f3a4iqhr">
+            <p xml:id="auto_6bjfttl2">
+              <term>Angle-angle-side (AAS):</term> one side and two included angles of one triangle is equal to the corresponding side and the two included angles of the other triangle.
+            </p>
+          </li>
+        </ul>
+      </p>
+      <table xml:id="auto_fhirv94i">
+        <title>Summary of Congruence Tests</title>
+        <tabular halign="left">
+            <row header="yes" bottom="minor">
+                <cell>Test</cell>
+                <cell>What You Need</cell>
+            </row>
+            <row>
+                <cell>SSS</cell>
+                <cell>Three pairs of equal sides</cell>
+            </row>
+            <row>
+                <cell>SAS</cell>
+                <cell>Two pairs of equal sides + included angle</cell>
+            </row>
+            <row>
+                <cell>ASA</cell>
+                <cell>Two pairs of equal angles + included side</cell>
+            </row>
+            <row>
+                <cell>RHS</cell>
+                <cell>Hypotenuse + one other side in right triangles</cell>
+            </row>
+            <row>
+                <cell>AAS</cell>
+                <cell>Two pairs of equal angles + non-included side</cell>
+            </row>
+        </tabular>
+      </table>
+        
+  </insight>
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application / Elaborate</title>
+        <p xml:id="auto_oroa4j6v">
+            <dl>
+            <li xml:id="auto_cs4n0b80">
+                <title>Suggested Time</title>
+                <p xml:id="auto_eff4ypw8">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_4lw93nlx">
+                <title>Objective</title>
+                <p xml:id="auto_w7m6dnrq">
+                    To apply congruence tests to determine whether pairs of triangles are congruent, including coordinate geometry.
+                </p>
+            </li>
+            <li xml:id="auto_k6g741x0">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_d56so91g">
+                    The teacher guides learners through worked examples, emphasising correct identification of the congruence test and proper vertex correspondence in congruence statements.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+
+    <example xml:id="auto_z1bj3nal">
+      <statement>
+        <p xml:id="auto_zzxizoxs">
+          Check if the triangles below are congruent and state the test of congruence criterion.
+        </p>
+
+        <image>
+        <latex-image label="side_angle_side_exercise1">
+          \begin{tikzpicture}
+
+          \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+          % Triangle ABC
+          \coordinate (A) at (-6,4);
+          \coordinate (B) at (-8,1);
+          \coordinate (C) at (-2,1);
+
+          \draw[thick] (A) -- (B) -- (C) -- cycle;
+          \node[above] at (A) {A};
+          \node[left] at (B) {B};
+          \node[below right] at (C) {C};
+
+          \draw[draw=blue] plot coordinates{(A)(B)(C)} pic["$60^\circ$", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+          {angle=C--B--A};; 
+
+          % Triangle PQR
+          \coordinate (P) at (-2,4);
+          \coordinate (Q) at (4,4);
+          \coordinate (R) at (0,1);
+
+          \draw[thick] (P) -- (Q) -- (R) -- cycle;
+          \node[above] at (P) {P};
+          \node[right] at (Q) {Q};
+          \node[below right] at (R) {R};
+
+          \draw[draw=blue] plot coordinates{(P)(Q)(R)} pic["$60^\circ$", draw=orange, angle eccentricity=1.2, angle radius=1cm]
+          {angle=R--P--Q};; 
+
+          \draw node at(-7,3) {$3\, cm$}; 
+
+          \draw node at (-5.4,.7) {$8\, cm$}; 
+
+          \draw node at (0.5,4.2) {$8\, cm$}; 
+
+          \draw node at (-1.2,2.4) {$3\, cm$}; 
+                    
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+     </statement>
+     <solution>
+      <p xml:id="auto_q1i9o0pb">
+          From the figure above, we have: 
+        </p>
+        <p xml:id="auto_bt211lrd">
+          <ol marker="(i)">
+            <li xml:id="auto_p5k8g88a">
+              <p xml:id="auto_wz42dvq0">
+                 Corresponding sides
+              </p>
+              <p xml:id="auto_ry862s1s">
+                 Sides <m>AB = PR = 3\, cm \text{ and } BC = PQ = 8\,cm</m>
+              </p>
+            </li>
+            <li xml:id="auto_qblda3ky">
+              <p xml:id="auto_yhq67lss">
+                 Corresponding angles.
+              </p>
+              <p xml:id="auto_sougo3q9">
+                 <m>\angle B = \angle P = 60^\circ.</m>
+              </p>
+            </li>
+          </ol>
+        </p> 
+        <p xml:id="auto_vzmkc2up">
+          Therefore, <m>\Delta ABC \cong \Delta PQR</m> by <term>SAS</term> criterion
+        </p>
+     </solution>
+    </example>
+    <example xml:id="auto_sss1">
+      <statement>
+         <p xml:id="auto_m3jph9fx">
+           A surveyor needs to determine whether two triangular plots of land are equal in shape and size.
+            She measures the sides of the first plot and finds them to be <m>15</m> m, <m>20</m> m, and <m>25</m> m. 
+            The second plot has sides measuring <m>15</m> m, <m>20</m> m, and <m>25</m> m. 
+          </p>
+
+        <image>
+          <latex-image label="side_side_side_exercise1">
+            \begin{tikzpicture}
+
+            % Triangle DEF
+            \coordinate (D) at (-6,4);
+            \coordinate (E) at (-8,1);
+            \coordinate (F) at (-3,1);
+
+            \draw[thick] (D) -- (E) -- (F) -- cycle;
+
+            \node[above] at (D) {D};
+            \node[left] at (E) {E};
+            \node[below right] at (F) {F};
+
+            \draw node at (-7,3) {$15\, cm$};
+            \draw node at (-5.5,0.6) {$20\, cm$};
+            \draw node at (-4.8,2.6) {$25\, cm$};
+
+
+            % Triangle XYZ
+            \coordinate (X) at (1,4);
+            \coordinate (Y) at (5,4);
+            \coordinate (Z) at (3,1);
+
+            \draw[thick] (X) -- (Y) -- (Z) -- cycle;
+
+            \node[above] at (X) {X};
+            \node[above] at (Y) {Y};
+            \node[below] at (Z) {Z};
+
+            \draw node at (3,4.5) {$15\, cm$};
+            \draw node at (4,2.6) {$20\, cm$};
+            \draw node at (2,2.6) {$25\, cm$};
+
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        <p xml:id="auto_i6pcwv7o">
+          <ol marker="(a)">
+            <li xml:id="auto_ozh01mxn">
+              <p xml:id="auto_aee32rd1">
+                Are the two triangular plots congruent? Explain
+              </p>
+            </li>
+            <li xml:id="auto_xoae7ym0">
+              <p xml:id="auto_3q0r5e3n">
+                State the congruence criterion used
+              </p>
+            </li>
+            <li xml:id="auto_vkxrxylz">
+              <p xml:id="auto_e2n7cf71">
+                 If one side of the second plot was <m>24</m> m instead of <m>25</m> m, would the triangles still be congruent? 
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+
+    <solution>
+      <p xml:id="auto_wny4sbx8">
+        <ol marker="(a)">
+          <li xml:id="auto_0bj8vbks">
+            <p xml:id="auto_226qgfhb">
+              Yes, the two triangular plots are congruent because all three corresponding sides are equal
+            </p>
+          </li>
+          <li xml:id="auto_vb55pg4u">
+            <p xml:id="auto_5mqbw9d8">
+              The congruence criterion used is <term>SSS</term>
+            </p>
+          </li>
+          <li xml:id="auto_rpkqylcw">
+            <p xml:id="auto_9kitcgjn">
+              No, the triangles would not be congruent because for SSS criterion, <strong>all three</strong> corresponding sides must be equal.
+               Changing one side length would produce a different triangle.
+            </p>
+            <p xml:id="auto_7351gdit">
+              
+              <m>DE = XY = 15\, cm</m>
+              <m>EF = YZ = 20\, cm</m>
+              <m>DF = XZ = 25\, cm</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+  <example xml:id="auto_rhs1">
+  <statement>
+    <p xml:id="auto_zsauvf7s"> A ladder of length <m>5</m> m leans against a vertical wall, reaching a height of <m>4</m> m.
+        Another ladder of the same length leans against a different wall, also reaching a height of <m>4</m> m.
+        The base of each ladder is on horizontal ground. 
+    </p>
+    <p xml:id="auto_ow1hw8xr">
+      <ol>
+        <li xml:id="auto_zenbubu3">
+          <p xml:id="auto_jk6ds8rb">
+             Are the two triangles congruent
+          </p>
+        </li>
+        <li xml:id="auto_vjpmr1ra">
+          <p xml:id="auto_wo0jl4hc">
+            State the congruence criterion used.
+          </p>
+        </li>
+        <li xml:id="auto_cxqsf2jn">
+          <p xml:id="auto_18m1kaal">
+            If the second ladder reached a height of 3.5 m instead of 4 m, would the triangles still be congruent?
+          </p>
+        </li>
+      </ol>
+    </p>
+    <image>
+      <latex-image label="right_angle_hypotenuse_side_exercise1">
+        \begin{tikzpicture}
+        \usetikzlibrary{angles,quotes}
+
+        % First ladder triangle ABC
+        % A = top of ladder, B = foot on wall, C = ground point
+        \coordinate (A) at (-6,5);
+        \coordinate (B) at (-6,1);
+        \coordinate (C) at (-3,1);
+
+        % Draw wall and ground
+        \draw[thick] (-7,1) -- (-2,1);   % ground
+        \draw[thick] (-6,1) -- (-6,5);   % wall
+
+        % Ladder
+        \draw[thick] (A) -- (C);
+
+        % Right angle INSIDE
+        \draw 
+          pic["$90^\circ$", draw=orange, angle radius=0.5cm, angle eccentricity=1.3]
+          {angle=C--B--A};
+
+        % Labels
+        \node[left] at (A) {A};
+        \node[left] at (B) {B};
+        \node[below] at (C) {C};
+
+        % Side labels
+        \node[left] at (-6,3) {$4\,m$};
+        \node[below] at (-4.5,1) {$3\,m$};
+        \node[above right] at (-4.5,3.2) {$5\,m$};
+
+
+        % Second ladder triangle DEF
+        \coordinate (D) at (3,5);
+        \coordinate (E) at (3,1);
+        \coordinate (F) at (6,1);
+
+        % Draw wall and ground
+        \draw[thick] (2,1) -- (7,1);   % ground
+        \draw[thick] (3,1) -- (3,5);   % wall
+
+        % Ladder
+        \draw[thick] (D) -- (F);
+
+         % Right angle INSIDE
+        \draw 
+          pic["$90^\circ$", draw=orange, angle radius=0.5cm, angle eccentricity=1.3]
+          {angle=F--E--D};
+        % Labels
+        \node[left] at (D) {D};
+        \node[left] at (E) {E};
+        \node[below] at (F) {F};
+
+        % Side labels
+        \node[left] at (3,3) {$4\,m$};
+        \node[below] at (4.5,1) {$3\,m$};
+        \node[above right] at (4.5,3.2) {$5\,m$};
+
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+      </statement>
+
+      <solution>
+      <p xml:id="auto_w3urjz8n">
+        From the diagram and the given information:
+      </p>
+
+      <p xml:id="auto_x79o92wt">
+        <ol marker="(i)">
+          <li xml:id="auto_ps1jq2fe">
+            <p xml:id="auto_eg3rtcnq">
+              Each ladder forms a right-angled triangle with the wall and the ground.
+            </p>
+            <p xml:id="auto_wcunivzc">
+              <m>\angle B = \angle E = 90^\circ</m>
+            </p>
+          </li>
+
+          <li xml:id="auto_nnlmffon">
+            <p xml:id="auto_twjkxra0">
+              The hypotenuse (ladder length) in both triangles is equal.
+            </p>
+            <p xml:id="auto_t22c4ejd">
+              <m>AC = DF = 5</m> m
+            </p>
+          </li>
+
+          <li xml:id="auto_0r6cb6dg">
+            <p xml:id="auto_x79c0iru">
+              One corresponding side (height reached on the wall) is equal.
+            </p>
+            <p xml:id="auto_huxzge4t">
+              <m>AB = DE = 4</m> m
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p xml:id="auto_1kpwm69x">
+        Therefore, the two triangles are congruent by the 
+        <term>RHS</term> (Right angle-Hypotenuse-Side) criterion.
+      </p>
+
+      <p xml:id="auto_q45zhsld">
+        If the second ladder reached a height of <m>3.5</m> m instead of <m>4</m> m, 
+        then the corresponding sides would no longer be equal. 
+        Since one of the required equal sides would differ, 
+        the triangles would not be congruent.
+      </p>
+
+      </solution>
+</example>
+    <assemblage xml:id="assemblage-Extended-activity">
+      <title>Extended activity</title>
+      <p xml:id="auto_qi413b1z">
+        <term>Work in groups</term>
+      </p>
+      <p xml:id="auto_fzcgc9ib">
+        Trace and cut out the following shapes on a piece of paper.
+      </p>
+
+      <image>
+        <shortdescription></shortdescription>
+        <latex-image label="shapes_1">
+          \begin{tikzpicture}
+             % Draw the grid lines
+            \draw[step=1,gray,very thin] (-9,-6) grid (9,6);
+              
+            \fill[purple,opacity=0.3](-7,5) -- (-7,3) -- (-5,3) -- cycle;
+            \draw[purple,thick] (-7,5) -- (-7,3) -- (-5,3) -- cycle;
+            \node[purple] at (-6,3.5) {$A$};
+
+            \fill[blue,opacity=0.3](-4,5) -- (-2,5) -- (-2,3) -- (-4,3) -- cycle;
+            \draw[blue,thick] (-4,5) -- (-2,5) -- (-2,3) -- (-4,3) -- cycle;
+            \node[blue] at (-3,4) {$B$};
+
+            \fill[blue,opacity=0.3](-1,5) -- (2,5) -- (2,3) -- (-1,3) -- cycle;
+            \draw[blue,thick] (-1,5) -- (2,5) -- (2,3) -- (-1,3)-- cycle;
+            \node[blue] at (-.5,4) {$C$};
+
+            \fill[red,opacity=0.3](3,5) -- (6,5) -- (3,3) -- cycle;
+            \draw[red,thick] (3,5) -- (6,5) -- (3,3) -- cycle;
+            \node[red] at (3.5,4.5) {$D$};
+
+            \fill[orange,opacity=0.3](-7,2) -- (-5,2) -- (-4,0) -- (-8,0) -- cycle;
+            \draw[orange,thick] (-7,2) -- (-5,2) -- (-4,0) -- (-8,0) -- cycle;
+            \node[orange] at (-6.5,1) {$E$};
+
+            \fill[yellow,opacity=0.3](-3,2) -- (-1,2) -- (-1,0) -- cycle;
+            \draw[yellow,thick] (-3,2) -- (-1,2) -- (-1,0) -- cycle;
+            \node[yellow] at (-1.5,1.5) {$F$};
+
+            \fill[green,opacity=0.3](1,2) -- (3,2) -- (1,0) -- cycle;
+            \draw[green,thick] (1,2) -- (3,2) -- (1,0) -- cycle;
+            \node[green] at (1.5,1.5) {$G$};
+
+            \fill[blue,opacity=0.3](4,2) -- (7,2) -- (4,0) -- cycle;
+            \draw[blue,thick] (4,2) -- (7,2) -- (4,0) -- cycle;
+            \node[blue] at (5,1.5) {$H$};
+
+            \fill[red,opacity=0.3](-8,-1) -- (-6,-1) -- (-6,-3) -- (-8,-3) -- cycle;
+            \draw[red,thick] (-8,-1) -- (-6,-1) -- (-6,-3) -- (-8,-3) -- cycle;
+            \node[red] at (-7,-2) {$I$};
+
+            \fill[orange,opacity=0.3](-5,-1) -- (-5,-3) -- (-2,-3) -- cycle;
+            \draw[orange,thick] (-5,-1) -- (-5,-3) -- (-2,-3) -- cycle;
+            \node[orange] at (-4,-2.5) {$J$};
+
+            \fill[orange,opacity=0.3](-1,-1) -- (2,-1) -- (2,-3) -- (-1,-3) -- cycle;
+            \draw[orange,thick] (-1,-1) -- (2,-1) -- (2,-3) -- (-1,-3) -- cycle;
+            \node[orange] at (.5,-2) {$K$};
+
+            \fill[orange,opacity=0.3](3,-1) -- (7,-1) -- (6,-3) -- (4,-3) -- cycle;
+            \draw[orange,thick] (3,-1) -- (7,-1) -- (6,-3) -- (4,-3) -- cycle;
+            \node[orange] at (5,-2) {$L$};
+
+
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p xml:id="auto_dmlnvh4n">
+        1. Identify figures that are directly congruent.
+      </p>
+      
+        <p xml:id="auto_b668hiqg">
+          Example: <m>B \cong I.</m> <m>B</m> fits directly on <m>I</m> without flipping, thus <m>B \text{ and } I</m>
+                are said to be <term>directly congruent.</term> 
+      </p>
+      
+      <p xml:id="auto_tadoks8e">
+        2. Identify figures that have opposite congruence.
+      </p>
+      <p xml:id="auto_bdk9okdr">
+        Example: <m>E \text{ and } L</m> do  not fit directly but when you flip <term>(lateral inversion)</term> figure <m>L</m> and fit it on <m>E,</m> they align. 
+        This is called <term>opposite congruence.</term>  
+      </p>
+      <p xml:id="auto_2a347puq">
+        3. Identify:
+        <ul xml:id="auto_0a8u3fki">
+          <li xml:id="auto_ovc1309t">
+            <p xml:id="auto_hoek1x02">
+               The figures with the same shape.
+            </p>
+          </li>
+          <li xml:id="auto_vy81jlk3">
+            <p xml:id="auto_tjya0c1v">
+              The figures with the same size.
+            </p>
+          </li>
+          <li xml:id="auto_bm8546et">
+            <p xml:id="auto_6819ob8p">
+              The figure with same size and shape.
+            </p>
+          </li>
+        </ul>  
+      </p>
+    </assemblage>
+        <axiom component="lesson-plan">
+        <title>Assessment / Evaluate</title>
+        <p xml:id="auto_0lhwvpku">
+            <dl>
+            <li xml:id="auto_jln816k5">
+                <title>Suggested Time</title>
+                <p xml:id="auto_m4gsuodi">
+                    5 minutes
+                </p>
+            </li>
+            <li xml:id="auto_xvxzrcf1">
+                <title>Objective</title>
+                <p xml:id="auto_ao2wujs0">
+                    To formatively assess individual learner understanding of congruence tests.
+                </p>
+            </li>
+            <li xml:id="auto_5xd5go56">
+                <title>Learning Experience</title>
+                <p xml:id="auto_gjv0le9h">
+                    Learners complete the following exit-ticket questions independently.
+                </p>
+            </li>
+            </dl>
+        </p>
+    </axiom>
+    <xi:include href="../../resources-checkpoint.ptx" />
+    <exercise xml:id="ex-triangle-which-is-direct-and-opposite-congruent-to-its-image-aft">
+        <stack label="stk-triangle-which-is-direct-and-opposite-congruent-to-its-image-aft" source="stack/top/2-0-Measurement-Geometry/2-2-Reflection-and-Congruence/2-2-6-Congruence/Triangle-which-is-direct-and-opposite-congruent-to-its-image-aft.xml"/>
+    </exercise>
+    <exercise  label="ex-recognize-congruent-triangles">
+        <stack label="stk-recognize-congruent-triangles" source="stack/top/2-0-Measurement-Geometry/2-2-Reflection-and-Congruence/2-2-7-Congruence-Tests-for-Triangles/Recognize-congruent-triangles.xml" />
+    </exercise>
+        
+
+    <exercise  label="ex-congruence-in-a-parallelogram-with-parallel-segments">
+        <stack label="stk-congruence-in-a-parallelogram-with-parallel-segments" source="stack/top/2-0-Measurement-Geometry/2-2-Reflection-and-Congruence/2-2-7-Congruence-Tests-for-Triangles/Congruence-in-a-Parallelogram-with-Parallel-Segments.xml" />
+    </exercise>
+
+
+    <exercises xml:id="exercises-congruence">
+      <exercise xml:id="auto_2gusvosz">
+      <statement>
+        <p xml:id="auto_4cputlq5">
+          Identify figures that are congruent.
+        </p>
+
+        <image>
+          <latex-image label="shapes_exercise">
+            \begin{tikzpicture}
+            % Grid
+            \draw[step=1,gray,very thin] (-9,-6) grid (9,6);
+
+            % a
+            \fill[red,opacity=0.3](-9,6) -- (-7,4) -- (-9,2) -- (-3,4) -- cycle;
+            \draw[red,thick] (-9,6) -- (-7,4) -- (-9,2) -- (-3,4) -- cycle;
+            \node at (-7.2,4) {\Large a};
+
+            % b
+            \fill[orange,opacity=0.3](-2,2) -- (-2,5) -- (-1,5) -- (-1,4) --(0,4) -- cycle;
+            \draw[orange,thick] (-2,2) -- (-2,5) -- (-1,5) -- (-1,4) --(0,4) -- cycle;
+            \node at (-1.2,3.6) {\Large b};
+
+            % c
+            \fill[yellow,opacity=0.3](-7,1) -- (-6,1) -- (-6,2) -- (-5,2) --(-5,-1) -- cycle;
+            \draw[yellow,thick] (-7,1) -- (-6,1) -- (-6,2) -- (-5,2) --(-5,-1) -- cycle;
+            \node at (-5.8,0.7) {\Large c};
+
+            % d
+            \fill[green,opacity=0.3](2,3) -- (5,3) -- (4,5) -- (1,5) -- cycle;
+            \draw[green,thick] (2,3) -- (5,3) -- (4,5) -- (1,5) -- cycle;
+            \node at (3,4) {\Large d};
+
+            % e
+            \fill[blue,opacity=0.3](-4,1) -- (-2,1) -- (-1,-1) -- (-3,-1) -- cycle;
+            \draw[blue,thick] (-4,1) -- (-2,1) -- (-1,-1) -- (-3,-1) -- cycle;
+            \node at (-2.5,0) {\Large e};
+
+            % f
+            \fill[purple,opacity=0.3](-4,-2) -- (-1,-2) -- (0,-4) -- (-3,-4) -- cycle;
+            \draw[purple,thick] (-4,-2) -- (-1,-2) -- (0,-4) -- (-3,-4) -- cycle;
+            \node at (-2.2,-3) {\Large f};
+
+            % g
+            \fill[blue,opacity=0.3](-9,-1) -- (-7,-1) -- (-6,-2) -- (-8,-2) -- cycle;
+            \draw[blue,thick] (-9,-1) -- (-7,-1) -- (-6,-2) -- (-8,-2) -- cycle;
+            \node at (-7.8,-1.4) {\Large g};
+
+            % h
+            \fill[orange,opacity=0.3](-1,2) -- (1,3) -- (3,2) -- (1,1) -- cycle;
+            \draw[orange,thick] (-1,2) -- (1,3) -- (3,2) -- (1,1) -- cycle;
+            \node at (1,2) {\Large h};
+
+            % i
+            \fill[blue,opacity=0.3](3,0) -- (5,0) -- (6,2) -- (4,2) -- cycle;
+            \draw[blue,thick] (3,0) -- (5,0) -- (6,2) -- (4,2) -- cycle;
+            \node at (4.5,1) {\Large i};
+
+            % j
+            \fill[green,opacity=0.3](0,-1) -- (1,-2) -- (2,-1) -- (1,-4) -- cycle;
+            \draw[green,thick] (0,-1) -- (1,-2) -- (2,-1) -- (1,-4)-- cycle;
+            \node at (1,-2.2) {\Large j};
+
+            % k
+            \fill[purple,opacity=0.3](4,-1) -- (3,-3) -- (4,-5) -- (5,-3) -- cycle;
+            \draw[purple,thick] (4,-1) -- (3,-3) -- (4,-5) -- (5,-3)-- cycle;
+            \node at (4,-3) {\Large k};
+
+          \end{tikzpicture}
+          </latex-image>
+          
+        </image>
+      </statement>
+      <answer>
+        <p>
+          b and c
+        </p>
+        <p>
+          e and i
+        </p>
+        <p>
+          f and d
+        </p>
+        <p>
+          h and k
+        </p>
+      </answer>
+    </exercise>
+      <exercise xml:id="auto_479d7ltn">
+      <statement>
+        <p xml:id="auto_ce7yh8fd">
+          Check if the triangles below are congruent and state test of congruence criterion.
+        </p>
+
+      <image width="50%">
+      <latex-image label="RHS_exercise_1">
+        \begin{tikzpicture}
+
+        \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+        % Triangle ABC
+        \coordinate (A) at (-3,0);
+        \coordinate (B) at (0,4);
+        \coordinate (C) at (0,0);
+        \coordinate (D) at (3,0);
+
+        \draw[thick] (A) -- (B) -- (C) -- cycle;
+        \node[left] at (A) {A};
+        \node[above] at (B) {B};
+        \node[below] at (C) {C};
+        \node[right] at (D) {D};
+
+
+        \draw[draw=blue] (-.4,0) -- (-.4,0.4) -- (0,0.4); 
+
+
+        \draw[thick] (B) -- (C) -- (D) -- cycle;
+
+        \draw[black] (-.2,2)--(.2,2); 
+        \draw[black] (-.2,2.2)--(.2,2.2);
+
+                  
+        \end{tikzpicture}
+      </latex-image>
+      </image>
+        
+      </statement>
+      <answer>
+        <p>
+          Test used: RHS (Right angle-Hypotenuse-Side) criterion used to show congruency. The triangles are congruent.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="auto_b9jt78li">
+      <statement>
+        <p xml:id="auto_fzhhrr2l">
+          Show that <m>\Delta ABC</m> and <m>\Delta ADB</m> are congruent, if <m>AD = AE = BE = BC.</m> 
+        </p>
+
+      <image width="50%">
+      <latex-image label="RHS_exercise_2">
+        \begin{tikzpicture}
+
+        \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+        % Triangle ABC
+        \coordinate (A) at (-3,3);
+        \coordinate (B) at (3,3);
+        \coordinate (C) at (3,-1);
+        \coordinate (D) at (-3,-1);
+        \coordinate (E) at (0,1);
+
+        \draw[thick] (A) -- (B) -- (C) -- cycle;
+        \draw[thick] (A) -- (D) -- (B) -- cycle;
+        \node[left] at (A) {A};
+        \node[above] at (B) {B};
+        \node[below] at (C) {C};
+        \node[left] at (D) {D};
+        \node[below] at (E) {E};
+
+        \draw[black] (-3.2,1)--(-2.8,1); 
+        \draw[black] (3.2,1)--(2.8,1);
+        \draw[black] (-1.4,1.8)--(-1.2,2); 
+        \draw[black] (1.4,1.8)--(1.2,2);
+
+                  
+        \end{tikzpicture}
+      </latex-image>
+      </image>
+      </statement>
+      <answer>
+        <p>
+          Test used: RHS (Right angle-Hypotenuse-Side) criterion used to show congruency. The triangles are congruent.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="auto_yetd6oft">
+      <statement>
+        <p xml:id="auto_x66l7zet">
+          <m>A(0,4)\, B(-3,0) \text{ and } C(0,2)</m> are the coordinates of <m>\Delta ABC.</m> Reflect the triangle over mirror line <m>x = 0.</m>
+           Prove that the triangle and its image are congruent and state the test of congruence criterion. 
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Triangle and its image are congruent using SSS (Side-Side-Side) creterion.
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="auto_h23fdoll">
+      <statement>
+        <p xml:id="auto_xuvobx53">
+          Construct an equilateral triangle <m>UVW</m> with sides <m>6\,cm.\,X</m> is the midpoint of <m>UW</m> and <m>VX</m> is perpendicular to <m>UW.</m>
+           Show that <m>\Delta UVX \, \cong \, \Delta VWX.</m> State the test of congruence criterion.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          By SAS (Side-Angle-Side) the triangles are congruent.
+        </p>
+      </answer>
+    </exercise>
+    </exercises>
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+
+        <table xml:id="auto_3xf66yk5">
+            <title>Differentiation</title>
+            <tabular halign="left">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide physical cut-outs for matching. Use colour-coded sides and angles. Start with SSS only. Provide a flowchart for choosing the correct test. Pair with a mentor learner.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>The core lesson activities as described above. Learners work through all five tests, complete coordinate geometry problems, and write formal congruence proofs.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> 1) Prove that the diagonals of a rhombus bisect each other using congruent triangles. 2) Prove that the diagonals of a rectangle are equal using congruent triangles. 3) Investigate why SSA fails by constructing a counterexample.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </axiom>
+
+    <axiom component="lesson-plan">
+        <title>Extension Activities</title>
+        <paragraphs>
+            <title>1. Prove Rhombus Diagonals Bisect Each Other</title>
+            <p xml:id="auto_41gib8og">
+                <m>ABCD</m> is a rhombus. Diagonals <m>AC</m> and <m>BD</m> meet at <m>O</m>.
+            </p>
+            <p xml:id="auto_47c9xxya">
+                In <m>\triangle ABD</m> and <m>\triangle CBD</m>: <m>AB = CB</m> (sides of rhombus), <m>BD = BD</m> (common), <m>AD = CD</m> (sides of rhombus) <m>\Rightarrow</m> SSS <m>\Rightarrow \triangle ABD \cong \triangle CBD</m>.
+            </p>
+            <p xml:id="auto_zgbnnclr">
+                Therefore <m>\angle ABD = \angle CBD</m>, so <m>BO</m> bisects <m>\angle B</m>.
+            </p>
+            <p xml:id="auto_o8han4w8">
+                Then in <m>\triangle ABO</m> and <m>\triangle CBO</m>: <m>AB = CB</m>, <m>\angle ABD = \angle CBD</m>, <m>BO = BO</m> <m>\Rightarrow</m> SAS <m>\Rightarrow \triangle ABO \cong \triangle CBO</m>.
+            </p>
+            <p xml:id="auto_7h5pzphv">
+                Therefore <m>AO = CO</m> and <m>\angle AOB = \angle COB = 90°</m>. The diagonals bisect each other at right angles.
+            </p>
+        </paragraphs>
+        <paragraphs>
+            <title>2. Prove Rectangle Diagonals Are Equal</title>
+            <p xml:id="auto_6rury1hd">
+                <m>ABCD</m> is a rectangle. Consider <m>\triangle ABC</m> and <m>\triangle DCB</m>.
+            </p>
+            <p xml:id="auto_06om1nis">
+                <m>AB = DC</m> (opposite sides of rectangle), <m>BC = BC</m> (common), <m>\angle ABC = \angle DCB = 90°</m> <m>\Rightarrow</m> SAS <m>\Rightarrow \triangle ABC \cong \triangle DCB</m>.
+            </p>
+            <p xml:id="auto_c196vm7c">
+                Therefore <m>AC = DB</m>. The diagonals are equal.
+            </p>
+        </paragraphs>
+        <paragraphs>
+            <title>3. SSA Counterexample</title>
+            <p xml:id="auto_vd7cbi3l">
+                Given <m>AB = 5</m>, <m>BC = 3</m>, <m>\angle A = 30°</m>. Two possible triangles can be constructed (the ambiguous case). This is why SSA is not a valid congruence test.
+            </p>
+        </paragraphs>
+    </axiom>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+</subsection>

@@ -1,0 +1,985 @@
+<subsubsection xml:id="subsubsec-quadratic-equations-in-real-life" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quadratic Equations in Real-Life</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_vf9brpac">
+            <p xml:id="auto_gt1k42ia">
+            <dl>
+                <li xml:id="auto_psx9ght3">
+                    <title>Strand</title>
+                    <p xml:id="auto_msvg43hq">
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li xml:id="auto_2iyx7hht">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_bmooailn">
+                        1.3 Quadratic Expressions and Equations
+                    </p>
+                </li>
+                <li xml:id="auto_m65edqwg">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_cqahpkms">
+                        Apply quadratic equations to real life situations
+                    </p>
+                </li>
+                <li xml:id="auto_oqhmwe17" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_m1goumf3">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_uzkcqitl" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_sncr6464">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            </p>
+            <p xml:id="auto_wi3scbrd" component="lesson-plan">
+                <p xml:id="auto_mkztvb45"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_gqb2b7kr">
+                        <p xml:id="auto_tcsztw25">
+                            <alert>Know (Conceptual Understanding):</alert> Understand that quadratic equations can model real-world phenomena such as projectile motion, area optimization, and profit/loss scenarios.
+                        </p>
+                    </li>
+                    <li xml:id="auto_yrrl4i00">
+                        <p xml:id="auto_tpq8vurt">
+                            <alert>Do (Procedural Skill):</alert> Set up and solve quadratic equations from word problems using factorisation, the quadratic formula, or completing the square.
+                        </p>
+                    </li>
+                    <li xml:id="auto_c30o6c2f">
+                        <p xml:id="auto_ois0x1dx">
+                            <alert>Apply (Application/Problem-Solving):</alert> Apply quadratic equations to solve problems in physics (projectile motion), geometry (area problems), and business (profit optimization).
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_2k2n934m">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/quadratic-equations-in-real-life.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_9l65mofs">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_quadratic-equations-in-real-life.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+
+    <p xml:id="auto_5jfy1mvy">
+        <em><term>Quadratic equations</term></em> are a type of mathematical equation that can be used to describe many different <em><term>real-life</term></em> situations. 
+        Whether you're throwing a ball in the air, trying to maximize the area of a garden, or calculating profits for a business, 
+        quadratic equations can help solve problems that involve relationships with squared terms.
+    </p>
+    <p xml:id="auto_vl3adg2v">
+        In this section, we will learn how to recognize real-life situations that can be modeled by quadratic equations, 
+        how to set them up, and how to solve them step by step.
+    </p>
+    <p xml:id="auto_d0ju0h1e">
+        A quadratic equation is an equation that can be written in the form:
+        <me>
+            ax^2 + bx + c = 0
+        </me>
+        where, 
+        <ul xml:id="auto_mtv1sl62">
+            <li xml:id="auto_kdh2lp4t">
+                <p xml:id="auto_sdlxxeuw">
+                    <m>a</m>, <m>b</m> and <m>c</m> are real numbers or constants,
+                </p>
+            </li>
+            <li xml:id="auto_ukgc8qca">
+                <p xml:id="auto_ivunewjj">
+                    <m>x</m> is the unknown variable
+                </p>
+            </li>
+            <li xml:id="auto_mhg9q0c6">
+                <p xml:id="auto_1hg82hd3">
+                    and <m>a \neq 0</m> beacuse if <m>a</m> is <m>0,</m> it would not be a quadratic
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p xml:id="auto_q276t54c">
+        Quadratic equations show up in many situations, especially when something is changing in a way that involves squares (like height, area, or profit).
+    </p>
+    <p xml:id="auto_8cw1wvk9">
+        Lets take a look at some of the situations <em><term>Quadratic Equations</term></em> is involved in real life situations.
+    </p>
+    <p xml:id="auto_pk7n0x9f">
+        <m>1. \, Projectile \, Motion (Throwing \, a \, Ball).</m>
+    </p>
+    <image source="projectile.png" width="70%">
+        <shortdescription>projectile</shortdescription>
+    </image>
+    <p xml:id="auto_azc36qm2">
+        One of the most common real-life situations for quadratic equations is <term>projectile motion</term>, such as when you throw a ball in the air. 
+        The height of the ball over time can be described by a quadratic equation.
+    </p>
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_6s4yxdy5">
+                <title>Suggested Time</title>
+                <p xml:id="auto_ky9fo1qn">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_59s66xf3">
+                <title>Objective</title>
+                <p xml:id="auto_0z2egwhl">
+                    Real-World Quadratic Discovery
+                </p>
+            </li>
+            <li xml:id="auto_l41ntva7">
+                <title>Learning Experience</title>
+                <p xml:id="auto_d1zlsk3c">
+                    Give each group one of 4 scenario cards:
+                    <ol>
+                        <li xml:id="auto_rpret7sj"><p xml:id="auto_y6tihhkb"><q>A ball is kicked upward at <m>20 \text{ m/s}</m> and reaches height <m>h(t) = 20t - 5t^2</m>. When does it land?</q></p></li>
+                        <li xml:id="auto_3kgbhwrt"><p xml:id="auto_3jwdagvu"><q>A rectangular field has area <m>120 \text{ m}^2</m>, and the length is <m>2 \text{ m}</m> more than the width. Find the dimensions.</q></p></li>
+                        <li xml:id="auto_q99sft31"><p xml:id="auto_go0c5767"><q>A company's profit is <m>P(x) = -2x^2 + 40x - 150</m> where <m>x</m> = items sold (thousands). Find the break-even points.</q></p></li>
+                        <li xml:id="auto_s92rrrvv"><p xml:id="auto_7j8se6ds"><q>An object is dropped from <m>80 \text{ m}</m>: <m>h(t) = 80 - 5t^2</m>. When does it hit the ground?</q></p></li>
+                    </ol>
+                    Each group: form the equation, identify variables, and attempt to solve.
+                </p>
+            </li>
+            <li xml:id="auto_zobqbzj0">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_643eoqct">
+                    Circulate among groups, asking probing questions: <q>What does <m>x</m> represent?</q>, <q>How do you form the equation?</q>, <q>What is a reasonable answer?</q>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <activity xml:id="auto_mwg3e4om">
+        <p xml:id="auto_qzbqwabu">
+            <alert>Work in Groups. Each group receives a different real-life scenario:</alert>
+        </p>
+        <p xml:id="auto_zt6b6w8q">
+            <term>Scenario Cards:</term>
+        </p>
+        <p xml:id="auto_3zol18pk">
+            <ol marker="Group 1">
+                <li xml:id="auto_ozwsoxy2">
+                    <p xml:id="auto_ercrc61n">
+                        <alert>Projectile Motion:</alert> A ball is thrown upward from the ground with an initial velocity of <m>20 m/s</m>. Its height after <m>t</m> seconds is <m>h(t) = 20t - 5t^2</m>. When does the ball hit the ground?
+                    </p>
+                </li>
+                <li xml:id="auto_xnpzxq9j">
+                    <p xml:id="auto_favwbyu2">
+                        <alert>Area Problem:</alert> A farmer wants to fence a rectangular garden using <m>60</m> meters of fencing. What dimensions give the maximum area?
+                    </p>
+                </li>
+                <li xml:id="auto_wbw2ra0o">
+                    <p xml:id="auto_ebkqk9i2">
+                        <alert> Business Profit:</alert> A company's profit is <m>P(x) = −2x^2 + 40x - 150</m>, where <m>x</m> is the number of items sold. How many items must be sold to break even?
+                    </p>
+                </li>
+                <li xml:id="auto_63vxovsz">
+                    <p xml:id="auto_444chzzg">
+                        <alert>Falling Object:</alert> A stone is dropped from a <m>45</m>> meter cliff. Its height is <m>h(t) = 45 - 5t^2</m>>. When does it hit the ground?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_9uv6ioh8">
+            <term>Group Tasks:</term>
+        </p>
+        <p xml:id="auto_apousiwd">
+            <ol marker="1.">
+                <li xml:id="auto_xam2mmw3">
+                    <p xml:id="auto_kbf2x3ws">
+                        Identify the quadratic equation in your scenario
+                    </p>
+                </li>
+                <li xml:id="auto_28vblzrh">
+                    <p xml:id="auto_tfe46nhf">
+                        What does each variable represent?
+                    </p>
+                </li>
+                <li xml:id="auto_i048ceh0">
+                    <p xml:id="auto_l4fjuvxz">
+                        Try to solve the problem
+                    </p>
+                </li>
+                <li xml:id="auto_2kn0469k">
+                    <p xml:id="auto_90t693vc">
+                        What does your answer mean in real life?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_1v3vnjiw">
+            <term>Discussion Questions:</term>
+        </p>
+        <p xml:id="auto_mpkbm15n">
+            <ol marker="a.">
+                <li xml:id="auto_wehivkcs">
+                    <p xml:id="auto_lgt56cgx">
+                       What makes these problems "quadratic"? 
+                    </p>
+                </li>
+                <li xml:id="auto_9rqx5amc">
+                    <p xml:id="auto_rfnwmful">
+                        Why do some answers need to be rejected (negative time, negative length)?
+                    </p>
+                </li>
+                <li xml:id="auto_b8tg55o0">
+                    <p xml:id="auto_h87n8mkx">
+                        What patterns do you notice across different scenarios?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <!-- <p xml:id="auto_bvi30gvl">
+            <alert>Teacher's Role:</alert> Circulate among groups, asking probing questions. Help students identify the quadratic structure in each problem. Use student discoveries to bridge to formal instruction.
+        </p> -->
+    </activity>
+
+    <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction</title>
+        <dl>
+            <li xml:id="auto_705nyhia">
+                <title>Suggested Time</title>
+                <p xml:id="auto_5h0934kq">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_iieapvri">
+                <title>Objective</title>
+                <p xml:id="auto_xuc25u10">
+                    Present common applications and a systematic problem-solving approach for real-life quadratic equations.
+                </p>
+            </li>
+            <li xml:id="auto_flm8tm8t">
+                <title>Learning Experience</title>
+                <p xml:id="auto_h17kis8e">
+                    Present the Common Applications table:
+                </p>
+                <table xml:id="auto_099jw69h">
+                    <title>Common Applications of Quadratic Equations</title>
+                    <tabular top="medium" bottom="medium" left="medium" right="medium" halign="left">
+                        <row header="yes" bottom="minor">
+                            <cell>Application</cell>
+                            <cell>Typical Equation Form</cell>
+                        </row>
+                        <row>
+                            <cell>Projectile Motion</cell>
+                            <cell><m>h(t) = at^2 + bt + c</m></cell>
+                        </row>
+                        <row>
+                            <cell>Area Problems</cell>
+                            <cell><m>l \times w = A</m></cell>
+                        </row>
+                        <row>
+                            <cell>Profit / Revenue</cell>
+                            <cell><m>P(x) = ax^2 + bx + c</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p xml:id="auto_m89did9x">
+                    Introduce the 5 Problem-Solving Steps:
+                    <ol>
+                        <li xml:id="auto_ulhwfhl4"><p xml:id="auto_jln4c1xi">Identify the variable</p></li>
+                        <li xml:id="auto_abtnki14"><p xml:id="auto_9fz50k4j">Form the equation</p></li>
+                        <li xml:id="auto_cl8eulfn"><p xml:id="auto_m553bbin">Solve by factorising or using the quadratic formula</p></li>
+                        <li xml:id="auto_ya27xacu"><p xml:id="auto_jpesokef">Check both solutions</p></li>
+                        <li xml:id="auto_z08bny1g"><p xml:id="auto_on46kvls">Reject non-physical solutions (negative lengths, negative time)</p></li>
+                    </ol>
+                </p>
+                <p xml:id="auto_vv4bq0i9">
+                    <alert>Note:</alert> Always check that answers make physical sense.
+                </p>
+            </li>
+            <li xml:id="auto_dsryghlt">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_yf8ap1r1">
+                    Walk through the table and steps, connecting each to the scenarios explored in Phase 1. Emphasise the importance of interpreting solutions in context.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <insight xml:id="auto_8sexjdmy">
+        <p xml:id="auto_55imq134">
+            <alert>What are Real-Life Quadratics?</alert>
+        </p>
+        <p xml:id="auto_f8194656">
+           Quadratic equations can describe many real-life situations: 
+        </p>
+        <p xml:id="auto_ws7ansun">
+            Throwing a ball in the air (projectile motion)
+        </p>
+        <p xml:id="auto_jcvd3bl6">
+           Maximizing the area of a garden (optimization) 
+        </p>
+        <p xml:id="auto_ukqj4x26">
+            Calculating profits for a business (economics)
+        </p>
+        <p xml:id="auto_lcofmrd1">
+            Objects falling under gravity (physics)
+        </p>
+        <p xml:id="auto_iec67s5p">
+            <alert>The Standard Form:</alert>
+        </p>
+        <p xml:id="auto_mqvo4ors">
+            A quadratic equation has the form: <m>ax^2 + bx + c = 0</m>, where:
+        </p>
+        <p xml:id="auto_urylzmrd">
+           <m>a, b,</m> and <m>c</m> are real numbers (constants) 
+        </p>
+        <p xml:id="auto_lk8p0c64">
+            <m>x</m> is the unknown variable
+        </p>
+        <p xml:id="auto_cyfviqgt">
+            <m>a \neq 0</m> (if <m>a = 0</m>, it's not quadratic)
+        </p>
+        <p xml:id="auto_z9bc3094">
+            <alert>Common Real-Life Applications:</alert>
+        </p>
+        <tabular bottom="medium" top="medium" left="medium" right="medium">
+            <row header="yes">
+                <cell>Application</cell>
+                <cell>Typical Equation</cell>
+                <cell>Form What We Find</cell>
+            </row>
+            <row>
+                <cell>Projectile Motion</cell><cell><m>h(t) = -5t^2 + v_ot + h_o</m></cell>
+                <cell>Time to hit ground, max height</cell>
+            </row>
+            <row>
+                <cell>Area Problems</cell>
+                <cell><m>A = x(\frac{p}{2}- x)</m></cell>
+                <cell>Dimensions for max area</cell>
+            </row>
+            <row>
+                <cell>Profit / Revenue</cell>
+                <cell><m>P(x) = ax^2 + bx + c</m></cell>
+                <cell>Break-even point, max profit</cell>
+            </row>
+        </tabular>
+        <p xml:id="auto_bazkzggh">
+            <alert>Problem-Solving Steps:</alert>
+        </p>
+        <p xml:id="auto_p3dk9j2c">
+            1. Read the problem and identify what's being asked
+        </p>
+        <p xml:id="auto_5wa7ts1z">
+            2. Define variables (what does x represent?)
+        </p>
+        <p xml:id="auto_6w8yge74">
+            3. Set up the quadratic equation
+        </p>
+        <p xml:id="auto_qe9t2van">
+            4. Solve using factorisation, quadratic formula, or completing the square
+        </p>
+        <p xml:id="auto_jhcsp79i">
+            5. Interpret the answer in context (reject impossible values)
+        </p>
+        <p xml:id="auto_n7gg3utj">
+            <alert>Remember:</alert>  Always check if your answer makes sense! Negative time or negative lengths are usually not valid in real-life problems
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice</title>
+        <dl>
+            <li xml:id="auto_s2pd2rg3">
+                <title>Suggested Time</title>
+                <p xml:id="auto_zxzzulig">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_szh4jugd">
+                <title>Objective</title>
+                <p xml:id="auto_nrh47fnj">
+                    Apply the problem-solving steps to a worked example involving a falling object.
+                </p>
+            </li>
+            <li xml:id="auto_8q79mzdh">
+                <title>Learning Experience</title>
+                <p xml:id="auto_8k39lffg">
+                    <alert>Worked Example:</alert> A rock is dropped from a height of <m>50 \text{ m}</m>. Its height is given by <m>h(t) = 50 - 5t^2</m>. When does it hit the ground?
+                </p>
+                <p xml:id="auto_rxrfaos3">
+                    When <m>h = 0</m>:
+                    <md>
+                        <mrow>50 - 5t^2 \amp= 0</mrow>
+                        <mrow>5t^2 \amp= 50</mrow>
+                        <mrow>t^2 \amp= 10</mrow>
+                        <mrow>t \amp= \sqrt{10} \approx 3.16 \text{ s}</mrow>
+                    </md>
+                    Reject <m>t = -\sqrt{10}</m> as time cannot be negative.
+                </p>
+            </li>
+            <li xml:id="auto_1ijxbd4g">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_ealhqvgi">
+                    Guide learners through the worked example step by step, reinforcing each of the 5 problem-solving steps. Encourage learners to explain why the negative solution is rejected.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <example xml:id="auto_pqtwohrx">
+        <statement>
+            <p xml:id="auto_7l04ypml">
+                
+            </p>
+            <p xml:id="auto_bzv6trti">
+                A rock is dropped from a height of <m>50</m> meters. 
+                Its height above the ground at time <m>t</m> is given by
+                <me>
+                    h(t) = 5t^2 + 50.
+                </me>
+                 Use factorization to determine how long it will take for the rock to reach the ground.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_xle0if65">
+                The height of the rock above the ground is given by:
+                <me>
+                    h(t) = -5t^2 + 50
+                </me>
+            </p>
+            <p xml:id="auto_z0z3bspu">
+                To find when the rock reaches the ground, set <m>h(t) = 0</m>:
+                <me>
+                    -5t^2 + 50 = 0
+                </me>
+            </p>
+            <p xml:id="auto_eswtiuhi">
+                Simplify the equation:
+                <me>
+                    -5t^2 = -50
+                </me>
+                <me>
+                    t^2 = 10
+                </me>
+            </p>
+            <p xml:id="auto_i7lhja2n">
+                Solve for <m>t</m>:
+                <me>
+                    t = \pm \sqrt{10}
+                </me>
+            </p>
+            <p xml:id="auto_3i0xg61q">
+                Since time cannot be negative, <m>t = \sqrt{10}</m>.
+            </p>
+            <p xml:id="auto_tyw8fkac">
+                Therefore, the rock will take approximately <m>\sqrt{10} \approx 3.16</m> seconds to reach the ground.
+            </p>
+        </solution>
+    </example>
+    
+    <p xml:id="auto_sl1bdhc6">
+        <m>2. \, Maximizing \, Area \, (Optimization \, Problem).</m>
+    </p>
+    <p xml:id="auto_fy4rhvuz">
+        Quadratic equations are also used in optimization problems. 
+        These are problems where you want to maximize or minimize something, like the area of a garden.
+    </p>
+
+    <example xml:id="auto_7ckxddqm">
+        <statement>
+            <p xml:id="auto_9pnhznpi">
+                
+            </p>
+            <p xml:id="auto_196qsboy">
+                The length of a rectangle is <m>3</m> meters more than its width. If the area of the rectangle is <m>54</m> square meters, 
+                find the dimensions of the rectangle by factoring the quadratic equation.
+            </p>
+            <image source="optimization_problems.png" width="70%">
+                <shortdescription>optimization problems</shortdescription>
+            </image>
+        </statement>
+        <solution>            
+            <p xml:id="auto_xhu77o1p">
+                Let the width of the rectangle be <m>x</m>. Then the length is <m>x + 3</m>.
+            </p>
+            <p xml:id="auto_6gcbkocz">
+                The area of the rectangle is given by:
+                <me>
+                    x(x + 3) = 54
+                </me>
+            </p>
+            <p xml:id="auto_748w0cx0">
+                Expand and rearrange into standard quadratic form:
+                <me>
+                    x^2 + 3x - 54 = 0
+                </me>
+            </p>
+            <p xml:id="auto_xw4b2kxj">
+                Factorize the quadratic equation:
+                <me>
+                    (x + 9)(x - 6) = 0
+                </me>
+            </p>
+            <p xml:id="auto_kynhxft6">
+                Solve for <m>x</m>:
+                <me>
+                    x = -9 \, \text{or} \, x = 6
+                </me>
+            </p>
+            <p xml:id="auto_lpgv146r">
+                Since width cannot be negative, <m>x = 6</m>.
+            </p>
+            <p xml:id="auto_35io71nf">
+                The dimensions of the rectangle are:
+                <me>
+                    \text{Width} = 6 \, \text{meters}, \, \text{Length} = 6 + 3 = 9 \, \text{meters}.
+                </me>
+                Since the width cannot be negative, the width is <m>6</m> meters, and lenght is <m>6 + 3 = 9</m> meters.
+            </p>
+        </solution>
+    
+    </example>
+
+    <p xml:id="auto_sryz7uso">
+        <m>3. Business \, Applications (Profit \, Function)</m>
+    </p>
+    <p xml:id="auto_izkv63k3">
+        Businesses often use quadratic equations to model their profit. 
+        For example, the profit a company makes from selling a product can be modeled by a quadratic equation.
+    </p>
+
+    <example xml:id="auto_n406xaqu">
+
+        <statement>
+            <p xml:id="auto_yeptlvkg">
+                
+            </p>
+            <p xml:id="auto_10gmlwum">
+                A company's profit <m>P(x)</m> from selling <m>x</m> units of a product is given by the equation:
+                <me>
+                    P(x) = -x^2 + 15x - 50
+                </me>
+                Find how many units the company needs to sell to have no profit (i.e., when the profit is zero).
+            </p>
+        </statement>
+
+        <solution>
+            <p xml:id="auto_cxb08oex">
+                To find when the company has no profit, set <m>P(x) = 0</m>:
+                <me>
+                    -x^2 + 20x - 50 = 0
+                </me>
+            </p>
+            <p xml:id="auto_m10yvm6x">
+                Multiply through by <m>-1</m> to simplify:
+                <me>
+                    x^2 - 20x + 50 = 0
+                </me>
+            </p>
+            <p xml:id="auto_90vmpoyz">
+                Factorize the quadratic equation:
+                <me>
+                    (x - 10)(x - 5) = 0
+                </me>
+            </p>
+            <p xml:id="auto_fvrri6dl">
+                Solve for <m>x</m>:
+                <me>
+                    x = 10 or x = 5
+                </me>
+            </p>
+            <p xml:id="auto_tncgtes7">
+                Therefore, the company will have no profit when it sells either <m>5</m> units or <m>10</m> units.
+            </p>
+        </solution>
+
+    </example>
+
+     <!-- STACK EXERCISES -->
+
+    <exercise xml:id="ex-quadratic-equation-from-school-fundraising-ticket-sales">
+        <!--<title></title>-->
+        <stack label="stk-quadratic-equation-from-school-fundraising-ticket-sales" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Equations/Quadratic-Equations-in-Real-Life/Quadratic-equation-from-school-fundraising-ticket-sales.xml"/>
+    </exercise>
+
+    <exercise xml:id="ex-3-2-3-4-completing-the-square-in-practice">
+        <!--<title></title>-->
+        <stack label="stk-3-2-3-4-completing-the-square-in-practice" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Equations/Quadratic-Equations-in-Real-Life/3-2-3-4-Completing-the-square-in-practice.xml"/>
+    </exercise>
+
+    <exercise xml:id="ex-quadratic-equation-from-stacking-classroom-chairs">
+        <!--<title></title>-->
+        <stack label="stk-quadratic-equation-from-stacking-classroom-chairs" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Quadratic-Equations/Quadratic-Equations-in-Real-Life/Quadratic-equation-from-stacking-classroom-chairs.xml"/>
+    </exercise>
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment / Exit Ticket</title>
+        <dl>
+            <li xml:id="auto_5qlopscn">
+                <title>Suggested Time</title>
+                <p xml:id="auto_gey9o9z7">
+                    5 minutes
+                </p>
+            </li>
+            <li xml:id="auto_agz0r4b4">
+                <title>Objective</title>
+                <p xml:id="auto_e32asdkh">
+                    Assess learners' ability to set up and solve real-life quadratic equation problems independently.
+                </p>
+            </li>
+            <li xml:id="auto_gnnc76is">
+                <title>Problems</title>
+                <p xml:id="auto_7qx9vemp">
+                    <ol>
+                        <li xml:id="auto_7fk73jrs"><p xml:id="auto_ali7ckvg">A ball is thrown upward at <m>15 \text{ m/s}</m>. Its height is <m>h(t) = 15t - 5t^2</m>. When does it reach <m>10 \text{ m}</m>?</p></li>
+                        <li xml:id="auto_f840mnaz"><p xml:id="auto_bprjc7uf">A rectangular room has area <m>48 \text{ m}^2</m>. The length is <m>2 \text{ m}</m> more than the width. Find the dimensions.</p></li>
+                        <li xml:id="auto_62tyh71g"><p xml:id="auto_egazeten"><m>P(x) = -x^2 + 12x - 20</m>. Find the break-even points.</p></li>
+                    </ol>
+                </p>
+            </li>
+            <li xml:id="auto_dm8dvn0h">
+                <title>Answer Key</title>
+                <p xml:id="auto_vpwmjf95">
+                    <ol>
+                        <li xml:id="auto_ui11wsou">
+                            <p xml:id="auto_ega2do4i">
+                                <md>
+                                    <mrow>15t - 5t^2 \amp= 10</mrow>
+                                    <mrow>5t^2 - 15t + 10 \amp= 0</mrow>
+                                    <mrow>t^2 - 3t + 2 \amp= 0</mrow>
+                                    <mrow>(t - 1)(t - 2) \amp= 0</mrow>
+                                    <mrow>t = 1 \text{ s} \amp\text{ or } t = 2 \text{ s}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_9acwfgsd">
+                            <p xml:id="auto_3teik29q">
+                                <md>
+                                    <mrow>w(w + 2) \amp= 48</mrow>
+                                    <mrow>w^2 + 2w - 48 \amp= 0</mrow>
+                                    <mrow>(w + 8)(w - 6) \amp= 0</mrow>
+                                    <mrow>w = 6 \text{ m}, \amp\text{ length} = 8 \text{ m}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_7uproycc">
+                            <p xml:id="auto_wjdhdsvj">
+                                <md>
+                                    <mrow>-x^2 + 12x - 20 \amp= 0</mrow>
+                                    <mrow>x^2 - 12x + 20 \amp= 0</mrow>
+                                    <mrow>(x - 2)(x - 10) \amp= 0</mrow>
+                                    <mrow>x = 2 \amp\text{ or } x = 10 \text{ (thousands)}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+    
+    <exercises xml:id="exercises-application-of-quadratic-equations-to-real-life-situations">
+        <exercise xml:id="auto_nnguam4z">
+            <statement>
+                <p xml:id="auto_xxw3ru1b">
+                    A stone is thrown into the air from a height of <m>4</m> meters with an initial velocity of <m>8</m> meters per second. 
+                            The height of the stone at time <m>t</m> is given by:
+                            <me>
+                                h(t) = -5t^2 + 8t + 4
+                            </me>
+                            Find when the stone reaches the ground.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_ksc2c29f">
+                    To find when the stone reaches the ground, set <m>h(t) = 0</m>:
+                    <me>
+                        -5t^2 + 8t + 4 = 0
+                    </me>
+                    Multiply through by <m>-1</m> to simplify:
+                    <me>
+                        5t^2 - 8t - 4 = 0
+                    </me>
+                    Factorize the quadratic equation:
+                    <me>
+                        (5t + 2)(t - 2) = 0
+                    </me>
+                    Solve for <m>t</m>:
+                    <me>
+                        t = -\frac{2}{5} \, \text{or} \, t = 2
+                    </me>
+                    Since time cannot be negative, the stone will reach the ground after <m>2</m> seconds.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_9g17jydq">
+            <statement>
+                <p xml:id="auto_1i0g67ss">
+                    A farmer has <m>200</m> meters of fencing. He wants to build a rectangular garden. 
+                    The length is <m>50</m> meters longer than the width. What should the dimensions be to maximize the area?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_fp7jr2a7">
+                    Let the width of the garden be <m>x</m>. Then the length is <m>x + 50</m>.
+                    The perimeter of the rectangle is given by:
+                    <me>
+                        2(x + (x + 50)) = 200
+                    </me>
+                    Simplify and solve for <m>x</m>:
+                    <me>
+                        4x + 100 = 200
+                    </me>
+                    <me>
+                        4x = 100
+                    </me>
+                    <me>
+                        x = 25
+                    </me>
+                    Therefore, the width of the garden should be <m>25</m> meters, and the length should be <m>25 + 50 = 75</m> meters to maximize the area.
+                  </p>
+             </answer>
+        </exercise>
+
+        <exercise xml:id="auto_qq1pnq3b">
+            <statement>
+                <p xml:id="auto_ahkz68b9">
+                    A school's profit function is given by:
+                    <me>
+                        P(x) = -x^2 + 30x - 100
+                    </me>
+                    Find the number of units the company must sell to achieve zero profit.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_f32qzhui">
+                    To find when the company has zero profit, set <m>P(x) = 0</m>:
+                    <me>
+                        -x^2 + 30x - 100 = 0
+                    </me>
+                    Multiply through by <m>-1</m> to simplify:
+                    <me>
+                        x^2 - 30x + 100 = 0
+                    </me>
+                    Factorize the quadratic equation:
+                    <me>
+                        (x - 20)(x - 10) = 0
+                    </me>
+                    Solve for <m>x</m>:
+                    <me>
+                        x = 20 \, \text{or} \, x = 10
+                    </me>
+                    Therefore, the company will have zero profit when it sells either <m>10</m> units or <m>20</m> units.
+                </p>
+              </answer>
+        </exercise>
+
+        <exercise xml:id="auto_oe9nwguq">
+            <statement>
+                <p xml:id="auto_sh8nunks">
+                    A water fountain shoots water into the air, and its height at any time <m>t</m> (in seconds) is given by the equation:
+                    <me>
+                        h(t)  = -4.9t^2 + 15t + 2
+                    </me>
+                    Find the time it will take for the water to return to the ground (i.e., when <m>h(t)=0</m>).
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_jzig7uu4">
+                    To find when the water returns to the ground, set <m>h(t) = 0</m>:
+                    <me>
+                        -4.9t^2 + 15t + 2 = 0
+                    </me>
+                    Multiply through by <m>-1</m> to simplify:
+                    <me>
+                        4.9t^2 - 15t - 2 = 0
+                    </me>
+                    Factorize the quadratic equation:
+                    <me>
+                        (4.9t + 1)(t - \frac{2}{4.9}) = 0
+                    </me>
+                    Solve for <m>t</m>:
+                    <me>
+                        t = -\frac{1}{4.9} \, \text{or} \, t = \frac{2}{4.9}
+                    </me>
+                    Since time cannot be negative, the water will return to the ground after approximately <m>\frac{2}{4.9} \approx 0.41</m> seconds.
+                </p>
+                </answer>
+        </exercise>
+
+        <exercise xml:id="auto_yau8vav5">
+            <statement>
+                <p xml:id="auto_kbqx0rwh">
+                    Solve the following quadratic equation:
+                    <me>
+                        x^2 - 7x + 12 = 0
+                    </me>
+                    Find the value of <m>x.</m>
+                </p>
+            </statement>
+            <answer>
+                   <p xml:id="auto_zia8hbai">
+                      Factorize the quadratic equation:
+                     <me>
+                        (x - 3)(x - 4) = 0
+                     </me>
+                     Solve for <m>x</m>:
+                     <me>
+                        x = 3 \, \text{or} \, x = 4
+                     </me>
+                     Therefore, the values of <m>x</m> that satisfy the equation are <m>3</m> and <m>4.</m>
+                  </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_6rtxzfkq">
+            <statement>
+                <p xml:id="auto_a5allk10">
+                    A company finds that the revenue <m>R(x)</m> it generates from selling <m>x</m> units of a product is given by the quadratic equation:
+                    <me>
+                        R(x) = 2x^2 + 40x
+                    </me>
+                    Find the number of units <m>x</m> that the company needs to sell to maximize its revenue.
+                </p>
+            </statement>
+            <answer>
+                  <p xml:id="auto_9k0100kb">
+                     To find the number of units that maximizes revenue, we can use the formula for the vertex of a parabola given by a quadratic equation in the form <m>ax^2 + bx + c</m>, which is <m>x = -\frac{b}{2a}</m>.
+                     In this case, <m>a = 2</m> and <m>b = 40</m>.
+                     Substitute these values into the formula:
+                     <me>
+                        x = -\frac{40}{2 \cdot 2} = -\frac{40}{4} = -10
+                     </me>
+                     Since the number of units cannot be negative, we need to check the behavior of the quadratic function to determine if it opens upwards or downwards. 
+                     Since <m>a &gt; 0</m>, the fuction opens upwards, meaning that the vertex represents a minimum point. 
+                     Therefore, there is no maximum revenue in this case, and the company can increase its revenue indefinitely by selling more units.
+                  </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_vt928oc2">
+            <statement>
+                <p xml:id="auto_47vyhwvd">
+                    The path of a car is represented by the quadratic equation
+                    <me>
+                        y = 2x^2 - 8x,
+                    </me>
+                    where <m>x</m> represents time in seconds and <m>y</m> represents the car's position. 
+                    Find the time when the car reaches its starting position by factorizing the equation.
+                </p>
+            </statement>
+            <answer>
+                  <p xml:id="auto_jcnl5koz">
+                    To find when the car reaches its starting position, set <m>y = 0</m>:
+                    <me>
+                        2x^2 - 8x = 0
+                    </me>
+                    Factorize the equation:
+                    <me>
+                        2x(x - 4) = 0
+                    </me>
+                    Solve for <m>x</m>:
+                    <me>
+                        x = 0 \, \text{or} \, x = 4
+                    </me>
+                    Therefore, the car reaches its starting position at <m>0</m> seconds and again at <m>4</m> seconds.
+                  </p>
+             </answer>
+        </exercise>
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+
+        <table xml:id="auto_jcbxr346">
+            <title>Differentiation</title>
+            <tabular halign="left" top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide equation templates with blanks for learners to fill in. Use diagrams and pictures to illustrate scenarios. Start with simpler problems where the answer is <m>h = 0</m> (e.g., when does the ball hit the ground?).</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>Complete all problems as described. Check all solutions for physical sense. Pair work on word problems to discuss and verify answers.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> Multi-step problems requiring two equations, find maximum/minimum values using the vertex, and create their own real-life quadratic problems for classmates to solve.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p xml:id="auto_md7fdfit">
+            <alert>Extension Activity:</alert>
+        </p>
+        <p xml:id="auto_kfytyu3l">
+            <ol marker="(a)">
+                <li xml:id="auto_4p7ts0zh">
+                    <p xml:id="auto_lpljke87">
+                        A ball is thrown upward at <m>30 \text{ m/s}</m>: <m>h(t) = 30t - 5t^2</m>. When does it pass <m>40 \text{ m}</m>?
+                    </p>
+                    <p xml:id="auto_997eufpx">
+                        <md>
+                            <mrow>30t - 5t^2 \amp= 40</mrow>
+                            <mrow>5t^2 - 30t + 40 \amp= 0</mrow>
+                            <mrow>t^2 - 6t + 8 \amp= 0</mrow>
+                            <mrow>(t - 2)(t - 4) \amp= 0</mrow>
+                            <mrow>t = 2 \text{ s (going up)}, \amp\quad t = 4 \text{ s (coming down)}</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li xml:id="auto_iv7d9osz">
+                    <p xml:id="auto_t72rbt9q">
+                        Find the maximum area of a rectangle with perimeter <m>24 \text{ m}</m>.
+                    </p>
+                    <p xml:id="auto_c2s8l7tq">
+                        <md>
+                            <mrow>2l + 2w \amp= 24 \implies l = 12 - w</mrow>
+                            <mrow>A \amp= w(12 - w) = -w^2 + 12w</mrow>
+                            <mrow>\text{Max at } w \amp= -\frac{12}{2 \times (-1)} = 6</mrow>
+                            <mrow>A \amp= 6(12 - 6) = 36 \text{ m}^2</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li xml:id="auto_sk4op1j7">
+                    <p xml:id="auto_ph6fgjay">
+                        A ticket costs <m>\$10</m> and <m>200</m> people buy it. Each <m>\$1</m> increase loses <m>10</m> buyers. Find the price that maximises revenue.
+                    </p>
+                    <p xml:id="auto_nf6c4ec2">
+                        <md>
+                            <mrow>R \amp= (10 + x)(200 - 10x)</mrow>
+                            <mrow>\amp= -10x^2 + 100x + 2000</mrow>
+                            <mrow>\text{Max at } x \amp= -\frac{100}{2 \times (-10)} = 5</mrow>
+                            <mrow>\text{Price} \amp= \$15, \quad R = \$2250</mrow>
+                        </md>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </axiom>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+
+</subsubsection>

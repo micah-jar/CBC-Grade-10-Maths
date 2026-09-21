@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Calculating the Area Swept by a Windscreen Wiper</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>The shaded region in the diagram below represents the area swept out by a windscreen wiper on a flat windscreen. Calculate the area of the shaded region correct to \(3\,\text{decimal places}\).</p>
+
+[[jsxgraph]]
+var brd = JXG.JSXGraph.initBoard('jxgbox', {
+        boundingbox: [-12, 12, 12, -12],
+        axis: false,
+        showNavigation: false,
+        showCopyright: false,
+        keepAspectRatio: true
+    });
+
+    // Centre of rotation, now visible and labelled
+    var O = brd.create('point', [-2, -2], {
+        name: 'O',
+        visible: true,
+        size: 2,
+        fixed: true,
+        label: { offset: [-14, -12], fontSize: 16 }
+    });
+
+    // Fixed DISPLAY radii (keeps the picture a sensible size regardless of the
+    // true randomized R, which can range up to ~187 cm)
+    var R_outer = 10;
+    var R_inner = 6;
+
+    // The angle is NOT decoupled: it uses the real randomized theta,
+    // since the sector's shape is the one thing students can visually verify
+    var angleDeg = {#theta#};
+    var angle = angleDeg * Math.PI / 180;
+
+    // Outer sector
+    var P = brd.create('point', [O.X() + R_outer, O.Y()], {visible: false});
+    var Q = brd.create('point', [O.X() + R_outer * Math.cos(angle), O.Y() + R_outer * Math.sin(angle)], {visible: false});
+    brd.create('sector', [O, P, Q], {
+        fillOpacity: 0.2,
+        strokeWidth: 2,
+        strokeColor: 'black'
+    });
+
+    // Inner sector (cuts out the centre, leaving only the annular sector shaded)
+    var Pin = brd.create('point', [O.X() + R_inner, O.Y()], {visible: false});
+    var Qin = brd.create('point', [O.X() + R_inner * Math.cos(angle), O.Y() + R_inner * Math.sin(angle)], {visible: false});
+    brd.create('sector', [O, Pin, Qin], {
+        fillColor: 'white',
+        fillOpacity: 1,
+        strokeWidth: 0
+    });
+
+    // Hatching lines between inner and outer arcs
+    for (var t = 0; t <= 1; t += 0.05) {
+        (function (s) {
+            var a = angle * s;
+            var x1 = O.X() + R_inner * Math.cos(a), y1 = O.Y() + R_inner * Math.sin(a);
+            var x2 = O.X() + R_outer * Math.cos(a), y2 = O.Y() + R_outer * Math.sin(a);
+            brd.create('segment', [[x1, y1], [x2, y2]], {
+                strokeColor: 'blue',
+                strokeWidth: 1
+            });
+        })(t);
+    }
+
+    // Base line along the starting radius
+    var baseEnd = brd.create('point', [O.X() + R_outer, O.Y()], {visible: false});
+    brd.create('segment', [O, baseEnd], {strokeColor: 'blue', strokeWidth: 2});
+    brd.create('text', [O.X() + R_outer / 2 - 1, O.Y() - 1, function() { return {#R#} + ' cm'; }]);
+
+    // Angle marker showing theta
+    brd.create('angle', [baseEnd, O, Q], {
+        radius: 2,
+        name: function() { return angleDeg + '°'; }
+    });
+
+    // Wiper label, positioned along the bisector of the swept angle
+    brd.create('text', [
+        function() { return O.X() + (R_inner + R_outer) / 2 * Math.cos(angle / 2); },
+        function() { return O.Y() + (R_inner + R_outer) / 2 * Math.sin(angle / 2) + 0.6; },
+        'Wiper'
+    ]);
+
+    // Wiper length label
+    brd.create('text', [
+        function() { return O.X() + (R_inner + 0.5) * Math.cos(angle / 2); },
+        function() { return O.Y() + (R_inner + 0.5) * Math.sin(angle / 2) - 0.8; },
+        function() { return {#Wiper#} + ' cm'; }
+    ]);
+[[/jsxgraph]]
+
+<p>\(\text{Area of the region swept}=\)[[input:ans1]]\(\,\text{cm}^2\)[[validation:ans1]][[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<p><strong>Worked Solution:</strong></p>
+<p>The shaded region represents the area swept out by the windscreen wiper. From the diagram:</p>
+<ul>
+    <li>Sector angle: \({@theta@}^\circ\)</li>
+    <li>Outer radius of the sweep: \({@R@}\,\text{cm}\)</li>
+    <li>Wiper length: \({@Wiper@}\,\text{cm}\)</li>
+</ul>
+
+<p><strong>Step 1: Find the inner radius \(r\).</strong></p>
+<p>
+\(
+\begin{align}
+r &= R - \text{Wiper length} \\
+&= {@R@} - {@Wiper@} \\
+&= {@r@}\,\text{cm}
+\end{align}
+\)
+</p>
+
+<p><strong>Step 2: Write the formula for the area of an annular sector.</strong></p>
+<p>
+\[
+A = \frac{\theta}{360} \times \pi (R^2 - r^2)
+\]
+</p>
+
+<p><strong>Step 3: Substitute the values and compute the area.</strong></p>
+<p>
+\(
+\begin{align}
+A &= \frac{{@theta@}}{360} \times \frac{22}{7} \times \left({@R@}^2 - {@r@}^2\right) \\
+&= \frac{{@theta@}}{360} \times \frac{22}{7} \times \left({@R_sq@} - {@r_sq@}\right) \\
+&= \frac{{@theta@}}{360} \times \frac{22}{7} \times {@Radius_difference@} \\
+&= {@A_val@}\,\text{cm}^2
+\end{align}
+\)
+</p>
+
+<p>Rounded to \(3\) decimal places:</p>
+<p>\(\text{Area of the region swept} \approx {@A_3dp@}\,\text{cm}^2\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>15</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text>/* Randomize the sector angle: realistic wiper sweep, 60° to 180°, steps of 10° */
+theta: rand_with_step(60, 180, 10);
+
+/* Randomize the wiper length (difference between outer and inner radius) */
+Wiper: rand_with_step(7, 47, 7);
+
+/* Randomize the outer radius, then derive inner radius from Wiper */
+R: rand_with_step(7, 140, 7) + Wiper;
+r: R - Wiper;
+
+/* pi = 22/7 as specified */
+Pi_val: 22/7;
+
+/* Intermediate working values */
+R_sq: R^2;
+r_sq: r^2;
+Radius_difference: R_sq - r_sq;
+
+/* Area of the annular sector (shaded region) */
+A: (theta/360) * Pi_val * Radius_difference;
+A_val: float(A);
+
+/* Round to 3 decimal places for the final displayed/marked answer */
+A_3dp: float(decimalplaces(A, 3));</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>\(\text{The wiper Radius}={@Wiper@}\,\text{cm}\)</p>
+<p>\(\text{The radius of the windscreen}={@R@}\,\text{cm}\)</p>
+<p>\(\text{The area of the region swept}={@A_3sf@}\,\text{cm}^2\)</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>A_3sf</tans>
+      <boxsize>7</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>Checks for the correct area of the region swept.</description>
+        <answertest>NumDecPlaces</answertest>
+        <sans>ans1</sans>
+        <tans>A_3sf</tans>
+        <testoptions>3</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>1667736289</deployedseed>
+    <deployedseed>1324045935</deployedseed>
+    <deployedseed>1079081036</deployedseed>
+    <deployedseed>458840914</deployedseed>
+    <deployedseed>1729903595</deployedseed>
+    <deployedseed>560098719</deployedseed>
+    <deployedseed>309496913</deployedseed>
+    <deployedseed>1968870677</deployedseed>
+    <deployedseed>1854829465</deployedseed>
+    <deployedseed>1781027088</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>A_3sf</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

@@ -1,0 +1,1134 @@
+<subsubsection xml:id="subsubsec-factorising-non-monic-quadratics" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Factorising Non-Monic Quadratics</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_p5z0gvra">
+            <p xml:id="auto_ekgo4ox0">
+            <dl>
+                <li xml:id="auto_d6vdp1uo">
+                    <title>Strand</title>
+                    <p xml:id="auto_002w0ldk">
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li xml:id="auto_k764azh1">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_ky71jazj">
+                        1.3 Quadratic Expressions and Equations
+                    </p>
+                </li>
+                <li xml:id="auto_x5episy9">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_aidvuplg">
+                        Factorise quadratic expressions from different situations
+                    </p>
+                </li>
+                <li xml:id="auto_8236es7r" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_b3fpr6tf">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_zj7qowmk" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_4ubutp6a">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            </p>
+            <p xml:id="auto_iznu4zxn" component="lesson-plan">
+                <p xml:id="auto_t2ai6hos"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_8meyl199">
+                        <p xml:id="auto_uny865we">
+                            <alert>Know (Conceptual Understanding):</alert> Understand the process of factoring quadratic expressions and recognize patterns that make factoring easier.
+                        </p>
+                    </li>
+                    <li xml:id="auto_dgwbe217">
+                        <p xml:id="auto_2evv4dj3">
+                            <alert>Do (Procedural Skill):</alert> Factor quadratic expressions using common factors, splitting the middle term, and factoring by grouping.
+                        </p>
+                    </li>
+                    <li xml:id="auto_1ugha7kf">
+                        <p xml:id="auto_f9llwcta">
+                            <alert>Apply (Application/Problem-Solving):</alert> Apply factoring techniques to simplify algebraic expressions and solve real-world problems.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+        <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_uteg7vk9">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/factorising-non-monic-quadratics.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_hr7vm1ro">
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_factorising-non-monic-quadratics.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+
+
+
+    <!-- Copied from wrong place in identities subsection -->
+    <!-- <subsubsection xml:id="subsubsec-Factoring-quadratic" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Factoring Quadratic.</title>
+        <activity xml:id="auto_1qp22snv">
+            <p xml:id="auto_mldho0rw">
+                <em><term>Work in Groups.</term></em>
+            </p>
+            <p xml:id="auto_z4toj3nf">
+                Define, discuss, and work on the following:
+                <ol xml:id="auto_tl3piq6x">
+                    <li xml:id="auto_u96cqo8j">
+                        <p xml:id="auto_ki0wf2vk">Factorization of quadratic expressions.</p>
+                    </li>
+                    <li xml:id="auto_m5jmfz2f">
+                        <p xml:id="auto_pi6dnes6">Identifying common factors in expressions.</p>
+                    </li>
+                    <li xml:id="auto_31m3cbjm">
+                        <p xml:id="auto_dnw4lmvu">Factorizing using the method of splitting the middle term.</p>
+                    </li>
+                    <li xml:id="auto_80jyrig5">
+                        <p xml:id="auto_hs3eejcq">Recognizing the difference between factoring by grouping and simple factoring.</p>
+                    </li>
+                </ol>
+            </p>
+            <p xml:id="auto_lrpsxx27">
+                Copy the following expressions, observe and discuss:
+                <ol xml:id="auto_4gdj3e6s">
+                    <li xml:id="auto_nilmsdtr">
+                        <p xml:id="auto_vae73hwi">Factorize: <m>x² + 5x + 6</m></p>
+                    </li>
+                    <li xml:id="auto_f434inxx">
+                        <p xml:id="auto_xaygyuja">Factorize: <m>x² - 7x + 12</m></p>
+                    </li>
+                    <li xml:id="auto_aq3vgdsg">
+                        <p xml:id="auto_03qkxtzs">Factorize: <m>3x² - 15x</m></p>
+                    </li>
+                    <li xml:id="auto_3hdufdgq">
+                        <p xml:id="auto_r598ruax">Factorize by grouping: <m>x² + 4x + 3x + 12</m></p>
+                    </li>
+                </ol>
+            </p>
+            <p xml:id="auto_r7u8zh3p">
+                <ul xml:id="auto_9fnkuiht">
+                    <li xml:id="auto_xdffeoen">
+                        <p xml:id="auto_2cl7xmwl">Compare the different approaches groups used to factor similar expressions.</p>
+                    </li>
+                    <li xml:id="auto_8xxft4cy">
+                        <p xml:id="auto_4fne9u8i">Discuss how factoring helps in solving quadratic equations.</p>
+                    </li>
+                    <li xml:id="auto_evosj1dd">
+                        <p xml:id="auto_thqkor7x">Explore how recognizing common factors and patterns makes factoring easier.</p>
+                    </li>
+                    <li xml:id="auto_w8j2yj17">
+                        <p xml:id="auto_yb42y6f9">How does factoring help us simplify algebraic expressions faster?</p>
+                    </li>
+                    <li xml:id="auto_rhicq0bn">
+                        <p xml:id="auto_820khqrs">What challenges do you face when factoring complex expressions?</p>
+                    </li>
+                    <li xml:id="auto_g0cm1cbe">
+                        <p xml:id="auto_23p01a70">Can you think of any real-world scenarios where factoring is useful (e.g., optimizing areas, engineering problems)?</p>
+                    </li>
+                </ul>
+            </p>
+        </activity>
+
+        <p xml:id="auto_7q7vpl7o">
+            Factoring quadratic expressions involves expressing a quadratic equation in the form of two binomials. 
+            A general quadratic equation looks like:
+            <me>
+                (ax + m)(bx + n)
+            </me>
+            To factor a quadratic, we find two numbers <m>m</m> and <m>n</m> such that:
+            <ol xml:id="auto_2fhmipim" marker="i." cols="2">
+                <li xml:id="auto_bny572d0">
+                    <p xml:id="auto_aoz4m51t">
+                        <m>m \times n = ac</m> (the product of <m>a</m> and <m>c</m>),
+                    </p>
+                </li>
+                <li xml:id="auto_rkvz8094">
+                    <p xml:id="auto_lrzet6sj">
+                        <m>m + n = b</m> (the coefficient of <m>x</m>)
+                    </p>
+                </li>
+            </ol>
+            Once we find <m>m</m> and <m>n</m>, we break the middle term <m>bx</m> into two terms using <m>m</m> and <m>n</m>, then factor by grouping.
+        </p>
+
+        <example xml:id="auto_l1yehy6l">
+            <statement>
+                <p xml:id="auto_0isypg0r">
+                    
+                </p>
+                <p xml:id="auto_r4o0q278">
+                    Cosider:
+                    <me>
+                        x^2 + 5x + 6
+                    </me>                    
+                </p>
+            </statement>
+            <solution>
+
+                <p xml:id="auto_lvusm4sd">
+                    In this example <m>a = 1, b = 5</m> and <m>c = 6.</m> 
+                    We need two numbers that when multiplied it gives <m>ac = 1 \times 6 = 6</m> 
+                    and when the the two values are added up they give
+                    <m>b = 5.</m> These two numbers are <m>2</m> and <m>3.</m>
+                </p>
+
+                <sidebyside>
+                    <p xml:id="auto_adstjndl">
+                        <me>
+                            2 \times 3 = 6
+                        </me>                        
+                    </p>
+                    <p xml:id="auto_gf1intzz">
+                        <me>
+                            \text{and}
+                        </me>                        
+                    </p>
+                    <p xml:id="auto_4cbif7ue">
+                        <me>
+                            2 + 3 = 5
+                        </me>                        
+                    </p>
+                </sidebyside>
+
+                <p xml:id="auto_9coqlg1i">
+                    Now, rewriting the middle term <m>5x</m> as <m>2x + 3x,</m> and then factor by grouping
+                    <md>
+                        <mrow>x^2 + 2x + 3x + 6 \amp </mrow>
+                    </md>
+                    Grouping the terms:
+                    <md>
+                        <mrow>(x^2 + 2x) + (3x + 6) \amp </mrow>
+                    </md>
+                    Factoring each groups or movng common factor of each and create brackets:
+                    <md>
+                        <mrow>x(x + 2) + 3(x + 2) \amp </mrow>
+                    </md>
+                    Now, factor out the common binomials:
+                    <md>
+                        <mrow>(x + 2)(x + 3) \amp </mrow>
+                    </md>
+                    Finally, <m>x^2 + 5x + 6</m> factors to <m>(x + 2)(x + 3).</m>
+                </p>
+
+            </solution>
+        </example>
+    </subsubsection> -->
+    <p xml:id="auto_rmt435zm">
+        The general form of a <alert>quadratic expression</alert> is <m>ax^2 + bx + c</m>, where <m>a</m>, <m>b</m> and <m>c</m> are constants. 
+    </p>
+    <p xml:id="auto_yq19qlj5">
+        In this section we are going to discuss how to factorise a quadratic expression when the <m>a</m> in <m>ax^2 + bx + c</m> is not equal to <m>1</m>.
+    </p>
+    <p xml:id="auto_7s7yws8j">
+        Consider the following expansions:
+        <p xml:id="auto_kggqgxoe">
+            <md>
+                <mrow>(3x + 2)(2x + 1) \amp = (3x \times 2x) + (3x \times 1) + (2 \times 2x) + (2 \times 1)</mrow>
+                <mrow>\amp = 6x^2 + 3x + 4x + 2</mrow>
+                <mrow>\amp = 6x^2 + 7x + 2</mrow>
+                <mrow>(3x - 2)(4x - 3) \amp = (3x \times 4x) - (3x \times 3) - (2 \times 4x) + (2 \times 3)</mrow>
+                <mrow>\amp = 12x^2 - 9x - 8x + 6</mrow>
+                <mrow>\amp = 12x^2 - 17x + 6</mrow>
+                <mrow>(2x + 3)(3x - 4) \amp = (2x \times 3x) - (2x \times 4) + (3 \times 3x) - (3 \times 4)</mrow>
+                <mrow>\amp = 6x^2 - 8x + 9x - 12</mrow>
+                <mrow>\amp = 6x^2 + x - 12</mrow>
+            </md>
+        </p>
+    </p>
+
+    <p xml:id="auto_1f64y2z2">
+        From the above examples, we can see that the factorisation of a quadratic expression when the coefficient of <m>x^2</m> is not one 
+        is similar to the factorisation of a quadratic expression when the coefficient of <m>x^2</m> is one.
+    </p>
+    <p xml:id="auto_9sooj5fx">
+        Factors are multiplied to get the final expresions on the righthand side (RHS) of the equations. 
+    </p>
+
+    <investigation xml:id="auto_ima9rin8">
+    <p xml:id="auto_y4z9ybzs">
+        
+    </p>
+        <p xml:id="auto_eg3wu936">
+            Given the quadratic expressions on the right-hand side of the equation, 
+            how can you be able factor them?
+        </p>
+    </investigation>
+    <p xml:id="auto_8gh11y26">
+        Consider the expression <m>6x^2 + 7x + 2</m>.
+    </p>
+    <p xml:id="auto_jmjp6n05">
+        The problem can factorised as follows: 
+    </p>
+    <p xml:id="auto_g4t4y03x">
+        <ol xml:id="auto_5ye6huxw" marker="(i)">
+            <li xml:id="auto_kipuvx3q">
+                <p xml:id="auto_cnkr0wpy">
+                    Look for two numbers such that:
+                    <ol xml:id="auto_gr4fybpi">
+                        <li xml:id="auto_on3h6cew">
+                            <p xml:id="auto_jmra5nqg">
+                                Their product is equal to the product of the coefficient of <m>x^2</m> and the constant term, i.e. <m>6 \times 2 = 12</m>.
+                            </p>
+                            <p xml:id="auto_tffzjqb7">
+                                In this case <m>6</m> is the coefficient of <m>x^2</m> and <m>2</m> is constant term.
+                            </p>
+                        </li>
+                        <li xml:id="auto_m77fh7su">
+                            <p xml:id="auto_t1ubxyzm">
+                                Their sum is <m>7</m>, where <m>7</m> is the coefficient of <m>x</m>.
+                            </p>
+                            <p xml:id="auto_tx41ve8a">
+                                The terms are <m>3</m> and <m>4</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+            <li xml:id="auto_bnafdf4g">
+                <p xml:id="auto_vfjrbm2n">
+                    Rewrite the term <m>7x</m> as the sum of the two numbers found in step <em>(i)(b)</em>.
+                </p>
+                <p xml:id="auto_34t8qrgh">
+                    Thus,
+                    <me>
+                        6x^2 + 7x + 2 = 6x^2 + 3x + 4x + 2
+                    </me>
+                </p>
+                <p xml:id="auto_thl3e1as">
+                    <me>
+                        = 3x(2x + 1) + 2(2x + 1)
+                    </me>
+                </p>
+                <p xml:id="auto_kvmoexp9">
+                    <me>
+                        = (3x + 2)(2x + 1)
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <axiom component="lesson-plan">
+        <title>Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_larkn82t">
+                <title>Suggested Time</title>
+                <p xml:id="auto_e2h9fo1o">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_03vh4kd3">
+                <title>Objective</title>
+                <p xml:id="auto_yzqmanuc">
+                    To activate prior knowledge about factoring and explore different methods for factoring quadratic expressions.
+                </p>
+            </li>
+            <!-- <li xml:id="auto_38ma3iqv">
+                <title>Learning Experience</title>
+                <p xml:id="auto_2d266cdc">
+                    Groups define, discuss, and work on the following:
+                    <ol>
+                        <li xml:id="auto_xfr5t6qv"><p xml:id="auto_003xmixk">Factorization of quadratic expressions</p></li>
+                        <li xml:id="auto_cvvp9vsx"><p xml:id="auto_r1k6p5qo">Identifying common factors in expressions</p></li>
+                        <li xml:id="auto_qhokxeyu"><p xml:id="auto_lpz1iiew">Factorizing using the method of splitting the middle term</p></li>
+                        <li xml:id="auto_h654342s"><p xml:id="auto_pqj0ji0q">Recognizing the difference between factoring by grouping and simple factoring</p></li>
+                    </ol>
+                </p>
+                <p xml:id="auto_3u8mqmr3">
+                    Copy the following expressions, observe and discuss:
+                    <ol marker="(i)">
+                        <li xml:id="auto_d314rrt7"><p xml:id="auto_7t1587dj">Factorize: <m>x^2 + 5x + 6</m></p></li>
+                        <li xml:id="auto_t8c3quzo"><p xml:id="auto_tucdljvj">Factorize: <m>x^2 - 7x + 12</m></p></li>
+                        <li xml:id="auto_ma96s0uw"><p xml:id="auto_8lo4o4t9">Factorize: <m>3x^2 - 15x</m></p></li>
+                        <li xml:id="auto_74hth795"><p xml:id="auto_b0l4t3kk">Factor by grouping: <m>x^2 + 4x + 3x + 12</m></p></li>
+                    </ol>
+                </p>
+                <p xml:id="auto_m21ib3z5">
+                    Discussion Questions:
+                    <ul>
+                        <li xml:id="auto_mnffz2mw"><p xml:id="auto_k4sglpg4">Compare the different approaches groups used to factor similar expressions.</p></li>
+                        <li xml:id="auto_ln6j22i9"><p xml:id="auto_o3idmyyh">Discuss how factoring helps in solving quadratic equations.</p></li>
+                        <li xml:id="auto_cn9h9r7d"><p xml:id="auto_94o98jbo">Explore how recognizing common factors and patterns makes factoring easier.</p></li>
+                        <li xml:id="auto_i4sn4r1q"><p xml:id="auto_vvho7p2o">How does factoring help us simplify algebraic expressions faster?</p></li>
+                        <li xml:id="auto_etue6pw5"><p xml:id="auto_mr4fvagx">What challenges do you face when factoring complex expressions?</p></li>
+                        <li xml:id="auto_qahbf26d"><p xml:id="auto_9oa2zr0d">Can you think of any real-world scenarios where factoring is useful (e.g., optimizing areas, engineering problems)?</p></li>
+                    </ul>
+                </p>
+            </li>
+            <li xml:id="auto_w1na74n4">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_35uebnzp">
+                    The teacher circulates among groups, asking probing questions (e.g., <q>What two numbers multiply to give <m>c</m> and add to give <m>b</m>?</q>, <q>Can you identify a common factor first?</q>, <q>How do you know when to use grouping?</q>). The teacher uses learner discoveries to bridge to formal instruction.
+                </p>
+            </li> -->
+        </dl>
+    </axiom>
+    <activity xml:id="auto_m5c8fv3g">
+        <p xml:id="auto_2brz6jir">
+            <alert>Work in groups to define, discuss, and work on the following:</alert>
+        </p>
+        <p xml:id="auto_nj20a7ao">
+            <ol marker="(1.)">
+                <li xml:id="auto_x5ot1h90">
+                    <p xml:id="auto_b4vsvypr">
+                        Factorization of quadratic expressions
+                    </p>
+                </li>
+                <li xml:id="auto_d7u8pt3p">
+                    <p xml:id="auto_trg8muq6">
+                        Identifying common factors in expressions
+                    </p>
+                </li>
+                <li xml:id="auto_i5vvx8wd">
+                    <p xml:id="auto_83rkl5lh">
+                        Factorizing using the method of splitting the middle term
+                    </p>
+                </li>
+                <li xml:id="auto_0c7ik2gu">
+                    <p xml:id="auto_3j1zyvzo">
+                        Recognizing the difference between factoring by grouping and simple factoring
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_5nqlgxav">
+            <term>Copy the following expressions, observe and discuss:</term>
+        </p>
+        <p xml:id="auto_ohxgvo5u">
+            <ol marker="(i)">
+                <li xml:id="auto_fa478u9d">
+                    <p xml:id="auto_00ep2bkl">
+                        Factorize: <m>x^2 + 5x + 6</m>
+                    </p>
+                </li>
+                <li xml:id="auto_5pulnyy2">
+                    <p xml:id="auto_8bgc2h4i">
+                        Factorize: <m>x^2 - 7x + 12</m>
+                    </p>
+                </li>
+                <li xml:id="auto_d82elt3o">
+                    <p xml:id="auto_jwsbc305">
+                        Factorize: <m>3x^2 - 15x</m>
+                    </p>
+                </li>
+                <li xml:id="auto_dmgs2s8m">
+                    <p xml:id="auto_nl51qzzc">
+                        Factorize by grouping: <m>x^2 + 4x + 3x + 12</m>>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_bvlre5jh">
+            <term>Discussion Questions:</term>
+        </p>
+        <p xml:id="auto_0lsw7mtf">
+            <ol marker="(a.)">
+                <li xml:id="auto_8e653dqz">
+                    <p xml:id="auto_4uur4gct">
+                        Compare the different approaches groups used to factor similar expressions.
+                    </p>
+                </li>
+                <li xml:id="auto_jcpzdyvz">
+                    <p xml:id="auto_cxji9iss">
+                        Discuss how factoring helps in solving quadratic equations.
+                    </p>
+                </li>
+                <li xml:id="auto_rwqy30wz">
+                    <p xml:id="auto_zbnqi9dr">
+                        Explore how recognizing common factors and patterns makes factoring easier.
+                    </p>
+                </li>
+                <li xml:id="auto_0pennf7y">
+                    <p xml:id="auto_nd2a19fw">
+                        How does factoring help us simplify algebraic expressions faster?
+                    </p>
+                </li>
+                <li xml:id="auto_4q94d567">
+                    <p xml:id="auto_nbyp3j6s">
+                        What challenges do you face when factoring complex expressions?
+                    </p>
+                </li>
+                <li xml:id="auto_2wce6sir">
+                    <p xml:id="auto_g8mmfe5g">
+                        Can you think of any real-world scenarios where factoring is useful (e.g., optimizing areas, engineering problems)?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_cdjxmkxk">
+            <alert>Teacher’s Role: </alert> The teacher circulates among groups, asking probing questions (e.g., "What two numbers multiply to give <m>c</m> and add to give <m>b</m>?", "Can you identify a common factor first?", "How do you know when to use grouping?"). The teacher uses student discoveries to bridge to formal instruction.
+        </p>
+    </activity>
+    <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <dl>
+            <li xml:id="auto_zgete2zl">
+                <title>Suggested Time</title>
+                <p xml:id="auto_ww45kwgq">
+                    10 minutes
+                </p>
+            </li>
+            <li xml:id="auto_iuokuqml">
+                <title>Objective</title>
+                <p xml:id="auto_4t0jje8y">
+                    To formally introduce factoring methods for quadratic expressions, including the ac-method (splitting the middle term).
+                </p>
+            </li>
+            <!-- <li xml:id="auto_qwuv4a7p">
+                <title>Learning Experience</title>
+                <p xml:id="auto_zxztb5b2">
+                    Factoring quadratic expressions involves expressing a quadratic equation in the form of two binomials: <m>(ax + m)(bx + n)</m>.
+                </p>
+                <p xml:id="auto_p6jwgsrt">
+                    <alert>The ac-Method (Splitting the Middle Term):</alert> For a quadratic expression <m>ax^2 + bx + c</m>, find two numbers <m>m</m> and <m>n</m> such that:
+                    <ol marker="(a)">
+                        <li xml:id="auto_sp1che2s"><p xml:id="auto_n10midoj"><m>m \times n = ac</m> (the product of <m>a</m> and <m>c</m>)</p></li>
+                        <li xml:id="auto_tes5n36y"><p xml:id="auto_incf2kf1"><m>m + n = b</m> (the coefficient of <m>x</m>)</p></li>
+                    </ol>
+                    Once we find <m>m</m> and <m>n</m>, we break the middle term <m>bx</m> into two terms using <m>m</m> and <m>n</m>, then factor by grouping.
+                </p>
+                <p xml:id="auto_etz6lmkm">
+                    <alert>Three Factoring Methods:</alert>
+                </p>
+                <tabular bottom="medium" top="medium" left="medium" right="medium">
+                    <row header="yes">
+                        <cell>Method</cell>
+                        <cell>When to Use</cell>
+                        <cell>Example</cell>
+                    </row>
+                    <row>
+                        <cell>Common Factor</cell>
+                        <cell>When all terms share a common factor</cell>
+                        <cell><m>3x^2 - 15x = 3x(x - 5)</m></cell>
+                    </row>
+                    <row>
+                        <cell>Simple Factoring</cell>
+                        <cell>When <m>a = 1</m></cell>
+                        <cell><m>x^2 + 5x + 6 = (x + 2)(x + 3)</m></cell>
+                    </row>
+                    <row>
+                        <cell>Grouping</cell>
+                        <cell>When <m>a \ne 1</m> or expression has 4 terms</cell>
+                        <cell><m>x^2 + 4x + 3x + 12 = (x + 4)(x + 3)</m></cell>
+                    </row>
+                </tabular>
+                <p xml:id="auto_csfa8dfe"> -->
+                <!-- <li xml:id="auto_u7xoenzk">
+                <p xml:id="auto_zt28rxnq">
+               
+                </p> -->
+            <!-- </li> -->
+        </dl>
+    </axiom>
+    <insight xml:id="auto_qu5drcoq">
+        <p xml:id="auto_6l98pys3">
+            What is Factoring Quadratic Expressions?
+        </p>
+        <p xml:id="auto_txdy7v67">
+            Factoring quadratic expressions involves expressing a quadratic equation in the form of two binomials:
+        </p>
+        <p xml:id="auto_qqvbkw2z">
+            <m>(ax + m)(bx + n)</m>
+        </p>
+        <p xml:id="auto_ujd2d26e">
+            The ac-Method (Splitting the Middle Term):
+        </p>
+        <p xml:id="auto_jsjj4roj">
+            For a quadratic expression <m>ax^2 + bx + c</m>, find two numbers m and n such that:
+        </p>
+        <p xml:id="auto_2jdaq02o">
+            <ol marker ="(a)">
+                <li xml:id="auto_9t2ipujv">
+                <p xml:id="auto_kjyhlz07">
+                <m>m \times n = ac</m> (the product of a and c),
+                </p>
+                </li>
+                <li xml:id="auto_ky71t01m">
+                <p xml:id="auto_wndn6s81">
+                <m>m + n = b</m> (the coefficient of <m>x</m>)
+                </p>
+                </li>
+            </ol>
+        </p>
+        <p xml:id="auto_zw794b2c">
+            Once we find <m>m</m> and <m>n</m>, we break the middle term <m>bx</m> into two terms using <m>m</m> and <m>n</m>, then factor by grouping.
+        </p>
+        <p xml:id="auto_mfg5yg6g">
+            <alert>Three Factoring Methods:</alert>
+        </p>
+            <tabular bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                <cell>Method</cell>
+                <cell>When to Use</cell>
+                <cell>Example</cell>
+                </row>
+                <row>
+                <cell>Common Factor</cell>
+                <cell>When all terms share a common factor</cell>
+                <cell><m>3x^2 - 15x = 3x(x - 5)</m></cell>
+                </row>
+                <row>
+                <cell>Simple Factoring</cell>
+                <cell>When <m>a = 1</m> (leading coefficient is <m>1</m>)</cell>
+                <cell><m>x^2 + 5x + 6 = (x + 2)(x + 3)</m></cell>
+                </row>
+                <row>
+                <cell>Grouping</cell>
+                <cell>When <m>a \ne 1</m> or expression has <m>4</m> terms</cell>
+                <cell><m>x^2 + 4x + 3x + 12 = (x + 4)(x + 3)</m></cell>
+                </row>
+            </tabular>
+            <p xml:id="auto_40wwtqoi">
+                <alert>Remember:</alert> Always check for common factors FIRST before using other methods. Also, verify your answer by expanding the factors to get the original expression.
+            </p>
+    </insight>
+    <axiom component="lesson-plan">
+        <title>Practice and Application</title>
+        <dl>
+            <li xml:id="auto_9z9jf11x">
+                <title>Suggested Time</title>
+                <p xml:id="auto_rjyk5n7g">
+                    15 minutes
+                </p>
+            </li>
+            <li xml:id="auto_nafi4n81">
+                <title>Objective</title>
+                <p xml:id="auto_gwe0ugdp">
+                    To practise factoring quadratic expressions using the ac-method and other techniques.
+                </p>
+            </li>
+            <li xml:id="auto_umsvvryw">
+                <title>Learning Experience</title>
+                <p xml:id="auto_d1ana4qk">
+                    <alert>Worked Example:</alert> Factorise <m>x^2 + 5x + 6</m>.
+                </p>
+                <p xml:id="auto_v0zkd1vl">
+                    Here <m>a = 1</m>, <m>b = 5</m>, <m>c = 6</m>. We need <m>m \times n = ac = 6</m> and <m>m + n = 5</m>. The numbers are <m>2</m> and <m>3</m>.
+                </p>
+                <p xml:id="auto_wvlhfgnv">
+                    Rewrite: <m>x^2 + 2x + 3x + 6</m>
+                </p>
+                <p xml:id="auto_d2g6pnz3">
+                    Group: <m>(x^2 + 2x) + (3x + 6)</m>
+                </p>
+                <p xml:id="auto_uoqcfwwi">
+                    Factor each group: <m>x(x + 2) + 3(x + 2)</m>
+                </p>
+                <p xml:id="auto_jib9lhf1">
+                    Common binomial factor: <m>(x + 2)(x + 3)</m>
+                </p>
+                <p xml:id="auto_vu3y1fnj">
+                    Verification: <m>(x + 2)(x + 3) = x^2 + 5x + 6</m> ✓
+                </p>
+                <p xml:id="auto_f6lfbia5">
+                    <alert>More Practice:</alert>
+                    <ol>
+                        <li xml:id="auto_axjb9feb">
+                            <p xml:id="auto_5eo6jwjh">
+                                <m>x^2 - 7x + 12</m>: Need <m>m \times n = 12</m>, <m>m + n = -7</m>. Numbers: <m>-3</m> and <m>-4</m>. Result: <m>(x - 3)(x - 4)</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_73308o95">
+                            <p xml:id="auto_01xj26tj">
+                                <m>3x^2 - 15x</m>: Common factor <m>3x</m>. Result: <m>3x(x - 5)</m>.
+                            </p>
+                        </li>
+                        <li xml:id="auto_gshn4wm5">
+                            <p xml:id="auto_hr3a1qx8">
+                                <m>x^2 + 4x + 3x + 12</m>: Group <m>(x^2 + 4x) + (3x + 12) = x(x + 4) + 3(x + 4) = (x + 4)(x + 3)</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    
+    <example xml:id="auto_wfijuodu">
+        <statement>
+            <p xml:id="auto_2x1a4eqn">
+                
+            </p>
+            <p xml:id="auto_ina7w8lj">
+                Factorise the expression <m>12x^2 - 17x + 6</m>.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_b7u2e3uw">
+                Multiply the coefficient of <m>x^2</m>  (which is 12) by the constant term (which is 6):
+                <me>
+                    12 \times 6 = 72
+                </me>
+            </p>
+            <p xml:id="auto_3nir9j6e">
+                Find two numbers that multiply to give <m>72</m> and add up to <m>-17</m>. The two numbers are <m>-8</m> and <m>-9</m>.
+                <me>-9 \times -8 = 72</me> and <me>-9 + -8 = -17</me>
+            </p>
+            <p xml:id="auto_3kgqbgwt">
+                Splt the middle term using these two numbers:
+                <me>
+                    12x^2 - 9x - 8x + 6
+                </me>
+            </p>
+            <p xml:id="auto_uzzmw2m1">
+                Factor by grouping:
+                <me>
+                    3x(4x - 3) - 2(4x - 3)
+                </me>
+                Group the factors:
+                <me>
+                    (3x - 2)(4x - 3)
+                </me>                
+            </p>
+
+        </solution>
+    </example>
+
+    <example xml:id="auto_jyhkd64d">
+
+        <statement>
+            <p xml:id="auto_jr8o6ngv">
+                
+            </p>
+            <p xml:id="auto_b3hdywuq">
+                Factorise the expression <m>3x^2 - 5x - 2</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p xml:id="auto_15dsivsq">
+                The expression can be factorised as follows:
+                <ol xml:id="auto_0w0x7mra">
+                    <li xml:id="auto_401etjxc">
+                        <p xml:id="auto_scbtuh15">
+                            Look for two numbers such that:
+                            <ol xml:id="auto_533fpnue">
+                                <li xml:id="auto_p6r86bhh">
+                                    <p xml:id="auto_4idtvo0t">
+                                        Their product is equal to the product of the coefficient of <m>x^2</m> and the constant term, i.e. <m>3 \times -2 = -6</m>.
+                                    </p>
+                                    <p xml:id="auto_kaxu59ce">
+                                        In this case <m>3</m> is the coefficient of <m>x^2</m> and <m>-2</m> is constant term.
+                                    </p>
+                                </li>
+                                <li xml:id="auto_zve4lfzb">
+                                    <p xml:id="auto_bk3pz5eb">
+                                        Their sum is <m>-5</m>, where <m>-5</m> is the coefficient of <m>x</m>.
+                                    </p>
+                                    <p xml:id="auto_7kl3zspz">
+                                        The terms are <m>-6</m> and <m>1</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li xml:id="auto_5wfnnbdu">
+                        <p xml:id="auto_jws5ajn1">
+                            Rewrite the term <m>-5x</m> as the sum of the two numbers found in step 1.
+                        </p>
+                        <p xml:id="auto_o1d9jw95">
+                            Thus,
+                            <me>
+                                3x^2 - 5x - 2 = 3x^2 - 6x + x - 2
+                            </me>
+                        </p>
+                        <p xml:id="auto_kibonrup">
+                            <me>
+                                = 3x(x - 2) + 1(x - 2)
+                            </me>
+                        </p>
+                        <p xml:id="auto_fexxksod">
+                            <me>
+                                = (3x + 1)(x - 2)
+                            </me>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+        
+    </example>
+
+    <!-- STACK EXERCISES -->
+    <exercise xml:id="ex-factorising-a-non-monic-quadratic-with-negative-terms">
+        <!--<title></title>-->
+        <stack label="stk-factorising-a-non-monic-quadratic-with-negative-terms" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Factorising-Quadratics/Factorising-Non-Monic-Quadratics/Factorising-a-non-monic-quadratic-with-negative-terms.xml"/>
+    </exercise>
+    
+    <exercise xml:id="ex-factorising-a-non-monic-quadratic-expression">
+        <!--<title></title>-->
+        <stack label="stk-factorising-a-non-monic-quadratic-expression" source="stack/top/1-0-Numbers-Algebra/Quadratic-Expressions-and-Equations-1/Factorising-Quadratics/Factorising-Non-Monic-Quadratics/Factorising-a-non-monic-quadratic-expression.xml"/>
+    </exercise>
+
+    <axiom component="lesson-plan">
+        <title>Assessment / Exit Ticket</title>
+        <dl>
+            <li xml:id="auto_qekuqdm9">
+                <title>Assessment Questions</title>
+                <p xml:id="auto_c5lccg6u">
+                    Expand the following:
+                    <ol marker="(a)">
+                        <li xml:id="auto_myi0nnqs"><p xml:id="auto_imprcoxj"><m>(4x + 5)^2</m></p></li>
+                        <li xml:id="auto_g2twl9og"><p xml:id="auto_ng5b18oj"><m>\left(\frac{1}{x} + \frac{1}{y}\right)\left(\frac{1}{x} - \frac{1}{y}\right)</m></p></li>
+                        <li xml:id="auto_8eq1qp63"><p xml:id="auto_shlj8i7z"><m>(8 - x)^2</m></p></li>
+                        <li xml:id="auto_o2q3ctnb"><p xml:id="auto_5pwnqvn6"><m>(x - 7)^2</m></p></li>
+                        <li xml:id="auto_e1w2em6z"><p xml:id="auto_qbkz0cnw"><m>\left(x + \frac{1}{2}\right)^2</m></p></li>
+                        <li xml:id="auto_zyslosod"><p xml:id="auto_za705nr3"><m>\left(\frac{1}{4} - \frac{3}{4}b\right)^2</m></p></li>
+                        <li xml:id="auto_4vqtbdr5"><p xml:id="auto_7nxffmqc"><m>(x + 2)^2</m></p></li>
+                        <li xml:id="auto_3vkx1lv4"><p xml:id="auto_w9v224rt"><m>(x + 5)^2</m></p></li>
+                        <li xml:id="auto_xj002sn0"><p xml:id="auto_9tpi2424"><m>(x + 2)(x + 3)</m></p></li>
+                    </ol>
+                </p>
+            </li>
+            <li xml:id="auto_75izymo2">
+                <title>Answer Key</title>
+                <p xml:id="auto_ny5amzp4">
+                    <ol marker="(a)">
+                        <li xml:id="auto_wpm5phj7"><p xml:id="auto_q486y2wd"><m>(4x + 5)^2 = 16x^2 + 40x + 25</m></p></li>
+                        <li xml:id="auto_4oqpyve1"><p xml:id="auto_6zhzam2k"><m>\left(\frac{1}{x} + \frac{1}{y}\right)\left(\frac{1}{x} - \frac{1}{y}\right) = \frac{1}{x^2} - \frac{1}{y^2}</m></p></li>
+                        <li xml:id="auto_oz9xtvwu"><p xml:id="auto_a2g14aov"><m>(8 - x)^2 = 64 - 16x + x^2</m></p></li>
+                        <li xml:id="auto_xznkle6f"><p xml:id="auto_dxqv3til"><m>(x - 7)^2 = x^2 - 14x + 49</m></p></li>
+                        <li xml:id="auto_rcdtzwup"><p xml:id="auto_wj1oi2i9"><m>\left(x + \frac{1}{2}\right)^2 = x^2 + x + \frac{1}{4}</m></p></li>
+                        <li xml:id="auto_qap1ctma"><p xml:id="auto_hqnmzwad"><m>\left(\frac{1}{4} - \frac{3}{4}b\right)^2 = \frac{1}{16} - \frac{3}{8}b + \frac{9}{16}b^2</m></p></li>
+                        <li xml:id="auto_mdquzojw"><p xml:id="auto_dc92o19s"><m>(x + 2)^2 = x^2 + 4x + 4</m></p></li>
+                        <li xml:id="auto_gwtldjjo"><p xml:id="auto_fk6bqvrm"><m>(x + 5)^2 = x^2 + 10x + 25</m></p></li>
+                        <li xml:id="auto_2f26mkq0"><p xml:id="auto_5k7k8yvu"><m>(x + 2)(x + 3) = x^2 + 5x + 6</m></p></li>
+                    </ol>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+    <exercises xml:id="exercises-when-the-coefficient-of-x-squared-is-not-one">
+        <exercise xml:id="auto_h53xoxuv">
+            <statement>
+                <p xml:id="auto_wnp3rrtf">
+                    Factorise the following expressions:
+                    <ol xml:id="auto_vkkg6hnm" marker="a">
+                        <li xml:id="auto_qniar6m9">
+                            <p xml:id="auto_0tlp7him">
+                                <ol xml:id="auto_xzvdr8ee">
+                                    <li xml:id="auto_novkkmdx">
+                                        <p xml:id="auto_7bf2xgtw">
+                                            <m>x^2 + 5x + 6</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_7kribh26">
+                                        <p xml:id="auto_na1fv7j5">
+                                            <m>5x^2 - 9x + 4</m>                                        
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_std9z736">
+                                        <p xml:id="auto_le1v1oci">                                        
+                                            <m>x^2 - 7x + 10</m>                                       
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_ghc8tzld">
+                                        <p xml:id="auto_tpec98ch">                                                                               
+                                            <m>2x^2 + 7x + 3</m> 
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li xml:id="auto_p2mwxpba">
+                            <p xml:id="auto_143peknc">
+                                <ol xml:id="auto_idgh14vl">
+                                    <li xml:id="auto_63391z0d">
+                                        <p xml:id="auto_guxghc2e">
+                                            <m>3x^2 + 11x + 6</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_vq7ycxuv">
+                                        <p xml:id="auto_emzbei56">                                        
+                                            <m>x^2 - 9x + 20</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_t8agorty">
+                                        <p xml:id="auto_cci29u9o">                                                                         
+                                            <m>4x^2 + 12x + 9</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_yi7xnmz7">
+                                        <p xml:id="auto_5263xvun">                                        
+                                            <m>x^2 + 4x + 4</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li xml:id="auto_v7cjo4fk">
+                            <p xml:id="auto_5m3oxflh">
+                                <ol xml:id="auto_qv2q8du9">
+                                    <li xml:id="auto_8d6q9dal">
+                                        <p xml:id="auto_6drrxfpm">
+                                            <m>2x^2 + 7x + 6</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_glayrdzr">
+                                        <p xml:id="auto_7lga73pe">                                        
+                                            <m>6x^2 + x - 2</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_bjy0qc95">
+                                        <p xml:id="auto_610ag9xf">                                        
+                                            <m>7x^2 + 10x + 3</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_r8lq7ev7">
+                                        <p xml:id="auto_xd2obss6">
+                                            <m>3x^2 - 14x - 5</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li xml:id="auto_yy6rx1z5">
+                            <p xml:id="auto_47pq69wm">
+                                <ol xml:id="auto_v6l9s15o">
+                                    <li xml:id="auto_u9ccoo6c">
+                                        <p xml:id="auto_kstkaqlh">
+                                            <m>8x^2 + 2x - 3</m>                                        
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_2alnz602">
+                                        <p xml:id="auto_q7ftnxlr">
+                                            <m>2x^2 + 4x - 30</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_7zs680qk">
+                                        <p xml:id="auto_d1xs2aoo">                                        
+                                            <m>10x^2 - 7x - 3</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_vptmp50t">
+                                        <p xml:id="auto_a9sxofa3">                                      
+                                            <m>6x^2 + 11x - 10</m>                                        
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_wt672twb">
+                    <ol marker="(a)">
+                        <li xml:id="auto_gymg0b1g">
+                            <p xml:id="auto_7jysx022">
+                                We look for numbers adding to <m>5</m> and multiplying to <m>6</m>; <m>2</m> and <m>3</m> satisfy this, so rewrite the middle term:
+                                <md>
+                                    <mrow>x^2 + 5x + 6 \amp = x^2 + 2x + 3x + 6</mrow>
+                                    <mrow>\amp = x(x + 2) + 3(x + 2)</mrow>
+                                    <mrow>\amp = (x + 3)(x + 2)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_pnwiiqb4">
+                            <p xml:id="auto_nh0v7jv4">
+                                We look for numbers adding to <m>-9</m> and multiplying to <m>20</m>; <m>-4</m> and <m>-5</m> meet those conditions, so rewrite the middle term:
+                                <md>
+                                    <mrow>5x^2 - 9x + 4 \amp = 5x^2 - 5x - 4x + 4</mrow>
+                                    <mrow>\amp = 5x(x - 1) - 4(x - 1)</mrow>
+                                    <mrow>\amp = (5x - 4)(x - 1)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_1r5vbwbx">
+                            <p xml:id="auto_ye71bqhj">
+                                We need numbers summing to <m>-7</m> and multiplying to <m>10</m>; <m>-2</m> and <m>-5</m> satisfy this, so split the middle term accordingly:
+                                <md>
+                                    <mrow>x^2 - 7x + 10 \amp = x^2 - 2x - 5x + 10</mrow>
+                                    <mrow>\amp = x(x - 2) - 5(x - 2)</mrow>
+                                    <mrow>\amp = (x - 2)(x - 5)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_4al0la1w">
+                            <p xml:id="auto_1eo4h9in">
+                                We need numbers that add to <m>7</m> and multiply to <m>6</m>; <m>6</m> and <m>1</m> satisfy this, so splitting the middle term accordingly:
+                                <md>
+                                    <mrow>2x^2 + 7x + 3 \amp = 2x^2 + 6x + x + 3</mrow>
+                                    <mrow>\amp = 2x(x + 3) + 1(x + 3)</mrow>
+                                    <mrow>\amp = (2x + 1)(x + 3)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_4j88lwo8">
+                            <p xml:id="auto_8ptakt0p">
+                                The numbers must sum to <m>11</m> and multiply to <m>18</m>; <m>9</m> and <m>2</m> satisfy this, so separate the middle term with <m>9x</m> and <m>2x</m>:
+                                <md>
+                                    <mrow>3x^2 + 11x + 6 \amp = 3x^2 + 9x + 2x + 6</mrow>
+                                    <mrow>\amp = 3x(x + 3) + 2(x + 3)</mrow>
+                                    <mrow>\amp = (3x + 2)(x + 3)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_kxbr4sit" >
+                            <p xml:id="auto_dkl42rqf">
+                                We need numbers that add to <m>-9</m> and multiply to <m>20</m>; <m>-5</m> and <m>-4</m> work, so use them to rewrite the middle term:
+                                <md>
+                                    <mrow>x^2 - 9x + 20 \amp = x^2 - 5x - 4x + 20</mrow>
+                                    <mrow>\amp = x(x - 5) - 4(x - 5)</mrow>
+                                    <mrow>\amp = (x - 4)(x - 5)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_tv4n0cga">
+                            <p xml:id="auto_igvlndsj">
+                                Find numbers summing to <m>12</m> and multiplying to <m>36</m>; <m>6</m> and <m>6</m> fit, so split the middle term with those values:
+                                <md>
+                                    <mrow>4x^2 + 12x + 9 \amp = 4x^2 + 6x + 6x + 9</mrow>
+                                    <mrow>\amp = 2x(2x + 3) + 3(2x + 3)</mrow>
+                                    <mrow>\amp = (2x + 3)(2x - 3)</mrow>
+                                    <mrow> \amp = (2x + 3)^2 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_qyxmd2p3">
+                            <p xml:id="auto_9ob6fym3">
+                                We want numbers adding to <m>4</m> and multiplying to <m>4</m>; <m>2</m> and <m>2</m> work, so express the middle term as <m>2x + 2x</m>:
+                                <md>
+                                    <mrow>x^2 + 4x + 4 \amp = x^2 + 2x + 2x + 4</mrow>
+                                    <mrow>\amp = x(x + 2) + 2(x + 2)</mrow>
+                                    <mrow>\amp = (x + 2)(x + 2)</mrow>
+                                    <mrow> \amp = (x+2)^2 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_htebcb9t">
+                            <p xml:id="auto_rpkjg615">
+                                Numbers must total <m>7</m> and multiply to <m>12</m>; <m>3</m> and <m>4</m> meet this, letting us split the middle term:
+                                <md>
+                                    <mrow>2x^2 + 7x + 6 \amp = 2x^2 + 4x + 3x + 6</mrow>
+                                    <mrow>\amp = 2x(x + 2) + 3(x + 2)</mrow>
+                                    <mrow>\amp = (2x + 3)(x + 2)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_mnqf9rlz">
+                            <p xml:id="auto_njrkpzxr">
+                                We need numbers adding to <m>1</m> and multiplying to <m>-12</m>; <m>4</m> and <m>-3</m> satisfy this, so rewrite the middle term as <m>4x - 3x</m>:
+                                <md>
+                                    <mrow>6x^2 + x - 2 \amp = 6x^2 + 4x - 3x - 2</mrow>
+                                    <mrow>\amp = 2x(3x + 2) - 1(3x + 2)</mrow>
+                                    <mrow>\amp = (2x - 1)(3x + 2)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_1j3sr0jq">
+                            <p xml:id="auto_5v4bvtdg">
+                                We search for numbers summing to <m>10</m> and multiplying to <m>21</m>; <m>7</m> and <m>3</m> work, so split using those:
+                                <md>
+                                    <mrow>7x^2 + 10x + 3 \amp = 7x^2 + 7x + 3x + 3</mrow>
+                                    <mrow>\amp = 7x(x + 1) + 3(x + 1)</mrow>
+                                    <mrow>\amp = (7x + 3)(x + 1)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_3fqtqzs7">
+                            <p xml:id="auto_gq23xuar">
+                                We need numbers that add to <m>-14</m> and multiply to <m>-15</m>; <m>-15</m> and <m>1</m> work perfectly, so use them to break the middle term:
+                                <md>
+                                    <mrow>3x^2 - 14x - 5 \amp = 3x^2 - 15x + x - 5</mrow>
+                                    <mrow>\amp = 3x(x - 5) + 1(x - 5)</mrow>
+                                    <mrow>\amp = (3x + 1)(x - 5)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_1zu7jce8">
+                            <p xml:id="auto_ux3hf6ax">
+                                We look for numbers adding to <m>2</m> and multiplying to <m>-24</m>; <m>6</m> and <m>4</m> satisfy this, so rewrite the middle term:
+                                <md>
+                                    <mrow>8x^2 + 2x - 3 \amp = 8x^2 + 6x - 4x - 3</mrow>
+                                    <mrow>\amp = 2x(4x + 3) - 1(4x + 3)</mrow>
+                                    <mrow>\amp = (2x - 1)(4x + 3)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_2h3q5j3p">
+                            <p xml:id="auto_0tj3knva">
+                                We look for numbers adding to <m>2</m> and multiplying to <m>-24</m>; <m>6</m> and <m>4</m> satisfy this, so rewrite the middle term:
+                                <md>
+                                    <mrow>2x^2 + 4x - 30 \amp = 8x^2 + 10x - 6x - 30</mrow>
+                                    <mrow>\amp = 2x(x + 5) - 6(x + 5)</mrow>
+                                    <mrow>\amp = (2x - 6)(x + 5)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_dp42qqx8">
+                            <p xml:id="auto_k4z01yor">
+                                We look for numbers adding to <m>-7</m> and multiplying to <m>-30</m>; <m>-10</m> and <m>3</m> satisfy this, so rewrite the middle term:
+                                <md>
+                                    <mrow>10x^2 - 7x - 3 \amp = 10x^2 -10x + 3x - 3</mrow>
+                                    <mrow>\amp = 10x(x - 1) + 3(x - 1)</mrow>
+                                    <mrow>\amp = (10x + 3)(x - 1)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_uxxedz0i">
+                            <p xml:id="auto_tq9ydhw2">
+                                We look for numbers adding to <m>2</m> and multiplying to <m>-24</m>; <m>6</m> and <m>4</m> satisfy this, so rewrite the middle term:
+                                <md>
+                                    <mrow>6x^2 + 11x - 10 \amp = 6x^2 + 15x - 4x - 10</mrow>
+                                    <mrow>\amp = 3x(2x + 5) - 2(2x + 5)</mrow>
+                                    <mrow>\amp = (3x - 2)(2x + 5)</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </exercise>
+    </exercises>
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+        <table xml:id="auto_caw5a95s">
+            <tabular bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Learner Level</cell>
+                    <cell>Support / Extension</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide factor pair charts. Use color coding to track terms. Start with expressions where <m>a = 1</m>. Allow use of calculators for arithmetic.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>The core lesson activities as described above.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> Factorise the following: (1) <m>2x^2 + 7x + 3</m>, (2) <m>6x^2 - 11x - 10</m>, (3) <m>x^3 - 4x^2 - 5x</m> completely, (4) Solve <m>x^2 + 5x + 6 = 0</m>. Solutions: (1) <m>ac = 6</m>, <m>m + n = 7</m>, <m>m \times n = 6</m>, so <m>m = 6</m>, <m>n = 1</m>: <m>2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3)</m>. (2) <m>ac = -60</m>, <m>m + n = -11</m>, <m>m \times n = -60</m>, so <m>m = -15</m>, <m>n = 4</m>: <m>6x^2 - 15x + 4x - 10 = 3x(2x - 5) + 2(2x - 5) = (3x + 2)(2x - 5)</m>. (3) <m>x^3 - 4x^2 - 5x = x(x^2 - 4x - 5) = x(x - 5)(x + 1)</m>. (4) <m>(x + 2)(x + 3) = 0</m>, so <m>x = -2</m> or <m>x = -3</m>.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </axiom>
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+</subsubsection>

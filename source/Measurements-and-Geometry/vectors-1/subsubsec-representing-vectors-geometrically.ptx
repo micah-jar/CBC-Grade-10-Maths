@@ -1,0 +1,434 @@
+<subsection xml:id="subsubsec-representing-vectors-geometrically" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Representing Vectors Geometrically</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_r7gqht6x">
+            <dl>
+                <li xml:id="auto_uxsvp4n4">
+                    <title>Strand</title>
+                    <p xml:id="auto_vvnrncjz">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_3wy03xul">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_fgnu5jbb">
+                        2.9 Vectors 1
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+        <dl>
+            <li xml:id="auto_9j3wsac1">
+                <title>Specific Learning Outcome</title>
+                <p xml:id="auto_e5edycr4">Add vectors in different situations</p>
+            </li>
+            <li xml:id="auto_t1t9x1bu" component="lesson-plan">
+                <title>Grade Level</title>
+                <p xml:id="auto_a18pojg1">Grade 10</p>
+            </li>
+            <li xml:id="auto_r2paxl3x" component="lesson-plan">
+                <title>Estimated Duration</title>
+                <p xml:id="auto_srs7bhcq">40 minutes</p>
+            </li>
+        </dl>
+        <p xml:id="auto_0kt3hab5" component="lesson-plan">
+            <alert>By the end of this lesson, learners should be able to:</alert>
+        </p>
+        <p xml:id="auto_3eeyi0sx" component="lesson-plan">
+            <alert>Know:</alert> How vectors are represented geometrically using arrows; that arrow length represents magnitude and the arrowhead shows direction.
+        </p>
+        <p xml:id="auto_wv5k5twv" component="lesson-plan">
+            <alert>Do:</alert> Draw vectors on a coordinate plane; calculate vector magnitudes using the distance formula; add and subtract vectors algebraically.
+        </p>
+        <p xml:id="auto_ycpj5e0v" component="lesson-plan">
+            <alert>Apply:</alert> Use geometric vector representation and addition in navigation, physics, and engineering contexts.
+        </p>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_zbj48km0">
+                    <dataurl source="lesson_plans/measurements-and-geometry/vectors-1/representing-vectors-geometrically.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_tr00996j">
+                    <dataurl source="lesson_plans/measurements-and-geometry/vectors-1/step-by-step-guide_representing-vectors-geometrically.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery (15 minutes)</title>
+        <p xml:id="auto_k467p5k5">
+            <alert>Grouping:</alert> Organize students into groups of 2–3.
+        </p>
+        <p xml:id="auto_unexlbrm">
+            <alert>Materials:</alert> Ruler, graph paper, pencil, calculator.
+        </p>
+        <p xml:id="auto_03t3gmai">
+            <alert>Facilitation Strategy:</alert>
+        </p>
+        <p xml:id="auto_s1e91t5i">
+            <ul>
+                <li xml:id="auto_mhbkq7y9">Guide students to draw vector <m>\overrightarrow{AB}</m> as an arrow from <m>(0,0)</m> to <m>(4,2)</m>.</li>
+                <li xml:id="auto_hvccn36z">Help students apply the distance formula to calculate magnitude.</li>
+                <li xml:id="auto_52uolzlf">For the addition task, ensure <m>\overrightarrow{BC}</m> starts where <m>\overrightarrow{AB}</m> ends (tip-to-tail method).</li>
+                <li xml:id="auto_6pchqlt5">For the parallelogram task, demonstrate drawing both vectors from the origin and completing the parallelogram.</li>
+            </ul>
+        </p>
+        <p xml:id="auto_5zxr5fii">
+            <alert>Probing Questions:</alert>
+        </p>
+        <p xml:id="auto_mxes1ouu">
+            <ul>
+                <li xml:id="auto_qhe04mbi"><q>What does the arrow length represent?</q></li>
+                <li xml:id="auto_ut4ppfck"><q>Why do we use arrows to represent vectors?</q></li>
+                <li xml:id="auto_yxjik5cw"><q>How is the magnitude calculated from the components?</q></li>
+            </ul>
+        </p>
+    </axiom>
+
+    <activity xml:id="auto_i8codhpw">
+        <introduction xml:id="auto_x62n0ygj">
+            <p xml:id="auto_lw00p7zb">
+                <alert>Work in Groups</alert>
+            </p>
+            <p xml:id="auto_flt84bgw">
+                Materials: ruler, graph paper, pencil.
+            </p>
+        </introduction>
+
+        <task xml:id="auto_7uponanw">
+            <statement>
+                <p xml:id="auto_n5cdiksq">
+                    Draw vector <m>\overrightarrow{AB}</m> from <m>A(0,0) to B(4,2)</m>. Measure its magnitude using the distance formula.
+                </p>
+            </statement>
+        </task>
+
+        <task xml:id="auto_756l5766">
+            <statement>
+                <p xml:id="auto_gkvqnbxk">
+                    Draw another vector <m>\overrightarrow{BC}</m> from <m>B(4,2)</m> to <m>C(6,5)</m>. Add <m>\overrightarrow{AB}</m> and <m>\overrightarrow{BC}</m> .
+                </p>
+            </statement>
+        </task>
+
+        <task xml:id="auto_ycasddms">
+            <statement>
+                <p xml:id="auto_az2kvj51">
+                    Draw two vectors from the origin: <m>\mathbf{a} = (3,1)</m> and <m>\mathbf{b} = (2,4)</m>. Construct the parallelogram to determine <m>\mathbf{a} + \mathbf{b}</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="auto_cbbggaat">
+            <statement>
+                <p xml:id="auto_jp0krtwc">
+                    Compare with other groups and discuss the results.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <insight xml:id="auto_s7sqi497">
+        <p xml:id="auto_wgw43w41">
+             We can represent a vector by a line drawn between two points 
+            as shown in <xref ref="repsentation-vec"/> below:
+        </p>
+        <figure xml:id="repsentation-vec">
+            <caption></caption>
+            <image width="60%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \usetikzlibrary{arrows.meta}
+                        % Draw an arrow from A to B
+                        \draw[|-|] (0,0) -- (4,0) node[right] {Q};
+                        
+                        % Label points
+                        \node[left] at (0,0) {P};
+                        
+                        % Draw vector
+                        \draw [-{Latex[scale=2]}] (2,0) -- (2.1,0); 
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </figure>
+        <p xml:id="auto_d869dn8u">
+            In <xref ref="repsentation-vec"/>, the direction of
+            the vector is indicated by an arrow pointing to the right, while
+            its magnitude is determined by the length of <m>PQ</m>.
+        </p>
+        <p xml:id="auto_71m29lzp">
+            A vector <m>PQ</m> can be denoted as <m>\underset{\sim}{PQ}</m> or <m>\overrightarrow{PQ}</m>.The magnitude of vector <m>PQ</m>
+            is represented as <m>|PQ|</m>. In this case, we refer to <m>P</m> as <alert>initial point</alert> and <m>Q</m>
+            as the <alert>terminal point</alert>
+        </p>
+        <p xml:id="auto_h6fioij1">
+            Additionally, a vector can also be represented using a single small letter,such as  <m>\mathbf{a}</m> or <m>\underset{\sim}{\mathbf{a}}</m>.
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction (10 minutes)</title>
+        <p xml:id="auto_q41xz9qo">
+            After students have explored through the anchor activity, formalize their discoveries with the key concepts in the textbook.
+        </p>
+        <p xml:id="auto_mp5s21bx">
+            <alert>Scaffolding Strategies:</alert>
+        </p>
+        <p xml:id="auto_n71bny70">
+            <ul>
+                <li xml:id="auto_77i9ak99">Clarify that arrow length represents magnitude (not just any line).</li>
+                <li xml:id="auto_ip7qc6ow">Emphasize that the arrowhead shows direction.</li>
+                <li xml:id="auto_ka9vuir2">Show that magnitude is always positive (it is a length).</li>
+                <li xml:id="auto_3tc19yy1">Connect the distance formula to the Pythagorean theorem.</li>
+                <li xml:id="auto_nig54hv1">Demonstrate that both tip-to-tail and parallelogram methods produce the same resultant.</li>
+            </ul>
+        </p>
+    </axiom>
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application (15 minutes)</title>
+        <p xml:id="auto_7tl5y1j7">
+            Guide students through the worked examples below, then assign independent practice.
+        </p>
+        <p xml:id="auto_5jg9io9y">
+            <alert>Teaching Tips:</alert>
+        </p>
+        <p xml:id="auto_oaucrpfi">
+            <ul>
+                <li xml:id="auto_tw2z9u17">For magnitude problems, remind students to find components first, then apply the formula.</li>
+                <li xml:id="auto_stwpgin4">For addition and subtraction, stress that corresponding components are combined separately.</li>
+                <li xml:id="auto_mp0uvkuu">Encourage students to sketch vectors on graph paper alongside algebraic work.</li>
+            </ul>
+        </p>
+    </axiom>
+
+    <example xml:id="auto_eazk9cw5">
+        <statement>
+            <p xml:id="auto_wyuwovjx">
+                Find the magnitude of vector <m>\overrightarrow{PQ}</m> where <m>P(1,2)</m> and <m>Q(5,5)</m>.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_5wz08ugu">
+                Step 1: Determine the components.
+            </p>
+            <p xml:id="auto_pk6pp2r0">
+                <m>
+                \overrightarrow{PQ} = (5-1, 5-2) = (4,3)
+                </m>
+            </p>
+            <p xml:id="auto_nnddjoz9">
+                Step 2: Use the magnitude formula.
+            </p>
+            <p xml:id="auto_8m37y963">
+                <m>
+                |\overrightarrow{PQ}| = \sqrt{4^2 + 3^2}
+                </m>
+            </p>
+            <p xml:id="auto_5bgwidfv">
+                <m>
+                = \sqrt{16 + 9} = \sqrt{25} = 5
+                </m>
+            </p>
+        </solution>
+    </example>
+
+    <example xml:id="auto_9le64a7w">
+        <statement>
+            <p xml:id="auto_jjjtlo7g">
+                Add vectors <m>\mathbf{a} = (2,3)</m> and <m>\mathbf{b} = (4,1)</m>.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_94k43n7z">
+                Add corresponding components.
+            </p>
+            <p xml:id="auto_a0xf3ynx">
+                <m>
+                \mathbf{a} + \mathbf{b} = (2+4, 3+1)
+                </m>
+            </p>
+            <p xml:id="auto_2goi8xca">
+                <m>
+                = (6,4)
+                </m>
+            </p>
+            <p xml:id="auto_c0hdjdda">
+                Therefore, the resultant vector is <m>(6,4)</m>.
+            </p>
+        </solution>
+    </example>
+
+    <example xml:id="auto_f5fc5z6e">
+        <statement>
+            <p xml:id="auto_ld9q994i">
+                Determine <m>\mathbf{a} - \mathbf{b}</m> if 
+                <m>\mathbf{a} = (5,2)</m> and 
+                <m>\mathbf{b} = (1,4)</m>.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_nloz7ezk">
+                Subtract corresponding components.
+            </p>
+            <p xml:id="auto_opngxu5q">
+                <m>
+                \mathbf{a} - \mathbf{b} = (5-1, 2-4)
+                </m>
+            </p>
+            <p xml:id="auto_g3haz5tc">
+                <m>
+                = (4,-2)
+                </m>
+            </p>
+            <p xml:id="auto_7u62j289">
+                Therefore, the resulting vector is <m>(4,-2)</m>.
+            </p>
+        </solution>
+    </example>
+
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment — Exit Ticket (5 minutes)</title>
+        <p xml:id="auto_8ro77tf0">
+            Students complete individually to demonstrate understanding.
+        </p>
+        <p xml:id="auto_egynh8aw">
+            <alert>Question 1:</alert> Draw a vector from point <m>A(1,1)</m> to point <m>B(4,5)</m> on graph paper. Calculate its magnitude using the distance formula.
+        </p>
+        <p xml:id="auto_sr3o07yf">
+            <alert>Question 2:</alert> Given vectors <m>\mathbf{p} = (2,3)</m> and <m>\mathbf{q} = (5,1)</m>, find <m>\mathbf{p} + \mathbf{q}</m>.
+        </p>
+        <p xml:id="auto_7g0p6rrc">
+            <alert>Question 3:</alert> Explain why we use arrows to represent vectors. What do the length and direction of the arrow represent?
+        </p>
+        <p xml:id="auto_qqn7pry2">
+            <alert>Answer Key:</alert>
+        </p>
+        <p xml:id="auto_h201bdti">
+            <alert>Q1:</alert> Components: <m>\overrightarrow{AB} = (3, 4)</m>. Magnitude: <m>|\overrightarrow{AB}| = \sqrt{3^2 + 4^2} = \sqrt{25} = 5</m> units.
+        </p>
+        <p xml:id="auto_pfncbwd5">
+            <alert>Q2:</alert> <m>\mathbf{p} + \mathbf{q} = (2+5,\; 3+1) = (7, 4)</m>.
+        </p>
+        <p xml:id="auto_w9ellrvs">
+            <alert>Q3:</alert> We use arrows because vectors have both magnitude and direction. The length of the arrow represents the magnitude; the arrowhead shows the direction.
+        </p>
+    </axiom>
+
+    <exercises xml:id="ex-representing-vectors-geometrically">
+
+        <exercise xml:id="auto_0ypw2kch">
+            <statement>
+                <p xml:id="auto_uv71log8">
+                    Find the magnitude of vector <m>(3,4)</m>.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_y1cckjev">
+                    <m>
+                    \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5
+                    </m>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_so6adfe8">
+            <statement>
+                <p xml:id="auto_z4sxaoi6">
+                    Add vectors <m>(1,2)</m> and <m>(3,5)</m>.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_v35tv22g">
+                    <m>
+                    (1+3, 2+5) = (4,7)
+                    </m>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_k4w0rjf8">
+            <statement>
+                <p xml:id="auto_f4gsawn4">
+                    Given <m>A(0,0), B(2,1)</m>, and <m>C(5,4)</m>, determine 
+                    <m>\overrightarrow{AB} + \overrightarrow{BC}</m>.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_9ru3s8di">
+                    <m>
+                    \overrightarrow{AB} = (2,1)
+                    </m>
+                </p>
+                <p xml:id="auto_b1rertuo">
+                    <m>
+                    \overrightarrow{BC} = (3,3)
+                    </m>
+                </p>
+                <p xml:id="auto_kw840z06">
+                    <m>
+                    (2,1) + (3,3) = (5,4)
+                    </m>
+                </p>
+                <p xml:id="auto_ghqgrtle">
+                    Therefore, <m>\overrightarrow{AB} + \overrightarrow{BC} = (5,4)</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="auto_zhu0dr2q">
+            <statement>
+                <p xml:id="auto_4g4fvi2j">
+                    If <m>\mathbf{a} = (6,-2)</m> and <m>\mathbf{b} = (4,3)</m>, find <m>2\mathbf{a}</m>.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_m10kumpu">
+                    <m>
+                    2\mathbf{a} = (12,-4)
+                    </m>
+                </p>
+            </answer>
+        </exercise>
+
+    </exercises>
+
+    <axiom component="lesson-plan">
+        <title>Differentiation Strategies</title>
+        <p xml:id="auto_b7wy1z6z">
+            <alert>For Struggling Learners:</alert>
+        </p>
+        <p xml:id="auto_9kab64p3">
+            <ul>
+                <li xml:id="auto_772t8xf3">Provide pre-drawn axes and coordinate grids.</li>
+                <li xml:id="auto_oyzpsvwr">Use colour coding for different vectors.</li>
+                <li xml:id="auto_vwthgv82">Provide step-by-step templates for the distance formula.</li>
+                <li xml:id="auto_ixlgn4yc">Allow calculators for all magnitude calculations.</li>
+                <li xml:id="auto_yysfgl5z">Start with vectors along axes before moving to diagonal vectors.</li>
+            </ul>
+        </p>
+        <p xml:id="auto_mfqtio4o">
+            <alert>For Advanced Learners:</alert>
+        </p>
+        <p xml:id="auto_ouge3pok">
+            <ul>
+                <li xml:id="auto_pb3d9dip">Introduce unit vectors and vector decomposition.</li>
+                <li xml:id="auto_x6maanpe">Challenge with finding vectors given magnitude and direction.</li>
+                <li xml:id="auto_fxbqtynn">Connect to trigonometry (angle calculations).</li>
+                <li xml:id="auto_71lg3vl2">Introduce the dot product conceptually.</li>
+            </ul>
+        </p>
+        <p xml:id="auto_rm1vgzsc">
+            <alert>Extension Activity — Vector Art Project:</alert> Students design a shape or pattern using at least 5 vectors on graph paper, label each with coordinates, calculate magnitudes, and colour-code vectors by magnitude range.
+        </p>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+</subsection>

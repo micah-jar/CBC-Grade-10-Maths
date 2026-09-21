@@ -1,0 +1,1331 @@
+<subsubsection xml:id="subsubsec-angles-of-elevation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Angles of Elevation</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_uwjnkut7">
+            <p xml:id="auto_7icrnmja">
+            <dl>
+                <li xml:id="auto_rpu53onl">
+                    <title>Strand</title>
+                    <p xml:id="auto_to3l78bc">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_uhude4ce">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_kela28uw">
+                        2.4 Trigonometry 1
+                    </p>
+                </li>
+                <li xml:id="auto_4ggzsp98">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_46yr11s3">
+                        Apply trigonometric ratios to angles of elevation and depression
+                    </p>
+                </li>
+                <li xml:id="auto_qdxcb43v" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_ytplpns2">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_q9aov9q4" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_szzljqmk">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            </p>
+            <p xml:id="auto_o93qwc32" component="lesson-plan">
+                <p xml:id="auto_hzhn6zhl"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_p0ak6673">
+                        <p xml:id="auto_9p8sasky">
+                            <alert>Know (Conceptual Understanding):</alert> Define the angle of elevation as the angle measured upward from a horizontal line of sight to an object above. Understand that a clinometer measures angles of elevation.
+                        </p>
+                    </li>
+                    <li xml:id="auto_xeqpqyxa">
+                        <p xml:id="auto_hdmxdsuf">
+                            <alert>Do (Procedural Skill):</alert> Identify angles of elevation in real-world scenarios and diagrams. Select the appropriate trigonometric ratio to solve for unknown heights or distances. Calculate heights accounting for observer eye level.
+                        </p>
+                    </li>
+                    <li xml:id="auto_s1hpt9jl">
+                        <p xml:id="auto_8xzbsmrr">
+                            <alert>Apply (Application/Problem-Solving):</alert> Solve real-world problems involving angles of elevation such as finding heights of buildings, trees, and lighthouses.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+        <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_8ykkupxy">
+                    <dataurl source="lesson_plans/measurements-and-geometry/trigonometry-1/angles-of-elevation.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_dv9xr2vt">
+                    <dataurl source="lesson_plans/measurements-and-geometry/trigonometry-1/step-by-step-guide_angles-of-elevation.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Phase 1: Problem-Solving and Discovery</title>
+        <dl>
+            <li xml:id="auto_5rz0uu0i">
+                <title>Suggested Time</title>
+                <p xml:id="auto_l3umko88">15 minutes</p>
+            </li>
+            <li xml:id="auto_g9vxewre">
+                <title>Grouping</title>
+                <p xml:id="auto_auey4niy">Work in groups</p>
+            </li>
+            <li xml:id="auto_zhv9q5r6">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_a3widvna">
+                    Students use clinometers to measure the angle of elevation to a tall object, measure the horizontal distance, and use trigonometry to calculate its height.
+                </p>
+                <p xml:id="auto_sh6n3030">
+                    <alert>Facilitation Strategy:</alert>
+                </p>
+                <p xml:id="auto_uvifv7wq">
+                    <ul>
+                        <li xml:id="auto_0bnhpdma"><p xml:id="auto_e3gc22ib">Circulate among groups, ensuring students understand how to use the clinometer correctly.</p></li>
+                        <li xml:id="auto_rw6q85vu"><p xml:id="auto_oa547cmo">Ask probing questions: <q>What triangle are you forming?</q> <q>Which side is opposite the angle?</q> <q>Which side is adjacent?</q></p></li>
+                        <li xml:id="auto_y5qp59im"><p xml:id="auto_sealqt6s">For struggling groups: <q>Let us draw the triangle together. Your eye level is here, the top of the object is here, and the base is here. What angle did you measure?</q></p></li>
+                        <li xml:id="auto_xaaemwf9"><p xml:id="auto_eovcskkn">For early finishers: <q>Can you measure your eye height and add it to your calculation to get the total height from the ground?</q></p></li>
+                        <li xml:id="auto_kr60fly8"><p xml:id="auto_8vplx33o">Guide students to articulate: <q>The tangent ratio is most useful here because we have the adjacent side (horizontal distance) and we want to find the opposite side (height above eye level).</q></p></li>
+                    </ul>
+                </p>
+            </li>
+            <li xml:id="auto_sfdd3xbx">
+                <title>Interactive Exploration</title>
+                <p xml:id="auto_72o3dfbe">
+                    If you have an Internet connection, walk Learners through the interactive exploration.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <activity xml:id="auto_su0ie1ty">
+        <p xml:id="auto_2ucq499g">
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p xml:id="auto_lmscdcwd">
+            <term>What you require:</term>
+        </p>
+        <p xml:id="auto_u0e4tbl9">
+            <ul xml:id="auto_bpcw4jhf">
+                <li xml:id="auto_cfzgcvg3">
+                    <p xml:id="auto_sw9j4l1n">
+                        Measuring tape or meter stick.
+                    </p>
+                </li>
+                
+                <li xml:id="auto_o34oi153">
+                    <p xml:id="auto_h4bqzc2j">
+                        Protractor or paper tube.
+                    </p>
+                </li>
+                <li xml:id="auto_5o0y21x3">
+                    <p xml:id="auto_1y6vzgwm">
+                        Calculator (or table of trigonometric ratios).
+                    </p>
+                </li>
+                <li xml:id="auto_omyiqxat">
+                    <p xml:id="auto_fk5hkknq">
+                        Paper and pencil.
+                    </p>
+                </li>
+                <li xml:id="auto_aluszkhk">
+                    <p xml:id="auto_irwv6joh">
+                        Use a clinometer, which is made from a string with
+                        a weight or rock attached, like the one shown below.
+                    </p>
+                    <image source="Clinometre.png" width="70%">
+                        <shortdescription>clinometre</shortdescription>
+                    </image>
+
+                </li>
+                
+            </ul>
+        </p>
+        <p xml:id="auto_s80m5shu">
+            <ol xml:id="auto_q89pt4zp">
+                <li xml:id="auto_d8j7w6kl">
+                    <p xml:id="auto_nfbs6pjb">
+                        Find a tall object around your surroundings, e.g. a tree, building, flagpole, etc.
+                    </p>
+                </li>
+                <li xml:id="auto_ozo6o45h">
+                    <p xml:id="auto_l9kwn4fz">
+                        Measure the distance from the base of the object to your position. Record this distance.
+
+                    </p>
+                </li>
+                <li xml:id="auto_qfnb9i3m">
+                    <p xml:id="auto_i0te7yge">
+                        Use your clinometer to measure the angle of elevation from 
+                        your eye level to the top of the object. Record the angle.
+                    </p>
+                </li>
+                <li xml:id="auto_mje08anq">
+                    <p xml:id="auto_4v3diql5">
+                        Draw a right triangle representing the situation. Label the distance you measured, 
+                        the angle of elevation, and the unknown height of the object.
+                    </p>
+                </li>
+                <li xml:id="auto_cxofxefu">
+                    <p xml:id="auto_2cxrovcb">
+                        Decide which trigonometric 
+                        ratio (sine, cosine, or tangent) you need to use to find the height.
+                    </p>
+                </li>
+                <li xml:id="auto_hphw8cek">
+                    <p xml:id="auto_i54ibdna">
+                        Use the appropriate trigonometric ratio and the measured distance and 
+                        angle to calculate the height of the object. Show your work
+                    </p>
+                </li>
+                <li xml:id="auto_5sufzery">
+                    <p xml:id="auto_j4mxud2b">
+                        Write down your calculated height. Compare your result with your
+                            partner's or other groups' results. Discuss any differences.
+                    </p>
+                    <tabular halign="center" bottom="medium" top="medium" right="medium" left="medium">
+                        <row header="yes">
+                            <cell>NO</cell>
+                            <cell>Object Observed (e.g tree)</cell>
+                            <cell>Distance from Base (meters)</cell>
+                            <cell>Angle of Elevation (degrees)</cell>
+                            <cell>Calculation (Show Work)</cell>
+                            <cell>Calculated Height (meters)</cell>
+                        </row>
+                        <row>
+                            <cell><m>1</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>3</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <exploration xml:id="exploration-angle-elevation">
+        <title>Understanding Angle of Elevation</title>
+        
+        <introduction xml:id="auto_haa847vs">
+            <p xml:id="auto_jw892be8">
+                The <term>angle of elevation</term> is the angle formed between the <term>horizontal line of sight</term> from an observer's eye and the <term>direct line of sight</term> to an object located <alert>higher</alert> than the observer. 
+            </p>
+            <p xml:id="auto_00nd2s9z">
+                It is measured by starting at the horizontal plane and tilting the eye upward. Use the interactive tool below and follow <xref ref="inst-elevation" text="custom">the guiding steps below</xref> to explore how distance and height affect this key trigonometric angle.
+            </p>
+        </introduction>
+
+        <figure xml:id="fig-angle-elevation-interactive">
+            <caption>Interactive: Observer and Tall Object illustrating Angle of Elevation</caption>
+            <interactive xml:id="interactive-elevation" platform="jsxgraph" width="95%" aspect="3:2" source="jsxgraph/angle-of-elevation.js">
+                <slate xml:id="jsxgraph-elevation" surface="jsxboard" aspect="3:2"/>
+                <instructions xml:id="inst-elevation">
+                    <p xml:id="auto_48jfjpqv">
+                        Use this simulation to investigate real-world applications of trigonometry:
+                    </p>
+                    <p xml:id="auto_gdnggfan">  
+                        <ul>
+                            <li xml:id="auto_w3u2v92w">
+                                <alert>Establish the Right Triangle:</alert> Notice the dashed lines. Where is the right-angle located in this real-world scenario? How are the terms "Horizontal" and "Height" related to "Adjacent" and "Opposite" sides?
+                            </li>
+                            <li xml:id="auto_10jyowss">
+                                <alert>Move the Observer:</alert> Drag the observer's eye (the blue point <m>P</m>) horizontally along the ground line. As you get closer to the object, what happens to the height of the object? <term>Remember</term> the angle is fixed by the slider.
+                            </li>
+                            <li xml:id="auto_d565ity4">
+                                <alert>Adjust the Angle:</alert> While holding the observer in one place, use the slider to increase the angle <m>\theta</m>. How does changing the angle affect the final height calculation?
+                            </li>
+                            <li xml:id="auto_7c6cpfgg">
+                                <alert>The Role of Tangent:</alert> Look at the trigonometric data. How do we use the <term>tangent</term> function to solve this problem if we know how far away the object is (<m>d</m>) and the angle of elevation (<m>\theta</m>)?
+                            </li>
+                        </ul>
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
+    </exploration>
+        <axiom component="lesson-plan">
+        <title>Phase 2: Structured Instruction</title>
+        <dl>
+            <li xml:id="auto_tse5lfiw">
+                <title>Suggested Time</title>
+                <p xml:id="auto_grrmxs6h">10 minutes</p>
+            </li>
+            <li xml:id="auto_e36eolpj">
+                <title>Grouping</title>
+                <p xml:id="auto_fjicm669">Whole class</p>
+            </li>
+            <li xml:id="auto_7kehtirz">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_ckrrm0yo">
+                    After students have completed the anchor activity and shared their findings, formalize the concepts of angles of elevation using the insight content.
+                </p>
+                <p xml:id="auto_bwyevfrb">
+                    <alert>Important Notes to Emphasize:</alert>
+                </p>
+                <p xml:id="auto_q49diurw">
+                    <ul>
+                        <li xml:id="auto_44ldzl1e"><p xml:id="auto_f7gc2nnm">The horizontal line is the reference line (usually at eye level).</p></li>
+                        <li xml:id="auto_lkldec9n"><p xml:id="auto_bw8s58ks">Angles of elevation and depression between two points are equal (alternate angles).</p></li>
+                        <li xml:id="auto_zdeifkkc"><p xml:id="auto_1bkokx78">The tangent ratio is most commonly used: <m>\tan(\text{angle}) = \frac{\text{opposite}}{\text{adjacent}}</m>.</p></li>
+                        <li xml:id="auto_9gkrp4h0"><p xml:id="auto_kvz39oit">Always account for eye level height when calculating total height of objects.</p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_xlcdpw0r">
+                    <alert>Scaffolding Strategies to Address Misconceptions:</alert>
+                </p>
+                <p xml:id="auto_1nacbw3e">
+                    <ul>
+                        <li xml:id="auto_2hupar34"><p xml:id="auto_zwiubbs8"><alert>Misconception:</alert> <q>Angle of elevation is measured from the object.</q> <alert>Correction:</alert> It is measured from the horizontal line at your eye level, looking UP.</p></li>
+                        <li xml:id="auto_7i07c1gx"><p xml:id="auto_nt82khz0"><alert>Misconception:</alert> <q>The calculated height is the total height from the ground.</q> <alert>Correction:</alert> You must add your eye height to get the total height.</p></li>
+                        <li xml:id="auto_6c4s9p76"><p xml:id="auto_ka1xxw3t"><alert>Misconception:</alert> <q>I can use any trigonometric ratio.</q> <alert>Correction:</alert> Choose the ratio based on what you know and what you need to find.</p></li>
+                    </ul>
+                </p>
+            </li>
+        </dl>
+    </axiom>
+    <insight xml:id="auto_osspifi4">
+        <p xml:id="auto_yscvhm3r">
+            <term>A clinometer</term> (or inclinometer) is a tool used to measure the angle of elevation
+            (looking up) and the angle of depression (looking down).
+        </p>
+        <p xml:id="auto_yytb21om">
+            The figure below shows a person standing on the ground, looking at an object at the top. This forms an angle of elevation. 
+            When looking down from a higher point, it forms an angle of depression.
+        </p>
+        <image width="50%">
+        <latex-image label="Dippression1">
+            \begin{tikzpicture}
+                % Ground Line
+                \draw[thick] (-1,-0.5) -- (7,-0.5);
+
+
+                % Observer (Person)
+                \draw[thick] (1,0) -- (1,2); % Body
+                \draw[thick,fill=cyan] (1,2) circle (0.2); % Head
+                \draw[thick] (1,2) -- (0.5,1.5); % Left Arm
+                \draw[thick] (1,2) -- (1.5,1.5); % Right Arm
+                \draw[thick] (1,0) -- (0.7,-0.5); % Left Leg
+                \draw[thick] (1,0) -- (1.3,-0.5); % Right Leg
+
+                % Eye Level Line
+                \draw[dashed] (1,2) -- (7,2);
+
+                % Angles of Elevation and Depression
+                \draw[very thick] (1,2) -- (6,4.5); % Angle of Elevation
+                \draw[very thick] (1,2) -- (6,0.5); % Angle of Depression
+
+                % Labels for Angles
+                \path (3.5,2) ++(15:1.5) node { Angle of elevation};
+                \path (3.5,2) ++(-15:1.5) node { Angle of depression};
+
+                % Objects at higher and lower positions
+                \draw[thick] (6,4.5) rectangle (7.5,4.9);
+                \draw[thick] (6,0.5) rectangle (7.5,0.9);
+
+                % Labels for Objects
+                \node at (6.7,4.65) {\(\mathbf{Object}\)};
+                \node at (6.7,0.65) {\(\mathbf{Object}\)};
+
+                % Indicating angles
+                \draw[very thick] (1.8,2) arc[start angle=0, end angle=25, radius=0.8];
+                \draw[very thick] (1.8,2) arc[start angle=0, end angle=-25, radius=0.8];
+
+                % Angle Labels
+                \node [right]at (2.3,2.35) {$\theta_1$};
+                \node[right] at (2.3,1.65) {$\theta_2$};
+                \node[below] at (7,0) {Ground};
+            \end{tikzpicture}
+        </latex-image>
+            
+            
+        </image>
+        <p xml:id="auto_qusnz2j5">
+            The dashed line is the horizontal line.
+        </p>
+        <p xml:id="auto_sznz6n4b">
+            <ul xml:id="auto_6rb3o64m">
+                <li xml:id="auto_4h6y2k5v">
+                    <p xml:id="auto_w4dv0svt">
+                        <term>Angle of Elevation:</term>  The angle measured upward from a horizontal line to an object above.
+                    </p>
+                </li>
+                <li xml:id="auto_t2tmwvvp">
+                    <p xml:id="auto_6uzhfslt">
+                        <term>Angle of Depression:</term> The angle measured downward from a horizontal line to an object below.
+                    </p>
+
+                    
+                </li>
+            </ul>
+        </p>
+    </insight>
+
+    <axiom component="lesson-plan">
+        <title>Phase 3: Practice and Application</title>
+        <dl>
+            <li xml:id="auto_nxuvgn1d">
+                <title>Suggested Time</title>
+                <p xml:id="auto_8rjezzxe">10 minutes</p>
+            </li>
+            <li xml:id="auto_hgkk6j57">
+                <title>Grouping</title>
+                <p xml:id="auto_06e95qiw">Individual work, then compare with a partner</p>
+            </li>
+            <li xml:id="auto_6c5txjfe">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_q0vkxqe1">
+                    Work through the textbook examples on the board, pausing for students to attempt each step before revealing the solution. Emphasize drawing a clear diagram first, then identifying the right triangle and labelling all known and unknown sides.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <example xml:id="auto_d4pubc7c">
+        <statement>
+            <p xml:id="auto_8xkc296i">
+                A person stands <m>20\,\text{m}</m> away from a tree. The angle of elevation from their eyes (<m>1.6\,\text{m}</m> above the ground) to the top of the tree is <m>35^\circ</m>. Find the height of the tree.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_q88asss8">
+                Consider the sketch below:
+            </p>
+            <image width="50%">
+            <latex-image label="elevation-tree-example"> 
+                \begin{tikzpicture}
+                    % Using polar coordinates for exact 35° angle
+                    % Eye position at origin for angle calculation
+                    \coordinate (eye) at (0,0.8);
+                    % Line of sight at 35° for 6 units horizontal distance
+                    % At 35°, to reach x=6: distance = 6/cos(35°) = 7.32
+                    \coordinate (treetop) at ($(eye) + (35:7.32)$);
+                    % Ground line
+                    \draw[very thick] (-0.5,0) -- (6.5,0);
+                    % Tree at x=6
+                    \pgfmathsetmacro{\treeheight}{0.8 + 6*tan(35)}
+                    \draw[very thick, green!50!brown] (6,0) -- (6,\treeheight);
+                    \fill[green!30] (6,\treeheight) -- (5.5,\treeheight-0.7) -- (6,\treeheight-0.5) -- (6.5,\treeheight-0.7) -- cycle;
+                    \node[above] at (6,\treeheight+0.1) {Tree};
+                    % Person (eye level at 0.8 units representing 1.6m)
+                    \draw[thick] (0,0) -- (eye);
+                    \draw[thick,fill=cyan] (eye) circle (0.15);
+                    % Eye level line
+                    \draw[dashed, thin] (eye) -- (6,0.8);
+                    % Line of sight using polar direction
+                    \draw[very thick, dashed, blue] (eye) -- (6,\treeheight);
+                    % Angle of elevation - exactly 35°
+                    \draw ($(eye) + (0:0.8)$) arc[start angle=0, end angle=35, radius=0.8cm];
+                    \node at ($(eye) + (17.5:1.2)$) {$35^\circ$};
+                    % Right angle mark
+                    \draw (5.7,0.8) -- (5.7,1.1) -- (6,1.1);
+                    % Labels
+                    \node[below] at (3,0) {$20\,\text{m}$};
+                    \node[left] at (0,0.4) {$1.6\,\text{m}$};
+                    \node[right] at (6,2.9) {$h$};
+                \end{tikzpicture}
+            </latex-image>
+                
+                
+            </image>
+            <p xml:id="auto_o4lvvof0">
+                Use <m>\tan\,\theta</m>:
+            </p>
+            <p xml:id="auto_c68wke40">
+                <md>
+                    <mrow> \tan\,35^\circ \amp = \frac{h}{20} </mrow>
+                    <mrow> h \amp = 20 \times \tan\,35^\circ </mrow>
+                    <mrow> \amp = 20 \times 0.7002 </mrow>
+                    <mrow> \amp = 14.00\,\text{m} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_dr6gwrlu">
+                Total height of tree = <m>h + 1.6 = 14.00 + 1.6 = 15.6\,\text{m}</m>.
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_pj4nxme3">
+        <statement>
+            <p xml:id="auto_tieznjxk">
+                A lighthouse is <m>50\,\text{m}</m> tall. A sailor spots the top of the lighthouse at an angle of elevation of <m>25^\circ</m>.
+                How far is the ship from the base of the lighthouse? 
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_yuq45rcj">
+                Consider the sketch below:
+            </p>
+            <image width="50%">
+            <latex-image label="elevation-lighthouse-example">
+                \begin{tikzpicture}
+                    % Using polar coordinates for exact 25° angle
+                    % Ship/observer at origin
+                    \coordinate (ship) at (0,0);
+                    % Lighthouse height = 3 units, so horizontal = 3/tan(25°)
+                    \pgfmathsetmacro{\lhdist}{3/tan(25)}
+                    % Water/ground line
+                    \draw[very thick] (-0.5,0) -- (7,0);
+                    \fill[blue!20] (-0.5,-0.3) rectangle (2,0);
+                    % Lighthouse at calculated distance
+                    \draw[very thick, gray] (\lhdist,0) -- (\lhdist,3);
+                    \fill[gray!30] (\lhdist-0.15,0) rectangle (\lhdist+0.15,3);
+                    \draw[thick, yellow, fill=yellow!50] (\lhdist-0.3,3) -- (\lhdist,3.4) -- (\lhdist+0.3,3) -- cycle;
+                    \node[above] at (\lhdist,3.5) {Lighthouse};
+                    % Ship at origin
+                    \draw[thick, brown] (0.3,0) -- (0,0.3) -- (0.6,0.3) -- (0.3,0);
+                    \draw[thick, brown] (0.3,0.3) -- (0.3,0.6);
+                    \node[below] at (0.3,-0.1) {Ship};
+                    % Line of sight using polar: from origin at 25° angle
+                    \draw[very thick, dashed, blue] (ship) -- ($(ship) + (25:7)$);
+                    % Angle of elevation - exactly 25°
+                    \draw ($(ship) + (0:0.8)$) arc[start angle=0, end angle=25, radius=0.8cm];
+                    \node at ($(ship) + (12.5:1.3)$) {$25^\circ$};
+                    % Right angle mark
+                    \draw (\lhdist-0.3,0) -- (\lhdist-0.3,0.3) -- (\lhdist,0.3);
+                    % Labels
+                    \node[below] at (3.2,0) {$d = ?$};
+                    \node[right] at (\lhdist+0.2,1.5) {$50\,\text{m}$};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <p xml:id="auto_c9c3alkn">
+                Use <m>\tan</m>:
+            </p>
+            <p xml:id="auto_eze40rk5">
+                <md>
+                    <mrow> \tan\,25^\circ \amp = \frac{50}{d} </mrow>
+                    <mrow> d \amp = \frac{50}{\tan\,25^\circ} </mrow>
+                    <mrow> \amp = \frac{50}{0.4663} </mrow>
+                    <mrow> \amp = 107.2\,\text{m}</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+
+    <axiom component="lesson-plan">
+        <title>Phase 4: Assessment – Exit Ticket</title>
+        <dl>
+            <li xml:id="auto_hyu6qpuc">
+                <title>Suggested Time</title>
+                <p xml:id="auto_0nb85073">10 minutes</p>
+            </li>
+            <li xml:id="auto_sa9wvw9b">
+                <title>Grouping</title>
+                <p xml:id="auto_az87sdy2">Individual</p>
+            </li>
+            <li xml:id="auto_kh3izpj4">
+                <title>Teacher's Role</title>
+                <p xml:id="auto_3bpazxiz">
+                    Students complete the following questions individually to demonstrate understanding.
+                </p>
+            </li>
+        </dl>
+    </axiom>
+
+    <xi:include href="../../resources-checkpoint.ptx" />
+
+    <exercise xml:id="ex-calculating-the-length-of-the-right-angled-triangle">
+    <stack label="stk-calculating-the-length-of-the-right-angled-triangle" source="stack/top/2-0-Measurement-Geometry/2-4-Trigonometry-1/2-4-5-Application-of-Trigonometric-Ratios/2-4-5-1-Trigonometric-Ratios-to-Angles-of-Elevation-and-Depressi/Calculating-the-length-of-the-right-angled-triangle.xml"/>
+    </exercise>
+    <exercise xml:id="ex-finding-the-value-of-unknown-angle-using-trigonometric-ratio-">
+    <stack label="stk-finding-the-value-of-unknown-angle-using-trigonometric-ratio-" source="stack/top/2-0-Measurement-Geometry/2-4-Trigonometry-1/2-4-5-Application-of-Trigonometric-Ratios/2-4-5-1-Trigonometric-Ratios-to-Angles-of-Elevation-and-Depressi/Finding-the-value-of-unknown-angle-using-trigonometric-ratio-.xml"/>
+    </exercise>
+    
+    <exercises xml:id="auto_gdobvxst" >
+
+            <exercise xml:id="auto_6jln7a5k">
+            <statement>
+                <p xml:id="auto_xhxr6ct4">
+                    If the angle of elevation is <m>30^\circ</m> and the horizontal distance to the object is <m>50\,\text{m}</m>,
+                    find the height above eye level.
+                </p>
+                <image width="50%">
+                <latex-image label="exercise-elevation-30">
+                    \begin{tikzpicture}
+                        % Ground/horizontal line
+                        \draw[very thick] (0,0) -- (5,0);
+                        % Vertical height
+                        \draw[very thick] (5,0) -- (5,2.89);
+                        % Line of sight
+                        \draw[very thick, dashed, blue] (0,0) -- (5,2.89);
+                        % Right angle mark
+                        \draw (4.7,0) -- (4.7,0.3) -- (5,0.3);
+                        % Angle of elevation
+                        \draw (1,0) arc[start angle=0, end angle=30, radius=1cm];
+                        \node at (1.4,0.3) {$30^\circ$};
+                        % Labels
+                        \node[below] at (2.5,0) {$50\,\text{m}$};
+                        \node[right] at (5,1.4) {$h = ?$};
+                        \node[left] at (0,0) {Eye level};
+                        \node[above] at (5,2.89) {Object};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_9lecskil">
+                    In this problem:
+                </p>
+                <p xml:id="auto_ib0y00v1">
+                    <ul>
+                        <li xml:id="auto_atou87b4"><p xml:id="auto_cybbwwoi">Horizontal distance (adjacent) = <m>50\,\text{m}</m></p></li>
+                        <li xml:id="auto_dkwztvyh"><p xml:id="auto_fbrkthln">Angle of elevation = <m>30^\circ</m></p></li>
+                        <li xml:id="auto_h73mijel"><p xml:id="auto_z72nb7qn">Height above eye level (opposite) = <m>h</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_3ksnu9ou">
+                    Using tangent (opposite over adjacent):
+                </p>
+                <p xml:id="auto_i7tt6s4x">
+                    <md>
+                        <mrow>\tan\,30^\circ \amp = \frac{h}{50}</mrow>
+                        <mrow>h \amp = 50 \times \tan\,30^\circ</mrow>
+                        <mrow>\amp = 50 \times 0.5774</mrow>
+                        <mrow>\amp = 28.87\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_l9597en1">
+                    The height above eye level is approximately <m>28.9\,\text{m}</m>.
+                </p>
+            </answer>
+        </exercise>
+
+            <exercise xml:id="ex-giraffe-elevation">
+            <statement>
+                <p xml:id="auto_c5994n0v">
+                    A wildlife photographer in the Maasai Mara stands <m>25\,\text{m}</m> away from a giraffe. 
+                    The angle of elevation from the photographer's eye level (<m>1.7\,\text{m}</m> above ground) 
+                    to the top of the giraffe's head is <m>12^\circ</m>. Calculate the total height of the giraffe.
+                </p>
+                <image width="65%">
+                <latex-image label="exercise-giraffe">
+                    \begin{tikzpicture}
+                        % Ground line (savanna)
+                        \draw[very thick, yellow!70!brown] (-0.5,0) -- (8.5,0);
+                        \fill[yellow!30!green, opacity=0.3] (-0.5,0) rectangle (8.5,-0.2);
+                        
+                        % Define key points using polar coordinates for accurate 12 degree angle
+                        % Scale: 1 unit = 4.167m, so 25m = 6 units, 1.7m = 0.408 units
+                        % Eye level height: 1.7m = 0.408 units (scaled)
+                        \def\eyeHeight{0.408}
+                        % Horizontal distance: 25m = 6 units
+                        \def\horizDist{6}
+                        % Height above eye level: 25 * tan(12) = 5.315m = 1.276 units
+                        % Total giraffe height: 1.7 + 5.315 = 7.015m = 1.684 units
+                        \def\giraffeTopHeight{1.684}
+                        
+                        \coordinate (eyeLevel) at (0,\eyeHeight);
+                        \coordinate (giraffeTop) at ({\horizDist}, \giraffeTopHeight);
+                        
+                        % Cartoon Giraffe centered at x=6, to scale
+                        % Total height = 1.684 units from ground to top of horns
+                        % Legs (about 25% of height)
+                        \draw[very thick, orange!80!brown] (5.7,0) -- (5.7,0.42);
+                        \draw[very thick, orange!80!brown] (5.9,0) -- (5.9,0.42);
+                        \draw[very thick, orange!80!brown] (6.3,0) -- (6.3,0.42);
+                        \draw[very thick, orange!80!brown] (6.5,0) -- (6.5,0.42);
+                        % Body (ellipse, about 15% of height)
+                        \fill[orange!70!yellow] (6.1,0.55) ellipse (0.55cm and 0.2cm);
+                        % Spots on body
+                        \fill[orange!50!brown] (5.85,0.55) circle (0.06);
+                        \fill[orange!50!brown] (6.1,0.6) circle (0.05);
+                        \fill[orange!50!brown] (6.35,0.52) circle (0.055);
+                        % Neck - long giraffe neck (about 50% of height)
+                        \fill[orange!70!yellow] (5.85,0.65) -- (5.75,1.45) -- (6.0,1.45) -- (6.05,0.65) -- cycle;
+                        % Spots on neck
+                        \fill[orange!50!brown] (5.88,0.8) circle (0.04);
+                        \fill[orange!50!brown] (5.9,1.0) circle (0.045);
+                        \fill[orange!50!brown] (5.87,1.2) circle (0.04);
+                        \fill[orange!50!brown] (5.92,1.35) circle (0.035);
+                        % Head - positioned at correct height
+                        \fill[orange!70!yellow] (5.87,1.52) ellipse (0.15cm and 0.1cm);
+                        % Ears
+                        \fill[orange!70!yellow] (5.75,1.58) -- (5.68,1.68) -- (5.78,1.6) -- cycle;
+                        \fill[orange!70!yellow] (6.0,1.58) -- (6.07,1.68) -- (5.97,1.6) -- cycle;
+                        % Ossicones (horns) - top of giraffe at giraffeTopHeight
+                        \draw[thick, orange!60!brown] (5.8,1.6) -- (5.78,1.684);
+                        \fill[orange!40!brown] (5.78,1.684) circle (0.03);
+                        \draw[thick, orange!60!brown] (5.95,1.6) -- (5.97,1.684);
+                        \fill[orange!40!brown] (5.97,1.684) circle (0.03);
+                        % Eye
+                        \fill[black] (5.78,1.53) circle (0.02);
+                        % Snout
+                        \fill[orange!60!yellow] (5.72,1.5) ellipse (0.06cm and 0.04cm);
+                        % Tail
+                        \draw[thick, orange!60!brown] (6.65,0.6) .. controls (6.75,0.7) and (6.8,0.5) .. (6.75,0.4);
+                        \fill[orange!40!brown] (6.75,0.37) ellipse (0.04cm and 0.07cm);
+                        
+                        % Photographer (person icon) - scaled to 1.7m = 0.408 units
+                        \draw[thick] (0,0) -- (0,0.3);
+                        \draw[thick,fill=cyan] (0,0.36) circle (0.07);
+                        \node[below] at (0,-0.15) {\small Photographer};
+                        % Camera at eye level
+                        \draw[thick, black, fill=gray] (-0.08,0.25) rectangle (0.08,0.32);
+                        
+                        % Eye level dashed line (horizontal reference)
+                        \draw[dashed, thin, gray] (0,\eyeHeight) -- (6,\eyeHeight);
+                        
+                        % Line of sight to top of giraffe using polar coordinates for exact 12 degree angle
+                        \draw[very thick, dashed, blue] (eyeLevel) -- (giraffeTop);
+                        
+                        % Vertical line from eye level to giraffe top
+                        \draw[thick, gray] ({\horizDist}, \eyeHeight) -- ({\horizDist}, \giraffeTopHeight);
+                        
+                        % Angle of elevation arc - using proper 12 degrees
+                        \draw[thick, red] (0,\eyeHeight) ++(0:1.5cm) arc[start angle=0, end angle=12, radius=1.5cm];
+                        \node[red] at (2.0,1.0) {$12^\circ$};
+                        
+                        % Right angle marker at base of triangle
+                        \draw[thick] ({\horizDist-0.12}, \eyeHeight) -- ({\horizDist-0.12}, {\eyeHeight+0.12}) -- ({\horizDist}, {\eyeHeight+0.12});
+                        
+                        % Height marker (h above eye level)
+                        \draw[thick, &lt;-&gt;] (7.0,\eyeHeight) -- (7.0,\giraffeTopHeight);
+                        \node[right] at (7.0,{0.5*(\eyeHeight+\giraffeTopHeight)}) {$h$};
+                        
+                        % Total height marker
+                        \draw[thick, &lt;-&gt;] (7.6,0) -- (7.6,\giraffeTopHeight);
+                        \node[right] at (7.6,{0.5*\giraffeTopHeight}) {\small Total};
+                        
+                        % Distance label
+                        \node[below] at (3,0) {$25\,\text{m}$};
+                        \node[left] at (-0.1,0.2) {\small $1.7\,\text{m}$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_venmoowq">
+                    Given:
+                </p>
+                <p xml:id="auto_dfyieuuj">
+                    <ul>
+                        <li xml:id="auto_4b9bcfbi"><p xml:id="auto_xfpjdv0v">Horizontal distance = <m>25\,\text{m}</m></p></li>
+                        <li xml:id="auto_19huerlo"><p xml:id="auto_cvillkqa">Angle of elevation = <m>12^\circ</m></p></li>
+                        <li xml:id="auto_ubgzius9"><p xml:id="auto_axfbbecz">Photographer's eye level = <m>1.7\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_snmu532w">
+                    First, find the height above eye level:
+                </p>
+                <p xml:id="auto_71mymht9">
+                    <md>
+                        <mrow>\tan\,12^\circ \amp = \frac{h}{25}</mrow>
+                        <mrow>h \amp = 25 \times \tan\,12^\circ</mrow>
+                        <mrow>\amp = 25 \times 0.2126</mrow>
+                        <mrow>\amp = 5.31\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_6wbdonjy">
+                    Total height of giraffe = height above eye level + eye level height:
+                </p>
+                <p xml:id="auto_yky2phfw">
+                    <md>
+                        <mrow>\text{Total height} \amp = 5.31 + 1.7</mrow>
+                        <mrow>\amp = 7.01\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_cfx1e8cx">
+                    The giraffe is approximately <m>7\,\text{m}</m> tall.
+                </p>
+            </answer>
+        </exercise>
+
+            <exercise xml:id="auto_tkvrn33m">
+            <statement>
+                <p xml:id="auto_9vfob78u">
+                    A surveyor is standing <m>50\,\text{m}</m> away from the base of a mountain. The
+                    angle of elevation to the peak of the mountain is <m>30^\circ</m>. Calculate the height of
+                    the mountain above the surveyor's eye level.
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-surveyor-mountain">
+                    \begin{tikzpicture}
+                        % Using polar coordinates for exact 30° angle
+                        \coordinate (eye) at (0,0);
+                        % Peak height = 5*tan(30°) at horizontal distance 5
+                        \pgfmathsetmacro{\peakheight}{5*tan(30)}
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (5.5,0);
+                        % Mountain - peak at calculated height
+                        \draw[very thick, brown] (5,0) -- (5,\peakheight);
+                        \fill[brown!30] (5,0) -- (5,\peakheight) -- (5.5,\peakheight-0.4) -- (5.3,0) -- cycle;
+                        % Surveyor at ground level
+                        \draw[thick] (0,-0.3) -- (eye);
+                        \draw[thick,fill=cyan] (eye) circle (0.12);
+                        % Eye level line
+                        \draw[dashed, thin] (eye) -- (5,0);
+                        % Line of sight using polar direction - exactly 30°
+                        \draw[very thick, dashed, blue] (eye) -- ($(eye) + (30:5.77)$);
+                        % Right angle mark
+                        \draw (4.7,0) -- (4.7,0.3) -- (5,0.3);
+                        % Angle of elevation - exactly 30°
+                        \draw ($(eye) + (0:1)$) arc[start angle=0, end angle=30, radius=1cm];
+                        \node at ($(eye) + (15:1.5)$) {$30^\circ$};
+                        % Labels
+                        \node[below] at (0,-0.4) {Surveyor};
+                        \node[above] at (5,\peakheight) {Peak};
+                        \node[below] at (2.5,-0.1) {$50\,\text{m}$};
+                        \node[right] at (5.1,1.5) {$h = ?$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_oqyk5cei">
+                    Given:
+                </p>
+                <p xml:id="auto_t9lrwe7o">
+                    <ul>
+                        <li xml:id="auto_meco1j8c"><p xml:id="auto_y982d7ll">Horizontal distance (adjacent) = <m>50\,\text{m}</m></p></li>
+                        <li xml:id="auto_rohjbai1"><p xml:id="auto_hpan86u1">Angle of elevation = <m>30^\circ</m></p></li>
+                        <li xml:id="auto_l92y9g8v"><p xml:id="auto_4jubj1qq">Height above eye level (opposite) = <m>h</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_0d7jq7eo">
+                    Using tangent:
+                </p>
+                <p xml:id="auto_5ztc664l">
+                    <md>
+                        <mrow>\tan\,30^\circ \amp = \frac{h}{50}</mrow>
+                        <mrow>h \amp = 50 \times \tan\,30^\circ</mrow>
+                        <mrow>\amp = 50 \times 0.5774</mrow>
+                        <mrow>\amp = 28.87\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_9qa3iizu">
+                    The height of the mountain above the surveyor's eye level is approximately <m>28.9\,\text{m}</m>.
+                </p>
+            </answer>
+        </exercise>
+
+            <exercise xml:id="ex-kite-flying">
+            <statement>
+                <p xml:id="auto_owisec36">
+                    A student is flying a kite at a school field day. The string is <m>65\,\text{m}</m> long
+                    and makes an angle of elevation of <m>52^\circ</m> with the ground. The student holds
+                    the string <m>1.2\,\text{m}</m> above the ground. How high is the kite flying above the ground?
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-kite">
+                    \begin{tikzpicture}
+                        % Using polar coordinates for exact 52° angle
+                        \coordinate (hand) at (0,0.3);
+                        % String length = 4 units at 52° angle
+                        \coordinate (kite) at ($(hand) + (52:4)$);
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (3.5,0);
+                        % Student (hand at 0.3 units representing 1.2m)
+                        \draw[thick] (0,0) -- (hand);
+                        \draw[thick,fill=cyan] (hand) circle (0.1);
+                        \node[below] at (0,-0.1) {Student};
+                        % Kite string using polar coordinates - exactly 52°
+                        \draw[very thick, blue] (hand) -- (kite);
+                        % Kite
+                        \draw[thick, red, fill=red!30] (kite) -- ++(0.2,0.4) -- ++(0.2,-0.4) -- ++(-0.2,0.15) -- cycle;
+                        \node[above right] at ($(kite) + (0.2,0.4)$) {Kite};
+                        % Vertical line (height above hand) - get x-coordinate of kite
+                        \pgfmathsetmacro{\kitex}{4*cos(52)}
+                        \draw[dashed] (\kitex,0.3) -- (kite);
+                        % Horizontal from hand
+                        \draw[dashed, thin] (hand) -- (\kitex,0.3);
+                        % Angle - exactly 52°
+                        \draw ($(hand) + (0:0.7)$) arc[start angle=0, end angle=52, radius=0.7cm];
+                        \node at ($(hand) + (26:1.1)$) {$52^\circ$};
+                        % Labels
+                        \node[above left] at ($(hand) + (52:2)$) {$65\,\text{m}$};
+                        \node[right] at ($(kite) + (-0.3,-1.2)$) {$h = ?$};
+                        \node[left] at (0,0.15) {$1.2\,\text{m}$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_wo2gpczi">
+                    Given:
+                </p>
+                <p xml:id="auto_7cjclapd">
+                    <ul>
+                        <li xml:id="auto_1ybubc5p"><p xml:id="auto_9rwxq0hu">String length (hypotenuse) = <m>65\,\text{m}</m></p></li>
+                        <li xml:id="auto_7wjhlk48"><p xml:id="auto_7ntdlsra">Angle of elevation = <m>52^\circ</m></p></li>
+                        <li xml:id="auto_3jvfly55"><p xml:id="auto_95ghhokv">Height of hand above ground = <m>1.2\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_3zb55lx9">
+                    Using sine to find the vertical component of the string:
+                </p>
+                <p xml:id="auto_0vll1yzr">
+                    <md>
+                        <mrow>\sin\,52^\circ \amp = \frac{h}{65}</mrow>
+                        <mrow>h \amp = 65 \times \sin\,52^\circ</mrow>
+                        <mrow>\amp = 65 \times 0.7880</mrow>
+                        <mrow>\amp = 51.22\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_25apuox4">
+                    Total height above ground = vertical component + hand height:
+                </p>
+                <p xml:id="auto_4udki4z4">
+                    <md>
+                        <mrow>\text{Total height} \amp = 51.22 + 1.2</mrow>
+                        <mrow>\amp = 52.42\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_ieqb0j15">
+                    The kite is flying approximately <m>52.4\,\text{m}</m> above the ground.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-nairobi-tower">
+            <statement>
+                <p xml:id="auto_b3sothnx">
+                    A tourist standing <m>60\,\text{m}</m> from the base of the Kenyatta International 
+                    Convention Centre (KICC) in Nairobi looks up at the top of the tower. The angle 
+                    of elevation from her eye level (<m>1.5\,\text{m}</m> above the ground) is <m>60^\circ</m>. 
+                    Calculate the height of the KICC tower.
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-kicc-tower">
+                    \begin{tikzpicture}
+                        % Using polar coordinates for exact 60° angle
+                        \coordinate (eye) at (0,0);
+                        % Tower height = 2.5*tan(60°) at horizontal distance 2.5
+                        \pgfmathsetmacro{\towerheight}{2.5*tan(60)}
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (3,0);
+                        % KICC Tower at x=2.5
+                        \draw[very thick, gray] (2.5,0) -- (2.5,\towerheight);
+                        \draw[thick, gray] (2.3,\towerheight) -- (2.7,\towerheight);
+                        \draw[thick, gray] (2.5,\towerheight) -- (2.5,\towerheight+0.25);
+                        \fill[gray!30] (2.35,0) rectangle (2.65,\towerheight);
+                        \node[right] at (2.7,\towerheight+0.15) {KICC};
+                        % Tourist (eye level at origin)
+                        \draw[thick] (0,-0.2) -- (eye);
+                        \draw[thick,fill=cyan] (eye) circle (0.1);
+                        \node[below] at (0,-0.3) {Tourist};
+                        % Eye level line
+                        \draw[dashed, thin] (eye) -- (2.5,0);
+                        % Line of sight using polar direction - exactly 60°
+                        \draw[very thick, dashed, blue] (eye) -- ($(eye) + (60:5)$);
+                        % Angle of elevation - exactly 60°
+                        \draw ($(eye) + (0:0.5)$) arc[start angle=0, end angle=60, radius=0.5cm];
+                        \node at ($(eye) + (30:0.85)$) {$60^\circ$};
+                        % Labels
+                        \node[below] at (1.25,0) {$60\,\text{m}$};
+                        \node[right] at (2.5,2.2) {$h = ?$};
+                        \node[left] at (0,-0.1) {$1.5\,\text{m}$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_vgrrja4k">
+                    Given:
+                </p>
+                <p xml:id="auto_kg7e26mb">
+                    <ul>
+                        <li xml:id="auto_i2370yzz"><p xml:id="auto_5rlsl2ek">Horizontal distance = <m>60\,\text{m}</m></p></li>
+                        <li xml:id="auto_g0ugfe0j"><p xml:id="auto_6qrvytfh">Angle of elevation = <m>60^\circ</m></p></li>
+                        <li xml:id="auto_90a0i7pm"><p xml:id="auto_npz34b62">Eye level height = <m>1.5\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_39t6zrr9">
+                    First, find the height above eye level using tangent:
+                </p>
+                <p xml:id="auto_q865q114">
+                    <md>
+                        <mrow>\tan\,60^\circ \amp = \frac{h}{60}</mrow>
+                        <mrow>h \amp = 60 \times \tan\,60^\circ</mrow>
+                        <mrow>\amp = 60 \times 1.732</mrow>
+                        <mrow>\amp = 103.92\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_a5ulwbvz">
+                    Total height of KICC = height above eye level + eye level:
+                </p>
+                <p xml:id="auto_p7sw2zkx">
+                    <md>
+                        <mrow>\text{Total height} \amp = 103.92 + 1.5</mrow>
+                        <mrow>\amp \approx 105\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_6v8nd5am">
+                    The KICC tower is approximately <m>105\,\text{m}</m> tall.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-tree-angle-elevation">
+            <statement>
+                <p xml:id="auto_njsxo3r0">
+                    A student stands <m>15\,\text{m}</m> away from a tree. The tree is <m>12\,\text{m}</m> tall, 
+                    and the student's eye level is <m>1.5\,\text{m}</m> above the ground. Find the angle of 
+                    elevation from the student's eyes to the top of the tree.
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-tree-angle">
+                    \begin{tikzpicture}
+                        % Positions
+                        \coordinate (eye) at (0,0.75);
+                        \coordinate (treetop) at (6,6);
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (6.5,0);
+                        % Tree
+                        \draw[very thick, green!50!brown] (6,0) -- (6,6);
+                        \fill[green!40] (6,6) -- (5.4,5) -- (6,5.3) -- (6.6,5) -- cycle;
+                        \node[above] at (6,6.1) {Tree};
+                        % Student
+                        \draw[thick] (0,0) -- (0,0.5);
+                        \draw[thick,fill=cyan] (eye) circle (0.12);
+                        \node[below] at (0,-0.1) {Student};
+                        % Eye level line
+                        \draw[dashed, thin] (eye) -- (6,0.75);
+                        % Line of sight to tree top
+                        \draw[very thick, dashed, blue] (eye) -- (treetop);
+                        % Angle of elevation
+                        \draw ($(eye) + (0:1)$) arc[start angle=0, end angle=41, radius=1cm];
+                        \node at ($(eye) + (20:1.5)$) {$\theta = ?$};
+                        % Right angle mark
+                        \draw (5.7,0.75) -- (5.7,1.05) -- (6,1.05);
+                        % Labels
+                        \node[below] at (3,0) {$15\,\text{m}$};
+                        \node[right] at (6.1,3.4) {$12\,\text{m}$};
+                        \node[left] at (0,0.35) {$1.5\,\text{m}$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_6o6kssh0">
+                    Given:
+                </p>
+                <p xml:id="auto_ojep293b">
+                    <ul>
+                        <li xml:id="auto_f9yb87vq"><p xml:id="auto_l7mpeft9">Tree height = <m>12\,\text{m}</m></p></li>
+                        <li xml:id="auto_r27md0u8"><p xml:id="auto_bh2a1m4c">Eye level = <m>1.5\,\text{m}</m></p></li>
+                        <li xml:id="auto_3an4b851"><p xml:id="auto_3l13b382">Height above eye level (opposite) = <m>12 - 1.5 = 10.5\,\text{m}</m></p></li>
+                        <li xml:id="auto_tp57bioq"><p xml:id="auto_zgq5xvef">Horizontal distance (adjacent) = <m>15\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_gzfmxadl">
+                    Using tangent:
+                </p>
+                <p xml:id="auto_u56lo0ty">
+                    <md>
+                        <mrow>\tan\,\theta \amp = \frac{10.5}{15}</mrow>
+                        <mrow>\tan\,\theta \amp = 0.7</mrow>
+                        <mrow>\theta \amp = \tan^{-1}(0.7)</mrow>
+                        <mrow>\amp = 34.99^\circ</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_43y2c4i9">
+                    The angle of elevation is approximately <m>35^\circ</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-flagpole-angle-elevation">
+            <statement>
+                <p xml:id="auto_31imm3yj">
+                    During a school assembly, a student stands <m>20\,\text{m}</m> from a flagpole. 
+                    The flagpole is <m>18\,\text{m}</m> tall. If the student's eye level is 
+                    <m>1.6\,\text{m}</m> above the ground, at what angle of elevation does 
+                    she look at the top of the flagpole?
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-flagpole-angle">
+                    \begin{tikzpicture}
+                        % Positions
+                        \coordinate (eye) at (0,0.5);
+                        \coordinate (flagtop) at (5,5.6);
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (5.5,0);
+                        % Flagpole
+                        \draw[very thick, gray] (5,0) -- (flagtop);
+                        \draw[thick, red, fill=red] (5,5.6) -- (5.5,5.3) -- (5,5) -- cycle;
+                        \node[above right] at (5.5,5.3) {Flag};
+                        % Student
+                        \draw[thick] (0,0) -- (0,0.35);
+                        \draw[thick,fill=cyan] (eye) circle (0.1);
+                        \node[below] at (0,-0.1) {Student};
+                        % Eye level line
+                        \draw[dashed, thin] (eye) -- (5,0.5);
+                        % Line of sight to flag top
+                        \draw[very thick, dashed, blue] (eye) -- (flagtop);
+                        % Angle of elevation
+                        \draw ($(eye) + (0:0.8)$) arc[start angle=0, end angle=46, radius=0.8cm];
+                        \node at ($(eye) + (23:1.3)$) {$\theta = ?$};
+                        % Right angle mark
+                        \draw (4.7,0.5) -- (4.7,0.8) -- (5,0.8);
+                        % Labels
+                        \node[below] at (2.5,0) {$20\,\text{m}$};
+                        \node[right] at (5.1,2.8) {$18\,\text{m}$};
+                        \node[left] at (0,0.25) {$1.6\,\text{m}$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_idtkcphu">
+                    Given:
+                </p>
+                <p xml:id="auto_yv7ek67l">
+                    <ul>
+                        <li xml:id="auto_w3u4rboz"><p xml:id="auto_t94kzy24">Flagpole height = <m>18\,\text{m}</m></p></li>
+                        <li xml:id="auto_g55hynzk"><p xml:id="auto_zmepisdi">Eye level = <m>1.6\,\text{m}</m></p></li>
+                        <li xml:id="auto_mikekv2d"><p xml:id="auto_13jiav1r">Height above eye level (opposite) = <m>18 - 1.6 = 16.4\,\text{m}</m></p></li>
+                        <li xml:id="auto_7ft8k5j6"><p xml:id="auto_9fl2s5ci">Horizontal distance (adjacent) = <m>20\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_5esui4oz">
+                    Using tangent:
+                </p>
+                <p xml:id="auto_suwzt974">
+                    <md>
+                        <mrow>\tan\,\theta \amp = \frac{16.4}{20}</mrow>
+                        <mrow>\tan\,\theta \amp = 0.82</mrow>
+                        <mrow>\theta \amp = \tan^{-1}(0.82)</mrow>
+                        <mrow>\amp = 39.35^\circ</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_0eriy2pj">
+                    The angle of elevation is approximately <m>39.4^\circ</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-balloon-angle-elevation">
+            <statement>
+                <p xml:id="auto_i8ch0m8g">
+                    A hot air balloon is tethered to the ground by a rope that is <m>150\,\text{m}</m> long. 
+                    The balloon floats directly above a point that is <m>90\,\text{m}</m> from where the 
+                    rope is anchored. Find the angle of elevation from the anchor point to the balloon.
+                </p>
+                <image width="55%">
+                <latex-image label="exercise-balloon-angle">
+                    \begin{tikzpicture}
+                        % Calculate balloon height using Pythagoras
+                        % h = sqrt(150^2 - 90^2) = sqrt(22500 - 8100) = sqrt(14400) = 120
+                        % Scale: 150m -&gt; 5 units, so 90m -&gt; 3 units, 120m -&gt; 4 units
+                        \coordinate (anchor) at (0,0);
+                        \coordinate (balloon) at (3,4);
+                        % Ground line
+                        \draw[very thick] (-0.5,0) -- (4,0);
+                        % Vertical line from ground to balloon
+                        \draw[dashed, thin] (3,0) -- (balloon);
+                        % Rope (hypotenuse)
+                        \draw[very thick, brown] (anchor) -- (balloon);
+                        % Balloon
+                        \draw[thick, red, fill=red!30] (balloon) ellipse (0.4 and 0.5);
+                        \draw[thick] (2.7,3.6) -- (3,3.5);
+                        \draw[thick] (3.3,3.6) -- (3,3.5);
+                        \node[above] at (3,4.6) {Balloon};
+                        % Anchor point
+                        \fill[black] (anchor) circle (0.1);
+                        \node[below] at (0,-0.1) {Anchor};
+                        % Angle of elevation
+                        \draw ($(anchor) + (0:1)$) arc[start angle=0, end angle=53, radius=1cm];
+                        \node at ($(anchor) + (26.5:1.5)$) {$\theta = ?$};
+                        % Right angle mark
+                        \draw (2.7,0) -- (2.7,0.3) -- (3,0.3);
+                        % Labels
+                        \node[above left] at (1.5,2) {$150\,\text{m}$};
+                        \node[below] at (1.5,0) {$90\,\text{m}$};
+                        \node[right] at (3.1,2) {$h$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_rpt09jwy">
+                    Given:
+                </p>
+                <p xml:id="auto_jl0zihgg">
+                    <ul>
+                        <li xml:id="auto_yr0lsuc2"><p xml:id="auto_sexsylhh">Rope length (hypotenuse) = <m>150\,\text{m}</m></p></li>
+                        <li xml:id="auto_ry8ku06d"><p xml:id="auto_cj4g89cb">Horizontal distance (adjacent) = <m>90\,\text{m}</m></p></li>
+                    </ul>
+                </p>
+                <p xml:id="auto_ed91rdbm">
+                    Using cosine:
+                </p>
+                <p xml:id="auto_p77f79qn">
+                    <md>
+                        <mrow>\cos\,\theta \amp = \frac{90}{150}</mrow>
+                        <mrow>\cos\,\theta \amp = 0.6</mrow>
+                        <mrow>\theta \amp = \cos^{-1}(0.6)</mrow>
+                        <mrow>\amp = 53.13^\circ</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_wy4yhch6">
+                    The angle of elevation from the anchor point to the balloon is approximately <m>53.1^\circ</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-exit-ladder-elevation">
+            <statement>
+                <p xml:id="auto_clpwbtgl">
+                    A ladder is leaning against a wall, forming an angle of <m>60^\circ</m> with the ground. If the ladder is <m>10</m> metres long, how high does it reach on the wall?
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_0lspijcy">
+                    The ladder is the hypotenuse, and the height on the wall is the side opposite the <m>60^\circ</m> angle. Using sine:
+                </p>
+                <p xml:id="auto_c4gltrwj">
+                    <md>
+                        <mrow>\sin\,60^\circ \amp = \frac{h}{10}</mrow>
+                        <mrow>h \amp = 10 \times \sin\,60^\circ</mrow>
+                        <mrow>\amp = 10 \times 0.8660</mrow>
+                        <mrow>\amp = 8.66\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_g7upi2ib">
+                    The ladder reaches approximately <m>8.66\,\text{m}</m> up the wall.
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise xml:id="ex-exit-elevation-30">
+            <statement>
+                <p xml:id="auto_wrcgz2h4">
+                    If the angle of elevation is <m>30^\circ</m> and the horizontal distance to the object is <m>50\,\text{m}</m>, find the height above eye level.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_l8blqvbq">
+                    Using tangent (opposite over adjacent):
+                </p>
+                <p xml:id="auto_vgpfnbhf">
+                    <md>
+                        <mrow>\tan\,30^\circ \amp = \frac{h}{50}</mrow>
+                        <mrow>h \amp = 50 \times \tan\,30^\circ</mrow>
+                        <mrow>\amp = 50 \times 0.5774</mrow>
+                        <mrow>\amp = 28.87\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_xpunth2v">
+                    The height above eye level is approximately <m>28.9\,\text{m}</m>.
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise xml:id="ex-exit-surveyor-mountain">
+            <statement>
+                <p xml:id="auto_yhl6wooo">
+                    A surveyor is standing <m>50</m> metres away from the base of a mountain. The angle of elevation to the peak is <m>30^\circ</m>. Calculate the height of the mountain above the surveyor's eye level.
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_y9w5mlj5">
+                    Using tangent:
+                </p>
+                <p xml:id="auto_oqhy5wy8">
+                    <md>
+                        <mrow>\tan\,30^\circ \amp = \frac{h}{50}</mrow>
+                        <mrow>h \amp = 50 \times \tan\,30^\circ</mrow>
+                        <mrow>\amp = 50 \times 0.5774</mrow>
+                        <mrow>\amp = 28.87\,\text{m}</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_fhl6wp20">
+                    The height of the mountain above the surveyor's eye level is approximately <m>28.9\,\text{m}</m>.
+                </p>
+            </solution>
+        </exercise>
+    
+    </exercises>
+
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+
+        <table xml:id="auto_i89ur2ts">
+            <title>Differentiation</title>
+            <tabular halign="left">
+                <row header="yes" bottom="minor">
+                    <cell>Learner Group</cell>
+                    <cell>Strategy &amp; Learning Experience</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Struggling Learners (Support)</cell>
+                    <cell>
+                        <line><alert>Scaffolding:</alert> Provide pre-drawn triangles with labels to help students visualize the problem. Use simpler angles (<m>30^\circ</m>, <m>45^\circ</m>, <m>60^\circ</m>) with known trigonometric ratios. Pair struggling students with confident problem solvers. Provide step-by-step calculation templates.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>On-Level Learners (Core)</cell>
+                    <cell>
+                        <line>Encourage students to draw their own diagrams from word problems. Ask students to explain which trigonometric ratio they chose and why. Provide mixed practice with both elevation and depression problems.</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Advanced Learners (Challenge)</cell>
+                    <cell>
+                        <line><alert>Extended Learning Experience:</alert> Challenge students to solve problems involving both elevation and depression in sequence. Explore real-world applications: surveying, navigation, architecture. Investigate error analysis: How does a <m>1^\circ</m> error in angle measurement affect the calculated height?</line>
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+
+        <paragraphs>
+            <title>Extension Activity: Surveying School Grounds</title>
+            <p xml:id="auto_0shgdeq7">
+                Students work in groups to create a map of the school grounds using angles of elevation.
+            </p>
+            <p xml:id="auto_4zdz2vku">
+                <ol>
+                    <li xml:id="auto_czkke0j9"><p xml:id="auto_jpvu84u8">Identify 3–5 tall objects around the school (buildings, trees, flagpoles).</p></li>
+                    <li xml:id="auto_p8v4uots"><p xml:id="auto_malmyrgj">Measure the angle of elevation and horizontal distance to each object.</p></li>
+                    <li xml:id="auto_n5h9jyzt"><p xml:id="auto_37edp3e1">Calculate the height of each object using trigonometry.</p></li>
+                    <li xml:id="auto_9bt0mrj3"><p xml:id="auto_qfozv6qk">Create a scale drawing of the school grounds showing the locations and heights of all measured objects.</p></li>
+                    <li xml:id="auto_voftk47x"><p xml:id="auto_gnl371qn">Present your findings to the class, explaining your methods and calculations.</p></li>
+                </ol>
+            </p>
+        </paragraphs>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+    
+    
+</subsubsection>

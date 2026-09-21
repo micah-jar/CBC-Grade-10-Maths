@@ -1,0 +1,1002 @@
+<subsubsection xml:id="subsubsec-using-two-sides-and-an-angle" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Using Two Sides and an Angle</title>
+        <objectives component="outcomes">
+            <introduction xml:id="auto_efwtbxk9">
+                <dl>
+                    <li xml:id="auto_ib1zvncx">
+                        <title>Strand</title>
+                        <p xml:id="auto_fri09yit">
+                            2.0 Measurements and Geometry
+                        </p>
+                    </li>
+                    <li xml:id="auto_7lve4hh1">
+                        <title>Sub-Strand</title>
+                        <p xml:id="auto_fx5znovq">
+                            2.5 Area of Polygons
+                        </p>
+                    </li>
+                    <li xml:id="auto_dl6kmoog">
+                        <title>Specific Learning Outcome</title>
+                        <p xml:id="auto_7w36i2f9">
+                            <ul>
+                                <li xml:id="auto_csefmy0b">
+                                    <p xml:id="auto_z9py8k2w">
+                                        Derive the formula for the area of a triangle given two sides and an included angle.
+                                    </p>
+                                </li>
+                                <li xml:id="auto_le1y3fys">
+                                    <p xml:id="auto_3vkqvfnp">
+                                        Work out the area of a triangle given two sides and an included angle.
+                                    </p>
+                                </li>
+                            </ul>
+                             
+                        </p>
+                    </li>
+                    <li xml:id="auto_7a3iaryv" component="lesson-plan">
+                        <title>Grade Level</title>
+                        <p xml:id="auto_a2xkb77d">10</p>
+                    </li>
+                    <li xml:id="auto_69zzhzgp" component="lesson-plan">
+                        <title>Estimated Duration</title>
+                        <p xml:id="auto_oskm0afv">40 minutes</p>
+                    </li>
+                </dl>
+            <p xml:id="auto_mwqkrcw7" component="lesson-plan">
+                <p xml:id="auto_kmiv67cp"> Upon completion of this lesson, learners will be able to:
+                <dl>
+                    <li xml:id="auto_czyn72q9">
+                        <title>Know</title>
+                        <p xml:id="auto_xtkj6mjc">
+                            The formula for the area of a triangle given two sides and an included angle: <m>\text{Area} = \frac{1}{2}ab\sin C</m>. The derivation from the basic area formula using the relationship <m>h = b\sin C</m>.
+                        </p>
+                    </li>
+                    <li xml:id="auto_ddcfzlne">
+                        <title>Do</title>
+                        <p xml:id="auto_vb7r0oe1">
+                            Derive and apply the formula to calculate the area of triangles. Find missing sides or perpendicular heights when the area is known.
+                        </p>
+                    </li>
+                    <li xml:id="auto_p7bo7mhf">
+                        <title>Apply</title>
+                        <p xml:id="auto_2hv195jq">
+                            Solve real-world measurement problems such as surveying land parcels using the sine area formula.
+                        </p>
+                    </li>
+                </dl>
+            </p>
+            </p>
+                    </introduction>
+        </objectives>
+                <axiom component="resources">
+            <!-- Link to blurb -->
+            <xi:include href="../../resources-blurb-lesson.ptx" />
+
+            <sbsgroup widths="45% 45%" margins="2% 2%">
+                <sidebyside>
+                    <p xml:id="auto_7a3q7cm0">
+                        <dataurl source="lesson_plans/measurements-and-geometry/area-of-polygons/using-two-sides-and-an-angle.pdf"> Lesson Plan </dataurl>
+                    </p>
+                    <p xml:id="auto_kn9mnq0w">
+                        <dataurl source="lesson_plans/measurements-and-geometry/area-of-polygons/step-by-step-guide_using-two-sides-and-an-angle.pdf"> Step-by-Step Guide </dataurl>
+                    </p>
+                </sidebyside>
+            </sbsgroup>
+        </axiom>
+        <xi:include href="../../resources-materials.ptx" />
+
+        <axiom component="lesson-plan">
+            <title>Phase 1: Problem-Solving and Discovery (15 minutes)</title>
+            <p xml:id="auto_0vgn5lp0">
+                Students work in groups to complete the anchor activity. They will measure the shadow length of a tall object, measure the angle of elevation, and use trigonometry to find the height and area of the triangle formed.
+            </p>
+            <p xml:id="auto_70hxjzuu">
+                <em>Teacher Role During Discovery:</em>
+            </p>
+            <p xml:id="auto_l583nvhp">
+                <ul>
+                    <li xml:id="auto_2wh82oyo"><p xml:id="auto_bupojzgy">Circulate among groups, ensuring students understand how to measure the shadow and angle correctly.</p></li>
+                    <li xml:id="auto_b1y2qfuf"><p xml:id="auto_aau2ebfa">Ask probing questions: <q>What triangle are you forming?</q> <q>What is the base?</q> <q>What is the height?</q></p></li>
+                    <li xml:id="auto_wkxlr1ur"><p xml:id="auto_j13nbawj">For struggling groups: <q>Let us draw the triangle together. The shadow is the base, the object is the height, and the angle is here.</q></p></li>
+                    <li xml:id="auto_otvau7zt"><p xml:id="auto_zp3dr685">For early finishers: <q>Can you use trigonometry to find the height without measuring it directly?</q></p></li>
+                    <li xml:id="auto_7ch1ppma"><p xml:id="auto_dckggo1y">Guide students to articulate: <q>We can use sine to find the height: height = hypotenuse × sin(angle).</q></p></li>
+                    <li xml:id="auto_cpl1kt0j"><p xml:id="auto_pfkrffad">Identify 2–3 groups with clear calculations to share with the class.</p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_mx8vfy0f">
+                <em>Discovery Table: Linking Observations to Mathematical Significance</em>
+            </p>
+            <p xml:id="auto_p1pdd00h">
+                <tabular halign="left">
+                    <row header="yes" bottom="medium">
+                        <cell>Student Observation</cell>
+                        <cell>Mathematical Significance</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>The shadow, object, and angle form a right triangle</cell>
+                        <cell>We can use trigonometric ratios to find the height</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>The height can be found using sine: <m>h = a\sin(\theta)</m></cell>
+                        <cell>Sine relates the opposite side (height) to the hypotenuse</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>The area is <m>\frac{1}{2} \times \text{base} \times \text{height}</m></cell>
+                        <cell>Substituting <m>h = b\sin C</m> gives <m>\text{Area} = \frac{1}{2}ab\sin C</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Different angles give different areas</cell>
+                        <cell>The sine function determines how much of the two sides contributes to the area</cell>
+                    </row>
+                </tabular>
+            </p>
+        </axiom>
+
+        <activity xml:id="auto_llxqfzjh">
+            <statement>
+                <p xml:id="auto_53v4lda7">
+                    <ol xml:id="auto_khfis92w">
+                        <li xml:id="auto_jrgiid9e">
+                            <p xml:id="auto_uyae2na2">
+                                What you require: 
+                            </p>
+                            <p xml:id="auto_c8n59thv">
+                                <ul xml:id="auto_g60b2pnp">
+                                    <li xml:id="auto_beznx7e0">
+                                        <p xml:id="auto_0i02fxqc">
+                                            A tall object (flagpole, tree or building)
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_jh7lmyi8">
+                                        <p xml:id="auto_jsmnmpbx">
+                                          Measuring tape or ruler.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_c5huueu2">
+                                        <p xml:id="auto_drp95g9r">
+                                             A sunny day ☀
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>  
+                        </li>
+                        <li xml:id="auto_a8i7dx8d">
+                            <p xml:id="auto_t933opy7">
+                               <m>\textbf {Identify the Tall Object }</m>.
+                            </p>
+                            <p xml:id="auto_ottui9iw">
+                                <ul xml:id="auto_pxxailx5">
+                                    <li xml:id="auto_9nv388ui">
+                                        <p xml:id="auto_nvsc23aw">
+                                            Choose a tree, flagpole, or lamp post as the vertical height (like <m>A</m> in the diagram below).
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_b9b8mwxv">
+                                        <p xml:id="auto_i0hyuqlb">
+                                         The ground acts as the base <m>(BC)</m>.
+                                        </p>
+                                    </li>
+                                </ul>    
+                            </p>    
+                        </li>
+                        <li xml:id="auto_loihvvdz">
+                            <p xml:id="auto_7l0nwp4s">
+                                <m>\textbf {Find the Shadow Length}</m>
+                            </p>
+                            <p xml:id="auto_zmjqdex2">
+                                <ul xml:id="auto_macysr4a">
+                                    <li xml:id="auto_ucqa6eak">
+                                        <p xml:id="auto_7pk6wv7f">
+                                            Measure the length of the shadow cast by the object on the ground (<m>BC</m>).
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_gaag3epb">
+                                        <p xml:id="auto_a6hvbq4p">
+                                            This represents the long horizontal base in the diagram.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                    <li xml:id="auto_gs7gzvh7">
+                        <p xml:id="auto_2fzzkcik">
+                            <m>\textbf {Measure the Angle of Elevation}</m>
+                        </p>
+                        <p xml:id="auto_lblyhxq2">
+                            <ul xml:id="auto_0d6gkhqt">
+                                <li xml:id="auto_os31s3q7">
+                                    <p xml:id="auto_qoecbnbq">
+                                        Stand some distance away and use a protractor or a phone app to measure the angle of elevation from your eyes to the top of the object.
+                                    </p>
+                                </li>
+                                <li xml:id="auto_no8qyro1">
+                                    <p xml:id="auto_595w547q">
+                                        This represents the <m> 30^ \circ </m> angle at <m>B</m> in the diagram.
+                                    </p>
+                                </li>
+                                <li xml:id="auto_vtvdzprm">
+                        <p xml:id="auto_n4iylgo7">
+                            If no protractor is available, use similar triangles by measuring the shadow of a known object (like a stick) and comparing proportions.
+                        </p>
+                    </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li xml:id="auto_59wkxah6">
+                        <p xml:id="auto_jedycvbg">
+                            Discuss your findings with your group members.
+                        </p>
+                        
+                        
+                    </li>
+
+                    <li xml:id="auto_4hipqzxm">
+                       <image>
+                        <latex-image label="pembe-tatu5">
+                            \begin{tikzpicture}
+                                % Define points
+                                \coordinate (B) at (-2,0);  % Extend B to the left
+                                \coordinate (C) at (9,0);  % Extend C to the right
+                                \coordinate (A) at (6,3);
+                                \coordinate (N) at (6,0);  % Foot of the perpendicular
+
+                                \draw (B)--(A)--(C)--cycle;
+
+                                % Extend BC line beyond B and C
+                                \draw [thick] (-2,0) -- (9,0); % Longer base line
+                                \draw [thick] (B) -- (A) -- (C);
+
+                                % Draw the perpendicular height
+                                \draw [very thick,dashed] (6,3) -- (6,0);
+
+                                % Label the vertices
+                                \node[left] at (B) {B};
+                                \node[right] at (C) {C};
+                                \node[above] at (A) {A};
+                                \node[below] at (N) {N};
+
+                                % Label the sides
+                                \node[left] at (3,2) {a}; % Adjusted for clarity
+                                \node[below] at (4,-0.5) {b};
+
+                                % Mark the right angle at N
+                                \draw (5.8,0) -- (5.8,0.3) -- (6,0.3);
+
+                                % Label the 30-degree angle
+                                \draw (-1,0) arc[start angle=0, end angle=30, radius=0.75];
+                                \node at (-0.5,0.3) {$30^\circ$};
+                                \node at (6.2,1.5) {h};
+                                \draw [&lt;-&gt;](-2,-0.4) -- (9,-0.4);
+                            \end{tikzpicture}
+                        </latex-image>
+                        </image>
+                    
+                        <p xml:id="auto_1u7g91sq">
+                            <ul xml:id="auto_8eo87mbi">
+                                <li xml:id="auto_clnxfban">
+                                    <p xml:id="auto_xp6f2s7q">
+                                     <m> \textbf{Apply Trigonometry Using Sine}</m>
+                                   </p>
+                                    <p xml:id="auto_plh9saxz">
+                                        Using the sine function to calculate the height of the object <m>AN</m>.
+                                    </p>
+                                    <p xml:id="auto_j4uihjh1">
+                                        Drop a perpendicular line from Point A to meet line BC at N .
+                                    </p>
+                                </li>
+                                <li xml:id="auto_hpdldt3z">
+                                    <p xml:id="auto_y0orto4q">
+                                        Formula:
+                                        <md>
+                                            <mrow> Height (AN) = \amp \text{Hypotenuse(AB)} \times \text{ sin }30^ \circ </mrow>
+                                        </md>
+                                    </p>
+                                </li>
+                                <li xml:id="auto_etri3dgg">
+                                    <p xml:id="auto_36b3ayjz">
+                                        AN is therefore the height for triangle ABC.
+                                    </p>
+                                </li>
+                                <li xml:id="auto_p7uwt1sr">
+                                    <p xml:id="auto_a1kstis4">
+                                        In a triangle <m>\text{sin} \, \theta = \frac{\text{Opposite}}{\text{Hypotenuse}}</m>. </p>
+                                        <p xml:id="auto_nna0nd1j">From the figure shown above, Opposite = AN, the height of triangle ABN whereas the hypotenuse i <m>AB</m> is the longest side of a triangle.
+                                        
+                                    </p>
+                                    <p xml:id="auto_e0k9aefc">
+                                        Where <m>AN</m> = <m>\textbf{h}</m> and <m>BA</m> = <m>\textbf{a}</m>
+                                    </p>
+                                    <p xml:id="auto_72h6bx6k">
+                                         <md>
+                                           <mrow> \text{In triangle ABN, sin}30^ \circ = \amp \frac{AN}{a} </mrow>
+                                           <mrow> \text{sin } 30^ \circ  = \amp \frac{\textbf{h}}{\textbf{a}} </mrow> 
+                                           <mrow> \text{ height of }\angle \text{ABC} \, \textbf{h} = \amp \textbf{a} \,  \text{sin } 30^ \circ  </mrow>
+                                           <mrow> \text{ Since sin } 30^ \circ  = 1/2 \textbf{a} </mrow>
+                                        </md>
+                                    </p>
+                                </li>
+                                
+                                <li xml:id="auto_7623vbuu">
+                                    <p xml:id="auto_wrt3o25u">
+                                        Area of Triangle ABC will be:
+                                        <md>
+                                            <mrow>\triangle \, ABC = \amp  \frac{1}{2}  \times \text {Base}\, \textbf{ (b)} \times  \text { Height}\, \textbf{(h)} =\textbf{a} \,\text{sin}\theta </mrow>
+                                            <mrow> = \amp \frac{1}{2} \, \textbf{ ab } \, \textbf{ sin } \, \theta </mrow>
+                                        </md>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    </ol>    
+
+                </p>
+            </statement>
+        </activity>
+        <p xml:id="auto_1fkmy3pr">
+          ♦ Generally, if the lengths of the two sides and an included angle of a triangle are given, then the area of the triangle is <m>\text{A} = \frac{1}{2}\textbf{ab}\textbf{sin}\theta</m>. Where <m>\textbf{ b } \text{is the base and } \textbf{ h }  \text{ height.}</m>
+        </p>
+
+
+        <axiom component="lesson-plan">
+            <title>Phase 2: Structured Instruction (10 minutes)</title>
+            <p xml:id="auto_15efa4vk">
+                After students have shared their findings from the anchor activity, formalize the derivation of the area formula. Walk students through the exploration activity and the insight in the textbook.
+            </p>
+            <p xml:id="auto_q4xa97px">
+                <em>Scaffolding Strategies to Address Misconceptions:</em>
+            </p>
+            <p xml:id="auto_7isof4mq">
+                <tabular halign="left">
+                    <row header="yes" bottom="medium">
+                        <cell>Misconception</cell>
+                        <cell>Clarification</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>I can use any two sides and any angle.</cell>
+                        <cell>The angle must be the <em>included</em> angle between the two sides.</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>The formula only works for right triangles.</cell>
+                        <cell>It works for all triangles as long as you know two sides and the included angle.</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>I need to know the height to find the area.</cell>
+                        <cell>The formula <m>\frac{1}{2}ab\sin C</m> allows you to find the area without knowing the height directly.</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>\sin C</m> is the same as angle <m>C</m>.</cell>
+                        <cell><m>\sin C</m> is the sine of angle <m>C</m>, which is a ratio. Use a calculator or table to find it.</cell>
+                    </row>
+                </tabular>
+            </p>
+        </axiom>
+       
+        <insight xml:id="auto_ujgh3fy9">
+            <statement>
+                <p xml:id="auto_e8fbkonm">
+                    Deriving the Formula: <m>\frac {1}{2}ab\, \text{sin C} </m>
+                </p>
+                <p xml:id="auto_01dhcapq">
+                     <ol xml:id="auto_rbupefki">
+                        <li xml:id="auto_mee37i51">
+                            <p xml:id="auto_w31y8xl5">
+                               
+                               <alert>Step 1:   Let's recall the Basic Formula for finding area of a triangle.</alert>
+                            </p>
+                            <p xml:id="auto_47u8rvnc">
+                                <ul xml:id="auto_7gwbwi66">
+                                    <li xml:id="auto_ui2wggpy">
+                                        <p xml:id="auto_llxl8e8p">
+                                         Area = <m>\frac {1}{2} \times \text {Base} \times \text {Height}</m> 
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>  
+                        </li>
+                        <li xml:id="auto_j7ft6zod">
+                            <p xml:id="auto_0ubnoy4m">
+                               <alert> Step 2: Consider a Triangle with an Angle </alert>
+                            </p>
+                            <p xml:id="auto_klctlr7g">
+                                <ul xml:id="auto_syiwnrz3">
+                                    <li xml:id="auto_8ozca6o8">
+                                        <p xml:id="auto_bpbaneqw">
+                                           Let's take a triangle ABC with sides <m>a </m>, <m>b </m> and included angle <m>C</m>.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_cwshuycf">
+                                        <p xml:id="auto_4wexgdy0">
+                                         Side<m> \, a</m> and Side <m>b</m> form the triangle.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_0rh6hqoe">
+                                        <p xml:id="auto_ymu5fn9s">
+                                            The height <m> h</m> is perpendicular from the top vertex to the base.
+                                        </p>
+                                    </li>
+                                </ul>    
+                            </p>    
+                        </li>
+                        <li xml:id="auto_y8x5a7uk">
+                            <p xml:id="auto_swz80dgl">
+                                <alert> Step 3: Express Height in Terms of Sin </alert>
+                            </p>
+                            <p xml:id="auto_ckjmzoof">
+                                <ul xml:id="auto_nu7bqwb4">
+                                    <li xml:id="auto_3vov2jt4">
+                                        <p xml:id="auto_yv76klad">
+                                           Using trigonometry, we know that in a right-angled triangle:
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_n5pk6wbw">
+                                        <p xml:id="auto_kq65h0yx">
+                                            <m>\text{sin} \,\theta = \frac{\text{Hypotenuse}}{\text{Opposite}}</m>
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_3jvs4zwa">
+                                        <p xml:id="auto_bhlmq502">
+                                            In our case, the height <m>h</m> is the <m>\textbf{opposite side}</m> of angle <m>C</m>, and side <m>b</m> is the <m>\textbf{hypotenuse}</m>.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_mwshzuig">
+                                        <p xml:id="auto_umhl5led">
+                                         So, we can write it as:
+                                        </p>
+                                        <p xml:id="auto_rcr35sor">
+                                            <m> h = b \text{ sin} \, C</m>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                    <li xml:id="auto_22rtecas">
+                        <p xml:id="auto_hijq69pa">
+                            <alert> Step 4: Substitute into the Area Formula </alert>
+                        </p>
+                        <p xml:id="auto_173ledgg">
+                            <ul xml:id="auto_294przis">
+                                <li xml:id="auto_nbrz9ce3">
+                                    <p xml:id="auto_9j4nxlv8">
+                                        Now, take the basic Formula for finding area of a triangle;
+                                    </p>
+                                </li>
+                                <li xml:id="auto_lx78e7hp">
+                                    <p xml:id="auto_uc7h1b9l">
+                                        Substituting <m>\textbf{Base}</m> and <m>\textbf{Height}  = \text{b sin C} </m> .
+                                    <md>
+                                      <mrow> \text{Area} =\amp \frac {1}{2} \times a \times \text{(b sin C)}</mrow>
+                                      <mrow> \text{Area} = \amp  \frac {1}{2} ab \, \text{ sin C}</mrow>
+                                    
+                                      </md>  
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    </ol>    
+                </p>
+            </statement>
+        </insight>
+
+        <axiom component="lesson-plan">
+            <title>Phase 3: Practice and Application (10 minutes)</title>
+            <p xml:id="auto_e9x64535">
+                Work students through the examples below.
+            </p>
+            <p xml:id="auto_498k2wk1">
+                <em>Teacher prompts:</em>
+            </p>
+            <p xml:id="auto_mrcwqxwx">
+                <ul>
+                    <li xml:id="auto_21gqcfyo"><p xml:id="auto_z59978ix"><q>Which two sides and which angle are given?</q></p></li>
+                    <li xml:id="auto_crbmwdmq"><p xml:id="auto_f6hyr9es"><q>Is the angle the included angle between the two sides?</q></p></li>
+                    <li xml:id="auto_ez9uwqen"><p xml:id="auto_75vv7t0i"><q>How do we find the sine of the angle?</q></p></li>
+                    <li xml:id="auto_9xjs4vp4"><p xml:id="auto_hvsk5cc1"><q>How can we rearrange the formula to find a missing side?</q></p></li>
+                </ul>
+            </p>
+        </axiom>
+
+        <example xml:id="auto_06sgp8ec">
+            <statement>
+                <p xml:id="auto_7iofv9gv">
+                    A triangle FGH has sides <m>FG=10 \text{ cm}, GH=7,  \text{ cm and } \angle FGH = 65^\circ</m>. Find the area of the triangle in <m>2 \, \text{dp}</m>?
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_0cbhxly8">
+                    Using the formula <m>\text{Area} = \frac{1}{2} ab \sin C</m>, where <m>a = 10</m>, <m>b = 7</m>, and <m>C = 65^\circ</m>:
+                    <md>
+                      <mrow>\text{Area} \amp = \frac{1}{2} \times 10 \times 7 \times \sin(65^\circ) </mrow>
+                      <mrow> \amp = 35 \times 0.9063 </mrow>
+                      <mrow> \amp = 31.72\, \text{cm}^2 </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <example xml:id="auto_avohc4ut">
+            <statement>
+                <p xml:id="auto_f6as0jar">
+                   The area of triangle ABC is <m>28.1 \text{cm}^2</m> . It's side AB <m>= 7.2 \text{cm} </m> and    <m>\angle</m> ABC <m>= 48.6^\circ</m>. Find:
+                </p>
+                <p xml:id="auto_zausr4a6">
+                    <ol marker="(a)">
+                        <li xml:id="auto_hjvln3k3">
+                            <p xml:id="auto_vxgd0stl">
+                               The length BC? 
+                            </p>
+                        </li>
+                        <li xml:id="auto_126ookzi">
+                            <p xml:id="auto_ow8nt4w8">
+                                The perpendicular height from vertex C to line AB?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_8kchzo61">
+                    <ol marker="(a)">
+                        <li xml:id="auto_pkdj74om">
+                            <p xml:id="auto_697pvb69">
+                                Using the formula <m>\text{Area} = \frac{1}{2} ab \sin C</m>, where <m>a = 7.2</m>, <m>b = BC</m>, and <m>C = 48.6^\circ</m>:
+                                <md>
+                                    <mrow>28.1 \amp = \frac{1}{2} \times 7.2 \times b \times \sin(48.6^\circ) </mrow>
+                                    <mrow> \amp = 3.6 \times b \times \sin(48.6^\circ)</mrow>
+                                    <mrow> \amp = 3.6 \times b \times 0.7501</mrow>
+                                    <mrow> \amp = 2.70036 \times b</mrow>
+                                    <mrow> \amp = 28.1</mrow>
+                                    <mrow> b \amp = \frac{28.1}{2.70036} = 10.4\, \text{cm}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li xml:id="auto_bbd2z36e">
+                            <p xml:id="auto_msb61h95">
+                                To find the perpendicular height from vertex C to line AB, we use the area formula again by taking AB to be the base and calculate the height.
+                                <md>
+                                    <mrow>28.1 \amp = \frac{1}{2} \times 7.2 \times h</mrow>
+                                    <mrow> \amp = 3.6 \times h</mrow>
+                                    <mrow> h \amp = \frac{28.1}{3.6} = 7.8\, \text{cm}</mrow>
+                                </md>
+                                
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p xml:id="auto_fpe2b3gr">
+                    Therefore the length of BC is <m>10.4</m> cm and the perpendicular height from vertex C to line AB is <m>7.8</m> cm.
+                </p>
+            </solution>
+        </example>
+
+        <axiom component="lesson-plan">
+            <title>Phase 4: Assessment (5 minutes)</title>
+            <p xml:id="auto_hrxfc561">
+                Students complete the Exit Ticket exercises individually to demonstrate understanding.
+            </p>
+        </axiom>
+
+        <exercises xml:id="exercises-area-using-two-sides-and-an-angle">
+            <title>Exercise</title>
+            <exercise xml:id="auto_lo08yq1e">
+                <statement>
+                    <p xml:id="auto_l5fgu5c4">
+                        In <m>\triangle \textbf{ABC}</m>, <m>\angle \textbf{BAC} = 40^\circ</m>, <m>\text{side} BC = 10</m> cm, and side <m>\textbf{AB} = 8 </m>cm.  
+                        Find it's area.
+                    </p>
+                    <image width="50%">
+                        <latex-image label="piture-of-triangle">
+                            \begin{tikzpicture}
+                                \draw [thick](0,0) -- (4,0) -- (2,2.5) -- cycle;
+                                \node[thick][left] at (0,0) {A};
+                                \draw[thick](3.5,0) arc[start angle=180, end angle=146, radius=0.8];
+                                \draw[thick](0.5,0) arc[start angle=0, end angle=35, radius=0.8];
+                                \node[right] at (4,0) {B};
+                                \node[above] at (2,2.5) {C};
+                                \node[below] at (2,0.1) {\(8\) cm};
+                                \node at (0.8,0.5) {\(40^\circ\)};
+                                \node[below] at (0.5,2) {\(10\) cm};
+                                <!-- \node at (3,1.5) {\(8\)cm};    -->
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </statement>
+                <answer>
+                    <p xml:id="auto_yd1egfzm">
+                        Area of <m>\triangle ABC = 25.71 \text{ cm}^2</m>
+                    </p>
+                </answer>
+         </exercise>
+         <exercise xml:id="auto_n5oiar0e">
+            <statement>
+                <p xml:id="auto_hb91bt8y">
+                    Find the area of the triangle below given that length <m>RQ = 10\text{ cm}</m>.
+                </p>
+                <image width="50%">
+                    <latex-image label="picture-of-issosless-triangle">
+                        \begin{tikzpicture}
+                            % Triangle
+                            \draw[thick] (0,0) -- (4,0) -- (2,2) -- cycle;
+
+                            % Labels
+                            \node[left] at (0,0) {P};
+                            \node[right] at (4,0) {Q};
+                            \node[above] at (2,2) {R};
+
+                            % Angle arcs
+                            \draw[thick] (0.6,0) arc[start angle=0, end angle=48, radius=0.6];
+                            \draw[thick] (3.4,0) arc[start angle=180, end angle=132, radius=0.6];
+
+                            % Angle labels
+                            \node at (0.9,0.5) {$48^\circ$};
+                            \node at (3.1,0.5) {$48^\circ$};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <answer>
+                <p xml:id="auto_81cjc4ij">
+                    <m>\text{Area} = 49.73\text{ cm}^2 \text{ to 2 decimal places}</m>
+                </p>
+            </answer>
+        </exercise>
+
+        <exercise xml:id="ex-exit-qrs-perpendicular">
+            <statement>
+                <p xml:id="auto_jt64wkia">
+                    In <m>\triangle QRS</m>, <m>QR = 10</m> cm, <m>RS = 24</m> cm and <m>QS = 26</m> cm. Find the length of the perpendicular from vertex <m>Q</m> to side <m>RS</m>. Hence find its area.
+                </p>
+                <image width="50%">
+                <latex-image label="exit-triangle-qrs">
+                    \begin{tikzpicture}
+                        % Right-angled triangle QRS (right angle at R)
+                        \coordinate (R) at (0,0);
+                        \coordinate (S) at (6,0);
+                        \coordinate (Q) at (0,2.5);
+                        \draw[thick] (Q) -- (R) -- (S) -- cycle;
+                        % Right angle mark at R
+                        \draw (0,0.4) -- (0.4,0.4) -- (0.4,0);
+                        % Perpendicular from Q to RS (dashed)
+                        \draw[dashed, blue] (Q) -- (0,0);
+                        % Labels
+                        \node[above left] at (Q) {$Q$};
+                        \node[below left] at (R) {$R$};
+                        \node[below right] at (S) {$S$};
+                        \node[left] at (0,1.25) {$10$ cm};
+                        \node[below] at (3,0) {$24$ cm};
+                        \node[above right] at (3,1.25) {$26$ cm};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p xml:id="auto_642y49tp">
+                    First, check whether the triangle is right-angled:
+                </p>
+                <p xml:id="auto_mekvd797">
+                    <md>
+                        <mrow>QR^2 + RS^2 \amp = 10^2 + 24^2 = 100 + 576 = 676</mrow>
+                        <mrow>QS^2 \amp = 26^2 = 676</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_0m6s8xwq">
+                    Since <m>QR^2 + RS^2 = QS^2</m>, by the converse of Pythagoras' theorem, the triangle is right-angled at <m>R</m>.
+                </p>
+                <p xml:id="auto_fjynhqbu">
+                    Since <m>\angle QRS = 90^\circ</m>, <m>QR</m> is perpendicular to <m>RS</m>. Therefore the perpendicular from <m>Q</m> to side <m>RS</m> is <m>QR = 10</m> cm.
+                </p>
+                <p xml:id="auto_e2iiurk2">
+                    <md>
+                        <mrow>\text{Area} \amp = \frac{1}{2} \times RS \times QR</mrow>
+                        <mrow>\amp = \frac{1}{2} \times 24 \times 10</mrow>
+                        <mrow>\amp = 120\,\text{cm}^2</mrow>
+                    </md>
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise xml:id="ex-exit-pqr-isosceles-area">
+            <statement>
+                <p xml:id="auto_hx7lhqto">
+                    <m>\triangle PQR</m> is isosceles with <m>PQ = PR = 10</m> cm. The base angle is <m>48^\circ</m>. Find its area.
+                </p>
+                <image width="50%">
+                <latex-image label="exit-triangle-pqr-isosceles">
+                    \begin{tikzpicture}
+                        % Isosceles triangle PQR: PQ=PR=10, base angles 48°, apex P=84°
+                        \coordinate (Q) at (0,0);
+                        \coordinate (R) at (4,0);
+                        \coordinate (P) at (2, 2.22);
+                        \draw[thick] (P) -- (Q) -- (R) -- cycle;
+                        % Angle arc at Q (48°)
+                        \draw (0.6,0) arc[start angle=0, end angle=48, radius=0.6];
+                        \node at (0.9,0.4) {$48^\circ$};
+                        % Angle arc at R (48°)
+                        \draw (3.4,0) arc[start angle=180, end angle=132, radius=0.6];
+                        \node at (3.1,0.4) {$48^\circ$};
+                        % Labels
+                        \node[above] at (P) {$P$};
+                        \node[below left] at (Q) {$Q$};
+                        \node[below right] at (R) {$R$};
+                        \node[above left] at (1,1.11) {$10$ cm};
+                        \node[above right] at (3,1.11) {$10$ cm};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p xml:id="auto_y35f5n64">
+                    Since the triangle is isosceles with <m>PQ = PR = 10</m> cm and base angles of <m>48^\circ</m>, the apex angle at <m>P</m> is:
+                </p>
+                <p xml:id="auto_ms2iapvr">
+                    <md>
+                        <mrow>\angle QPR \amp = 180^\circ - 48^\circ - 48^\circ = 84^\circ</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_i4bqkjn7">
+                    Using the area formula with the two equal sides and the included apex angle:
+                </p>
+                <p xml:id="auto_biya2irj">
+                    <md>
+                        <mrow>\text{Area} \amp = \frac{1}{2} \times PQ \times PR \times \sin(\angle QPR)</mrow>
+                        <mrow>\amp = \frac{1}{2} \times 10 \times 10 \times \sin 84^\circ</mrow>
+                        <mrow>\amp = 50 \times 0.9945</mrow>
+                        <mrow>\amp = 49.73\,\text{cm}^2</mrow>
+                    </md>
+                </p>
+            </solution>
+        </exercise>
+
+        <exercise xml:id="ex-exit-xyz-right-triangle">
+            <statement>
+                <p xml:id="auto_871ihb7k">
+                    <m>\triangle XYZ</m> has side <m>XY = 15</m> cm, <m>YZ = 20</m> cm, and <m>XZ = 25</m> cm. Show that this is a right-angled triangle and find its area.
+                </p>
+                <image width="50%">
+                <latex-image label="exit-triangle-xyz-right">
+                    \begin{tikzpicture}
+                        % Right-angled triangle XYZ (right angle at Y)
+                        \coordinate (Y) at (0,0);
+                        \coordinate (Z) at (5,0);
+                        \coordinate (X) at (0,3.75);
+                        \draw[thick] (X) -- (Y) -- (Z) -- cycle;
+                        % Right angle mark at Y
+                        \draw (0,0.4) -- (0.4,0.4) -- (0.4,0);
+                        % Labels
+                        \node[above left] at (X) {$X$};
+                        \node[below left] at (Y) {$Y$};
+                        \node[below right] at (Z) {$Z$};
+                        \node[left] at (0,1.875) {$15$ cm};
+                        \node[below] at (2.5,0) {$20$ cm};
+                        \node[above right] at (2.5,1.875) {$25$ cm};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p xml:id="auto_iw98ih1f">
+                    Check whether the sides satisfy Pythagoras' theorem. The longest side is <m>XZ = 25</m> cm.
+                </p>
+                <p xml:id="auto_2u4py105">
+                    <md>
+                        <mrow>XY^2 + YZ^2 \amp = 15^2 + 20^2 = 225 + 400 = 625</mrow>
+                        <mrow>XZ^2 \amp = 25^2 = 625</mrow>
+                    </md>
+                </p>
+                <p xml:id="auto_vueslrv1">
+                    Since <m>XY^2 + YZ^2 = XZ^2</m>, by the converse of Pythagoras' theorem, the triangle is right-angled at <m>Y</m>.
+                </p>
+                <p xml:id="auto_t5j4s58n">
+                    The two shorter sides are the base and height:
+                </p>
+                <p xml:id="auto_33pgixw0">
+                    <md>
+                        <mrow>\text{Area} \amp = \frac{1}{2} \times XY \times YZ</mrow>
+                        <mrow>\amp = \frac{1}{2} \times 15 \times 20</mrow>
+                        <mrow>\amp = 150\,\text{cm}^2</mrow>
+                    </md>
+                </p>
+            </solution>
+        </exercise>
+         
+            <exercise>
+                <statement>
+                    <p>
+                        Determine the unknown angles and sides in the figures below
+                    </p>
+
+                    <ol marker="(a)">
+                        <li>
+                            <image> 
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \draw[thick] (0,0) -- (7,0) -- (3,3) -- cycle;
+                                        \node[left] at (0,0) {A};
+                                        \node[right] at (7,0) {B};
+                                        \node[above] at (3,3) {C};
+                                        \node[below] at (3.5,-0.3) {7.4 cm};
+                                        \node[left] at (0.2,1.5) {3.6 cm};
+                                        \draw[thick] (0.8,0) arc[start angle=0, end angle=45, radius=0.8];
+                                        \node at (1.3,0.2) {\large 40°};
+                                        \draw[thick] (2.55,2.6) arc[start angle=240, end angle=312, radius=0.8];
+                                        \node at (2.5,2) {\large 80°};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </li>
+
+                        <li>
+                            <image> 
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \draw[thick] (9,0) -- (12.3,3) -- (14.5,0) -- cycle;
+                                        \node[left] at (9,0) {P};
+                                        \node[right] at (14.5,0) {Q};
+                                        \node[above] at (12.3,3) {R};
+                                        \node[left] at (9.8,1.5) {2.4 cm};
+                                        \node[below] at (11.8,-0.3) {3.3 cm};
+                                        \draw[thick] (14.,0) arc[start angle=180, end angle=140, radius=0.7];
+                                        \node at (13.5,0.3) {\small 40°};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </li>
+
+                        <li>
+                            <image> 
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \draw [thick](4,-4) -- (10,-4) -- (6.5,-1) -- cycle;
+                                        \draw [thick](6.5,-4) -- (6.5,-1);
+                                        \node[left] at (4,-4) {D};
+                                        \node[right] at (10,-4) {E};
+                                        \node[above] at (6.5,-1) {F};
+                                        \node[below] at (7,-4.3) {13 cm};
+                                        \node[left] at (5.2,-2.5) {25 cm};
+                                        \node[right] at (6.7,-2.5) {1.5 cm};
+                                        \node[right] at (8.5,-2.5) {2.8 cm};
+                                        \draw [thick](5,-4) arc[start angle=0, end angle=60, radius=0.8];
+                                        \node at (5.5,-3.8) {\large 32°};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </li>
+
+                        <li>
+                            <image>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                        \draw[thick] (23,-4) -- (30,-4) -- (23,-1) -- cycle;
+                                        \node[left] at (23,-4) {P};
+                                        \node[right] at (30,-4) {O};
+                                        \node[above] at (23,-1) {N};
+                                        \node[left] at (22.8,-2.5) {15};
+                                        \node[below] at (26.5,-4.3) {20};
+                                        \node at (25.5,-2.5) {\large x};
+                                        \draw[thick] (23,-4) -- (23.3,-4) -- (23.3,-3.7) -- (23,-3.7) -- cycle;
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </li>
+                    </ol>
+
+                </statement>
+
+                <answer>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    <m>\angle ABC = 60^\circ</m>
+                                </p>
+                                <p>
+                                    Length <m>BC = 2.7</m> cm
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>\angle PRQ = 62.1^\circ</m>
+                                </p>
+                                <p>
+                                    <m>\angle RPQ = 77.9^\circ</m>
+                                </p>
+                                <p>
+                                    Length <m>RQ = 3.7</m> cm
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>\angle DEF = 32.4^\circ</m>
+                                </p>
+                                <p>
+                                    <m>\angle DFE = 115.6^\circ</m>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <m>ON = 25</m> units
+                                </p>
+                                <p>
+                                    <m>\angle PON = 36.9^\circ</m>
+                                </p>
+                                <p>
+                                    <m>\angle ONP = 53.1^\circ</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </answer>
+            </exercise>
+         
+        </exercises>
+
+        <axiom component="lesson-plan">
+            <title>Differentiation Strategies</title>
+            <p xml:id="auto_px0h2e4x">
+                <em>For Struggling Learners:</em>
+            </p>
+            <p xml:id="auto_3v4gkcfg">
+                <ul>
+                    <li xml:id="auto_zj8hni1i"><p xml:id="auto_6wr2pcyr">Provide pre-drawn triangles with labels to help students visualise the problem.</p></li>
+                    <li xml:id="auto_koi3fppc"><p xml:id="auto_vtqpwbes">Use simpler angles (<m>30^\circ</m>, <m>45^\circ</m>, <m>60^\circ</m>) with known trigonometric ratios.</p></li>
+                    <li xml:id="auto_qd883cjs"><p xml:id="auto_x5bw1m47">Pair struggling students with confident problem solvers.</p></li>
+                    <li xml:id="auto_kw8ngd6q"><p xml:id="auto_ykes3b62">Provide step-by-step calculation templates.</p></li>
+                    <li xml:id="auto_nfpv1xiy"><p xml:id="auto_nbg2eif2">Allow use of trigonometric tables or calculators.</p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_uk27cy5u">
+                <em>For On-Level Learners:</em>
+            </p>
+            <p xml:id="auto_5oagwkf8">
+                <ul>
+                    <li xml:id="auto_t9kp43ht"><p xml:id="auto_k5gmxng9">Encourage students to draw their own diagrams from word problems.</p></li>
+                    <li xml:id="auto_hs3waa7b"><p xml:id="auto_uuhq4aey">Ask students to explain which formula they chose and why.</p></li>
+                    <li xml:id="auto_yezby081"><p xml:id="auto_h2rdo8q5">Provide mixed practice with both the sine area formula and Heron's formula.</p></li>
+                </ul>
+            </p>
+            <p xml:id="auto_suzbjgd1">
+                <em>For Advanced Learners:</em>
+            </p>
+            <p xml:id="auto_ztvwz800">
+                <ul>
+                    <li xml:id="auto_lch113dl"><p xml:id="auto_d0tlltje">Challenge students to derive the formula themselves using trigonometry.</p></li>
+                    <li xml:id="auto_w6g7uqvm"><p xml:id="auto_8jju5imw">Explore real-world applications: surveying, architecture, engineering.</p></li>
+                    <li xml:id="auto_rlebsn17"><p xml:id="auto_5ndab581">Investigate the relationship between the sine area formula and Heron's formula.</p></li>
+                    <li xml:id="auto_q37gxf4r"><p xml:id="auto_4jxvj1ew">Apply the formula to find missing angles or sides when area is known.</p></li>
+                </ul>
+            </p>
+        </axiom>
+
+        <axiom component="lesson-plan">
+            <title>Extension Activity</title>
+            <p xml:id="auto_ly6vqu27">
+                <em>Real-World Application: Surveying Land Parcels</em>
+            </p>
+            <p xml:id="auto_4y3htzdo">
+                Students work in groups to calculate the area of irregular land parcels using the sine area formula.
+            </p>
+            <p xml:id="auto_rac1dlnb">
+                Materials: Measuring tapes, protractors, calculators, graph paper.
+            </p>
+            <p xml:id="auto_j05smoyp">
+                Tasks:
+            </p>
+            <p xml:id="auto_hbwb5g2l">
+                <ol>
+                    <li xml:id="auto_4hfptmup"><p xml:id="auto_apndhfy3">Identify a triangular section of the school grounds or playground.</p></li>
+                    <li xml:id="auto_ndw5qd9g"><p xml:id="auto_i3qgy0vb">Measure two sides and the included angle.</p></li>
+                    <li xml:id="auto_1o31k9mq"><p xml:id="auto_8gr8td49">Calculate the area using the formula <m>\text{Area} = \frac{1}{2}ab\sin C</m>.</p></li>
+                    <li xml:id="auto_z83yx3gz"><p xml:id="auto_26kcn8u8">Verify your calculation by measuring the height directly and using <m>\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}</m>.</p></li>
+                    <li xml:id="auto_wjee7kow"><p xml:id="auto_aplgvizu">Compare the two methods and discuss sources of error.</p></li>
+                    <li xml:id="auto_4maf1yky"><p xml:id="auto_6hrdydv1">Present your findings to the class, explaining your methods and calculations.</p></li>
+                </ol>
+            </p>
+        </axiom>
+
+        <xi:include href="../../resources-assessment.ptx" />
+        <xi:include href="../../resources-reflection.ptx"/>
+
+    </subsubsection>        

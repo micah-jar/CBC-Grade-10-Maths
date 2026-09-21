@@ -1,0 +1,749 @@
+<subsection xml:id="subsec-volume-of-cones" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Volume of Cones</title>
+    <objectives component="outcomes">
+        <introduction xml:id="auto_e8lnyoep">
+            <p xml:id="auto_56ngtsfr">
+            <dl>
+                <li xml:id="auto_00wmskmq">
+                    <title>Strand</title>
+                    <p xml:id="auto_xvplq848">
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li xml:id="auto_ygqrt2e2">
+                    <title>Sub-Strand</title>
+                    <p xml:id="auto_w2p5tkxi">
+                        2.8 Volume
+                    </p>
+                </li>
+                <li xml:id="auto_lyumwp0h">
+                    <title>Specific Learning Outcomes</title>
+                    <p xml:id="auto_z3om2pyi">
+                        Calculate the volume of cones using the formula <m>V = \frac{1}{3} \pi r^2 h</m>
+                    </p>
+                </li>
+                <li xml:id="auto_5p2nhxft" component="lesson-plan">
+                    <title>Grade Level</title>
+                    <p xml:id="auto_l5x4urny">
+                        10
+                    </p>
+                </li>
+                <li xml:id="auto_jamspb8b" component="lesson-plan">
+                    <title>Estimated Duration</title>
+                    <p xml:id="auto_wdud6k04">
+                        40 minutes
+                    </p>
+                </li>
+            </dl>
+            </p>
+            <p xml:id="auto_hvcarlhz" component="lesson-plan">
+                <p xml:id="auto_zrc74rd1"> Upon completion of this lesson, learners will be able to:
+                <ol>
+                    <li xml:id="auto_lse2ku39">
+                        <p xml:id="auto_7xc2f7qt">
+                            <alert>Know (Conceptual Understanding):</alert> Define a cone and explain why its volume is one-third that of a cylinder with the same base and height.
+                        </p>
+                    </li>
+                    <li xml:id="auto_kooufo4q">
+                        <p xml:id="auto_sbedgw1u">
+                            <alert>Do (Procedural Skill):</alert> Calculate the volume of cones using <m>V = \frac{1}{3} \pi r^2 h</m>, including problems involving slant height.
+                        </p>
+                    </li>
+                    <li xml:id="auto_1izt2e3k">
+                        <p xml:id="auto_pda27cvu">
+                            <alert>Apply (Application/Problem-Solving):</alert> Solve real-world problems involving cone volumes, such as ice cream cones, funnels, and conical tents.
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </p>
+        </introduction>
+    </objectives>
+        <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p xml:id="auto_2cs8sig7">
+                    <dataurl source="lesson_plans/measurements-and-geometry/volume/volume-of-cones.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p xml:id="auto_t97owroq">
+                    <dataurl source="lesson_plans/measurements-and-geometry/volume/step-by-step-guide_volume-of-cones.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <xi:include href="../../resources-materials.ptx" />
+
+    <axiom component="lesson-plan">
+        <title>Problem-Solving and Discovery</title>
+        <p xml:id="auto_pwal1t2i">
+            <alert>Expected Time:</alert> 15 minutes
+        </p>
+        <p xml:id="auto_oi9z1xkh">
+            <alert>Grouping:</alert> Organise learners into small groups. Distribute paper/cardboard, scissors, glue/tape, rulers, a cylindrical cup, and empty ice cream cones.
+        </p>
+        <p xml:id="auto_4xiw8ob2">
+            <alert>Method 1 — Paper Cone Construction (5 min):</alert> Guide learners to cut a circle, remove a sector, and roll the remainder into a cone. Ask them to measure the radius and height.
+        </p>
+        <p xml:id="auto_7gytgid3">
+            <alert>Method 2 — Water Pouring Activity (8 min):</alert> Using an ice cream cone and a cylindrical cup with the same height and base, have learners fill the cone with water and pour it into the cylinder repeatedly.
+        </p>
+        <p xml:id="auto_ro9qda2k">
+            <alert>Teacher Facilitation Questions:</alert>
+        </p>
+        <p xml:id="auto_nk2cbidz">
+            <ul>
+                <li xml:id="auto_39r3z4m9">
+                    <p xml:id="auto_g9hqsqc6"><q>How many cones of water fill the cylinder?</q> (Expected: 3)</p>
+                </li>
+                <li xml:id="auto_yna468u4">
+                    <p xml:id="auto_kbk3il0b"><q>So what fraction of the cylinder’s volume is one cone?</q> (Expected: one-third)</p>
+                </li>
+                <li xml:id="auto_j1vdtcwe">
+                    <p xml:id="auto_y8elj88j"><q>Why does the formula include one-third?</q></p>
+                </li>
+                <li xml:id="auto_sqo2ggbf">
+                    <p xml:id="auto_33g58xlc"><q>How is a cone related to a cylinder?</q></p>
+                </li>
+            </ul>
+        </p>
+        <p xml:id="auto_j8fygdtt">
+            <alert>Expected Discovery:</alert> Learners should articulate that <m>V_{\text{cone}} = \frac{1}{3} V_{\text{cylinder}} = \frac{1}{3} \pi r^2 h</m>.
+        </p>
+        <p xml:id="auto_a9rnu535">
+            <alert>Support for Struggling Groups:</alert> Say <q>Let us count together. How many cones have we poured so far?</q>
+        </p>
+        <p xml:id="auto_yhax4ldd">
+            <alert>Early Finishers:</alert> Ask <q>How would the volume change if the radius doubled? If the height doubled?</q>
+        </p>
+    </axiom>
+
+
+        <activity xml:id="auto_a95agfsb">
+            <statement>
+                <p xml:id="auto_qhdo6ra3">
+                  Constructing a cone.  
+                </p>
+                <p xml:id="auto_l0e1icft">
+                    <ol xml:id="auto_2zai2cvb">
+                        <li xml:id="auto_mdyln8ro">
+                            <p xml:id="auto_ipv0aen6">
+                                Materials Needed 
+                            </p>
+                            <p xml:id="auto_t3giock5">
+                                 Sheets of paper or cardboard
+                            </p><p xml:id="auto_imkerqsu">
+                                 Scissors, glue/tape, and rulers
+                            </p>
+                            <p xml:id="auto_cqh4k4ja">
+                                A cylinder (e.g., cup or bottle) for comparison
+                            </p>
+                            <p xml:id="auto_pbq7ngmy">
+                                <ul xml:id="auto_lhzbczct">
+                                    <li xml:id="auto_ozzr3c2x">
+                                        <p xml:id="auto_1mjuvl0s">
+                                             "How can we turn this into a cone?"
+                                        </p>
+                                        <p xml:id="auto_3ejbo89j">
+                                            Take a piece of paper and <m>\textbf{cut a circle}</m> any radius.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_00thvuz7">
+                                        <p xml:id="auto_ouoqtee0">
+                                            <m>\textbf{Cut out a sector and roll}</m> the remaining part into a cone shape.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_9dxfutar">
+                                        <p xml:id="auto_eqifj6uy">
+                                           Measure the radius and height of their cones. 
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_nu4691a4">
+                                        <p xml:id="auto_hmtgxnun">
+                                           Calculate the volume using the formula .
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                            <p xml:id="auto_lint5z3n">
+                                <ul xml:id="auto_fw7xomiw" marker="square">
+                                    <li xml:id="auto_bbimrwkd">
+                                        <p xml:id="auto_cw5kjvk1">
+                                            Equally, we can try this activity using; Empty Ice cream cones,  A cylindrical cup of the <m>\textbf{same height}</m> and <m>\textbf{base}</m> as the cone and water.
+                                        </p>
+                                        <p xml:id="auto_axvcyb97">
+                                            <alert>Steps:</alert> 
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_298rti3w">
+                                        <p xml:id="auto_iuvalpgm">
+                                            Fill the cone with water and pour it into the cylinder severally until the cylinder is full.
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_euxde5yg">
+                                        <p xml:id="auto_f50cy9wi">
+                                            How many cones of rice will fill the cylinder?
+                                        </p>
+                                    </li>
+                                    <li xml:id="auto_6lxba2f9">
+                                        <p xml:id="auto_2eefnw36">
+                                           <m>\textbf{Notice that it takes exactly 3 full cones to fill the cylinder}</m>.
+                                        </p>
+                                        <p xml:id="auto_wu79rq83">
+                                            This is why the formula includes <m>\frac{\textbf{1}}{\textbf{3}} </m>!
+                                        </p>
+                                        <p xml:id="auto_lhw28q7y">
+                                             <alert>Mathematical Insight</alert></p>
+                                           <p xml:id="auto_2lzyh6e3">
+                                            ✔ This shows the formula:
+                                           </p> <p xml:id="auto_am9947pr"><me> V_\text{cone} = \frac{1}{3} V_\text{cylinder} = \frac{1}{3} \pi r^2h</me>
+                                        </p>
+                                        <p xml:id="auto_4wi3krys">✔ The cone is one-third of the volume of a cylinder with the same base and height.
+                                            
+                                        </p>
+                                    </li>
+                
+                                </ul>
+                            </p>
+                        </li>  
+                    </ol>
+                </p>
+            </statement>
+        </activity>  
+ <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <p xml:id="auto_hu0y9uh1">
+            <alert>Expected Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_0nvaxi7v">
+            <alert>Transition:</alert> After groups share their findings, formalise the discovery: <q>You discovered that three cones fill one cylinder. That is why the cone volume formula is one-third of the cylinder formula.</q>
+        </p>
+        <p xml:id="auto_izg52vjf">
+            <alert>Key Teaching Points:</alert>
+        </p>
+        <p xml:id="auto_lxlk1rof">
+            <ul>
+                <li xml:id="auto_ig894o4h">
+                    <p xml:id="auto_6nd0xb1a">Clearly distinguish between height (perpendicular from base to apex) and slant height (along the curved surface). Use a diagram to show both.</p>
+                </li>
+                <li xml:id="auto_kdqmiag7">
+                    <p xml:id="auto_tarfl31p">Emphasise the two-step process: (1) Find the base area <m>\pi r^2</m>, (2) Multiply by height and divide by 3.</p>
+                </li>
+                <li xml:id="auto_6xwi6quk">
+                    <p xml:id="auto_w8a1rb3h">Remind learners that the formula uses the radius, not the diameter. If given the diameter, divide by 2 first.</p>
+                </li>
+                <li xml:id="auto_kjhvo2do">
+                    <p xml:id="auto_dz36s2cj">Use <m>\pi \approx 3.14</m> or <m>\frac{22}{7}</m> as appropriate. When the radius is a multiple of 7, <m>\frac{22}{7}</m> simplifies the calculation.</p>
+                </li>
+            </ul>
+        </p>
+    </axiom>
+        <insight xml:id="auto_wu4yxy6k">
+            <p xml:id="auto_jsy7q4gt">
+                <term>What is a Cone?</term> A cone is a three-dimensional solid with a circular base and a curved surface that tapers to a point called the apex or vertex.
+            </p>
+            <p xml:id="auto_4mg9rag2">
+                <term>Formula:</term>
+            </p>
+            <p xml:id="auto_wy0e41jl">
+                Volume of a Cone <m>= \frac{1}{3} \times r^2 \times h</m>
+            </p>
+            <p xml:id="auto_kvy6x4be">
+                Where:
+            </p>
+            <p xml:id="auto_1fo78l0a">
+                <ol marker="(i)">
+                    <li xml:id="auto_u6ty8tgv">
+                        <p xml:id="auto_85ohtvai">
+                            <m>r</m> is the radius of the circular base
+                        </p>
+                    </li>
+                    <li xml:id="auto_sl529uwd">
+                        <p xml:id="auto_jt6zvlbc">
+                           <m> h</m> is the height of the cone (perpendicular distance from base to apex)
+                        </p>
+                    </li>
+                    <li xml:id="auto_iqdrwivq">
+                        <p xml:id="auto_08sqhejv">
+                            <m>\pi \approx 3.14 \text{or} \frac{22}{7} </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p xml:id="auto_j8df6a4y">
+                <term>Why <m>\frac{1}{3}</m></term>
+            </p>
+            <p xml:id="auto_59qpvx4c">
+                Three cones with the same base and height fit exactly inside a cylinder with the same base and height. Therefore, the volume of a cone is one-third the volume of a cylinder.
+            </p>
+            <p xml:id="auto_xfpedjv9">
+                <term>Relationship to Cylinder:</term>
+            </p>
+            <p xml:id="auto_lcdsdoyf">
+                <ol marker="(i)">
+                    <li xml:id="auto_opn173bp">
+                        <p xml:id="auto_kbtubos0">
+                            <m>V</m> cylinder <m>= \frac{1}{3} \times V</m> cylinder
+                        </p>
+                    </li>
+                    <li xml:id="auto_mgqokjlv">
+                        <p xml:id="auto_zeg1mbaj">
+                            <m>V</m> cylinder <m>= \pi \times r^2 \times h</m>
+                        </p>
+                    </li>
+                    <li xml:id="auto_gobaxbe0">
+                        <p xml:id="auto_ka1zbp9b">
+                            Therefore, <m>V</m> cone <m>= \frac{1}{3} \times \pi \times r^2 \times h</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p xml:id="auto_t362yy8o">
+                <term>Scaffolding Strategies to Address Misconceptions:</term>
+            </p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Misconception</cell>
+                    <cell>Clarification</cell>
+                </row>
+                <row>
+                    <cell>A cone is the same as a cylinder</cell>
+                    <cell> No, a cone has a circular base and tapers to a point, while a cylinder has two parallel circular bases</cell>
+                </row>
+                <row>
+                    <cell>The volume formula is <m>\pi \times r^2 \times h</m></cell>
+                    <cell>No, you must multiply by <m>\frac{1}{3}</m></cell>. The formula is <m>\frac{1}{3} \times \pi \times r^2 \times h</m>
+                </row>
+                <row>
+                    <cell>The height is the slant height</cell>
+                    <cell>No, the height is the perpendicular distance from the base to the apex, not the slant height along the curved surface</cell>
+                </row>
+                <row>
+                    <cell>I can use the diameter instead of the radius</cell>
+                    <cell>No, the formula uses the radius. If you have the diameter, divide by 2 to get the radius</cell>
+                </row>
+            </tabular>
+        </insight> 
+
+    <!-- <axiom component="lesson-plan">
+        <title>Structured Instruction</title>
+        <p xml:id="auto_fl2adtwj">
+            <alert>Expected Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_2w751hxq">
+            <alert>Transition:</alert> After groups share their findings, formalise the discovery: <q>You discovered that three cones fill one cylinder. That is why the cone volume formula is one-third of the cylinder formula.</q>
+        </p>
+        <p xml:id="auto_4kmfjhzn">
+            <alert>Key Teaching Points:</alert>
+        </p>
+        <p xml:id="auto_pl5o9quj">
+            <ul>
+                <li xml:id="auto_sxexauga">
+                    <p xml:id="auto_do7k9cxg">Clearly distinguish between height (perpendicular from base to apex) and slant height (along the curved surface). Use a diagram to show both.</p>
+                </li>
+                <li xml:id="auto_q4hduurf">
+                    <p xml:id="auto_dbxzl3pg">Emphasise the two-step process: (1) Find the base area <m>\pi r^2</m>, (2) Multiply by height and divide by 3.</p>
+                </li>
+                <li xml:id="auto_dywpv74i">
+                    <p xml:id="auto_tesyzt79">Remind learners that the formula uses the radius, not the diameter. If given the diameter, divide by 2 first.</p>
+                </li>
+                <li xml:id="auto_g0njpfnf">
+                    <p xml:id="auto_o2kaj07j">Use <m>\pi \approx 3.14</m> or <m>\frac{22}{7}</m> as appropriate. When the radius is a multiple of 7, <m>\frac{22}{7}</m> simplifies the calculation.</p>
+                </li>
+            </ul>
+        </p>
+    </axiom> -->
+
+    <axiom component="lesson-plan">
+        <title>Practice and Application</title>
+        <p xml:id="auto_khka4ddt">
+            <alert>Expected Time:</alert> 10 minutes
+        </p>
+        <p xml:id="auto_avpnfz4p">
+            <alert>Teacher Guidance:</alert> Work through examples using the two-step approach. Encourage learners to write the base area calculation and volume calculation as separate steps.
+        </p>
+        <p xml:id="auto_7nmy5y3e">
+            <alert>Monitoring:</alert> Circulate during practice. Watch for learners who:
+        </p>
+        <p xml:id="auto_6o4zvet4">
+            <ul>
+                <li xml:id="auto_w9p362q2">
+                    <p xml:id="auto_treyuzum">Forget to multiply by <m>\frac{1}{3}</m> (using the cylinder formula instead).</p>
+                </li>
+                <li xml:id="auto_rdbtsh6r">
+                    <p xml:id="auto_uz0kune0">Confuse the height of the cone with the slant height.</p>
+                </li>
+                <li xml:id="auto_hvih6h2y">
+                    <p xml:id="auto_g5kxrb28">Use the diameter instead of the radius in the formula.</p>
+                </li>
+                <li xml:id="auto_7ut8zp9h">
+                    <p xml:id="auto_kpoanlhx">Forget to square the radius (writing <m>\pi r h</m> instead of <m>\pi r^2 h</m>).</p>
+                </li>
+            </ul>
+        </p>
+    </axiom>
+
+        <example xml:id="auto_bsjt0be2">
+            <statement>
+               <sidebyside>
+                 <p xml:id="auto_2bafcvfj">
+                    Find the volume of the following cone (correct to 1 decimal place):
+                </p>
+                <image width="30%">
+               <latex-image label="cone-volume">
+                \begin{tikzpicture}
+                     % Draw the entire cone with one uniform color
+                    \fill[blue!40] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                    \fill[blue!40] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                    
+                    % Draw the base ellipse
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                    \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                    
+                    % Draw the cone's sides
+                    \draw[thick] (-2,0) -- (0,4);
+                    \draw[thick] (2,0) -- (0,4);
+                    
+                    % Draw the height
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[left] at (0.4,2) {28cm};
+                    
+                    % Draw the radius
+                    \draw[dashed] (0,0) -- (2,0);
+                    \node[below] at (1,0) {14 cm};
+                \end{tikzpicture}
+               </latex-image>
+               </image>
+               </sidebyside> 
+            </statement>
+            <solution>
+                <p xml:id="auto_bix4o1qn">
+                   Step 1: Find the area of the base .
+                   <md>
+                    <mrow>\text{Area of a Circle} = \amp \pi r^2 </mrow>
+                    <mrow> = \amp \frac{22}{7} \times 14\, \text{cm} \times 14 \, \text{cm} </mrow>
+                    <mrow> = \amp 616{cm}^2 </mrow>
+                   </md>
+                </p>
+                <p xml:id="auto_nu6bi9x4">
+                    Step 2: Calculate the volume
+                    <md>
+                        <mrow>\text{V} =\amp \frac{1}{3} \times \pi r^2\times H </mrow>
+                        <mrow> = \amp 616\, \text{cm}^2 \times 28\,  \text{cm} </mrow>
+                        <mrow>  = 17, 248\, \text{cm}^3 \amp </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example> 
+
+        <example xml:id="auto_qm5yq3r3">
+            <statement>
+                <p xml:id="auto_o3f1pye7">
+                    The slant height of a cone is <m>13</m> cm and the radius of its base is <m>5</m> cm.
+                </p>
+                <p xml:id="auto_a4rdya93">
+                    Find:
+                </p>
+                <p xml:id="auto_9yi6y1ia">
+                    <ol marker="(a)">
+                        <li xml:id="auto_9zlfcrz9">
+                            <p xml:id="auto_7wfuyztd">
+                                The vertical height of the cone.
+                            </p>
+                        </li>
+                        <li xml:id="auto_0jstavn7">
+                            <p xml:id="auto_b31ykpvc">
+                                The volume of the cone (Give your answer in terms of <m>\pi</m> and then correct to two decimal places).
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p xml:id="auto_mlr63m31">
+                    <ol marker="(a)">
+                        <li xml:id="auto_dxeieg2x">
+                            <p xml:id="auto_oknozi8f">
+                                In a cone, the radius, height and slant height form a right-angled triangle.
+                            </p>
+                            <p xml:id="auto_46zwosfw">
+                                <m>l^2 = r^2 + h^2</m>
+                            </p>
+                            <p xml:id="auto_zvjwepzm">
+                                Substitute <m>l = 13</m> and <m>r = 5</m>
+                            </p>
+                            <p xml:id="auto_uqr3tm7d">
+                               <m>13^2 = 5^2 + h^2</m> 
+                            </p>
+                            <p xml:id="auto_f1kyp4qd">
+                                <m>169 = 25 + h^2</m>
+                            </p>
+                            <p xml:id="auto_sa3kpyp9">
+                                <m> h^2 = 144</m>
+                            </p>
+                            <p xml:id="auto_vvrtsqlc">
+                                <m>h = 12 \;\text{ cm}</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_iorzqqiq">
+                            <p xml:id="auto_arbcqup5">
+                                Use the volume formula
+                            </p>
+                            <p xml:id="auto_6x270xwc">
+                                <md>
+                                    <mrow> V =\amp \frac{1}{3}\pi r^2 h</mrow>
+                                    <mrow> = \amp \frac{1}{3}\pi (5)^2 (12)</mrow>
+                                    <mrow> = \amp \frac{1}{3}\pi (25)(12)</mrow>
+                                    <mrow> = \amp \frac{1}{3}\pi (300)</mrow>
+                                    <mrow> V = \amp 100\pi</mrow>
+                                </md>
+                            </p>
+                            <p xml:id="auto_hz0g22qq">
+                                Therefore, <m>V = 100\pi \;\text{ cm}^3</m>
+                            </p>
+                            <p xml:id="auto_47qqiq95">
+                                Using <m>\pi \approx 3.142</m>
+                            </p>
+                            <p xml:id="auto_x2892hi0">
+                                <m>V \approx 314.16 \;\text{ cm}^3</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+    <axiom component="lesson-plan">
+        <title>Assessment – Exit Ticket</title>
+        <p xml:id="auto_zn9luspf">
+            <alert>Expected Time:</alert> 5 minutes
+        </p>
+        <p xml:id="auto_v928fnwf">
+            Learners complete individually to demonstrate understanding.
+        </p>
+    </axiom>
+
+    <xi:include href="../../resources-checkpoint.ptx" />
+
+    <exercise xml:id="ex-identifying-and-determining-the-dimensions-of-a-cone">
+    <stack label="stk-identifying-and-determining-the-dimensions-of-a-cone" source="stack/top/2-0-Measurement-Geometry/2-7-Surface-Area-and-Volume-of-Solids/2-7-15-Volume-of-a-Cone/Identifying-and-Determining-the-Dimensions-of-a-Cone.xml"/>
+    </exercise>
+    <exercise xml:id="ex-identifying-the-volume-of-a-cone">
+        <stack label="stk-identifying-the-volume-of-a-cone" source="stack/top/2-0-Measurement-Geometry/2-7-Surface-Area-and-Volume-of-Solids/2-7-15-Volume-of-a-Cone/Identifying-the-volume-of-a-cone.xml"/>
+    </exercise>
+
+    <exercises>
+        <exercise>
+            <statement>
+                <p>
+                    A cone has a radius of 12 cm and a height of 18 cm. Calculate the volume of the cone.
+                </p>
+                <image width="30%">
+               <latex-image label="cone-volume-exercise-two">
+                \begin{tikzpicture}
+                     % Draw the entire cone with one uniform color
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                    \draw[thick] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                    
+                    % Draw the base ellipse
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                    \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                    
+                    % Draw the cone's sides
+                    \draw[thick] (-2,0) -- (0,4);
+                    \draw[thick] (2,0) -- (0,4);
+                    
+                    % Draw the height
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[left] at (0.3,2) {18cm};
+                    
+                    % Draw the radius
+                    \draw[dashed] (0,0) -- (2,0);
+                    \node[below] at (1,0) {12 cm};
+                \end{tikzpicture}
+               </latex-image>
+               </image>
+            </statement>
+            <answer>
+                <p>
+                    <m>2714.34 \;\text{cm}^3</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    An ice cream cone has a radius of 3 cm and a height of 8 cm. Estimate how much ice cream it can hold?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>75.4 \;\text{cm}^3</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Two cones have the same height of 84 cm but different radii. The first cone has a radius of 14 cm, and the second cone has a radius of 42 cm. Calculate and compare the volumes of the two cones. Which one has a larger volume?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>V_1 = 17241.06 \;\text{cm}^3</m>
+                </p>
+                <p>
+                    <m>V_2 = 155169.55 \;\text{cm}^3</m>
+                </p>
+                <p>
+                    The second cone has the larger volume.
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    A cone-shaped funnel has a radius of 9 cm and a height of 18 cm.How much water can the funnel hold? (Leave your answer in cubic meters.)
+                </p>
+                <image width="30%">
+               <latex-image label="cone-volume-exercise-one">
+                \begin{tikzpicture}
+                     % Draw the entire cone with one uniform color
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                    \draw[thick] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                    
+                    % Draw the base ellipse
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                    \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                    
+                    % Draw the cone's sides
+                    \draw[thick] (-2,0) -- (0,4);
+                    \draw[thick] (2,0) -- (0,4);
+                    
+                    % Draw the height
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[left] at (0.4,2) {18cm};
+                    
+                    % Draw the radius
+                    \draw[dashed] (0,0) -- (2,0);
+                    \node[below] at (1,0) {9 cm};
+                \end{tikzpicture}
+               </latex-image>
+               </image>
+            </statement>
+            <answer>
+                <p>
+                    <m>1.53 \times 10^{-3}\;\text{m}^3</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                   A cone has an outer radius of 7 cm and an inner radius of 5 cm. The height of the cone is 12 cm.Calculate the volume of the hollow cone. 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>301.59 \;\text{cm}^3</m>
+                </p>
+            </answer>
+        </exercise>
+    </exercises>
+
+
+    <axiom component="lesson-plan">
+        <title>Differentiation</title>
+        <p xml:id="auto_dvi1l2a4">
+            <alert>Struggling Learners:</alert>
+        </p>
+        <p xml:id="auto_lvke3947">
+            <ul>
+                <li xml:id="auto_073hm8t4">
+                    <p xml:id="auto_9qbt124j">Provide pre-made cone models with labelled dimensions.</p>
+                </li>
+                <li xml:id="auto_tsk7kbg6">
+                    <p xml:id="auto_ehcfb1vt">Use cones with simple whole-number dimensions for initial practice.</p>
+                </li>
+                <li xml:id="auto_1hgi67nu">
+                    <p xml:id="auto_35yaty7z">Pair struggling learners with confident problem solvers.</p>
+                </li>
+                <li xml:id="auto_88ed2u2j">
+                    <p xml:id="auto_oz7isnry">Break down the formula into steps: (1) Find base area <m>\pi r^2</m>, (2) Multiply by height, (3) Divide by 3.</p>
+                </li>
+                <li xml:id="auto_dr3knijc">
+                    <p xml:id="auto_ix442vzd">Provide a step-by-step calculation template.</p>
+                </li>
+            </ul>
+        </p>
+        <p xml:id="auto_347h6cua">
+            <alert>On-Level Learners:</alert>
+        </p>
+        <p xml:id="auto_aiijkt10">
+            <ul>
+                <li xml:id="auto_bqcwfrf3">
+                    <p xml:id="auto_mb30ntdz">Verify the formula with the water pouring activity.</p>
+                </li>
+                <li xml:id="auto_bcykpo4v">
+                    <p xml:id="auto_fgafo1kg">Explain the relationship between cones and cylinders to a peer.</p>
+                </li>
+                <li xml:id="auto_kx59ouio">
+                    <p xml:id="auto_ke7anuru">Provide mixed practice with different dimensions, including problems where diameter is given instead of radius.</p>
+                </li>
+            </ul>
+        </p>
+        <p xml:id="auto_fg365xjg">
+            <alert>Advanced Learners:</alert>
+        </p>
+        <p xml:id="auto_cjg8xrnl">
+            <ul>
+                <li xml:id="auto_m25w7oq9">
+                    <p xml:id="auto_mb9ek178">Derive the formula using the relationship with cylinders.</p>
+                </li>
+                <li xml:id="auto_cv38o5hx">
+                    <p xml:id="auto_7eqpsedx">Explore real-world applications: ice cream cones, funnels, traffic cones, conical tents.</p>
+                </li>
+                <li xml:id="auto_zx5v8nem">
+                    <p xml:id="auto_mcrkhbow">Apply the concept to hollow cones (outer radius minus inner radius).</p>
+                </li>
+                <li xml:id="auto_92c4h1ov">
+                    <p xml:id="auto_selhooig">Solve optimisation problems: Given a fixed volume, what dimensions minimise the surface area?</p>
+                </li>
+            </ul>
+        </p>
+        <p xml:id="auto_dbaoznvb">
+            <alert>Extension Activity — Cone-Shaped Funnel Investigation:</alert>
+        </p>
+        <p xml:id="auto_8xuzh5q9">
+            Work in groups.
+        </p>
+        <p xml:id="auto_igbxooxz">
+            <ol markers="1.">
+                <li xml:id="auto_b0pj7kuf">
+                    <p xml:id="auto_cb0c35zt">Choose a real-world purpose for a cone-shaped funnel (e.g., pouring water, transferring grain, filtering liquids).</p>
+                </li>
+                <li xml:id="auto_5n4pwek2">
+                    <p xml:id="auto_ff25sb25">Decide on the dimensions: radius and height.</p>
+                </li>
+                <li xml:id="auto_81108533">
+                    <p xml:id="auto_a0x9irob">Calculate the volume of your funnel using the cone formula.</p>
+                </li>
+                <li xml:id="auto_cpcrsu6x">
+                    <p xml:id="auto_ldfbvq32">If the funnel needs to hold <m>500 \; \text{cm}^3</m> of liquid, what dimensions would work?</p>
+                </li>
+                <li xml:id="auto_iqsatp52">
+                    <p xml:id="auto_a63wvufm">Compare different funnel designs: tall and narrow vs. short and wide.</p>
+                </li>
+                <li xml:id="auto_7dlwih0t">
+                    <p xml:id="auto_kapc4mz3">Present your findings with diagrams, measurements, and calculations.</p>
+                </li>
+            </ol>
+        </p>
+    </axiom>
+
+    <xi:include href="../../resources-assessment.ptx" />
+    <xi:include href="../../resources-reflection.ptx"/>
+
+</subsection>

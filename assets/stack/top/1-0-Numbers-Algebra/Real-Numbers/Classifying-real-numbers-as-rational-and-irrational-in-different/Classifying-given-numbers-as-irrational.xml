@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Classifying given numbers as irrational</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Select the <strong>three </strong> irrational numbers from the list below.</p>
+<p>[[input:ans1]][[validation:ans1]] [[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Worked Solution</strong></p>
+<p>An <strong>irrational number</strong> is a number that cannot be written in the form \(\displaystyle \frac{p}{q} \), where \( p \) and \( q \) are integers and \( q \neq 0 \).</p>
+<p>To decide whether a number is rational or irrational, use the following rules:</p>
+<ul>
+<li><strong>Square roots:</strong> If the number inside the square root is a <em>perfect square</em>, the result is rational. If it is <em>not</em> a perfect square, the result is irrational.</li>
+<li><strong>Special numbers:</strong> The numbers \( \pi \) and \( e \) are irrational.</li>
+<li><strong>Decimals:</strong>
+<ul>
+<li>Decimals that <em>terminate</em> or <em>repeat</em> are rational.</li>
+<li>Decimals that <em>do not terminate and do not repeat</em> are irrational.</li>
+</ul>
+</li>
+</ul>
+<p>Applying these rules to the given list, the irrational numbers are:</p>
+<p>\[\displaystyle {@correct_answers[1][3]@},\; {@correct_answers[2][3]@},\; {@correct_answers[3][3]@} \]</p>
+<p><em>If you selected any other numbers, check which rule above applies to them and revise your choice.</em></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text>/* Pool of irrational expressions (true) */
+irrationals_all: [
+    pi, sqrt(2), sqrt(3), sqrt(5), 2*sqrt(2),
+    pi - 3, sqrt(8), 3*sqrt(7),
+    sqrt(10), e, sqrt(11), pi/2, sqrt(13),
+    sqrt(17), sqrt(19), sqrt(23), sqrt(29)
+];
+
+/* Pool of rational expressions (false) */
+rationals_all: [
+    -4, 7/3, 0.25, 3/10, sqrt(25), sqrt(49),
+    12/5, 0.12121212, -9, 4/7, 0, -13, 1.5,
+    2/3, sqrt(36), sqrt(100), 0.33333333,
+    -2.5, 0.75, sqrt(64), 0.6
+];
+
+/* Select correct answers (irrational numbers) */
+num_correct: 3;
+correct_answers: rand_selection([
+    [1, true, irrationals_all[1]],
+    [2, true, irrationals_all[2]],
+    [3, true, irrationals_all[3]],
+    [4, true, irrationals_all[4]],
+    [5, true, irrationals_all[5]],
+    [6, true, irrationals_all[6]],
+    [7, true, irrationals_all[7]],
+    [8, true, irrationals_all[8]],
+    [9, true, irrationals_all[9]],
+    [10, true, irrationals_all[10]]
+], num_correct);
+
+/* Select incorrect answers (rational numbers) */
+num_incorrect: 3;
+incorrect_answers: rand_selection([
+    [11, false, rationals_all[1]],
+    [12, false, rationals_all[2]],
+    [13, false, rationals_all[3]],
+    [14, false, rationals_all[4]],
+    [15, false, rationals_all[5]],
+    [16, false, rationals_all[6]],
+    [17, false, rationals_all[7]],
+    [18, false, rationals_all[8]],
+    [19, false, rationals_all[9]],
+    [20, false, rationals_all[10]]
+], num_incorrect);
+
+/* Combine and randomize */
+ta: random_permutation(append(correct_answers, incorrect_answers));
+ta_largest: length(ta);
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>{@irrationals_all@}</p>
+<p>{@rationals_all@}</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<p><i class="fa fa-check"></i> Correct answer, well done.</p>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<p><i class="fa fa-adjust"></i> Your answer is partially correct.</p>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<p><i class="fa fa-times"></i> Incorrect answer.</p>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>checkbox</type>
+      <tans>ta</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>0</mustverify>
+      <showvalidation>0</showvalidation>
+      <options>nonotanswered</options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>Checks for correct classification of rational and irrational numbers</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>mcq_correct(ta)</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You selected all the irrational numbers.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description/>
+        <answertest>SubstEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>mcq_correct(ta)</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0.5</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You selected at least one <strong>rational</strong> number.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>1692903785</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>mcq_correct(ta)</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

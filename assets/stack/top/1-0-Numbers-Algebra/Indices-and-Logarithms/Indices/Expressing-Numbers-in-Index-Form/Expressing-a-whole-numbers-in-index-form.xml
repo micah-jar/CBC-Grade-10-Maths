@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Expressing a whole number in index form</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>Write the number \({@number@}\) in index form with a prime base.</p>
+<p><b>Note:</b> Your answer should be written as \(a^b\), where \(a\) is <b>prime</b>.</p>
+
+<p>[[input:ans1]] [[validation:ans1]] [[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<h3>Worked Solution</h3>
+
+<p>The number given is \({@number@}\).</p>
+
+<p>We check if it can be written as repeated multiplication of the same base.</p>
+
+<p>\({@number@} = {@expanded@}\)</p>
+
+<p>Therefore, the index form is \({@base@}^{@exp@}\).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text><![CDATA[/* Random base and exponent (use explicit lists for rand) 
+   Only prime base to avoid issues with multiple answers */
+
+simp: false;
+
+base: rand([2,3,5,7,11]); 
+exp: if base <= 3 then rand([2,3,4,5]) else rand([2,3]);
+
+/* Compute the actual number */
+ta: base^exp;
+number: ev(base^exp, simp);
+
+/* Common mistakes for targeted PRT feedback */
+m1: base * exp;      /* multiplying base and exponent instead of exponentiation */
+m2: exp ^ base;      /* reversing exponent and base */
+m3: base + exp;      /* adding them */
+
+/* String for general feedback */
+expanded:
+  if exp = 2 then sconcat(base, "\\times ", base)
+  elseif exp = 3 then sconcat(base, "\\times ", base, "\\times ", base)
+  elseif exp = 4 then sconcat(base, "\\times ", base, "\\times ", base, "\\times ", base)
+  else sconcat(base, "\\times ", base, "\\times ", base, "\\times ", base, "\\times ", base);
+]]></text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>Base: {@base@}</p>
+<p>Exponent: {@exp@}</p>
+<p>Number: {@number@}</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text><![CDATA[<p id="author">Michael Onyimbo</p>
+<p id="concept"></p>
+<p id="reviewer"></p>
+<p id="reviewer"></p>
+
+<p id="description"> The question requires the learner to express a whole number in index form by identifying the number as repeated multiplication of the same base.</p>]]></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>base^exp</tans>
+      <boxsize>6</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>2</name>
+        <description>Equivalent answer</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>ta</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>-</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>3</truenextnode>
+        <trueanswernote>prt1-3-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>4</falsenextnode>
+        <falseanswernote>prt1-3-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>3</name>
+        <description>Correct base</description>
+        <answertest>EqualComAss</answertest>
+        <sans>ans1</sans>
+        <tans>ta</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-4-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-4-F</falseanswernote>
+        <falsefeedback format="html">
+          <text>Make sure you have a prime base, and write using index form</text>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>4</name>
+        <description>exp^base wrong order</description>
+        <answertest>EqualComAss</answertest>
+        <sans>ans1</sans>
+        <tans>m2</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>-</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-5-T</trueanswernote>
+        <truefeedback format="html">
+          <text>Make sure you have your base and exponent the correct way around.</text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-5-F</falseanswernote>
+        <falsefeedback format="html">
+          <text>Double check your multiplication. Is your answer equal to \({@number@}\)?</text>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>999203772</deployedseed>
+    <deployedseed>673145437</deployedseed>
+    <deployedseed>1949198771</deployedseed>
+    <deployedseed>543707073</deployedseed>
+    <deployedseed>1172151716</deployedseed>
+    <deployedseed>724349852</deployedseed>
+    <deployedseed>1630695095</deployedseed>
+    <deployedseed>167129101</deployedseed>
+    <deployedseed>1250707297</deployedseed>
+    <deployedseed>1259564611</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>base^exp</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>
