@@ -5,92 +5,92 @@
       <text>Finding area of heptagon given side length and apothem</text>
     </name>
     <questiontext format="moodle_auto_format">
-      <text><![CDATA[<p>A school garden is in the shape of a regular heptagon. The side length is <b>{#s#} m</b> and the apothem (the distance from the center to the midpoint of a side) is <b>{#a#} m</b>.</p>
+      <text><![CDATA[<p>A school garden is in the shape of a regular heptagon. The side length is <b>{@s@} m</b> and the apothem (the distance from the center to the midpoint of a side) is <b>{@a@} m</b>.</p>
 
-[[jsxgraph width="400px" height="400px"]]
-var board = JXG.JSXGraph.initBoard(divid, {
-    boundingbox: [-8, 8, 8, -8],
-    axis: false,
-    showNavigation: false,
-    showCopyright: false
-});
+[[jsxgraph width="500px" height="300px"]]
+    var s_val = {#s#};
+    var a_val = {#a#};
+    var n = 7;
+    
+    var angle = Math.PI / n;
+    
+    // Calculate true geometric radius to maintain perfect shape
+    var R = a_val / Math.cos(angle); 
+    
+    // Proportional scaling
+    var ratio = 500 / 300;
+    var spanY = R * 2.5;
+    var spanX = spanY * ratio;
+    
+    var board = JXG.JSXGraph.initBoard(BOARDID, {
+        boundingbox: [-spanX/2, spanY/2, spanX/2, -spanY/2], 
+        maxboundingbox: [-spanX*1.5, spanY*1.5, spanX*1.5, -spanY*1.5],
+        axis: false, 
+        showCopyright: false,
+        keepAspectRatio: true,
+        showNavigation: false 
+    });
 
-var n = 7;
-var R = 5;
-
-/* Create Vertices */
-var points = [];
-for (var i = 0; i < n; i++) {
-    var angle = (2 * Math.PI * i / n) + (Math.PI / 2); 
-    points.push(board.create('point', [R * Math.cos(angle), R * Math.sin(angle)], {visible: false}));
-}
-
-/* Create Polygon */
-board.create('polygon', points, {
-    withLines: true,
-    fillColor: '#dfefff',
-    borders: {strokeWidth: 2, strokeColor: '#0072b2'}
-});
-
-var O = board.create('point', [0, 0], {visible: false});
-
-/* 1. Apothem Label (Aligned to the dashed line) */
-var M_apo = board.create('midpoint', [points[0], points[1]], {visible: false});
-board.create('segment', [O, M_apo], {dash: 2, strokeWidth: 2, strokeColor: '#0072b2'});
-
-board.create('text', [
-    (O.X() + M_apo.X()) / 2, 
-    (O.Y() + M_apo.Y()) / 2 + 0.3, 
-    "{#a#} m"
-], {
-    fontSize: 14,
-    anchorX: 'middle',
-    rotate: function() {
-        var ang = Math.atan2(M_apo.Y() - O.Y(), M_apo.X() - O.X()) * 180 / Math.PI;
-        return (ang > 90 || ang < -90) ? ang + 180 : ang;
+    // Vertices - starting rotation to ensure a flat base at the bottom
+    var points = [];
+    for (var i = 0; i < n; i++) {
+        var theta = -Math.PI/2 - Math.PI/n + (2 * Math.PI * i / n); 
+        points.push(board.create('point', [R * Math.cos(theta), R * Math.sin(theta)], {visible: false}));
     }
-});
 
-/* 2. Side Length Label (Aligned to the boundary) */
-var p1 = points[1];
-var p2 = points[2];
-var M_side = board.create('midpoint', [p1, p2], {visible: false});
+    board.create('polygon', points, {
+        fillColor: '#e3f2fd', 
+        strokeColor: '#1565c0', 
+        strokeWidth: 2
+    });
+    
+    var center = board.create('point', [0, 0], {name: '', visible: false});
+    
+    // Connect center to bottom flat side
+    var pA = points[0];
+    var pB = points[1];
+    var mid = board.create('midpoint', [pA, pB], {visible: false});
+    
+    // Central triangle lines
+    board.create('segment', [center, pA], {strokeColor: '#90caf9', dash: 1});
+    board.create('segment', [center, pB], {strokeColor: '#90caf9', dash: 1});
+    
+    // Apothem line
+    board.create('segment', [center, mid], {dash: 2, strokeColor: '#c62828'});
+    
+    // Right angle marker
+    var rad = R * 0.15;
+    board.create('angle', [pB, mid, center], {type: 'square', radius: rad, strokeColor: '#c62828', name: ''});
 
-board.create('text', [
-    M_side.X() - 0.5, 
-    M_side.Y() + 0.5, 
-    "{#s#} m"
-], {
-    fontSize: 14,
-    anchorX: 'middle',
-    rotate: function() {
-        var ang = Math.atan2(p2.Y() - p1.Y(), p2.X() - p1.X()) * 180 / Math.PI;
-        return (ang > 90 || ang < -90) ? ang + 180 : ang;
-    }
-});
+    // Clean horizontal pixel-gap labels
+    var gapY = spanY * 0.04; 
+    var gapX = spanX * 0.02; 
+
+    board.create('text', [0, mid.Y() - gapY, s_val + " m"], {anchorX: 'middle', anchorY: 'top', fontSize: 16});
+    board.create('text', [gapX, mid.Y()/2, a_val + " m"], {anchorX: 'left', anchorY: 'middle', fontSize: 16, strokeColor: '#c62828'});
 [[/jsxgraph]]
 
 <p>Calculate the area of the heptagon garden.</p>
 
-<p style="text-align: center;">
-Area = [[input:ans1]] m<sup>2</sup> [[validation:ans1]][[feedback:prt1]]
-</p>
+<p>Area = [[input:ans1]] <b>\(\text{m}^2\)</b> [[validation:ans1]][[feedback:prt1]]</p>
 <p><i>(Leave your answer to 2 decimal places)</i></p>]]></text>
     </questiontext>
     <generalfeedback format="moodle_auto_format">
       <text><![CDATA[<h3>Worked Solution</h3>
-<p>The area \(A\) of a regular polygon with \(n\) sides, side length \(s\), and apothem \(a\) is given by the formula:</p>
-
+<p>The area (\(A\)) of a regular polygon with \(n\) sides, side length \(s\), and apothem \(a\) is given by the formula:</p>
+<p>
 \[ A = \frac{n}{2} \times s \times a \]
+</p>
 
 <p>For a heptagon (\(n = 7\)):</p>
-
-\[ A = \frac{7}{2} \times s \times a \]
-
-\(\begin{align} 
- \text{A} &= \frac{7}{2} \times {@s@} \times {@a@} \\
-\text{A} &= \frac{7}{2} \times {@ta_1@} \\
-\text{A} &= {@ta@} \text{ m}^2 \end{align}\)]]></text>
+<p>
+\[ \begin{aligned} 
+A &= \frac{7}{2} \times s \times a \\
+A &= \frac{7}{2} \times {@s@} \times {@a@} \\
+A &= 3.5 \times {@ta_step@} \\
+A &= {@ta@} \text{ m}^2 
+\end{aligned} \]
+</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.1</penalty>
@@ -103,26 +103,27 @@ Area = [[input:ans1]] m<sup>2</sup> [[validation:ans1]][[feedback:prt1]]
       <text>/* 1. Randomize side length s */
 s: 6 + rand(10); 
 
-/* 2. Calculate a realistic apothem a for a regular heptagon */
-/* Formula: a = s / (2 * tan(180/7)) */
+/* 2. Calculate a realistic apothem a */
 a_exact: float(s / (2 * tan(%pi/7)));
-/* We provide a rounded version for the student to use, as in your screenshot */
 a: decimalplaces(a_exact,2);
 
-/* 3. Calculate Area using the requested formula: A = 7/2 * s * a */
-ta1: s*a;
-ta_1: decimalplaces(ta1,2);
-ta_whole: (7/2) * s * a;
-ta: decimalplaces(ta_whole,2);</text>
+/* 3. Calculations */
+ta_step: s * a;
+ta: decimalplaces((7/2) * s * a, 2);
+
+/* Common Mistakes for PRT */
+m1: decimalplaces(7 * s * a, 2);     /* Forgot 1/2 */
+m2: decimalplaces((1/2) * s * a, 2); /* Forgot 7 */
+m3: 7 * s;                           /* Perimeter */</text>
     </questionvariables>
     <specificfeedback format="html">
       <text/>
     </specificfeedback>
     <questionnote format="html">
-      <text>{@ta@}</text>
+      <text><![CDATA[<p>Side: {@s@}, Apothem: {@a@}, Area: {@ta@}</p>]]></text>
     </questionnote>
     <questiondescription format="html">
-      <text>The question is about calculating the area of a heptagon, given the apothem and side length</text>
+      <text/>
     </questiondescription>
     <questionsimplify>1</questionsimplify>
     <assumepositive>0</assumepositive>
@@ -150,7 +151,7 @@ ta: decimalplaces(ta_whole,2);</text>
       <name>ans1</name>
       <type>algebraic</type>
       <tans>ta</tans>
-      <boxsize>6</boxsize>
+      <boxsize>8</boxsize>
       <strictsyntax>1</strictsyntax>
       <insertstars>0</insertstars>
       <syntaxhint/>
@@ -174,11 +175,11 @@ ta: decimalplaces(ta_whole,2);</text>
       </feedbackvariables>
       <node>
         <name>0</name>
-        <description/>
-        <answertest>AlgEquiv</answertest>
+        <description>Float-safe grading for correct area</description>
+        <answertest>NumAbsolute</answertest>
         <sans>ans1</sans>
         <tans>ta</tans>
-        <testoptions/>
+        <testoptions>0.02</testoptions>
         <quiet>0</quiet>
         <truescoremode>=</truescoremode>
         <truescore>1</truescore>
@@ -191,21 +192,98 @@ ta: decimalplaces(ta_whole,2);</text>
         <falsescoremode>=</falsescoremode>
         <falsescore>0</falsescore>
         <falsepenalty/>
-        <falsenextnode>-1</falsenextnode>
+        <falsenextnode>1</falsenextnode>
         <falseanswernote>prt1-1-F</falseanswernote>
         <falsefeedback format="html">
           <text/>
         </falsefeedback>
       </node>
+      <node>
+        <name>1</name>
+        <description>Caught missing 1/2 factor</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>m1</tans>
+        <testoptions>0.02</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You multiplied the 7 sides by the base and apothem, but you forgot the \(\frac{1}{2}\) factor for the triangle area.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>2</falsenextnode>
+        <falseanswernote>prt1-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>2</name>
+        <description>Caught missing x7 multiplier</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>m2</tans>
+        <testoptions>0.02</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0.2</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-3-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>Almost there! You found the area of exactly <b>one</b> of the central triangles. A heptagon is made of 7 equal triangles, so multiply your answer by 7.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>3</falsenextnode>
+        <falseanswernote>prt1-3-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>3</name>
+        <description>Caught Perimeter mistake</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>m3</tans>
+        <testoptions>0.02</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-4-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You calculated the perimeter of the heptagon (\(7 \times \text{side}\)). To find the area, you must multiply the perimeter by half of the apothem.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-4-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
     </prt>
-    <deployedseed>1061271887</deployedseed>
-    <deployedseed>2047753637</deployedseed>
-    <deployedseed>432417389</deployedseed>
-    <deployedseed>1518007119</deployedseed>
-    <deployedseed>235112635</deployedseed>
-    <deployedseed>296609905</deployedseed>
-    <deployedseed>1561251541</deployedseed>
-    <deployedseed>765775477</deployedseed>
+    <deployedseed>1015144370</deployedseed>
+    <deployedseed>932572459</deployedseed>
+    <deployedseed>419138556</deployedseed>
+    <deployedseed>1599211519</deployedseed>
+    <deployedseed>926416800</deployedseed>
+    <deployedseed>200470647</deployedseed>
+    <deployedseed>2035934607</deployedseed>
+    <deployedseed>1247444050</deployedseed>
+    <deployedseed>843553953</deployedseed>
+    <deployedseed>1446257351</deployedseed>
     <qtest>
       <testcase>1</testcase>
       <description>Test case assuming the teacher's input gets full marks.</description>

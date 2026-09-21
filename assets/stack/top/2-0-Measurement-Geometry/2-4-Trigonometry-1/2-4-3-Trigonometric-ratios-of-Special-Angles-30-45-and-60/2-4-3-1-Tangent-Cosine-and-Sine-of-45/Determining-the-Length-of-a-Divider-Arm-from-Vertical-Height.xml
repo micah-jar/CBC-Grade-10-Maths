@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Determining the Length of a Divider Arm from Vertical Height</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>The angle formed by the arms of an upright pair of dividers and the horizontal is \({@theta@}^\circ\). The vertical distance from the horizontal to the vertex is \({@d@}\,\text{cm}\). Find the length of one arm of the divider without using a calculator or trigonometric tables.</p>
+
+[[jsxgraph]]
+/* Fetch the randomized variables from STACK */
+var theta_deg = {#theta#};
+var height_val = {#d#};
+
+/* Convert angle to radians for JavaScript math */
+var theta_rad = theta_deg * Math.PI / 180;
+
+/* Lock the visual height and calculate the base width */
+var h = 5; 
+var w = h / Math.tan(theta_rad); 
+
+var board = JXG.JSXGraph.initBoard(divid, {
+    boundingbox: [-(w + 1.5), h + 1.5, w + 1.5, -1.0],
+    axis: false,
+    keepaspectratio: true,
+    showNavigation: false,
+    showCopyright: false
+});
+
+/* Define the key points */
+var O = board.create('point', [0, 0], {name: '', visible: false, fixed: true});
+var L = board.create('point', [-w, 0], {name: '', visible: false, fixed: true}); /* Left needle tip */
+var R = board.create('point', [w, 0], {name: '', visible: false, fixed: true}); /* Right needle tip */
+
+/* Calculate where the thick arms should end and the thin needles should begin (15% from the bottom) */
+var L_arm_end = board.create('point', [-w * 0.85, h * 0.15], {visible: false, fixed: true});
+var R_arm_end = board.create('point', [w * 0.85, h * 0.15], {visible: false, fixed: true});
+
+/* The Hinge (Vertex) - Drawn as a visible circular joint */
+var V = board.create('point', [0, h], {
+    name: '', 
+    visible: true, 
+    size: 6, 
+    face: 'circle', 
+    fillColor: '#b0b5b9', 
+    strokeColor: '#333333', 
+    strokeWidth: 2,
+    fixed: true
+}); 
+
+/* Draw the horizontal surface line */
+board.create('segment', [[-(w + 1.5), 0], [w + 1.5, 0]], {strokeColor: 'black', strokeWidth: 1.5, fixed: true});
+
+/* Draw the thick metallic divider arms */
+board.create('segment', [V, L_arm_end], {strokeColor: '#88929E', strokeWidth: 9, lineCap: 'round', fixed: true});
+board.create('segment', [V, R_arm_end], {strokeColor: '#88929E', strokeWidth: 9, lineCap: 'round', fixed: true});
+
+/* Draw the sharp needles at the ends */
+board.create('segment', [L_arm_end, L], {strokeColor: '#333333', strokeWidth: 2, fixed: true});
+board.create('segment', [R_arm_end, R], {strokeColor: '#333333', strokeWidth: 2, fixed: true});
+
+/* Draw the vertical height (dashed) */
+board.create('segment', [V, O], {strokeColor: '#e74c3c', dash: 2, strokeWidth: 1.5, fixed: true});
+
+/* Add the right-angle mark at the origin */
+board.create('angle', [R, O, V], {radius: 0.4, type: 'square', name: ''});
+
+/* Add the angle theta at the right foot (with a slight yellow fill to match your original) */
+board.create('angle', [V, R, O], {
+    radius: 1.0, 
+    name: theta_deg + '&deg;', 
+    fontSize: 14, 
+    fillColor: '#f1c40f', 
+    fillOpacity: 0.3
+});
+
+/* Label the vertical height */
+board.create('text', [0.2, h / 2, height_val + ' cm'], {anchorX: 'left', anchorY: 'middle', fixed: true, fontSize: 14});
+[[/jsxgraph]]
+
+<p>\(\text{Length of the divider arm }=\)[[input:ans1]]\(\,\text{cm}\)[[validation:ans1]][[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<p><strong>Worked Solution:</strong></p>
+
+<p>We are asked to find the length of one arm of the divider given:</p>
+<ul>
+    <li>Angle with the horizontal: \({@theta@}^\circ\)</li>
+    <li>Vertical distance from the horizontal to the vertex: \({@d@} \text{ cm}\)</li>
+</ul>
+
+<p>From trigonometry, the vertical height acts as the <strong>opposite side</strong>, and the arm acts as the <strong>hypotenuse</strong>. Therefore, the relationship is:</p>
+
+<p>
+\(\begin{align}
+\text{Arm length} &= \frac{\text{Vertical distance}}{\sin \theta} \\
+&= \frac{{@d@}}{\sin({@theta@}^\circ)} \\
+&= \frac{{@d@}}{{@sin(theta*pi/180)@}} \\
+&= {@arm_length@} \text{ cm}
+\end{align}\)
+</p>
+
+<p>Hence, the exact length of one arm of the divider is \({@arm_length@} \text{ cm}\).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026063000</text>
+    </stackversion>
+    <questionvariables>
+      <text>/* Randomize the vertical distance from 5 to 25 cm in steps of 1 */
+d: rand_with_step(1,56,4);
+
+/* Angle of 45 degrees */
+theta: 45;
+
+/* Convert degrees to radians for computation */
+theta_rad: theta * %pi/180;
+
+/* Length of one arm of the divider */
+arm_length: d / sin(theta_rad);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>\(\text{The angle made by the pair of dividers is } {@theta@}^\circ\)</p>
+<p>\(\text{The vertical distance is } {@d@}\,\text{cm}\)</p>
+<p>\(\text{The length of a divider arm is } {@arm_length@}\,\text{cm}\)</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>arm_length</tans>
+      <boxsize>7</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>Checks for the correct Length.</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>arm_length</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>463734286</deployedseed>
+    <deployedseed>1283760297</deployedseed>
+    <deployedseed>13384997</deployedseed>
+    <deployedseed>663029925</deployedseed>
+    <deployedseed>2100032474</deployedseed>
+    <deployedseed>1598453226</deployedseed>
+    <deployedseed>1703353731</deployedseed>
+    <deployedseed>1427792288</deployedseed>
+    <deployedseed>2098633323</deployedseed>
+    <deployedseed>223356483</deployedseed>
+    <deployedseed>1475717446</deployedseed>
+    <deployedseed>880767125</deployedseed>
+    <deployedseed>910695063</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>arm_length</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>prt1-1-T</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Finding the value of unknown angle using trigonometric ratio.</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>Use trigonometric ratios to find the value of the marked angles in the following triangles.</p>
+<p><em>Note: Write your answers correct to 2 decimal places.</em></p>
+
+<p><strong>(a)</strong></p>
+[[jsxgraph]]
+    var board = JXG.JSXGraph.initBoard(BOARDID, {
+        boundingbox: [-1, 4.5, 5, -1.5],
+        keepAspectRatio: true,
+        showNavigation: false,
+        showCopyright: false
+    });
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF'; var color = '#';
+        for (var i = 0; i < 6; i++) { color += letters[Math.floor(Math.random() * 16)]; }
+        return color;
+    }
+    var triangleColor = getRandomColor();
+    
+    var A = board.create('point', [0, 0], {name: "A", visible: false});
+    var B = board.create('point', [4, 0], {name: "B", visible: false});
+    var C = board.create('point', [0, 3], {name: "C", visible: false});
+    var triangle = board.create('polygon', [A, B, C], {fillColor: triangleColor, fillOpacity: 0.6});
+    
+    var rightAngle = board.create('angle', [B, A, C], {radius: 0.4, type: 'square', strokeColor: 'black', name: ""});
+    var alpha = board.create('angle', [C, B, A], {radius: 0.5, strokeColor: 'black', name: "{#val_letter1#}&deg;"});
+    
+    triangle.borders.forEach(function(border) { border.setAttribute({strokeColor: 'black'}); });
+    board.create('text', [2, -0.5, "{#adj1#}"]);   
+    board.create('text', [2.2, 1.8, "{#hyp1#}"]);    
+[[/jsxgraph]]
+<p>Angle \({@val_letter1@} =\) [[input:ans1]] &deg; [[validation:ans1]][[feedback:prt1]]</p>
+
+
+<p><strong>(b)</strong></p>
+[[jsxgraph]]
+    var board = JXG.JSXGraph.initBoard(BOARDID, {
+        boundingbox: [-4.5, 5, 1.5, -1],
+        keepAspectRatio: true,
+        showNavigation: false,
+        showCopyright: false
+    });
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF'; var color = '#';
+        for (var i = 0; i < 6; i++) { color += letters[Math.floor(Math.random() * 16)]; }
+        return color;
+    }
+    var triangleColor = getRandomColor();
+    
+    /* Built rotated naturally to keep labels attached */
+    var A = board.create('point', [0, 0], {name: "A", visible: false});
+    var B = board.create('point', [0, 4], {name: "B", visible: false});
+    var C = board.create('point', [-3, 0], {name: "C", visible: false});
+    var triangle = board.create('polygon', [A, B, C], {fillColor: triangleColor, fillOpacity: 0.6});
+    
+    var rightAngle = board.create('angle', [B, A, C], {radius: 0.4, type: 'square', strokeColor: 'black', name: ""});
+    var alpha = board.create('angle', [A, B, C], {radius: 0.5, strokeColor: 'black', name: "{#val_letter2#}&deg;"});
+    
+    triangle.borders.forEach(function(border) { border.setAttribute({strokeColor: 'black'}); });
+    board.create('text', [-1.5, -0.5, "{#opp2#}"]);   
+    board.create('text', [-1.8, 2.2, "{#hyp2#}"]); 
+[[/jsxgraph]]
+<p>Angle \({@val_letter2@} =\) [[input:ans2]] &deg; [[validation:ans2]][[feedback:prt2]]</p>
+
+
+<p><strong>(c)</strong></p>
+[[jsxgraph]]
+    var board = JXG.JSXGraph.initBoard(BOARDID, {
+        boundingbox: [-5, 1.5, 1, -4.5],
+        keepAspectRatio: true,
+        showNavigation: false,
+        showCopyright: false
+    });
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF'; var color = '#';
+        for (var i = 0; i < 6; i++) { color += letters[Math.floor(Math.random() * 16)]; }
+        return color;
+    }
+    var triangleColor = getRandomColor();
+    
+    /* Built rotated naturally to keep labels attached */
+    var A = board.create('point', [0, 0], {name: "A", visible: false});
+    var B = board.create('point', [-4, 0], {name: "B", visible: false});
+    var C = board.create('point', [0, -3], {name: "C", visible: false});
+    var triangle = board.create('polygon', [A, B, C], {fillColor: triangleColor, fillOpacity: 0.6});
+    
+    var rightAngle = board.create('angle', [B, A, C], {radius: 0.4, type: 'square', strokeColor: 'black', name: ""});
+    var theta = board.create('angle', [B, C, A], {radius: 0.5, strokeColor: 'black', name: "{#val_letter3#}&deg;"});
+    
+    triangle.borders.forEach(function(border) { border.setAttribute({strokeColor: 'black'}); });
+    board.create('text', [-2, 0.5, "{#adj3#}"]);   
+    board.create('text', [0.5, -1.5, "{#opp3#}"]); 
+[[/jsxgraph]]
+
+<p>Angle \({@val_letter3@} =\) [[input:ans3]] &deg; [[validation:ans3]][[feedback:prt3]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<p><strong>Worked Solution:</strong></p>
+
+<p><strong>(a)</strong><br>
+\(\cos({@val_letter1@}) = \frac{\text{Adjacent}}{\text{Hypotenuse}} = \frac{{@adj1@}}{{@hyp1@}}\)<br>
+\({@val_letter1@} = \cos^{-1} \left( \frac{{@adj1@}}{{@hyp1@}} \right)\)<br>
+\({@val_letter1@} = {@disp_angle1@}^\circ\)<br>
+\(\therefore {@val_letter1@} \approx {@ta1@}^\circ\)
+</p>
+
+<p><strong>(b)</strong><br>
+\(\sin({@val_letter2@}) = \frac{\text{Opposite}}{\text{Hypotenuse}} = \frac{{@opp2@}}{{@hyp2@}}\)<br>
+\({@val_letter2@} = \sin^{-1} \left( \frac{{@opp2@}}{{@hyp2@}} \right)\)<br>
+\({@val_letter2@} = {@disp_angle2@}^\circ\)<br>
+\(\therefore {@val_letter2@} \approx {@ta2@}^\circ\)
+</p>
+
+<p><strong>(c)</strong><br>
+\(\tan({@val_letter3@}) = \frac{\text{Opposite}}{\text{Adjacent}} = \frac{{@opp3@}}{{@adj3@}}\)<br>
+\({@val_letter3@} = \tan^{-1} \left( \frac{{@opp3@}}{{@adj3@}} \right)\)<br>
+\({@val_letter3@} = {@disp_angle3@}^\circ\)<br>
+\(\therefore {@val_letter3@} \approx {@ta3@}^\circ\)
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026063000</text>
+    </stackversion>
+    <questionvariables>
+      <text>/* Define Pythagorean triples */
+pythagorean_triples : [ [3,4,5], [5,12,13], [8,15,17], [7,24,25], [9,40,41], [11,60,61], [12,35,37], [13,84,85], [16,63,65], [20,21,29], [28,45,53], [33,56,65], [36,77,85], [39,80,89], [48,55,73], [65,72,97], [6,8,10], [9,12,15], [10,24,26], [14,48,50], [18,24,30], [20,48,52], [27,36,45], [30,40,50], [45,60,75], [60,80,100] ];
+
+/* Randomly select THREE distinct triples */
+selected_triplets : rand_selection(pythagorean_triples, 3);
+trip1 : selected_triplets[1]; trip2 : selected_triplets[2]; trip3 : selected_triplets[3];
+val_letter1 : rand([a,b,c,d,f,w,x]); val_letter2 : rand([g,h,j,k,l,m,v,y]); val_letter3 : rand([n,p,q,r,s,t,u,z]);
+
+/* --- Triangle 1: Cosine --- */
+opp1 : trip1[1]; adj1 : trip1[2]; hyp1 : trip1[3];
+angle_deg1 : float(acos(adj1/hyp1) * 180/%pi);
+disp_angle1 : dispdp(angle_deg1, 4);
+ta1 : dispdp(angle_deg1, 2);
+mistake1 : float(asin(opp1/hyp1) * 180/%pi); /* Student used Sine instead of Cosine */
+
+/* --- Triangle 2: Sine --- */
+opp2 : trip2[1]; adj2 : trip2[2]; hyp2 : trip2[3];
+angle_deg2 : float(asin(opp2/hyp2) * 180/%pi);
+disp_angle2 : dispdp(angle_deg2, 4);
+ta2 : dispdp(angle_deg2, 2);
+mistake2 : float(acos(adj2/hyp2) * 180/%pi); /* Student used Cosine instead of Sine */
+
+/* --- Triangle 3: Tangent --- */
+opp3 : trip3[1]; adj3 : trip3[2]; hyp3 : trip3[3];
+angle_deg3 : float(atan(opp3/adj3) * 180/%pi);
+disp_angle3 : dispdp(angle_deg3, 4);
+ta3 : dispdp(angle_deg3, 2);
+mistake3 : float(asin(opp3/hyp3) * 180/%pi); /* Student used Sine instead of Tangent */</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>Triangle 1 (Cos): {@trip1@}, Angle = {@ta1@}&deg;</p>
+<p>Triangle 2 (Sin): {@trip2@}, Angle = {@ta2@}&deg;</p>
+<p>Triangle 3 (Tan): {@trip3@}, Angle = {@ta3@}&deg;</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>ta1</tans>
+      <boxsize>5</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <input>
+      <name>ans2</name>
+      <type>algebraic</type>
+      <tans>ta2</tans>
+      <boxsize>5</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <input>
+      <name>ans3</name>
+      <type>algebraic</type>
+      <tans>ta3</tans>
+      <boxsize>5</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>checks the correct answer</description>
+        <answertest>NumDecPlaces</answertest>
+        <sans>ans1</sans>
+        <tans>angle_deg1</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description>mistake1</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>mistake1</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text><![CDATA[<p>You identified the triangle correctly, but you used the wrong trigonometric ratio. Remember, cosine compares the adjacent side to the hypotenuse side, not the sine or tangent ratios. Check which sides are adjacent and opposite to the given angle, and try again using the correct ratio.</p>]]></text>
+        </falsefeedback>
+      </node>
+    </prt>
+    <prt>
+      <name>prt2</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>checks for the correct answer</description>
+        <answertest>NumDecPlaces</answertest>
+        <sans>ans2</sans>
+        <tans>angle_deg2</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt2-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt2-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description>mistake2</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans2</sans>
+        <tans>mistake2</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt2-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt2-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text><![CDATA[<p>You identified the triangle correctly, but you used the wrong trigonometric ratio. Remember, sine compares the opposite side to the hypotenuse side, not the cosine or tangent ratios. Check which sides are adjacent and opposite to the given angle, and try again using the correct ratio.</p>]]></text>
+        </falsefeedback>
+      </node>
+    </prt>
+    <prt>
+      <name>prt3</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>checks for the correct answer</description>
+        <answertest>NumDecPlaces</answertest>
+        <sans>ans3</sans>
+        <tans>angle_deg3</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt3-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt3-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description>mistake3</description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans3</sans>
+        <tans>mistake3</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt3-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt3-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text><![CDATA[<p>You identified the triangle correctly, but you used the wrong trigonometric ratio. Remember,tangent compares the opposite side to the adjacent side, not the sine or cosine ratios. Check which sides are adjacent and opposite to the given angle, and try again using the correct ratio.</p>]]></text>
+        </falsefeedback>
+      </node>
+    </prt>
+    <deployedseed>2064677027</deployedseed>
+    <deployedseed>484752867</deployedseed>
+    <deployedseed>1685113017</deployedseed>
+    <deployedseed>296522011</deployedseed>
+    <deployedseed>709050886</deployedseed>
+    <deployedseed>1648075479</deployedseed>
+    <deployedseed>1562889545</deployedseed>
+    <deployedseed>2036582107</deployedseed>
+    <deployedseed>73130269</deployedseed>
+    <deployedseed>368108815</deployedseed>
+    <qtest>
+      <testcase>1</testcase>
+      <description>Test case assuming the teacher's input gets full marks.</description>
+      <testinput>
+        <name>ans1</name>
+        <value>ta1</value>
+      </testinput>
+      <testinput>
+        <name>ans2</name>
+        <value>ta2</value>
+      </testinput>
+      <testinput>
+        <name>ans3</name>
+        <value>ta3</value>
+      </testinput>
+      <expected>
+        <name>prt1</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>( prt1-1-T ]</expectedanswernote>
+      </expected>
+      <expected>
+        <name>prt2</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>( prt2-1-T ]</expectedanswernote>
+      </expected>
+      <expected>
+        <name>prt3</name>
+        <expectedscore>1.0000000</expectedscore>
+        <expectedpenalty>0.0000000</expectedpenalty>
+        <expectedanswernote>( prt3-1-T ]</expectedanswernote>
+      </expected>
+    </qtest>
+  </question>
+</quiz>

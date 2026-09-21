@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="stack">
+    <name>
+      <text>Finding the missing width of a rectangular bed</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p>A community agricultural project is building a rectangular raised farming bed for botanical pest control plants. The total area of the raised bed must be exactly <b>{@A@} m²</b>.</p>
+
+<p>If the length of the plot measures <b>{@l@} m</b>, calculate the required width (\(w\)) of the rectangle.</p>
+
+[[jsxgraph width="500px" height="300px"]]
+    var l = {#l#};
+    var w = {#w#};
+    var A = {#A#};
+    
+    // Mathematically center the rectangle and force a 5:3 bounding box ratio
+    var centerX = l / 2;
+    var centerY = w / 2;
+    var ratio = 500 / 300;
+    
+    // Ensure both dimensions fit with a 30% visual buffer
+    var spanX = Math.max(l * 1.3, w * 1.3 * ratio);
+    var spanY = spanX / ratio;
+    
+    var board = JXG.JSXGraph.initBoard(BOARDID, {
+        boundingbox: [centerX - spanX/2, centerY + spanY/2, centerX + spanX/2, centerY - spanY/2], 
+        maxboundingbox: [centerX - spanX*1.5, centerY + spanY*1.5, centerX + spanX*1.5, centerY - spanY*1.5],
+        axis: false, 
+        showCopyright: false,
+        keepAspectRatio: true,
+        showNavigation: true 
+    });
+
+    // Dynamic vertices linked to the STACK variables
+    var p1 = board.create('point', [0, 0], {name: '', visible: false});
+    var p2 = board.create('point', [l, 0], {name: '', visible: false});
+    var p3 = board.create('point', [l, w], {name: '', visible: false});
+    var p4 = board.create('point', [0, w], {name: '', visible: false});
+
+    // Rectangle Plot
+    board.create('polygon', [p1, p2, p3, p4], {
+        fillColor: '#efebe9', 
+        strokeColor: '#5d4037', 
+        strokeWidth: 2
+    });
+
+    // Right-angle markers with cleaned names to suppress alpha labels
+    var rad = Math.min(l, w) * 0.15;
+    board.create('angle', [p2, p1, p4], {type: 'square', radius: rad, strokeColor: '#8d6e63', name: ''});
+    board.create('angle', [p3, p2, p1], {type: 'square', radius: rad, strokeColor: '#8d6e63', name: ''});
+    board.create('angle', [p4, p3, p2], {type: 'square', radius: rad, strokeColor: '#8d6e63', name: ''});
+    board.create('angle', [p1, p4, p3], {type: 'square', radius: rad, strokeColor: '#8d6e63', name: ''});
+
+    // Calculate exact visual pixel gaps based on the canvas spans
+    var gapY = spanY * 0.05; 
+    var gapX = spanX * 0.03; 
+
+    // Dynamic labels securely anchored
+    board.create('text', [l/2, -gapY, l + " m"], {anchorX: 'middle', anchorY: 'top', fontSize: 16});
+    board.create('text', [l + gapX, w/2, "w = ?"], {anchorX: 'left', anchorY: 'middle', fontSize: 16, strokeColor: '#c62828'});
+    
+    // Area label inside the shape
+    board.create('text', [l/2, w/2, "Area = " + A + " m²"], {anchorX: 'middle', anchorY: 'middle', fontSize: 16, strokeColor: '#5d4037'});
+[[/jsxgraph]]
+
+<p>Width (\(w\)) = [[input:ans1]] <b>m</b> [[validation:ans1]][[feedback:prt1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text><![CDATA[<h3>Worked Solution</h3>
+<p>The formula for the area of a rectangle is:</p>
+<p>
+\[ \text{Area} = \text{length} \times \text{width} \]
+</p>
+<p>We are given the Area (\(A = {@A@}\text{ m}^2\)) and the length (\(l = {@l@}\text{ m}\)). Substitute these into the formula:</p>
+<p>
+\[ {@A@} = {@l@} \times w \]
+</p>
+<p>To isolate the width (\(w\)), divide both sides by the length (\({@l@}\)):</p>
+<p>
+\[ w = \frac{{@A@}}{{@l@}} \]
+</p>
+<p>
+\[ w = {@ta@} \text{ m} \]
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber/>
+    <stackversion>
+      <text>2026010500</text>
+    </stackversion>
+    <questionvariables>
+      <text>/* Base and Width */
+l: rand_with_step(15, 40, 1);
+w: rand_with_step(4, 12, 1);
+
+/* Calculate Area */
+A: l * w;
+
+/* Teacher Answer */
+ta: w;
+
+/* Common Algebraic Mistakes for PRT */
+m1: A * l;          /* Multiplied Area and length instead of dividing */
+m2: (A - 2*l) / 2;  /* Confused area formula with perimeter formula */
+m3: A - l;          /* Subtracted instead of dividing */</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text/>
+    </specificfeedback>
+    <questionnote format="html">
+      <text><![CDATA[<p>Length: {@l@}, Area: {@A@}, Width: {@ta@}</p>]]></text>
+    </questionnote>
+    <questiondescription format="html">
+      <text/>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span> Correct answer, well done.]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span> Your answer is partially correct.]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span> Incorrect answer.]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <scientificnotation>*10</scientificnotation>
+    <multiplicationsign>none</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <isbroken>0</isbroken>
+    <variantsselectionseed/>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>ta</tans>
+      <boxsize>8</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint/>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords/>
+      <allowwords/>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>3</showvalidation>
+      <options/>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text/>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description>checks for the correct answer</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>ta</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text/>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>1</name>
+        <description>Multiplication mistake</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>m1</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-2-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You multiplied the Area and the length. To find the missing width, you must divide the Area by the length.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>2</falsenextnode>
+        <falseanswernote>prt1-2-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>2</name>
+        <description>Perimeter confusion</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>m2</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-3-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You attempted to use the perimeter formula. Remember, Area is simply length &times; width. Divide the Area by the length to find the missing side.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>3</falsenextnode>
+        <falseanswernote>prt1-3-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+      <node>
+        <name>3</name>
+        <description>Subtraction mistake</description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>m3</tans>
+        <testoptions/>
+        <quiet>0</quiet>
+        <truescoremode>+</truescoremode>
+        <truescore>0</truescore>
+        <truepenalty/>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-4-T</trueanswernote>
+        <truefeedback format="html">
+          <text><![CDATA[<p>You subtracted the length from the Area. Because the area formula uses multiplication, you must isolate the width using division.</p>]]></text>
+        </truefeedback>
+        <falsescoremode>-</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty/>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-4-F</falseanswernote>
+        <falsefeedback format="html">
+          <text/>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+</quiz>
